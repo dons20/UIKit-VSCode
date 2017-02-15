@@ -1,0 +1,167 @@
+{
+	//Default Template
+	"snippet-uk-$": {
+  	"prefix": "uk-$",
+  	"body": ["<!DOCTYPE html>",
+  			"<html lang=\"${1:en}\">",
+				"\t<head>",
+						"\t\t<title>$2</title>",
+						"\t\t<meta charset=\"UTF-8\">",
+						"\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+						"\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.11/css/uikit.min.css\" />",
+						"\t\t<script src=\"https://code.jquery.com/jquery-3.1.1.min.js\" integrity=\"sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=\" crossorigin=\"anonymous\"></script>",
+						"\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.11/js/uikit.min.js\"></script>",
+						"\t\t<link href=\"${3:css/style.css}\" rel=\"stylesheet\">",
+				"\t</head>",
+				"\t<body>",
+					"\t\t$0",
+				"\t</body>",
+			"</html>"
+			],
+	"description": "Creates a basic UIKit template"
+	},
+
+	//Accordions
+	"snippet-uk-accordion-default": {
+	"prefix": "uk-accordion-default",
+	"body": ["<ul uk-accordion>",
+				"\t<li>",
+					"\t\t<h3 class=\"uk-accordion-title\">$1</h3>",
+					"\t\t<div class=\"uk-accordion-content\">$0</div>",
+				"\t</li>",
+			"</ul>"
+			],
+	"description": "Creates a default UIKit Accordion"
+	},
+
+	"snippet-uk-accordion-no-collapse": {
+	"prefix": "uk-accordion-no-collapse",
+	"body": ["<ul uk-accordion=\"collapsible: false\">",
+				"\t<li>",
+					"\t\t<h3 class=\"uk-accordion-title\">$1</h3>",
+					"\t\t<div class=\"uk-accordion-content\">$0</div>",
+				"\t</li>",
+			"</ul>"
+			],
+	"description": "Accordion that always keeps one item open"
+	},
+
+	"snippet-uk-accordion-multiple-open": {
+	"prefix": "uk-accordion-multiple-open",
+	"body": ["<ul uk-accordion=\"collapsible: false\">",
+				"\t<li>",
+					"\t\t<h3 class=\"uk-accordion-title\">$1</h3>",
+					"\t\t<div class=\"uk-accordion-content\">$0</div>",
+				"\t</li>",
+			"</ul>"
+			],
+	"description": "Accordion that allows multiple items to be opened at once"
+	},
+
+	"snippet-uk-accordion-open-index": {
+	"prefix": "uk-accordion-open-index",
+	"body": ["<ul uk-accordion=\"active: ${1:0}\">",
+				"\t<li>",
+					"\t\t<h3 class=\"uk-accordion-title\">$2</h3>",
+					"\t\t<div class=\"uk-accordion-content\">$0</div>",
+				"\t</li>",
+			"</ul>"
+			],
+	"description": "Accordion that opens an item by default"
+	},
+
+	//Alerts
+	"snippet-uk-alert-default": {
+	"prefix": "uk-alert-default",
+	"body": ["<div uk-alert></div>"
+			],
+	"description": "A default alert applied to a div"
+	},
+
+	"snippet-uk-alert-close": {
+	"prefix": "uk-alert-close",
+	"body": ["<div uk-alert>",
+				"\t<a class=\"uk-alert-close\" uk-close></a>",
+			"</div>"
+			],
+	"description": "An alert with a close button"
+	},
+
+	"snippet-uk-alert-primary": {
+	"prefix": "uk-alert-primary",
+	"body": ["<div class=\"uk-alert-primary\" uk-alert>",
+				"\t<a class=\"uk-alert-close\" uk-close></a>",
+				"\t<p>$0</p>",
+			"</div>"
+			],
+	"description": "An alert with a primary style applied"
+	},
+
+	"snippet-uk-alert-success": {
+	"prefix": "uk-alert-success",
+	"body": ["<div class=\"uk-alert-success\" uk-alert>",
+				"\t<a class=\"uk-alert-close\" uk-close></a>",
+				"\t<p>$0</p>",
+			"</div>"
+			],
+	"description": "An alert with a success style applied"
+	},
+
+	"snippet-uk-alert-warning": {
+	"prefix": "uk-alert-warning",
+	"body": ["<div class=\"uk-alert-warning\" uk-alert>",
+				"\t<a class=\"uk-alert-close\" uk-close></a>",
+				"\t<p>$0</p>",
+			"</div>"
+			],
+	"description": "An alert with a warning style applied"
+	},
+
+	"snippet-uk-alert-danger": {
+	"prefix": "uk-alert-danger",
+	"body": ["<div class=\"uk-alert-danger\" uk-alert>",
+				"\t<a class=\"uk-alert-close\" uk-close></a>",
+				"\t<p>$0</p>",
+			"</div>"
+			],
+	"description": "An alert with a danger style applied"
+	},
+
+	//Alignment
+	"snippet-uk-align-default": {
+	"prefix": "uk-align-default",
+	"body": [" class=\"uk-align-${0:left}\" "],
+	"description": "Floats the element to a selected position"
+	},
+
+	"snippet-uk-align-left": {
+	"prefix": "uk-align-left",
+	"body": [" class=\"uk-align-left\" "],
+	"description": "Floats the element to the left"
+	},
+
+	"snippet-uk-align-center": {
+	"prefix": "uk-align-center",
+	"body": [" class=\"uk-align-center\" "],
+	"description": "Floats the element to the center"
+	},
+
+	"snippet-uk-align-right": {
+	"prefix": "uk-align-right",
+	"body": [" class=\"uk-align-right\" "],
+	"description": "Floats the element to the right"
+	},
+
+	"snippet-uk-align-responsive": {
+	"prefix": "uk-align-responsive",
+	"body": [" class=\"uk-align-${1:left}@${0:s}\" "],
+	"description": "Floats the element on specific widths"
+	},
+
+	//Animations
+	"snippet-uk-animation-default": {
+	"prefix": "uk-animation-default",
+	"body": [" class=\"uk-align-${0:left}\" "],
+	"description": "Floats the element to a selected position"
+	}
+}

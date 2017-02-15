@@ -1,0 +1,18 @@
+{
+    "name": "uikit-3.0-snippets",
+    "displayName": "UIKit 3.0 Snippets",
+    "publisher": "mscott",
+    "description": "UIKit 3.0 Snippets based on documentation",
+    "version": "0.1.0",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "engines": { "vscode": "0.10.x" },
+    "categories": ["Snippets"], 
+    "contributes": {
+        "snippets": [
+            {
+                "language": "HTML",
+                "path": "./snippets/html.json"
+            }
+        ]
+    }
+}
