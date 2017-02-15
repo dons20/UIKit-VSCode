@@ -159,9 +159,112 @@
 	},
 
 	//Animations
-	"snippet-uk-animation-default": {
-	"prefix": "uk-animation-default",
-	"body": [" class=\"uk-align-${0:left}\" "],
-	"description": "Floats the element to a selected position"
+	"snippet-uk-animation-fade": {
+	"prefix": "uk-animation-fade",
+	"body": [" class=\"uk-animation-fade\" "],
+	"description": "The element fades in"
+	},
+
+	"snippet-uk-animation-scale-up": {
+	"prefix": "uk-animation-scale-up",
+	"body": [" class=\"uk-animation-scale-up\" "],
+	"description": "The element fades in and scales up"
+	},
+
+	"snippet-uk-animation-scale-down": {
+	"prefix": "uk-animation-scale-down",
+	"body": [" class=\"uk-animation-scale-down\" "],
+	"description": "The element fades in and scales down"
+	},
+
+	"snippet-uk-animation-slide-top": {
+	"prefix": "uk-animation-slide-top",
+	"body": [" class=\"uk-animation-slide-top\" "],
+	"description": "The element fades in and slides in from the top"
+	},
+
+	"snippet-uk-animation-slide-bottom": {
+	"prefix": "uk-animation-slide-bottom",
+	"body": [" class=\"uk-animation-slide-bottom\" "],
+	"description": "The element fades in and slides in from the bottom"
+	},
+	
+	"snippet-uk-animation-slide-left": {
+	"prefix": "uk-animation-slide-left",
+	"body": [" class=\"uk-animation-slide-left\" "],
+	"description": "The element fades in and slides in from the left"
+	},
+
+	"snippet-uk-animation-slide-right": {
+	"prefix": "uk-animation-slide-right",
+	"body": [" class=\"uk-animation-slide-right\" "],
+	"description": "The element fades in and slides in from the right"
+	},
+
+	"snippet-uk-animation-slide-custom": {
+	"prefix": "uk-animation-slide-custom",
+	"body": [" class=\"uk-animation-slide-${1:direction}-${0:[small|medium]}\" "],
+	"description": "The element slides in with a specific distance"
+	},
+
+	"snippet-uk-animation-kenburns": {
+	"prefix": "uk-animation-kenburns",
+	"body": [" class=\"uk-animation-kenburns\" "],
+	"description": "The element scales slowly up without fading in"
+	},
+
+	"snippet-uk-animation-shake": {
+	"prefix": "uk-animation-shake",
+	"body": [" class=\"uk-animation-shake\" "],
+	"description": "The element shakes"
+	},
+
+	"snippet-uk-animation-reverse": {
+	"prefix": "uk-animation-reverse",
+	"body": [" class=\"${1:uk-animation-fade} uk-animation-reverse\" "],
+	"description": "The element's animation plays in reverse"
+	},
+
+	"snippet-uk-animation-fast": {
+	"prefix": "uk-animation-fast",
+	"body": [" class=\"${1:uk-animation-fade} uk-animation-fast\" "],
+	"description": "The element's animation plays at a faster speed"
+	},
+
+	"snippet-uk-animation-transform-origin": {
+	"prefix": "uk-animation-transform-origin",
+	"body": [" class=\"${1:uk-animation-scale-up} uk-animation-transform-origin-${2:[top|center|bottom]}-${3:[left|center|right]}\" "],
+	"description": "The element scales in from a different direction"
+	},
+
+	//Articles
+	"snippet-uk-article-basic": {
+	"prefix": "uk-article-basic",
+	"body": ["<article class=\"uk-article\">",
+				"\t<h1 class=\"uk-article-title\">$1</h1>",
+    			"\t<p class=\"uk-article-meta\">$0</p>",
+			"</article>"
+			],
+	"description": "A basic article layout"
+	},
+
+	"snippet-uk-article-sample": {
+	"prefix": "uk-article-sample",
+	"body": ["<article class=\"uk-article\">",
+				"\t<h1 class=\"uk-article-title\"><a class=\"uk-link-reset\" href=\"\">${1:Heading}</a></h1>",
+				"\t<p class=\"uk-article-meta\">${2:Written by <a href=\"#\">Super User</a> on 12 April 2012. Posted in <a href=\"#\">Blog</a>}</p>",
+				"\t<p class=\"uk-text-lead\">${3:Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.}</p>",
+				"\t<p>${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}</p>",
+				"\t<div class=\"uk-grid-small uk-child-width-auto\" uk-grid>",
+					"\t\t<div>",
+						"\t\t\t<a class=\"uk-button uk-button-text\" href=\"#\">${5:Read more}</a>",
+					"\t\t</div>",
+					"\t\t<div>",
+						"\t\t\t<a class=\"uk-button uk-button-text\" href=\"#\">${6:5 Comments}</a>",
+					"\t\t</div>",
+				"\t</div>",
+			"</article>"
+			],
+	"description": "A complete sample article with placeholders"
 	}
 }
