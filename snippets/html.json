@@ -9,12 +9,14 @@
 						"\t\t<meta charset=\"UTF-8\">",
 						"\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
 						"\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.11/css/uikit.min.css\" />",
-						"\t\t<script src=\"https://code.jquery.com/jquery-3.1.1.min.js\" integrity=\"sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=\" crossorigin=\"anonymous\"></script>",
-						"\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.11/js/uikit.min.js\"></script>",
 						"\t\t<link href=\"${3:css/style.css}\" rel=\"stylesheet\">",
 				"\t</head>",
 				"\t<body>",
 					"\t\t$0",
+
+					"\t\t<script src=\"https://code.jquery.com/jquery-3.1.1.min.js\" \r\t\t\t\tintegrity=\"sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=\" crossorigin=\"anonymous\"></script>",
+					"\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.11/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-FGA+e7brIUjYaGdmcSBGfbrmGSkDoLEV52Ldaslq+p4=\" crossorigin=\"anonymous\"></script>",
+						
 				"\t</body>",
 			"</html>"
 			],
@@ -266,5 +268,347 @@
 			"</article>"
 			],
 	"description": "A complete sample article with placeholders"
-	}
+	},
+
+	//Background Colours
+	"snippet-uk-background-default": {
+	"prefix": "uk-background-default",
+	"body": [ "class=\"uk-background\" " 
+			],
+	"description": "Applies the default background color"
+	},
+
+	"snippet-uk-background-muted": {
+	"prefix": "uk-background-muted",
+	"body": [ "class=\"uk-background-muted\" " 
+			],
+	"description": "Applies a muted background color"
+	},
+
+	"snippet-uk-background-primary": {
+	"prefix": "uk-background-primary",
+	"body": [ "class=\"uk-background-primary\" " 
+			],
+	"description": "Applies the primary background color"
+	},
+
+	"snippet-uk-background-secondary": {
+	"prefix": "uk-background-secondary",
+	"body": [ "class=\"uk-background-secondary\" " 
+			],
+	"description": "Applies the secondary background color"
+	},
+
+	"snippet-uk-background-cover": {
+	"prefix": "uk-background-cover",
+	"body": [ "class=\"uk-background-cover\" " 
+			],
+	"description": "Scales the background image to cover the containing area"
+	},
+
+	"snippet-uk-background-contain": {
+	"prefix": "uk-background-contain",
+	"body": [ "class=\"uk-background-contain\" " 
+			],
+	"description": "Scales the background image to fit within the containing area"
+	},
+
+	"snippet-uk-background-position": {
+	"prefix": "uk-background-position",
+	"body": [ "class=\"uk-background-${1:[top|center|bottom]}-{2:[left|center|right]}\" " 
+			],
+	"description": "Alters the initial position of the background iamge"
+	},
+
+	"snippet-uk-background-norepeat": {
+	"prefix": "uk-background-norepeat",
+	"body": [ "class=\"uk-background-norepeat\" " 
+			],
+	"description": "Prevents the background image from being repeated"
+	},
+
+	"snippet-uk-background-fixed": {
+	"prefix": "uk-background-fixed",
+	"body": [ "class=\"uk-background-fixed\" " 
+			],
+	"description": "Locks the image in place while scrolling"
+	},
+
+	"snippet-uk-background-image-responsive": {
+	"prefix": "uk-background-image-responsive",
+	"body": [ "class=\"uk-background-image@${0:[s|m|l|xl]}\" " 
+			],
+	"description": "Shows the background image on widths of chosen size upwards"
+	},
+
+	"snippet-uk-background-blend": {
+	"prefix": "uk-background-blend",
+	"body": [ "class=\"uk-background-blend-${1:[multiply|screen|overlay|darken|lighten|color-dodge|color-burn|hard-light|soft-light|difference|exclusion|hue|saturation|color|luminosity]} ${0:uk-background}\" " 
+			],
+	"description": "Applies a chosen blend mode to the background image"
+	},
+
+	//Badges
+	"snippet-uk-badge-span": {
+	"prefix": "uk-badge-span",
+	"body": [ "<span class=\"uk-badge\"></span>" 
+			],
+	"description": "Creates a simple notification badge span"
+	},
+
+	"snippet-uk-badge-link": {
+	"prefix": "uk-badge-link",
+	"body": [ "<a href=\"\" class=\"uk-badge\"></a>" 
+			],
+	"description": "Creates a simple notification badge link"
+	},
+
+	//Breadcrumbs
+	"snippet-uk-breadcrumb": {
+	"prefix": "uk-breadcrumb",
+	"body": [ 	"<ul class=\"uk-breadcrumb\">",
+					"\t<li><a href=\"\"></a></li>",
+					"\t<li><a href=\"\"></a></li>",
+					"\t<li><span href=\"\"></span></li>",
+				"</ul>" 
+			],
+	"description": "Creates a default breadcrumb list"
+	},
+
+	//Buttons
+	"snippet-uk-button-default": {
+	"prefix": "uk-button-default",
+	"body": [ "<${1:button} class=\"uk-button uk-button-default\"></${2:button}>" 
+			],
+	"description": "Creates a button with a default style"
+	},
+
+	"snippet-uk-button-primary": {
+	"prefix": "uk-button-primary",
+	"body": [ "<${1:button} class=\"uk-button uk-button-primary\"></${2:button}>" 
+			],
+	"description": "Creates a button with a primary style"
+	},
+
+	"snippet-uk-button-secondary": {
+	"prefix": "uk-button-secondary",
+	"body": [ "<${1:button} class=\"uk-button uk-button-secondary\"></${2:button}>" 
+			],
+	"description": "Creates a button with a secondary style"
+	},
+
+	"snippet-uk-button-danger": {
+	"prefix": "uk-button-danger",
+	"body": [ "<${1:button} class=\"uk-button uk-button-danger\"></${2:button}>" 
+			],
+	"description": "Creates a button with a danger style"
+	},
+
+	"snippet-uk-button-text": {
+	"prefix": "uk-button-text",
+	"body": [ "<${1:button} class=\"uk-button uk-button-text\"></${2:button}>" 
+			],
+	"description": "Creates a button with a alternative, typographic style"
+	},
+
+	"snippet-uk-button-link": {
+	"prefix": "uk-button-link",
+	"body": [ "<${1:button} class=\"uk-button uk-button-link\"></${2:button}>" 
+			],
+	"description": "Creates a button that looks like a link"
+	},
+
+	"snippet-uk-button-disabled": {
+	"prefix": "uk-button-disabled",
+	"body": [ "<button class=\"uk-button uk-button-default disabled\"></button>" 
+			],
+	"description": "Creates a disabled button"
+	},
+
+	"snippet-uk-button-small": {
+	"prefix": "uk-button-small",
+	"body": [ "<${1:button} class=\"uk-button uk-button-${2:default} uk-button-small\"></{0:button}>" 
+			],
+	"description": "Creates a small button"
+	},
+
+	"snippet-uk-button-large": {
+	"prefix": "uk-button-large",
+	"body": [ "<${1:button} class=\"uk-button uk-button-${2:default} uk-button-large\"></{0:button}>" 
+			],
+	"description": "Creates a large button"
+	},
+
+	"snippet-uk-button-full-width": {
+	"prefix": "uk-button-full-width",
+	"body": [ "<button class=\"uk-button uk-button-${0:default} uk-width-1-1\"></button>" 
+			],
+	"description": "Creates a button that takes up the full width of its container"
+	},
+
+	"snippet-uk-button-dropdown": {
+	"prefix": "uk-button-dropdown",
+	"body": [ "<!-- A button toggling a dropdown -->",
+			"<button class=\"uk-button uk-button-default\" type=\"button\">$1</button>",
+			"<div uk-dropdown>$0</div>"
+			],
+	"description": "Creates a button that toggles a dropdown menu"
+	},
+
+	//Button Group
+	"snippet-uk-button-group": {
+	"prefix": "uk-button-group",
+	"body": [ 	"<div class=\"uk-button-group\">",
+					"\t<button class=\"uk-button uk-button-${1:default}\"></button>",
+					"\t<button class=\"uk-button uk-button-${2:default}\"></button>",
+					"\t<button class=\"uk-button uk-button-${0:default}\"></button>",
+				"</div>" 
+			],
+	"description": "Creates a group of buttons"
+	},
+
+	"snippet-uk-button-group-dropdown": {
+	"prefix": "uk-button-group-dropdown",
+	"body": [ 	"<!-- A button group with a dropdown -->",
+				"<div class=\"uk-button-group\">",
+					"\t<button class=\"uk-button uk-button-default\">$0</button>",
+					"\t<div class=\"uk-inline\">",
+
+						"\t\t<!-- The button toggling the dropdown -->",
+						"\t\t<button class=\"uk-button uk-button-default\" type=\"button\"></button>",
+						"\t\t<div uk-dropdown=\"mode: click; boundary: ! .uk-button-group; boundary-align: true;\"></div>",
+
+					"\t</div>",
+				"</div>" 
+			],
+	"description": "Creates a button group with a dropdwon toggle on the right"
+	},
+
+	//Cards
+	"snippet-uk-card-default": {
+	"prefix": "uk-card-default",
+	"body": [ 	"<div class=\"uk-card uk-card-default uk-card-body\">",
+					"\t<h3 class=\"uk-card-title\">$0</h3>",
+				"</div>" 
+			],
+	"description": "Creates a card with a default style"
+	},
+
+	"snippet-uk-card-primary": {
+	"prefix": "uk-card-primary",
+	"body": [ 	"<div class=\"uk-card uk-card-primary uk-card-body\">",
+					"\t<h3 class=\"uk-card-title\">$0</h3>",
+				"</div>" 
+			],
+	"description": "Creates a card with a primary style"
+	},
+
+	"snippet-uk-card-secondary": {
+	"prefix": "uk-card-secondary",
+	"body": [ 	"<div class=\"uk-card uk-card-secondary uk-card-body\">",
+					"\t<h3 class=\"uk-card-title\">$0</h3>",
+				"</div>" 
+			],
+	"description": "Creates a card with a secondary style"
+	},
+
+	"snippet-uk-card-hover": {
+	"prefix": "uk-card-hover",
+	"body": [ 	"<div class=\"uk-card uk-card-hover ${1:uk-card-${2:default}} uk-card-body\">",
+					"\t<h3 class=\"uk-card-title\">$0</h3>",
+				"</div>" 
+			],
+	"description": "Creates a card with a hover effect"
+	},
+
+	"snippet-uk-card-small": {
+	"prefix": "uk-card-small",
+	"body": [ 	"<div class=\"uk-card uk-card-small ${1:uk-card-${2:default}} uk-card-body\">",
+					"\t<h3 class=\"uk-card-title\">$0</h3>",
+				"</div>" 
+			],
+	"description": "Creates a card with reduced padding"
+	},
+
+	"snippet-uk-card-large": {
+	"prefix": "uk-card-large",
+	"body": [ 	"<div class=\"uk-card uk-card-large ${1:uk-card-${2:default}} uk-card-body\">",
+					"\t<h3 class=\"uk-card-title\">$0</h3>",
+				"</div>" 
+			],
+	"description": "Creates a card with increased padding"
+	},
+
+	"snippet-uk-card-header-footer": {
+	"prefix": "uk-card-header-footer",
+	"body": [ 	"<div class=\"uk-card\" ${1:uk-card-${2:default}}>",
+					"\t<div class=\"uk-card-header\">",
+						"\t\t<h3 class=\"uk-card-title\">$3</h3>",
+					"\t</div>",
+					"\t<div class=\"uk-card-body\">$4</div>",
+					"\t<div class=\"uk-card-footer\">$0</div>",
+				"</div>"
+			],
+	"description": "Creates a card divided into three sections"
+	},
+
+	"snippet-uk-card-media": {
+	"prefix": "uk-card-media",
+	"body": [ 	"<div class=\"uk-card uk-card-default\">",
+					"\t<div class=\"uk-card-media-${0:[top|bottom|left|right]}\">",
+						"\t\t<img src=\"\" alt=\"\">",
+					"\t</div>",
+					"\t<div class=\"uk-card-body\"></div>",
+				"</div>"
+			],
+	"description": "Displays an image inside a card without any spacing"
+	},
+
+	"snippet-uk-card-horizontal": {
+	"prefix": "uk-card-horizontal",
+	"body": [ 	"<div class=\"uk-card uk-card-default uk-child-width-1-2\" uk-grid>",
+					"\t<div class=\"uk-card-media-${1:[left|right]} uk-cover-container\">",
+						"\t\t<img src=\"\" alt=\"\" uk-cover>",
+						"\t\t<canvas width=\"\" height=\"\">$2</canvas>",
+					"\t</div>",
+					"\t<div>",
+						"\t\t<div class=\"uk-card-body\">$3</div>",
+					"\t</div>",
+				"</div>"
+			],
+	"description": "Creates a card with a horizontal layout (Ideal for media-left & media-right)"
+	},
+	
+	"snippet-uk-card-badge": {
+	"prefix": "uk-card-media",
+	"body": [ 	"<div class=\"uk-card uk-card-body\">",
+					"\t<div class=\"uk-card-badge uk-label\">${1:Label}</div>",
+					"\t<h3 class=\"uk-card-title\">${0:Title}</h3>",
+				"</div>"
+			],
+	"description": "Creates a card with a styled badge inside"
+	},
+
+	//Close Icon
+	"snippet-uk-close": {
+	"prefix": "uk-close",
+	"body": [ "<${1:button} type=\"button\" uk-close></${2:button}>" 
+			],
+	"description": "Creates a close icon"
+	},
+	
+	"snippet-uk-close-large": {
+	"prefix": "uk-close-large",
+	"body": [ "<${1:button} class=\"uk-close-large\" type=\"button\" uk-close></${2:button}>" 
+			],
+	"description": "Creates a larger close icon"
+	},
+
+	//Disabled element
+	"snippet-uk-disabled": {
+	"prefix": "uk-disabled",
+	"body": [ " class=\"uk-disabled\" " 
+			],
+	"description": "Disables an item within a list"
+	},
 }
