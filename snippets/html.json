@@ -769,6 +769,14 @@
 	"description": "Creates a divided description list"
 	},
 
+	//Disabled element
+	"snippet-uk-disabled": {
+	"prefix": "uk-disabled",
+	"body": [ " class=\"uk-disabled\" " 
+			],
+	"description": "Disables an item within a list"
+	},
+
 	//Dividers
 	"snippet-uk-divider-icon": {
 	"prefix": "uk-divider-icon",
@@ -1212,11 +1220,366 @@
 		"description": "Replaces a file input or select form with your own HTML content"
 	},
 
-	//Disabled element
-	"snippet-uk-disabled": {
-	"prefix": "uk-disabled",
-	"body": [ " class=\"uk-disabled\" " 
+	//Grid
+	"snippet-uk-grid-stacked": {
+	"prefix": "uk-grid-stacked",
+	"body": [ 	"<div uk-grid>",
+					"\t<div></div>",
+					"\t<div></div>",
+				"</div>" 
 			],
-	"description": "Disables an item within a list"
+	"description": "Creates a basic stacked grid container"
+	},
+
+	"snippet-uk-grid-expanded": {
+	"prefix": "uk-grid-expanded",
+	"body": [ 	"<div class=\"uk-child-width-expand${0:@[s|m|l|xl]}\" uk-grid>",
+					"\t<div></div>",
+					"\t<div></div>",
+				"</div>" 
+			],
+	"description": "Creates an expanded grid container with elements side by side"
+	},
+
+	"snippet-uk-grid-gutter-modifier": {
+	"prefix": "uk-grid-gutter-modifier",
+	"body": [ 	"<div class=\"uk-grid-${0:[small|medium|large|collapse]}\" uk-grid>",
+					"\t<div></div>",
+				"</div>" 
+			],
+	"description": "Modifies the spacing between grid items"
+	},
+
+	"snippet-uk-grid-nested-sample": {
+	"prefix": "uk-grid-nested-sample",
+	"body": [ 	"<div uk-grid>",
+					"\t<div>",
+						"\t\t<div uk-grid>",
+							"\t\t\t<div></div>",
+							"\t\t\t<div></div>",
+						"\t\t</div>",
+					"\t</div>",
+					"\t<div>",
+						"\t\t<div uk-grid>",
+							"\t\t\t<div></div>",
+							"\t\t\t<div></div>",
+						"\t\t</div>",
+					"\t</div>",
+				"</div>" 
+			],
+	"description": "Creates a sample nested grid"
+	},
+
+	"snippet-uk-grid-divided": {
+	"prefix": "uk-grid-divided",
+	"body": [ 	"<div class=\"uk-grid-divider\" uk-grid>",
+					"\t<div></div>",
+				"</div>" 
+			],
+	"description": "Seperates each grid cell with lines"
+	},
+
+	"snippet-uk-grid-match-height": {
+	"prefix": "uk-grid-match-height",
+	"body": [ 	"<div class=\"uk-grid-match\" uk-grid>",
+					"\t<div></div>",
+				"</div>" 
+			],
+	"description": "Matches the height of all grid cells"
+	},
+
+	"snippet-uk-grid-width": {
+	"prefix": "uk-grid-width",
+	"body": [ 	"<div uk-grid>",
+					"\t<div class=\"uk-width-${1:auto@m}\"></div>",
+					"\t<div class=\"uk-width-${2:1-3@m}\"></div>",
+					"\t<div class=\"uk-width-${3:expand@m}\"></div>",
+				"</div>" 
+			],
+	"description": "Manually determines the column widths"
+	},
+
+	"snippet-uk-grid-flex": {
+	"prefix": "uk-grid-flex",
+	"body": [ 	"<div class=\"uk-flex-center\" uk-grid>",
+					"\t<div></div>",
+					"\t<div class=\"uk-flex-first\"></div>",
+				"</div>" 
+			],
+	"description": "Combines a grid element with flex"
+	},
+
+	//Heading
+	"snippet-uk-heading-primary": {
+	"prefix": "uk-heading-primary",
+	"body": [ 	"<h1 class=\"uk-heading-primary\">$0</h1>" 
+			],
+	"description": "Creates an emphasized heading"
+	},
+
+	"snippet-uk-heading-divider": {
+	"prefix": "uk-heading-divider",
+	"body": [ 	"<h1 class=\"uk-heading-divider\">$0</h1>" 
+			],
+	"description": "Creates a heading with a divider underneath"
+	},
+
+	"snippet-uk-heading-bullet": {
+	"prefix": "uk-heading-bullet",
+	"body": [ 	"<h1 class=\"uk-heading-bullet\">$0</h1>" 
+			],
+	"description": "Creates a heading as part of a list"
+	},
+
+	"snippet-uk-heading-line": {
+	"prefix": "uk-heading-line",
+	"body": [ 	"<h1 class=\"uk-heading-line ${1:uk-text-center}\"><span>$0</span></h1>" 
+			],
+	"description": "Creates a heading with a vertically centered line"
+	},
+
+	//Icons
+	/* List of Icons Here: https://getuikit.com/docs/icon */
+	"snippet-uk-icon-span": {
+	"prefix": "uk-icon-span",
+	"body": [ 	"<span uk-icon=\"icon: ${1:check}\"></span>" 
+			],
+	"description": "Creates an icon within a span. (List of Icons Here: https://getuikit.com/docs/icon)"
+	},
+
+	"snippet-uk-icon-link": {
+	"prefix": "uk-icon-link",
+	"body": [ 	"<a href=\"\" uk-icon=\"icon: ${1:check}\"></a>" 
+			],
+	"description": "Creates an icon within a link. (List of Icons Here: https://getuikit.com/docs/icon)"
+	},
+
+	"snippet-uk-icon-ratio": {
+	"prefix": "uk-icon-ratio",
+	"body": [ 	"<span uk-icon=\"icon: ${1:check}; ratio: ${2:2}\"></span>"
+			],
+	"description": "Modifies the size of the icon by the ratio"
+	},
+
+	"snippet-uk-icon-link-modifier": {
+	"prefix": "uk-icon-link-modifier",
+	"body": [ 	"<a href=\"\" class=\"uk-icon-link\" uk-icon=\"icon: ${1:heart}\"></a>"
+			],
+	"description": "Resets the default link styling to a more muted color when using an icon inside an anchor"
+	},
+
+	"snippet-uk-icon-button-modifier": {
+	"prefix": "uk-icon-button-modifier",
+	"body": [ 	"<a href=\"\" class=\"uk-icon-button\" uk-icon=\"icon: ${1:heart}\"></a>"
+			],
+	"description": "Creates an icon button"
+	},
+
+	"snippet-uk-icon-image-modifier": {
+	"prefix": "uk-icon-image-modifier",
+	"body": [ 	"<span class=\"uk-icon uk-icon-image\" style=\"background-image: url($1);\"></span>"
+			],
+	"description": "Scales a background image to the size of an icon"
+	},
+
+	//IconNav
+	"snippet-uk-iconnav-horizontal": {
+	"prefix": "uk-iconnav-horizontal",
+	"body": [ 	"<ul class=\"uk-iconnav\">",
+					"\t<li><a href=\"$1\" uk-icon=\"icon: ${0:check}\"></a></li>",
+				"</ul>"
+			],
+	"description": "Creates a navigation consisting of icons"
+	},
+
+	"snippet-uk-iconnav-vertical": {
+	"prefix": "uk-iconnav-vertical",
+	"body": [ 	"<ul class=\"uk-iconnav uk-iconnav-vertical\">",
+					"\t<li><a href=\"$1\" uk-icon=\"icon: ${0:check}\"></a></li>",
+				"</ul>"
+			],
+	"description": "Creates a vertical navigation consisting of icons"
+	},
+
+	//Inverse
+	"snippet-uk-inverse-light": {
+	"prefix": "uk-inverse-light",
+	"body": [ 	"<div class=\"uk-light\">$0</div>"
+			],
+	"description": "Improves the visibility of objects on dark backgrounds in a light style"
+	},
+
+	"snippet-uk-inverse-dark": {
+	"prefix": "uk-inverse-dark",
+	"body": [ 	"<div class=\"uk-light\">$0</div> "
+			],
+	"description": "Improves the visibility of objects on light backgrounds in a dark style"
+	},
+
+	//Label
+	"snippet-uk-label-default": {
+	"prefix": "uk-label-default",
+	"body": [ 	"<span class=\"uk-label\"></span>"
+			],
+	"description": "Creates a label with a default style"
+	},
+
+	"snippet-uk-label-success": {
+	"prefix": "uk-label-success",
+	"body": [ 	"<span class=\"uk-label uk-label-success\"></span>"
+			],
+	"description": "Creates a label with a success style"
+	},
+
+	"snippet-uk-label-warning": {
+	"prefix": "uk-label-warning",
+	"body": [ 	"<span class=\"uk-label uk-label-warning\"></span>"
+			],
+	"description": "Creates a label with a warning style"
+	},
+
+	"snippet-uk-label-danger": {
+	"prefix": "uk-label-danger",
+	"body": [ 	"<span class=\"uk-label uk-label-danger\"></span>"
+			],
+	"description": "Creates a label with a danger style"
+	},
+
+	//Link
+	"snippet-uk-link-muted": {
+	"prefix": "uk-link-muted",
+	"body": [ 	"<a class=\"uk-link-muted\" href=\"$0\"></a>"
+			],
+	"description": "Creates a link with a muted style"
+	},
+
+	"snippet-uk-link-reset": {
+	"prefix": "uk-link-reset",
+	"body": [ 	"<a class=\"uk-link-muted\" href=\"$0\"></a>"
+			],
+	"description": "Creates a link that inherits its color from its parent"
+	},
+
+	//List
+	"snippet-uk-list-basic": {
+	"prefix": "uk-list-basic",
+	"body": [ 	"<ul class=\"uk-list\">",
+					"\t<li>$0</li>",
+					"\t<li></li>",
+					"\t<li></li>",
+				"</ul>"
+			],
+	"description": "Creates a basic unordered or ordered list"
+	},
+
+	"snippet-uk-list-bullet-modifier": {
+	"prefix": "uk-list-bullet-modifier",
+	"body": [ 	"<ul class=\"uk-list uk-list-bullet\">",
+					"\t<li>$0</li>",
+					"\t<li></li>",
+					"\t<li></li>",
+				"</ul>"
+			],
+	"description": "Creates a bulleted list"
+	},
+
+	"snippet-uk-list-divider-modifier": {
+	"prefix": "uk-list-divider-modifier",
+	"body": [ 	"<ul class=\"uk-list uk-list-divider\">",
+					"\t<li>$0</li>",
+					"\t<li></li>",
+					"\t<li></li>",
+				"</ul>"
+			],
+	"description": "Creates a divided list"
+	},
+
+	"snippet-uk-list-striped-modifier": {
+	"prefix": "uk-list-striped-modifier",
+	"body": [ 	"<ul class=\"uk-list uk-list-striped\">",
+					"\t<li>$0</li>",
+					"\t<li></li>",
+					"\t<li></li>",
+				"</ul>"
+			],
+	"description": "Creates a striped list"
+	},
+
+	"snippet-uk-list-large-modifier": {
+	"prefix": "uk-list-large-modifier",
+	"body": [ 	"<ul class=\"uk-list uk-list-large\">",
+					"\t<li>$0</li>",
+					"\t<li></li>",
+					"\t<li></li>",
+				"</ul>"
+			],
+	"description": "Creates a list with increased spacing between items. Can be combined with other list styles"
+	},
+
+	//Margin
+	"snippet-uk-margin": {
+	"prefix": "uk-margin",
+	"body": [ 	" class=\"uk-margin\" "
+			],
+	"description": "Adds top margin, if it is preceded by another element, and always bottom margin"
+	},
+
+	"snippet-uk-margin-position": {
+	"prefix": "uk-margin-position",
+	"body": [ 	" class=\"uk-margin-${0:[top|bottom|left|right]}\" " 
+			],
+	"description": "Adds the selected margin to that side"
+	},
+
+	"snippet-uk-margin-size": {
+	"prefix": "uk-margin-size",
+	"body": [ 	" class=\"uk-margin-${1:[small|medium|large|xlarge]}\"> "
+			],
+	"description": "Adds a margin of chosen size"
+	},
+
+	"snippet-uk-margin-size-position": {
+	"prefix": "uk-margin-size-position",
+	"body": [ 	" class=\"uk-margin-${1:[small|medium|large|xlarge]}-${2:[top|bottom|left|right]}\"> "
+			],
+	"description": "Adds a margin of chosen size to the chosen side"
+	},
+	
+	"snippet-uk-margin-remove": {
+	"prefix": "uk-margin-remove",
+	"body": [ 	" class=\"uk-margin-remove\"> "
+			],
+	"description": "Removes all margins"
+	},
+
+	"snippet-uk-margin-remove-position": {
+	"prefix": "uk-margin-remove-position",
+	"body": [ 	" class=\"uk-margin-remove-${1:[top|bottom|left|right|vertical|adjacent]}\"> "
+			],
+	"description": "Removes the margin the chosen side(s)"
+	},
+
+	"snippet-uk-margin-auto": {
+	"prefix": "uk-margin-auto",
+	"body": [ 	" class=\"uk-margin-auto\"> "
+			],
+	"description": "Sets left and right margins to auto, centering block and flex elements"
+	},
+
+	"snippet-uk-margin-auto-position": {
+	"prefix": "uk-margin-auto-position",
+	"body": [ 	" class=\"uk-margin-auto-${1:[left|right|vertical]}\"> "
+			],
+	"description": "Sets the selected margin to auto, pushing block and flex elements to the opposite end"
+	},
+	
+	"snippet-uk-margin-dynamic-sample": {
+	"prefix": "uk-margin-dynamic-sample",
+	"body": [ 	"<div uk-margin>",
+					"\t<button></button>",
+					"\t<button></button>",
+				"</div>"
+			],
+	"description": "Automatically adds spacing to stacking elements with the uk-margin attribute"
 	}
 }
