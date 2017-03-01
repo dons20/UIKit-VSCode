@@ -22,7 +22,7 @@ Setup
 #### Method 2
 
 1. With Visual Studio Code opened, press `Ctrl+P`.
-2. Type in `ext install uikit-3.0-snippets` and press `Enter`.
+2. Type in `ext install uikit-3-snippets` and press `Enter`.
 
 
 Table of Contents
