@@ -12,9 +12,9 @@ Setup
 
 Table of Contents
 ---
-* [UIKit 3.0 Snippets](#UIKit-3.0-Snippets-for-Visual-Studio-Code)
-  * [Setup](#Setup)
-  * [Table of Contents](#Table-of-Contents)
+* [UIKit 3.0 Snippets](#uikit-3.0-snippets-for-visual-studio-code)
+  * [Setup](#setup)
+  * [Table of Contents](#table-of-contents)
 
 Usage
 ---
