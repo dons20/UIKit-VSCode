@@ -1,1585 +1,3455 @@
 {
-	//Default Template
-	"snippet-uk-$": {
-  	"prefix": "uk-$",
-  	"body": ["<!DOCTYPE html>",
-  			"<html lang=\"${1:en}\">",
-				"\t<head>",
-						"\t\t<title>$2</title>",
-						"\t\t<meta charset=\"UTF-8\">",
-						"\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-						"\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.12/css/uikit.min.css\" />",
-						"\t\t<link href=\"${3:css/style.css}\" rel=\"stylesheet\">",
-				"\t</head>",
-				"\t<body>",
-					"\t\t$0",
-
-					"\t\t<script src=\"https://code.jquery.com/jquery-3.1.1.min.js\" \r\t\t\t\tintegrity=\"sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=\" crossorigin=\"anonymous\"></script>",
-					"\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.12/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-VCIJPhkkw2bgiVF+B2dILLnsD85hoZ7SggOYVRUr0ec=\" crossorigin=\"anonymous\"></script>",
-						
-				"\t</body>",
-			"</html>"
-			],
-	"description": "Creates a basic UIKit template"
-	},
-
-	//Accordions
-	"snippet-uk-accordion-default": {
-	"prefix": "uk-accordion-default",
-	"body": ["<ul uk-accordion>",
-				"\t<li>",
-					"\t\t<h3 class=\"uk-accordion-title\">$1</h3>",
-					"\t\t<div class=\"uk-accordion-content\">$0</div>",
-				"\t</li>",
-			"</ul>"
-			],
-	"description": "Creates a default UIKit Accordion"
-	},
-
-	"snippet-uk-accordion-no-collapse": {
-	"prefix": "uk-accordion-no-collapse",
-	"body": ["<ul uk-accordion=\"collapsible: false\">",
-				"\t<li>",
-					"\t\t<h3 class=\"uk-accordion-title\">$1</h3>",
-					"\t\t<div class=\"uk-accordion-content\">$0</div>",
-				"\t</li>",
-			"</ul>"
-			],
-	"description": "Accordion that always keeps one item open"
-	},
-
-	"snippet-uk-accordion-multiple-open": {
-	"prefix": "uk-accordion-multiple-open",
-	"body": ["<ul uk-accordion=\"collapsible: false\">",
-				"\t<li>",
-					"\t\t<h3 class=\"uk-accordion-title\">$1</h3>",
-					"\t\t<div class=\"uk-accordion-content\">$0</div>",
-				"\t</li>",
-			"</ul>"
-			],
-	"description": "Accordion that allows multiple items to be opened at once"
-	},
-
-	"snippet-uk-accordion-open-index": {
-	"prefix": "uk-accordion-open-index",
-	"body": ["<ul uk-accordion=\"active: ${1:0}\">",
-				"\t<li>",
-					"\t\t<h3 class=\"uk-accordion-title\">$2</h3>",
-					"\t\t<div class=\"uk-accordion-content\">$0</div>",
-				"\t</li>",
-			"</ul>"
-			],
-	"description": "Accordion that opens an item by default"
-	},
-
-	//Alerts
-	"snippet-uk-alert-default": {
-	"prefix": "uk-alert-default",
-	"body": ["<div uk-alert></div>"
-			],
-	"description": "A default alert applied to a div"
-	},
-
-	"snippet-uk-alert-close": {
-	"prefix": "uk-alert-close",
-	"body": ["<div uk-alert>",
-				"\t<a class=\"uk-alert-close\" uk-close></a>",
-			"</div>"
-			],
-	"description": "An alert with a close button"
-	},
-
-	"snippet-uk-alert-primary": {
-	"prefix": "uk-alert-primary",
-	"body": ["<div class=\"uk-alert-primary\" uk-alert>",
-				"\t<a class=\"uk-alert-close\" uk-close></a>",
-				"\t<p>$0</p>",
-			"</div>"
-			],
-	"description": "An alert with a primary style applied"
-	},
-
-	"snippet-uk-alert-success": {
-	"prefix": "uk-alert-success",
-	"body": ["<div class=\"uk-alert-success\" uk-alert>",
-				"\t<a class=\"uk-alert-close\" uk-close></a>",
-				"\t<p>$0</p>",
-			"</div>"
-			],
-	"description": "An alert with a success style applied"
-	},
-
-	"snippet-uk-alert-warning": {
-	"prefix": "uk-alert-warning",
-	"body": ["<div class=\"uk-alert-warning\" uk-alert>",
-				"\t<a class=\"uk-alert-close\" uk-close></a>",
-				"\t<p>$0</p>",
-			"</div>"
-			],
-	"description": "An alert with a warning style applied"
-	},
-
-	"snippet-uk-alert-danger": {
-	"prefix": "uk-alert-danger",
-	"body": ["<div class=\"uk-alert-danger\" uk-alert>",
-				"\t<a class=\"uk-alert-close\" uk-close></a>",
-				"\t<p>$0</p>",
-			"</div>"
-			],
-	"description": "An alert with a danger style applied"
-	},
-
-	//Alignment
-	"snippet-uk-align-default": {
-	"prefix": "uk-align-default",
-	"body": [" class=\"uk-align-${0:left}\" "],
-	"description": "Floats the element to a selected position"
-	},
-
-	"snippet-uk-align-left": {
-	"prefix": "uk-align-left",
-	"body": [" class=\"uk-align-left\" "],
-	"description": "Floats the element to the left"
-	},
-
-	"snippet-uk-align-center": {
-	"prefix": "uk-align-center",
-	"body": [" class=\"uk-align-center\" "],
-	"description": "Floats the element to the center"
-	},
-
-	"snippet-uk-align-right": {
-	"prefix": "uk-align-right",
-	"body": [" class=\"uk-align-right\" "],
-	"description": "Floats the element to the right"
-	},
-
-	"snippet-uk-align-responsive": {
-	"prefix": "uk-align-responsive",
-	"body": [" class=\"uk-align-${1:left}@${0:s}\" "],
-	"description": "Floats the element on specific widths"
-	},
-
-	//Animations
-	"snippet-uk-animation-fade": {
-	"prefix": "uk-animation-fade",
-	"body": [" class=\"uk-animation-fade\" "],
-	"description": "The element fades in"
-	},
-
-	"snippet-uk-animation-scale-up": {
-	"prefix": "uk-animation-scale-up",
-	"body": [" class=\"uk-animation-scale-up\" "],
-	"description": "The element fades in and scales up"
-	},
-
-	"snippet-uk-animation-scale-down": {
-	"prefix": "uk-animation-scale-down",
-	"body": [" class=\"uk-animation-scale-down\" "],
-	"description": "The element fades in and scales down"
-	},
-
-	"snippet-uk-animation-slide-top": {
-	"prefix": "uk-animation-slide-top",
-	"body": [" class=\"uk-animation-slide-top\" "],
-	"description": "The element fades in and slides in from the top"
-	},
-
-	"snippet-uk-animation-slide-bottom": {
-	"prefix": "uk-animation-slide-bottom",
-	"body": [" class=\"uk-animation-slide-bottom\" "],
-	"description": "The element fades in and slides in from the bottom"
-	},
-	
-	"snippet-uk-animation-slide-left": {
-	"prefix": "uk-animation-slide-left",
-	"body": [" class=\"uk-animation-slide-left\" "],
-	"description": "The element fades in and slides in from the left"
-	},
-
-	"snippet-uk-animation-slide-right": {
-	"prefix": "uk-animation-slide-right",
-	"body": [" class=\"uk-animation-slide-right\" "],
-	"description": "The element fades in and slides in from the right"
-	},
-
-	"snippet-uk-animation-slide-custom": {
-	"prefix": "uk-animation-slide-custom",
-	"body": [" class=\"uk-animation-slide-${1:direction}-${0:[small|medium]}\" "],
-	"description": "The element slides in with a specific distance"
-	},
-
-	"snippet-uk-animation-kenburns": {
-	"prefix": "uk-animation-kenburns",
-	"body": [" class=\"uk-animation-kenburns\" "],
-	"description": "The element scales slowly up without fading in"
-	},
-
-	"snippet-uk-animation-shake": {
-	"prefix": "uk-animation-shake",
-	"body": [" class=\"uk-animation-shake\" "],
-	"description": "The element shakes"
-	},
-
-	"snippet-uk-animation-reverse": {
-	"prefix": "uk-animation-reverse",
-	"body": [" class=\"${1:uk-animation-fade} uk-animation-reverse\" "],
-	"description": "The element's animation plays in reverse"
-	},
-
-	"snippet-uk-animation-fast": {
-	"prefix": "uk-animation-fast",
-	"body": [" class=\"${1:uk-animation-fade} uk-animation-fast\" "],
-	"description": "The element's animation plays at a faster speed"
-	},
-
-	"snippet-uk-animation-transform-origin": {
-	"prefix": "uk-animation-transform-origin",
-	"body": [" class=\"${1:uk-animation-scale-up} uk-animation-transform-origin-${2:[top|center|bottom]}-${3:[left|center|right]}\" "],
-	"description": "The element scales in from a different direction"
-	},
-
-	//Articles
-	"snippet-uk-article-basic": {
-	"prefix": "uk-article-basic",
-	"body": ["<article class=\"uk-article\">",
-				"\t<h1 class=\"uk-article-title\">$1</h1>",
-    			"\t<p class=\"uk-article-meta\">$0</p>",
-			"</article>"
-			],
-	"description": "A basic article layout"
-	},
-
-	"snippet-uk-article-sample": {
-	"prefix": "uk-article-sample",
-	"body": ["<article class=\"uk-article\">",
-				"\t<h1 class=\"uk-article-title\"><a class=\"uk-link-reset\" href=\"\">${1:Heading}</a></h1>",
-				"\t<p class=\"uk-article-meta\">${2:Written by <a href=\"#\">Super User</a> on 12 April 2012. Posted in <a href=\"#\">Blog</a>}</p>",
-				"\t<p class=\"uk-text-lead\">${3:Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.}</p>",
-				"\t<p>${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}</p>",
-				"\t<div class=\"uk-grid-small uk-child-width-auto\" uk-grid>",
-					"\t\t<div>",
-						"\t\t\t<a class=\"uk-button uk-button-text\" href=\"#\">${5:Read more}</a>",
-					"\t\t</div>",
-					"\t\t<div>",
-						"\t\t\t<a class=\"uk-button uk-button-text\" href=\"#\">${6:5 Comments}</a>",
-					"\t\t</div>",
-				"\t</div>",
-			"</article>"
-			],
-	"description": "A complete sample article with placeholders"
-	},
-
-	//Background Colours
-	"snippet-uk-background-default": {
-	"prefix": "uk-background-default",
-	"body": [ "class=\"uk-background\" " 
-			],
-	"description": "Applies the default background color"
-	},
-
-	"snippet-uk-background-muted": {
-	"prefix": "uk-background-muted",
-	"body": [ "class=\"uk-background-muted\" " 
-			],
-	"description": "Applies a muted background color"
-	},
-
-	"snippet-uk-background-primary": {
-	"prefix": "uk-background-primary",
-	"body": [ "class=\"uk-background-primary\" " 
-			],
-	"description": "Applies the primary background color"
-	},
-
-	"snippet-uk-background-secondary": {
-	"prefix": "uk-background-secondary",
-	"body": [ "class=\"uk-background-secondary\" " 
-			],
-	"description": "Applies the secondary background color"
-	},
-
-	"snippet-uk-background-cover": {
-	"prefix": "uk-background-cover",
-	"body": [ "class=\"uk-background-cover\" " 
-			],
-	"description": "Scales the background image to cover the containing area"
-	},
-
-	"snippet-uk-background-contain": {
-	"prefix": "uk-background-contain",
-	"body": [ "class=\"uk-background-contain\" " 
-			],
-	"description": "Scales the background image to fit within the containing area"
-	},
-
-	"snippet-uk-background-position": {
-	"prefix": "uk-background-position",
-	"body": [ "class=\"uk-background-${1:[top|center|bottom]}-{2:[left|center|right]}\" " 
-			],
-	"description": "Alters the initial position of the background iamge"
-	},
-
-	"snippet-uk-background-norepeat": {
-	"prefix": "uk-background-norepeat",
-	"body": [ "class=\"uk-background-norepeat\" " 
-			],
-	"description": "Prevents the background image from being repeated"
-	},
-
-	"snippet-uk-background-fixed": {
-	"prefix": "uk-background-fixed",
-	"body": [ "class=\"uk-background-fixed\" " 
-			],
-	"description": "Locks the image in place while scrolling"
-	},
-
-	"snippet-uk-background-image-responsive": {
-	"prefix": "uk-background-image-responsive",
-	"body": [ "class=\"uk-background-image@${0:[s|m|l|xl]}\" " 
-			],
-	"description": "Shows the background image on widths of chosen size upwards"
-	},
-
-	"snippet-uk-background-blend": {
-	"prefix": "uk-background-blend",
-	"body": [ "class=\"uk-background-blend-${1:[multiply|screen|overlay|darken|lighten|color-dodge|color-burn|hard-light|soft-light|difference|exclusion|hue|saturation|color|luminosity]} ${0:uk-background}\" " 
-			],
-	"description": "Applies a chosen blend mode to the background image"
-	},
-
-	//Badges
-	"snippet-uk-badge-span": {
-	"prefix": "uk-badge-span",
-	"body": [ "<span class=\"uk-badge\"></span>" 
-			],
-	"description": "Creates a simple notification badge span"
-	},
-
-	"snippet-uk-badge-link": {
-	"prefix": "uk-badge-link",
-	"body": [ "<a href=\"\" class=\"uk-badge\"></a>" 
-			],
-	"description": "Creates a simple notification badge link"
-	},
-
-	//Breadcrumbs
-	"snippet-uk-breadcrumb": {
-	"prefix": "uk-breadcrumb",
-	"body": [ 	"<ul class=\"uk-breadcrumb\">",
-					"\t<li><a href=\"\"></a></li>",
-					"\t<li><a href=\"\"></a></li>",
-					"\t<li><span href=\"\"></span></li>",
-				"</ul>" 
-			],
-	"description": "Creates a default breadcrumb list"
-	},
-
-	//Buttons
-	"snippet-uk-button-default": {
-	"prefix": "uk-button-default",
-	"body": [ "<${1:button} class=\"uk-button uk-button-default\"></${2:button}>" 
-			],
-	"description": "Creates a button with a default style"
-	},
-
-	"snippet-uk-button-primary": {
-	"prefix": "uk-button-primary",
-	"body": [ "<${1:button} class=\"uk-button uk-button-primary\"></${2:button}>" 
-			],
-	"description": "Creates a button with a primary style"
-	},
-
-	"snippet-uk-button-secondary": {
-	"prefix": "uk-button-secondary",
-	"body": [ "<${1:button} class=\"uk-button uk-button-secondary\"></${2:button}>" 
-			],
-	"description": "Creates a button with a secondary style"
-	},
-
-	"snippet-uk-button-danger": {
-	"prefix": "uk-button-danger",
-	"body": [ "<${1:button} class=\"uk-button uk-button-danger\"></${2:button}>" 
-			],
-	"description": "Creates a button with a danger style"
-	},
-
-	"snippet-uk-button-text": {
-	"prefix": "uk-button-text",
-	"body": [ "<${1:button} class=\"uk-button uk-button-text\"></${2:button}>" 
-			],
-	"description": "Creates a button with a alternative, typographic style"
-	},
-
-	"snippet-uk-button-link": {
-	"prefix": "uk-button-link",
-	"body": [ "<${1:button} class=\"uk-button uk-button-link\"></${2:button}>" 
-			],
-	"description": "Creates a button that looks like a link"
-	},
-
-	"snippet-uk-button-disabled": {
-	"prefix": "uk-button-disabled",
-	"body": [ "<button class=\"uk-button uk-button-default disabled\"></button>" 
-			],
-	"description": "Creates a disabled button"
-	},
-
-	"snippet-uk-button-small": {
-	"prefix": "uk-button-small",
-	"body": [ "<${1:button} class=\"uk-button uk-button-${2:default} uk-button-small\"></{0:button}>" 
-			],
-	"description": "Creates a small button"
-	},
-
-	"snippet-uk-button-large": {
-	"prefix": "uk-button-large",
-	"body": [ "<${1:button} class=\"uk-button uk-button-${2:default} uk-button-large\"></{0:button}>" 
-			],
-	"description": "Creates a large button"
-	},
-
-	"snippet-uk-button-full-width": {
-	"prefix": "uk-button-full-width",
-	"body": [ "<button class=\"uk-button uk-button-${0:default} uk-width-1-1\"></button>" 
-			],
-	"description": "Creates a button that takes up the full width of its container"
-	},
-
-	"snippet-uk-button-dropdown": {
-	"prefix": "uk-button-dropdown",
-	"body": [ "<!-- A button toggling a dropdown -->",
-			"<button class=\"uk-button uk-button-default\" type=\"button\">$1</button>",
-			"<div uk-dropdown>$0</div>"
-			],
-	"description": "Creates a button that toggles a dropdown menu"
-	},
-
-	//Button Group
-	"snippet-uk-button-group": {
-	"prefix": "uk-button-group",
-	"body": [ 	"<div class=\"uk-button-group\">",
-					"\t<button class=\"uk-button uk-button-${1:default}\"></button>",
-					"\t<button class=\"uk-button uk-button-${2:default}\"></button>",
-					"\t<button class=\"uk-button uk-button-${0:default}\"></button>",
-				"</div>" 
-			],
-	"description": "Creates a group of buttons"
-	},
-
-	"snippet-uk-button-group-dropdown": {
-	"prefix": "uk-button-group-dropdown",
-	"body": [ 	"<!-- A button group with a dropdown -->",
-				"<div class=\"uk-button-group\">",
-					"\t<button class=\"uk-button uk-button-default\">$0</button>",
-					"\t<div class=\"uk-inline\">",
-
-						"\t\t<!-- The button toggling the dropdown -->",
-						"\t\t<button class=\"uk-button uk-button-default\" type=\"button\"></button>",
-						"\t\t<div uk-dropdown=\"mode: click; boundary: ! .uk-button-group; boundary-align: true;\"></div>",
-
-					"\t</div>",
-				"</div>" 
-			],
-	"description": "Creates a button group with a dropdwon toggle on the right"
-	},
-
-	//Cards
-	"snippet-uk-card-default": {
-	"prefix": "uk-card-default",
-	"body": [ 	"<div class=\"uk-card uk-card-default uk-card-body\">",
-					"\t<h3 class=\"uk-card-title\">$0</h3>",
-				"</div>" 
-			],
-	"description": "Creates a card with a default style"
-	},
-
-	"snippet-uk-card-primary": {
-	"prefix": "uk-card-primary",
-	"body": [ 	"<div class=\"uk-card uk-card-primary uk-card-body\">",
-					"\t<h3 class=\"uk-card-title\">$0</h3>",
-				"</div>" 
-			],
-	"description": "Creates a card with a primary style"
-	},
-
-	"snippet-uk-card-secondary": {
-	"prefix": "uk-card-secondary",
-	"body": [ 	"<div class=\"uk-card uk-card-secondary uk-card-body\">",
-					"\t<h3 class=\"uk-card-title\">$0</h3>",
-				"</div>" 
-			],
-	"description": "Creates a card with a secondary style"
-	},
-
-	"snippet-uk-card-hover": {
-	"prefix": "uk-card-hover",
-	"body": [ 	"<div class=\"uk-card uk-card-hover ${1:uk-card-${2:default}} uk-card-body\">",
-					"\t<h3 class=\"uk-card-title\">$0</h3>",
-				"</div>" 
-			],
-	"description": "Creates a card with a hover effect"
-	},
-
-	"snippet-uk-card-small": {
-	"prefix": "uk-card-small",
-	"body": [ 	"<div class=\"uk-card uk-card-small ${1:uk-card-${2:default}} uk-card-body\">",
-					"\t<h3 class=\"uk-card-title\">$0</h3>",
-				"</div>" 
-			],
-	"description": "Creates a card with reduced padding"
-	},
-
-	"snippet-uk-card-large": {
-	"prefix": "uk-card-large",
-	"body": [ 	"<div class=\"uk-card uk-card-large ${1:uk-card-${2:default}} uk-card-body\">",
-					"\t<h3 class=\"uk-card-title\">$0</h3>",
-				"</div>" 
-			],
-	"description": "Creates a card with increased padding"
-	},
-
-	"snippet-uk-card-header-footer": {
-	"prefix": "uk-card-header-footer",
-	"body": [ 	"<div class=\"uk-card\" ${1:uk-card-${2:default}}>",
-					"\t<div class=\"uk-card-header\">",
-						"\t\t<h3 class=\"uk-card-title\">$3</h3>",
-					"\t</div>",
-					"\t<div class=\"uk-card-body\">$4</div>",
-					"\t<div class=\"uk-card-footer\">$0</div>",
-				"</div>"
-			],
-	"description": "Creates a card divided into three sections"
-	},
-
-	"snippet-uk-card-media": {
-	"prefix": "uk-card-media",
-	"body": [ 	"<div class=\"uk-card uk-card-default\">",
-					"\t<div class=\"uk-card-media-${1:[top|bottom|left|right]}\">",
-						"\t\t<img src=\"$2\" alt=\"$3\">",
-					"\t</div>",
-					"\t<div class=\"uk-card-body\"></div>",
-				"</div>"
-			],
-	"description": "Displays an image inside a card without any spacing"
-	},
-
-	"snippet-uk-card-horizontal": {
-	"prefix": "uk-card-horizontal",
-	"body": [ 	"<div class=\"uk-card uk-card-default uk-child-width-1-2\" uk-grid>",
-					"\t<div class=\"uk-card-media-${1:[left|right]} uk-cover-container\">",
-						"\t\t<img src=\"\" alt=\"\" uk-cover>",
-						"\t\t<canvas width=\"\" height=\"\">$2</canvas>",
-					"\t</div>",
-					"\t<div>",
-						"\t\t<div class=\"uk-card-body\">$3</div>",
-					"\t</div>",
-				"</div>"
-			],
-	"description": "Creates a card with a horizontal layout (Ideal for media-left & media-right)"
-	},
-	
-	"snippet-uk-card-badge": {
-	"prefix": "uk-card-badge",
-	"body": [ 	"<div class=\"uk-card uk-card-body\">",
-					"\t<div class=\"uk-card-badge uk-label\">${1:Label}</div>",
-					"\t<h3 class=\"uk-card-title\">${0:Title}</h3>",
-				"</div>"
-			],
-	"description": "Creates a card with a styled badge inside"
-	},
-
-	//Close Icon
-	"snippet-uk-close": {
-	"prefix": "uk-close",
-	"body": [ "<${1:button} type=\"button\" uk-close></${2:button}>" 
-			],
-	"description": "Creates a close icon"
-	},
-	
-	"snippet-uk-close-large": {
-	"prefix": "uk-close-large",
-	"body": [ "<${1:button} class=\"uk-close-large\" type=\"button\" uk-close></${2:button}>" 
-			],
-	"description": "Creates a larger close icon"
-	},
-
-	//Columns
-	"snippet-uk-column": {
-	"prefix": "uk-column",
-	"body": [ " class=\"uk-column-1-${0:[2|3|4|5|6]\" " 
-			],
-	"description": "Displays the inline content in multiple columns"
-	},
-
-	"snippet-uk-column-responsive": {
-	"prefix": "uk-column-responsive",
-	"body": [ " class=\"uk-column-1-${1:[2|3|4|5|6]@${0:[s|m|l|xl]}\" " 
-			],
-	"description": "Displays the inline content in multiple columns on specific width breakpoints"
-	},
-
-	"snippet-uk-column-divider": {
-	"prefix": "uk-column-divider",
-	"body": [ " class=\"uk-column-1-${0:[2|3|4|5|6] uk-column-divider\" " 
-			],
-	"description": "Displays the inline content in multiple columns seperated by dividers"
-	},
-
-	"snippet-uk-column-span": {
-	"prefix": "uk-column-span",
-	"body": [	"<div class=\"uk-column-1-${1:[2|3|4|5|6]\">",
-					"\t...",
-					"\t<p class=\"uk-column-span\">$0</p>",
-					"\t...",
-				"</div>" 
-			],
-	"description": "Creates a column with an inline element that spans each column"
-	},
-
-	"snippet-uk-comment-default": {
-	"prefix": "uk-comment-default",
-	"body": [ 	"<article class=\"uk-comment\">",
-					"\t<header class=\"uk-comment-header\">",
-						"\t\t<img class=\"uk-comment-avatar\" src=\"$1\" alt=\"\">",
-						"\t\t<h4 class=\"uk-comment-title\">$2</h4>",
-						"\t\t<ul class=\"uk-comment-meta uk-subnav\">$3</ul>",
-					"\t</header>",
-					"<div class=\"uk-comment-body\">$0</div>",
-				"</article>" 
-			],
-	"description": "Creates a standard comment layout"
-	},
-
-	"snippet-uk-comment-primary": {
-	"prefix": "uk-comment-primary",
-	"body": [ 	"<article class=\"uk-comment uk-comment-primary\">",
-					"\t<header class=\"uk-comment-header\">",
-						"\t\t<img class=\"uk-comment-avatar\" src=\"$1\" alt=\"\">",
-						"\t\t<h4 class=\"uk-comment-title\">$2</h4>",
-						"\t\t<ul class=\"uk-comment-meta uk-subnav\">$3</ul>",
-					"\t</header>",
-					"<div class=\"uk-comment-body\">$0</div>",
-				"</article>" 
-			],
-	"description": "Creates a highlighted comment with a standard layout"
-	},
-
-	"snippet-uk-comment-list": {
-	"prefix": "uk-comment-list",
-	"body": [ 	"<ul class=\"uk-comment-list\">",
-					"\t<li>",
-						"\t\t<article class=\"uk-comment\">$1</article>",
-						"\t\t<ul>",
-							"\t\t\t<li>",
-								"\t\t\t\t<article class=\"uk-comment\">$2</article>",
-							"\t\t\t</li>",
-						"\t\t</ul>",
-					"/t</li>",
-				"</ul>" 
-			],
-	"description": "Creates a nestable list of comments"
-	},
-
-	//Containers
-	"snippet-uk-container": {
-	"prefix": "uk-container",
-	"body": [ 	"<div class=\"uk-container\">$0</div>" 
-			],
-	"description": "Creates a centered container"
-	},
-
-	"snippet-uk-container-small": {
-	"prefix": "uk-container-small",
-	"body": [ 	"<div class=\"uk-container uk-container-small\">$0</div>" 
-			],
-	"description": "Creates a narrower, centered container"
-	},
-
-	"snippet-uk-container-large": {
-	"prefix": "uk-container-large",
-	"body": [ 	"<div class=\"uk-container uk-container-large\">$0</div>" 
-			],
-	"description": "Creates a wider, centered container"
-	},
-
-	"snippet-uk-container-expand": {
-	"prefix": "uk-container-expand",
-	"body": [ 	"<div class=\"uk-container uk-container-expand\">$0</div>" 
-			],
-	"description": "Creates a max-width container"
-	},
-
-	//Cover Container
-	"snippet-uk-cover-container": {
-	"prefix": "uk-cover-container",
-	"body": [ 	"<div class=\"uk-cover-container\">",
-					"\t<img src=\"$1\" alt=\"$0\" uk-cover>",
-				"</div>" 
-			],
-	"description": "Creates an image that covers its parent element"
-	},
-
-	"snippet-uk-cover-container-video": {
-	"prefix": "uk-cover-container-video",
-	"body": [ 	"<div class=\"uk-cover-container\">",
-					"\t<video uk-cover>$0</video>",
-				"</div>" 
-			],
-	"description": "Creates a video that covers its parent element"
-	},
-	
-	"snippet-uk-cover-container-iframe": {
-	"prefix": "uk-cover-container-iframe",
-	"body": [ 	"<div class=\"uk-cover-container\">",
-					"\t<iframe src=\"$1\" uk-cover>$0</iframe>",
-				"</div>" 
-			],
-	"description": "Creates an iframe that covers its parent element"
-	},
-
-	"snippet-uk-cover-container-responsive": {
-	"prefix": "uk-cover-container-responsive",
-	"body": [ 	"<div class=\"uk-cover-container\">",
-					"\t<canvas width=\"$1\" height=\"$2\"></canvas>",
-					"\t<${3:video} uk-cover>$0</${4:video}>",
-				"</div>"
-			],
-	"description": "Creates an element that scales responsively with its parent"
-	},
-
-	//Description List
-	"snippet-uk-cover-description-list": {
-	"prefix": "uk-cover-description-list",
-	"body": [ 	"<dl class=\"uk-description-list\">",
-					"\t<dt></dt>",
-					"\t<dd></dd>",
-				"</dl>"
-			],
-	"description": "Creates a list to display terms and descriptions below each other"
-	},
-
-	"snippet-uk-cover-description-list-divider": {
-	"prefix": "uk-cover-description-list",
-	"body": [ 	"<dl class=\"uk-description-list uk-description-list-divider\">",
-					"\t<dt></dt>",
-					"\t<dd></dd>",
-				"</dl>"
-			],
-	"description": "Creates a divided description list"
-	},
-
-	//Disabled element
-	"snippet-uk-disabled": {
-	"prefix": "uk-disabled",
-	"body": [ " class=\"uk-disabled\" " 
-			],
-	"description": "Disables an item within a list"
-	},
-
-	//Dividers
-	"snippet-uk-divider-icon": {
-	"prefix": "uk-divider-icon",
-	"body": [ 	"<hr class=\"uk-divider-icon\">"
-			],
-	"description": "Creates a divider with a decoration"
-	},
-
-	"snippet-uk-divider-small": {
-	"prefix": "uk-divider-small",
-	"body": [ 	"<hr class=\"uk-divider-small\">"
-			],
-	"description": "Creates a smaller divider"
-	},
-
-	//Dotnav
-	"snippet-uk-dotnav": {
-	"prefix": "uk-dotnav",
-	"body": [ 	"<ul class=\"uk-dotnav\">",
-					"\t<li class=\"uk-active\"><a href=\"\"></a></li>",
-					"\t<li><a href=\"\"></a></li>",
-				"</ul>"
-			],
-	"description": "Creates a navigation list with dots"
-	},
-	
-	"snippet-uk-dotnav-vertical": {
-	"prefix": "uk-dotnav-vertical",
-	"body": [ 	"<ul class=\"uk-dotnav uk-dotnav-vertical\">",
-					"\t<li class=\"uk-active\"><a href=\"\"></a></li>",
-					"\t<li><a href=\"\"></a></li>",
-				"</ul>"
-			],
-	"description": "Creates a vertical navigation list with dots"
-	},
-
-	"snippet-uk-dotnav-centered-viewport": {
-	"prefix": "uk-dotnav-centered-viewport",
-	"body": [ 	"<div class=\"uk-position-center-right uk-position-medium uk-position-fixed\">",
-					"\t<ul class=\"uk-dotnav uk-dotnav-vertical\">$0</ul>",
-				"</div>"
-			],
-	"description": "Creates a dotnav centered vertically and aligned right"
-	},
-
-	//Drop
-	"snippet-uk-drop-basic": {
-		"prefix": "uk-drop-basic",
-		"body": [	"<button type=\"button\"></button>",
-					"<div uk-drop></div>"
-				],
-		"description": "Creates a basic drop element"
-	},
-
-	"snippet-uk-drop-example": {
-	"prefix": "uk-drop-example",
-	"body": [ 	"<div class=\"uk-inline\">",
-					"\t<button class=\"uk-button uk-button-default\" type=\"button\">Hover</button>",
-					"\t<div uk-drop>",
-						"\t\t<div class=\"uk-card uk-card-body uk-card-default\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>",
-					"\t</div>",
-				"</div>",
-
-				"<div class=\"uk-inline\">",
-					"\t<button class=\"uk-button uk-button-default\" type=\"button\">Click</button>",
-					"\t<div uk-drop=\"mode: click\">",
-						"\t\t<div class=\"uk-card uk-card-body uk-card-default\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>",
-					"\t</div>",
-				"</div>"
-			],
-	"description": "Creates two example drops with different modes"
-	},
-
-	"snippet-uk-drop-grid": {
-		"prefix": "uk-drop-grid",
-		"body": [	"<div class=\"uk-width-large\" uk-drop>",
-						"\t<div class=\"uk-drop-grid uk-child-width-1-2@m\" uk-grid>$0</div>",
-					"</div>"
-				],
-		"description": "Creates a drop with a grid inside"
-	},
-
-	"snippet-uk-drop-position": {
-		"prefix": "uk-drop-position",
-		"body": [	"<div uk-drop=\"pos: ${1:[bottom|top|left|right]}-${2:[left|center|right|justify|top|bottom]}\">$0</div>"
-				],
-		"description": "Creates a drop with its alignment adjusted"
-	},
-
-	"snippet-uk-drop-boundary": {
-		"prefix": "uk-drop-boundary",
-		"body": [	"<div class=\"${1:my-class}\">",
-						"\t<button type=\"button\"></button>",
-						"\t<div uk-drop=\"boundary: .${0:my-class}\"></div>",
-					"</div>"
-				],
-		"description": "Creates a drop with a predetermined element as its boundary"
-	},
-
-	"snippet-uk-drop-boundary-aligned": {
-		"prefix": "uk-drop-boundary-aligned",
-		"body": [	"<div class=\"${1:my-class}\">",
-						"\t<button type=\"button\"></button>",
-						"\t<div uk-drop=\"boundary: .${0:my-class}; boundary-align: true\"></div>",
-					"</div>"
-				],
-		"description": "Creates a drop aligned to its boundary"
-	},
-
-	"snippet-uk-drop-offset": {
-		"prefix": "uk-drop-offset",
-		"body": [	"<div uk-drop=\"offset: ${1:80}\">$0</div>"
-				],
-		"description": "Creates a drop with an offset"
-	},
-
-	"snippet-uk-drop-animated": {
-		"prefix": "uk-drop-animated",
-		"body": [	"<div uk-drop=\"animation: ${1:uk-animation-slide-top-small}; duration: ${2:1000}\">$0</div>"
-				],
-		"description": "Creates a drop with an offset"
-	},
-
-	//Dropdown
-	"snippet-uk-dropdown-basic": {
-		"prefix": "uk-dropdown-basic",
-		"body": [	"<button type=\"button\">$1</button>",
-					"<div uk-dropdown>$0</div>"
-				],
-		"description": "Creates a basic dropdown underneath a button toggle"
-	},
-
-	"snippet-uk-dropdown-basic-inline": {
-		"prefix": "uk-dropdown-basic-inline",
-		"body": [	"<div class=\"uk-inline\">",
-						"\t<button type=\"button\">$1</button>",
-						"\t<div uk-dropdown=\"mode: click\">$0</div>",
-					"</div>"
-				],
-		"description": "Creates a basic dropdown grouped with its toggle"
-	},
-
-	"snippet-uk-dropdown-nav": {
-		"prefix": "uk-dropdown-nav",
-		"body": [	"<button type=\"button\">$1</button>",
-					"<div uk-dropdown>",
-						"\t<ul class=\"uk-nav uk-dropdown-nav\">${0:<li>$2</li>}</ul>",
-					"</div>"
-				],
-		"description": "Creates a dropdown containing a nav element"
-	},
-
-	"snippet-uk-dropdown-grid": {
-		"prefix": "uk-dropdown-grid",
-		"body": [	"<div class=\"uk-width-large\" uk-dropdown>",
-						"\t<div class=\"uk-dropdown-grid uk-child-width-1-2@m\" uk-grid>$0</div>",
-					"</div>"
-				],
-		"description": "Creates a dropdown containing a grid"
-	},
-
-	"snippet-uk-dropdown-position": {
-		"prefix": "uk-dropdown-position",
-		"body": [	"<div uk-dropdown=\"pos: ${1:[top|bottom|left|right]}-${2:[left|center|right|justify|top|bottom]}\">$0</div>"
-				],
-		"description": "Creates a dropdown with its alignment adjusted"
-	},
-
-	"snippet-uk-dropdown-boundary": {
-		"prefix": "uk-dropdown-boundary",
-		"body": [	"<div class=\"${1:my-class}\">",
-						"\t<button type=\"button\">$3</button>",
-						"\t<div uk-dropdown=\"boundary: .${2:my-class}\">$0</div>",
-					"</div>"
-				],
-		"description": "Determines a parent element as the dropdown's boundary"
-	},
-
-	"snippet-uk-dropdown-boundary-aligned": {
-		"prefix": "uk-dropdown-boundary-aligned",
-		"body": [	"<div class=\"${1:my-class}\">",
-						"\t<button type=\"button\">$3</button>",
-						"\t<div uk-dropdown=\"boundary: .${2:my-class}; boundary-align: true\">$0</div>",
-					"</div>"
-				],
-		"description": "Aligns the dropdown to the parent's boundary"
-	},
-
-	"snippet-uk-dropdown-offset": {
-		"prefix": "uk-dropdown-offset",
-		"body": [	"<div uk-dropdown=\"offset: ${1:80}\">$0</div>"
-				],
-		"description": "Defines a custom offset for the dropdown"
-	},
-
-	"snippet-uk-dropdown-animated": {
-		"prefix": "uk-dropdown-animated",
-		"body": [	"<div uk-dropdown=\"animation: ${1:uk-animation-slide-top-small}; duration: ${2:1000}\">$0</div>"
-				],
-		"description": "Applies one or more animations to the dropdown"
-	},
-
-	//Flex
-	"snippet-uk-flex-block": {
-		"prefix": "uk-flex-block",
-		"body": [	"<div class=\"uk-flex\">",
-						"\t<div>$0</div>",
-					"</div>"
-				],
-		"description": "Creates a flex container and behaves like a block element"
-	},
-
-	"snippet-uk-flex-inline": {
-		"prefix": "uk-flex-inline",
-		"body": [	"<div class=\"uk-flex-inline\">",
-						"\t<div>$0</div>",
-					"</div>"
-				],
-		"description": "Creates a flex container and behaves like an inline element"
-	},
-
-	"snippet-uk-flex-horizontal-alignment": {
-		"prefix": "uk-flex-horizontal-alignment",
-		"body": [	"<div class=\"uk-flex uk-flex-${1:[left|center|right|between|around]}\">",
-						"\t<div>$0</div>",
-					"</div>"
-				],
-		"description": "Defines the horizontal alignment of flex items and distributes space between them"
-	},
-
-	"snippet-uk-flex-vertical-alignment": {
-		"prefix": "uk-flex-vertical-alignment",
-		"body": [	"<div class=\"uk-flex uk-flex-${1:[stretch|top|middle|bottom]}\">",
-						"\t<div>$0</div>",
-					"</div>"
-				],
-		"description": "Defines the vertical alignment of flex items and distributes space between them"
-	},
-
-	"snippet-uk-flex-direction": {
-		"prefix": "uk-flex-direction",
-		"body": [	"<div class=\"uk-flex uk-flex-${1:[row|row-reverse|column|column-reverse]}\">$0</div>"
-				],
-		"description": "Defines the axis that flex items are placed on and their direction"
-	},
-
-	"snippet-uk-flex-wrap-modifier": {
-		"prefix": "uk-flex-wrap-modifier",
-		"body": [	"<div class=\"uk-flex uk-flex-${1:[wrap|wrap-reverse|nowrap]} uk-flex-wrap-${2:[stretch|between|around|top|middle|bottom]}\">$0</div>"
-				],
-		"description": "Defines the axis that flex items are placed on and their direction"
-	},
-
-	"snippet-uk-flex-item-order": {
-		"prefix": "uk-flex-item-order",
-		"body": [	" class=\"uk-flex-${1:[first|last]}@${2:[s|m|l|xl]}\" "
-				],
-		"description": "Displays an item as the first or last one (Add to item)"
-	},
-
-	"snippet-uk-flex-item-dimensions": {
-		"prefix": "uk-flex-item-dimensions",
-		"body": [	" class=\"uk-flex-${0:[none|auto|1]}\" "
-				],
-		"description": "Determines how much space a flex item should take up (Add to item)"
-	},
-
-	"snippet-uk-flex-grid-example": {
-		"prefix": "uk-flex-grid-example",
-		"body": [	"<div class=\"uk-flex-middle\" uk-grid>",
-						"\t<div class=\"uk-width-2-3@m\">",
-							"\t\t<p>$1</p>",
-						"\t</div>",
-						"\t<div class=\"uk-width-1-3@m uk-flex-first\">",
-							"\t\t<img src=\"$2\" alt=\"Image\">",
-						"\t</div>",
-					"</div>"
-				],
-		"description": "Creates a sample flex with a grid inside"
-	},
-
-	//Form
-	"snippet-uk-form-sample": {
-		"prefix": "uk-form-sample",
-		"body": [	"<form>",
-						"\t<select class=\"uk-select\">",
-							"\t\t<option></option>",
-							"\t\t<option></option>",
-						"\t</select>",
-						"\t<textarea class=\"uk-textarea\"></textarea>",
-						"\t<input class=\"uk-input\"></input>",
-						"\t<input class=\"uk-radio\" type=\"radio\">",
-						"\t<input class=\"uk-checkbox\" type=\"checkbox\">",
-					"</form>"
-				],
-		"description": "Creates a sample form with all elements as reference"
-	},
-
-	"snippet-uk-form-fieldset": {
-		"prefix": "uk-form-fieldset",
-		"body": [	"<fieldset class=\"uk-fieldset\">\r$0</fieldset>"
-				],
-		"description": "Creates a fieldset for a form"
-	},
-
-	"snippet-uk-form-legend": {
-		"prefix": "uk-form-legend",
-		"body": [	"<legend class=\"uk-legend\">$0</legend>"
-				],
-		"description": "Creates a legend for a form"
-	},
-
-	"snippet-uk-form-states": {
-		"prefix": "uk-form-states",
-		"body": [	" class=\"uk-form-${0:[danger|success]}\" "
-				],
-		"description": "Applies a custom state to a form control"
-	},
-
-	"snippet-uk-form-disabled": {
-		"prefix": "uk-form-disabled",
-		"body": [	"<input class=\"$0\" disabled>"
-				],
-		"description": "Disables a form control"
-	},
-
-	"snippet-uk-form-sizes": {
-		"prefix": "uk-form-sizes",
-		"body": [	"<input class=\"${0:uk-input} uk-form-${1:[large|small]}\">"
-				],
-		"description": "Modifies the size of an input, select or textarea"
-	},
-
-	"snippet-uk-form-width-modifiers": {
-		"prefix": "uk-form-width-modifiers",
-		"body": [	"<input class=\"${0:uk-input} uk-form-width-${1:[large|medium|small|x-small]}\">"
-				],
-		"description": "Modifies the width of an input, select or textarea"
-	},
-
-	"snippet-uk-form-blank": {
-		"prefix": "uk-form-blank",
-		"body": [	"<input class=\"${0:uk-input} uk-form-blank\">"
-				],
-		"description": "Minimizes the styling of form controls"
-	},
-
-	"snippet-uk-form-stacked": {
-		"prefix": "uk-form-stacked",
-		"body": [	"<form class=\"uk-form-stacked\">",
-						"\t<div>",
-							"\t\t<label class=\"uk-form-label\">$1</label>",
-							"\t\t<div class=\"uk-form-controls\">$2</div>",
-						"\t</div>",
-						"\t<div>",
-							"\t\t<div class=\"uk-form-label\">$3</div>",
-							"\t\t<div class=\"uk-form-controls\">$4</div>",
-						"\t</div>",
-					"</form>"
-				],
-		"description": "Stacks labels and controls on top of each other"
-	},
-
-	"snippet-uk-form-horizontal": {
-		"prefix": "uk-form-horizontal",
-		"body": [	"<form class=\"uk-form-horizontal\">",
-						"\t<div>",
-							"\t\t<label class=\"uk-form-label\">$1</label>",
-							"\t\t<div class=\"uk-form-controls\">$2</div>",
-						"\t</div>",
-						"\t<div>",
-							"\t\t<div class=\"uk-form-label\">$3</div>",
-							"\t\t<div class=\"uk-form-controls uk-form-controls-text\">$4</div>",
-						"\t</div>",
-					"</form>"
-				],
-		"description": "Aligns labels and controls horizontally (use uk-form-controls-text to better align checkboxes and radio buttons)"
-	},
-	
-	"snippet-uk-form-icon": {
-		"prefix": "uk-form-icon",
-		"body": [	"<div class=\"uk-inline\">",
-						"\t<span class=\"uk-form-icon ${1:uk-form-icon-flip}\" uk-icon=\"icon: ${2:user}\"></span>",
-						"\t<input class=\"uk-input\">",
-					"</div>"
-				],
-		"description": "Creates a form control with an icon inside to the left (or right with flip class)"
-	},
-
-	"snippet-uk-form-icon-click": {
-		"prefix": "uk-form-icon-click",
-		"body": [	"<div class=\"uk-inline\">",
-						"\t<a class=\"uk-form-icon ${1:uk-form-icon-flip}\" href=\"\" uk-icon=\"icon: ${2:user}\"></a>",
-						"\t<input class=\"uk-input\">",
-					"</div>"
-				],
-		"description": "Creates a form icon that can be clicked"
-	},
-
-	"snippet-uk-form-grid-example": {
-		"prefix": "uk-form-grid-example",
-		"body": [	"<form class=\"uk-grid-small\" uk-grid>",
-						"\t<div class=\"uk-width-1-1\">",
-							"\t\t<input class=\"uk-input\" type=\"text\" placeholder=\"100\">",
-						"\t</div>",
-						"\t<div class=\"uk-width-1-2@s\">",
-							"\t\t<input class=\"uk-input\" type=\"text\" placeholder=\"50\">",
-						"\t</div>",
-						"\t<div class=\"uk-width-1-4@s\">",
-							"\t\t<input class=\"uk-input\" type=\"text\" placeholder=\"25\">",
-						"\t</div>",
-						"\t<div class=\"uk-width-1-4@s\">",
-							"\t\t<input class=\"uk-input\" type=\"text\" placeholder=\"25\">",
-						"\t</div>",
-						"\t<div class=\"uk-width-1-2@s\">",
-							"\t\t<input class=\"uk-input\" type=\"text\" placeholder=\"50\">",
-						"\t</div>",
-						"\t<div class=\"uk-width-1-2@s\">",
-							"\t\t<input class=\"uk-input\" type=\"text\" placeholder=\"50\">",
-						"\t</div>",
-					"</form>"
-				],
-		"description": "Creates a form defined by a grid layout"
-	},
-
-	"snippet-uk-form-custom-control": {
-		"prefix": "uk-form-custom-control",
-		"body": [	"<div uk-form-custom>",
-						"\t<input type=\"file\">",
-						"\t<button type=\"button\"></button>",
-					"</div>",
-
-					"<div uk-form-custom=\"target: true\">",
-						"\t<select>",
-							"\t\t<option></option>",
-							"\t\t<option></option>",
-						"\t</select>",
-						"\t<button type=\"button\"></button>",
-					"</div>"
-				],
-		"description": "Replaces a file input or select form with your own HTML content"
-	},
-
-	//Grid
-	"snippet-uk-grid-stacked": {
-	"prefix": "uk-grid-stacked",
-	"body": [ 	"<div uk-grid>",
-					"\t<div></div>",
-					"\t<div></div>",
-				"</div>" 
-			],
-	"description": "Creates a basic stacked grid container"
-	},
-
-	"snippet-uk-grid-expanded": {
-	"prefix": "uk-grid-expanded",
-	"body": [ 	"<div class=\"uk-child-width-expand${0:@[s|m|l|xl]}\" uk-grid>",
-					"\t<div></div>",
-					"\t<div></div>",
-				"</div>" 
-			],
-	"description": "Creates an expanded grid container with elements side by side"
-	},
-
-	"snippet-uk-grid-gutter-modifier": {
-	"prefix": "uk-grid-gutter-modifier",
-	"body": [ 	"<div class=\"uk-grid-${0:[small|medium|large|collapse]}\" uk-grid>",
-					"\t<div></div>",
-				"</div>" 
-			],
-	"description": "Modifies the spacing between grid items"
-	},
-
-	"snippet-uk-grid-nested-sample": {
-	"prefix": "uk-grid-nested-sample",
-	"body": [ 	"<div uk-grid>",
-					"\t<div>",
-						"\t\t<div uk-grid>",
-							"\t\t\t<div></div>",
-							"\t\t\t<div></div>",
-						"\t\t</div>",
-					"\t</div>",
-					"\t<div>",
-						"\t\t<div uk-grid>",
-							"\t\t\t<div></div>",
-							"\t\t\t<div></div>",
-						"\t\t</div>",
-					"\t</div>",
-				"</div>" 
-			],
-	"description": "Creates a sample nested grid"
-	},
-
-	"snippet-uk-grid-divided": {
-	"prefix": "uk-grid-divided",
-	"body": [ 	"<div class=\"uk-grid-divider\" uk-grid>",
-					"\t<div></div>",
-				"</div>" 
-			],
-	"description": "Seperates each grid cell with lines"
-	},
-
-	"snippet-uk-grid-match-height": {
-	"prefix": "uk-grid-match-height",
-	"body": [ 	"<div class=\"uk-grid-match\" uk-grid>",
-					"\t<div></div>",
-				"</div>" 
-			],
-	"description": "Matches the height of all grid cells"
-	},
-
-	"snippet-uk-grid-width": {
-	"prefix": "uk-grid-width",
-	"body": [ 	"<div uk-grid>",
-					"\t<div class=\"uk-width-${1:auto@m}\"></div>",
-					"\t<div class=\"uk-width-${2:1-3@m}\"></div>",
-					"\t<div class=\"uk-width-${3:expand@m}\"></div>",
-				"</div>" 
-			],
-	"description": "Manually determines the column widths"
-	},
-
-	"snippet-uk-grid-flex": {
-	"prefix": "uk-grid-flex",
-	"body": [ 	"<div class=\"uk-flex-center\" uk-grid>",
-					"\t<div></div>",
-					"\t<div class=\"uk-flex-first\"></div>",
-				"</div>" 
-			],
-	"description": "Combines a grid element with flex"
-	},
-
-	//Heading
-	"snippet-uk-heading-primary": {
-	"prefix": "uk-heading-primary",
-	"body": [ 	"<h1 class=\"uk-heading-primary\">$0</h1>" 
-			],
-	"description": "Creates an emphasized heading"
-	},
-
-	"snippet-uk-heading-divider": {
-	"prefix": "uk-heading-divider",
-	"body": [ 	"<h1 class=\"uk-heading-divider\">$0</h1>" 
-			],
-	"description": "Creates a heading with a divider underneath"
-	},
-
-	"snippet-uk-heading-bullet": {
-	"prefix": "uk-heading-bullet",
-	"body": [ 	"<h1 class=\"uk-heading-bullet\">$0</h1>" 
-			],
-	"description": "Creates a heading as part of a list"
-	},
-
-	"snippet-uk-heading-line": {
-	"prefix": "uk-heading-line",
-	"body": [ 	"<h1 class=\"uk-heading-line ${1:uk-text-center}\"><span>$0</span></h1>" 
-			],
-	"description": "Creates a heading with a vertically centered line"
-	},
-
-	//Icons
-	/* List of Icons Here: https://getuikit.com/docs/icon */
-	"snippet-uk-icon-span": {
-	"prefix": "uk-icon-span",
-	"body": [ 	"<span uk-icon=\"icon: ${1:check}\"></span>" 
-			],
-	"description": "Creates an icon within a span. (List of Icons Here: https://getuikit.com/docs/icon)"
-	},
-
-	"snippet-uk-icon-link": {
-	"prefix": "uk-icon-link",
-	"body": [ 	"<a href=\"\" uk-icon=\"icon: ${1:check}\"></a>" 
-			],
-	"description": "Creates an icon within a link. (List of Icons Here: https://getuikit.com/docs/icon)"
-	},
-
-	"snippet-uk-icon-ratio": {
-	"prefix": "uk-icon-ratio",
-	"body": [ 	"<span uk-icon=\"icon: ${1:check}; ratio: ${2:2}\"></span>"
-			],
-	"description": "Modifies the size of the icon by the ratio"
-	},
-
-	"snippet-uk-icon-link-modifier": {
-	"prefix": "uk-icon-link-modifier",
-	"body": [ 	"<a href=\"\" class=\"uk-icon-link\" uk-icon=\"icon: ${1:heart}\"></a>"
-			],
-	"description": "Resets the default link styling to a more muted color when using an icon inside an anchor"
-	},
-
-	"snippet-uk-icon-button-modifier": {
-	"prefix": "uk-icon-button-modifier",
-	"body": [ 	"<a href=\"\" class=\"uk-icon-button\" uk-icon=\"icon: ${1:heart}\"></a>"
-			],
-	"description": "Creates an icon button"
-	},
-
-	"snippet-uk-icon-image-modifier": {
-	"prefix": "uk-icon-image-modifier",
-	"body": [ 	"<span class=\"uk-icon uk-icon-image\" style=\"background-image: url($1);\"></span>"
-			],
-	"description": "Scales a background image to the size of an icon"
-	},
-
-	//IconNav
-	"snippet-uk-iconnav-horizontal": {
-	"prefix": "uk-iconnav-horizontal",
-	"body": [ 	"<ul class=\"uk-iconnav\">",
-					"\t<li><a href=\"$1\" uk-icon=\"icon: ${0:check}\"></a></li>",
-				"</ul>"
-			],
-	"description": "Creates a navigation consisting of icons"
-	},
-
-	"snippet-uk-iconnav-vertical": {
-	"prefix": "uk-iconnav-vertical",
-	"body": [ 	"<ul class=\"uk-iconnav uk-iconnav-vertical\">",
-					"\t<li><a href=\"$1\" uk-icon=\"icon: ${0:check}\"></a></li>",
-				"</ul>"
-			],
-	"description": "Creates a vertical navigation consisting of icons"
-	},
-
-	//Inverse
-	"snippet-uk-inverse-light": {
-	"prefix": "uk-inverse-light",
-	"body": [ 	"<div class=\"uk-light\">$0</div>"
-			],
-	"description": "Improves the visibility of objects on dark backgrounds in a light style"
-	},
-
-	"snippet-uk-inverse-dark": {
-	"prefix": "uk-inverse-dark",
-	"body": [ 	"<div class=\"uk-light\">$0</div> "
-			],
-	"description": "Improves the visibility of objects on light backgrounds in a dark style"
-	},
-
-	//Label
-	"snippet-uk-label-default": {
-	"prefix": "uk-label-default",
-	"body": [ 	"<span class=\"uk-label\"></span>"
-			],
-	"description": "Creates a label with a default style"
-	},
-
-	"snippet-uk-label-success": {
-	"prefix": "uk-label-success",
-	"body": [ 	"<span class=\"uk-label uk-label-success\"></span>"
-			],
-	"description": "Creates a label with a success style"
-	},
-
-	"snippet-uk-label-warning": {
-	"prefix": "uk-label-warning",
-	"body": [ 	"<span class=\"uk-label uk-label-warning\"></span>"
-			],
-	"description": "Creates a label with a warning style"
-	},
-
-	"snippet-uk-label-danger": {
-	"prefix": "uk-label-danger",
-	"body": [ 	"<span class=\"uk-label uk-label-danger\"></span>"
-			],
-	"description": "Creates a label with a danger style"
-	},
-
-	//Link
-	"snippet-uk-link-muted": {
-	"prefix": "uk-link-muted",
-	"body": [ 	"<a class=\"uk-link-muted\" href=\"$0\"></a>"
-			],
-	"description": "Creates a link with a muted style"
-	},
-
-	"snippet-uk-link-reset": {
-	"prefix": "uk-link-reset",
-	"body": [ 	"<a class=\"uk-link-muted\" href=\"$0\"></a>"
-			],
-	"description": "Creates a link that inherits its color from its parent"
-	},
-
-	//List
-	"snippet-uk-list-basic": {
-	"prefix": "uk-list-basic",
-	"body": [ 	"<ul class=\"uk-list\">",
-					"\t<li>$0</li>",
-					"\t<li></li>",
-					"\t<li></li>",
-				"</ul>"
-			],
-	"description": "Creates a basic unordered or ordered list"
-	},
-
-	"snippet-uk-list-bullet-modifier": {
-	"prefix": "uk-list-bullet-modifier",
-	"body": [ 	"<ul class=\"uk-list uk-list-bullet\">",
-					"\t<li>$0</li>",
-					"\t<li></li>",
-					"\t<li></li>",
-				"</ul>"
-			],
-	"description": "Creates a bulleted list"
-	},
-
-	"snippet-uk-list-divider-modifier": {
-	"prefix": "uk-list-divider-modifier",
-	"body": [ 	"<ul class=\"uk-list uk-list-divider\">",
-					"\t<li>$0</li>",
-					"\t<li></li>",
-					"\t<li></li>",
-				"</ul>"
-			],
-	"description": "Creates a divided list"
-	},
-
-	"snippet-uk-list-striped-modifier": {
-	"prefix": "uk-list-striped-modifier",
-	"body": [ 	"<ul class=\"uk-list uk-list-striped\">",
-					"\t<li>$0</li>",
-					"\t<li></li>",
-					"\t<li></li>",
-				"</ul>"
-			],
-	"description": "Creates a striped list"
-	},
-
-	"snippet-uk-list-large-modifier": {
-	"prefix": "uk-list-large-modifier",
-	"body": [ 	"<ul class=\"uk-list uk-list-large\">",
-					"\t<li>$0</li>",
-					"\t<li></li>",
-					"\t<li></li>",
-				"</ul>"
-			],
-	"description": "Creates a list with increased spacing between items. Can be combined with other list styles"
-	},
-
-	//Margin
-	"snippet-uk-margin": {
-	"prefix": "uk-margin",
-	"body": [ 	" class=\"uk-margin\" "
-			],
-	"description": "Adds top margin, if it is preceded by another element, and always bottom margin"
-	},
-
-	"snippet-uk-margin-position": {
-	"prefix": "uk-margin-position",
-	"body": [ 	" class=\"uk-margin-${0:[top|bottom|left|right]}\" " 
-			],
-	"description": "Adds the selected margin to that side"
-	},
-
-	"snippet-uk-margin-size": {
-	"prefix": "uk-margin-size",
-	"body": [ 	" class=\"uk-margin-${1:[small|medium|large|xlarge]}\"> "
-			],
-	"description": "Adds a margin of chosen size"
-	},
-
-	"snippet-uk-margin-size-position": {
-	"prefix": "uk-margin-size-position",
-	"body": [ 	" class=\"uk-margin-${1:[small|medium|large|xlarge]}-${2:[top|bottom|left|right]}\"> "
-			],
-	"description": "Adds a margin of chosen size to the chosen side"
-	},
-	
-	"snippet-uk-margin-remove": {
-	"prefix": "uk-margin-remove",
-	"body": [ 	" class=\"uk-margin-remove\"> "
-			],
-	"description": "Removes all margins"
-	},
-
-	"snippet-uk-margin-remove-position": {
-	"prefix": "uk-margin-remove-position",
-	"body": [ 	" class=\"uk-margin-remove-${1:[top|bottom|left|right|vertical|adjacent]}\"> "
-			],
-	"description": "Removes the margin the chosen side(s)"
-	},
-
-	"snippet-uk-margin-auto": {
-	"prefix": "uk-margin-auto",
-	"body": [ 	" class=\"uk-margin-auto\"> "
-			],
-	"description": "Sets left and right margins to auto, centering block and flex elements"
-	},
-
-	"snippet-uk-margin-auto-position": {
-	"prefix": "uk-margin-auto-position",
-	"body": [ 	" class=\"uk-margin-auto-${1:[left|right|vertical]}\"> "
-			],
-	"description": "Sets the selected margin to auto, pushing block and flex elements to the opposite end"
-	},
-	
-	"snippet-uk-margin-dynamic-sample": {
-	"prefix": "uk-margin-dynamic-sample",
-	"body": [ 	"<div uk-margin>",
-					"\t<button></button>",
-					"\t<button></button>",
-				"</div>"
-			],
-	"description": "Automatically adds spacing to stacking elements with the uk-margin attribute"
-	}
+    "snippet-uk-$": {
+        "prefix": "uk-$",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"${1:en}\">",
+            "\t<head>",
+            "\t\t<title>$2</title>",
+            "\t\t<meta charset=\"UTF-8\">",
+            "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.12/css/uikit.min.css\" />",
+            "\t\t<link href=\"${3:css/style.css}\" rel=\"stylesheet\">",
+            "\t</head>",
+            "\t<body>",
+            "\t\t$0",
+            "\t\t<script src=\"https://code.jquery.com/jquery-3.1.1.min.js\" \r\t\t\t\tintegrity=\"sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.12/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-VCIJPhkkw2bgiVF+B2dILLnsD85hoZ7SggOYVRUr0ec=\" crossorigin=\"anonymous\"></script>",
+            "\t</body>",
+            "</html>"
+        ],
+        "description": "Creates a basic UIKit template"
+    },
+    "snippet-uk-accordion-default": {
+        "prefix": "uk-accordion-default",
+        "body": [
+            "<ul uk-accordion>",
+            "\t<li>",
+            "\t\t<h3 class=\"uk-accordion-title\">$1</h3>",
+            "\t\t<div class=\"uk-accordion-content\">$0</div>",
+            "\t</li>",
+            "</ul>"
+        ],
+        "description": "Creates a default UIKit Accordion"
+    },
+    "snippet-uk-accordion-no-collapse": {
+        "prefix": "uk-accordion-no-collapse",
+        "body": [
+            "<ul uk-accordion=\"collapsible: false\">",
+            "\t<li>",
+            "\t\t<h3 class=\"uk-accordion-title\">$1</h3>",
+            "\t\t<div class=\"uk-accordion-content\">$0</div>",
+            "\t</li>",
+            "</ul>"
+        ],
+        "description": "Accordion that always keeps one item open"
+    },
+    "snippet-uk-accordion-multiple-open": {
+        "prefix": "uk-accordion-multiple-open",
+        "body": [
+            "<ul uk-accordion=\"collapsible: false\">",
+            "\t<li>",
+            "\t\t<h3 class=\"uk-accordion-title\">$1</h3>",
+            "\t\t<div class=\"uk-accordion-content\">$0</div>",
+            "\t</li>",
+            "</ul>"
+        ],
+        "description": "Accordion that allows multiple items to be opened at once"
+    },
+    "snippet-uk-accordion-open-index": {
+        "prefix": "uk-accordion-open-index",
+        "body": [
+            "<ul uk-accordion=\"active: ${1:0}\">",
+            "\t<li>",
+            "\t\t<h3 class=\"uk-accordion-title\">$2</h3>",
+            "\t\t<div class=\"uk-accordion-content\">$0</div>",
+            "\t</li>",
+            "</ul>"
+        ],
+        "description": "Accordion that opens an item by default"
+    },
+    "snippet-uk-alert-default": {
+        "prefix": "uk-alert-default",
+        "body": [
+            "<div uk-alert></div>"
+        ],
+        "description": "A default alert applied to a div"
+    },
+    "snippet-uk-alert-close": {
+        "prefix": "uk-alert-close",
+        "body": [
+            "<div uk-alert>",
+            "\t<a class=\"uk-alert-close\" uk-close></a>",
+            "</div>"
+        ],
+        "description": "An alert with a close button"
+    },
+    "snippet-uk-alert-primary": {
+        "prefix": "uk-alert-primary",
+        "body": [
+            "<div class=\"uk-alert-primary\" uk-alert>",
+            "\t<a class=\"uk-alert-close\" uk-close></a>",
+            "\t<p>$0</p>",
+            "</div>"
+        ],
+        "description": "An alert with a primary style applied"
+    },
+    "snippet-uk-alert-success": {
+        "prefix": "uk-alert-success",
+        "body": [
+            "<div class=\"uk-alert-success\" uk-alert>",
+            "\t<a class=\"uk-alert-close\" uk-close></a>",
+            "\t<p>$0</p>",
+            "</div>"
+        ],
+        "description": "An alert with a success style applied"
+    },
+    "snippet-uk-alert-warning": {
+        "prefix": "uk-alert-warning",
+        "body": [
+            "<div class=\"uk-alert-warning\" uk-alert>",
+            "\t<a class=\"uk-alert-close\" uk-close></a>",
+            "\t<p>$0</p>",
+            "</div>"
+        ],
+        "description": "An alert with a warning style applied"
+    },
+    "snippet-uk-alert-danger": {
+        "prefix": "uk-alert-danger",
+        "body": [
+            "<div class=\"uk-alert-danger\" uk-alert>",
+            "\t<a class=\"uk-alert-close\" uk-close></a>",
+            "\t<p>$0</p>",
+            "</div>"
+        ],
+        "description": "An alert with a danger style applied"
+    },
+    "snippet-uk-align-default": {
+        "prefix": "uk-align-default",
+        "body": [
+            " class=\"uk-align-${0:left}\" "
+        ],
+        "description": "Floats the element to a selected position"
+    },
+    "snippet-uk-align-left": {
+        "prefix": "uk-align-left",
+        "body": [
+            " class=\"uk-align-left\" "
+        ],
+        "description": "Floats the element to the left"
+    },
+    "snippet-uk-align-center": {
+        "prefix": "uk-align-center",
+        "body": [
+            " class=\"uk-align-center\" "
+        ],
+        "description": "Floats the element to the center"
+    },
+    "snippet-uk-align-right": {
+        "prefix": "uk-align-right",
+        "body": [
+            " class=\"uk-align-right\" "
+        ],
+        "description": "Floats the element to the right"
+    },
+    "snippet-uk-align-responsive": {
+        "prefix": "uk-align-responsive",
+        "body": [
+            " class=\"uk-align-${1:left}@${0:s}\" "
+        ],
+        "description": "Floats the element on specific widths"
+    },
+    "snippet-uk-animation-fade": {
+        "prefix": "uk-animation-fade",
+        "body": [
+            " class=\"uk-animation-fade\" "
+        ],
+        "description": "The element fades in"
+    },
+    "snippet-uk-animation-scale-up": {
+        "prefix": "uk-animation-scale-up",
+        "body": [
+            " class=\"uk-animation-scale-up\" "
+        ],
+        "description": "The element fades in and scales up"
+    },
+    "snippet-uk-animation-scale-down": {
+        "prefix": "uk-animation-scale-down",
+        "body": [
+            " class=\"uk-animation-scale-down\" "
+        ],
+        "description": "The element fades in and scales down"
+    },
+    "snippet-uk-animation-slide-top": {
+        "prefix": "uk-animation-slide-top",
+        "body": [
+            " class=\"uk-animation-slide-top\" "
+        ],
+        "description": "The element fades in and slides in from the top"
+    },
+    "snippet-uk-animation-slide-bottom": {
+        "prefix": "uk-animation-slide-bottom",
+        "body": [
+            " class=\"uk-animation-slide-bottom\" "
+        ],
+        "description": "The element fades in and slides in from the bottom"
+    },
+    "snippet-uk-animation-slide-left": {
+        "prefix": "uk-animation-slide-left",
+        "body": [
+            " class=\"uk-animation-slide-left\" "
+        ],
+        "description": "The element fades in and slides in from the left"
+    },
+    "snippet-uk-animation-slide-right": {
+        "prefix": "uk-animation-slide-right",
+        "body": [
+            " class=\"uk-animation-slide-right\" "
+        ],
+        "description": "The element fades in and slides in from the right"
+    },
+    "snippet-uk-animation-slide-custom": {
+        "prefix": "uk-animation-slide-custom",
+        "body": [
+            " class=\"uk-animation-slide-${1:direction}-${0:[small|medium]}\" "
+        ],
+        "description": "The element slides in with a specific distance"
+    },
+    "snippet-uk-animation-kenburns": {
+        "prefix": "uk-animation-kenburns",
+        "body": [
+            " class=\"uk-animation-kenburns\" "
+        ],
+        "description": "The element scales slowly up without fading in"
+    },
+    "snippet-uk-animation-shake": {
+        "prefix": "uk-animation-shake",
+        "body": [
+            " class=\"uk-animation-shake\" "
+        ],
+        "description": "The element shakes"
+    },
+    "snippet-uk-animation-reverse": {
+        "prefix": "uk-animation-reverse",
+        "body": [
+            " class=\"${1:uk-animation-fade} uk-animation-reverse\" "
+        ],
+        "description": "The element's animation plays in reverse"
+    },
+    "snippet-uk-animation-fast": {
+        "prefix": "uk-animation-fast",
+        "body": [
+            " class=\"${1:uk-animation-fade} uk-animation-fast\" "
+        ],
+        "description": "The element's animation plays at a faster speed"
+    },
+    "snippet-uk-animation-transform-origin": {
+        "prefix": "uk-animation-transform-origin",
+        "body": [
+            " class=\"${1:uk-animation-scale-up} uk-animation-transform-origin-${2:[top|center|bottom]}-${3:[left|center|right]}\" "
+        ],
+        "description": "The element scales in from a different direction"
+    },
+    "snippet-uk-article-basic": {
+        "prefix": "uk-article-basic",
+        "body": [
+            "<article class=\"uk-article\">",
+            "\t<h1 class=\"uk-article-title\">$1</h1>",
+            "\t<p class=\"uk-article-meta\">$0</p>",
+            "</article>"
+        ],
+        "description": "A basic article layout"
+    },
+    "snippet-uk-article-sample": {
+        "prefix": "uk-article-sample",
+        "body": [
+            "<article class=\"uk-article\">",
+            "\t<h1 class=\"uk-article-title\"><a class=\"uk-link-reset\" href=\"\">${1:Heading}</a></h1>",
+            "\t<p class=\"uk-article-meta\">${2:Written by <a href=\"#\">Super User</a> on 12 April 2012. Posted in <a href=\"#\">Blog</a>}</p>",
+            "\t<p class=\"uk-text-lead\">${3:Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.}</p>",
+            "\t<p>${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}</p>",
+            "\t<div class=\"uk-grid-small uk-child-width-auto\" uk-grid>",
+            "\t\t<div>",
+            "\t\t\t<a class=\"uk-button uk-button-text\" href=\"#\">${5:Read more}</a>",
+            "\t\t</div>",
+            "\t\t<div>",
+            "\t\t\t<a class=\"uk-button uk-button-text\" href=\"#\">${6:5 Comments}</a>",
+            "\t\t</div>",
+            "\t</div>",
+            "</article>"
+        ],
+        "description": "A complete sample article with placeholders"
+    },
+    "snippet-uk-background-default": {
+        "prefix": "uk-background-default",
+        "body": [
+            "class=\"uk-background\" "
+        ],
+        "description": "Applies the default background color"
+    },
+    "snippet-uk-background-muted": {
+        "prefix": "uk-background-muted",
+        "body": [
+            "class=\"uk-background-muted\" "
+        ],
+        "description": "Applies a muted background color"
+    },
+    "snippet-uk-background-primary": {
+        "prefix": "uk-background-primary",
+        "body": [
+            "class=\"uk-background-primary\" "
+        ],
+        "description": "Applies the primary background color"
+    },
+    "snippet-uk-background-secondary": {
+        "prefix": "uk-background-secondary",
+        "body": [
+            "class=\"uk-background-secondary\" "
+        ],
+        "description": "Applies the secondary background color"
+    },
+    "snippet-uk-background-cover": {
+        "prefix": "uk-background-cover",
+        "body": [
+            "class=\"uk-background-cover\" "
+        ],
+        "description": "Scales the background image to cover the containing area"
+    },
+    "snippet-uk-background-contain": {
+        "prefix": "uk-background-contain",
+        "body": [
+            "class=\"uk-background-contain\" "
+        ],
+        "description": "Scales the background image to fit within the containing area"
+    },
+    "snippet-uk-background-position": {
+        "prefix": "uk-background-position",
+        "body": [
+            "class=\"uk-background-${1:[top|center|bottom]}-{2:[left|center|right]}\" "
+        ],
+        "description": "Alters the initial position of the background iamge"
+    },
+    "snippet-uk-background-norepeat": {
+        "prefix": "uk-background-norepeat",
+        "body": [
+            "class=\"uk-background-norepeat\" "
+        ],
+        "description": "Prevents the background image from being repeated"
+    },
+    "snippet-uk-background-fixed": {
+        "prefix": "uk-background-fixed",
+        "body": [
+            "class=\"uk-background-fixed\" "
+        ],
+        "description": "Locks the image in place while scrolling"
+    },
+    "snippet-uk-background-image-responsive": {
+        "prefix": "uk-background-image-responsive",
+        "body": [
+            "class=\"uk-background-image@${0:[s|m|l|xl]}\" "
+        ],
+        "description": "Shows the background image on widths of chosen size upwards"
+    },
+    "snippet-uk-background-blend": {
+        "prefix": "uk-background-blend",
+        "body": [
+            "class=\"uk-background-blend-${1:[multiply|screen|overlay|darken|lighten|color-dodge|color-burn|hard-light|soft-light|difference|exclusion|hue|saturation|color|luminosity]} ${0:uk-background}\" "
+        ],
+        "description": "Applies a chosen blend mode to the background image"
+    },
+    "snippet-uk-badge-span": {
+        "prefix": "uk-badge-span",
+        "body": [
+            "<span class=\"uk-badge\"></span>"
+        ],
+        "description": "Creates a simple notification badge span"
+    },
+    "snippet-uk-badge-link": {
+        "prefix": "uk-badge-link",
+        "body": [
+            "<a href=\"\" class=\"uk-badge\"></a>"
+        ],
+        "description": "Creates a simple notification badge link"
+    },
+    "snippet-uk-breadcrumb": {
+        "prefix": "uk-breadcrumb",
+        "body": [
+            "<ul class=\"uk-breadcrumb\">",
+            "\t<li><a href=\"\"></a></li>",
+            "\t<li><a href=\"\"></a></li>",
+            "\t<li><span href=\"\"></span></li>",
+            "</ul>"
+        ],
+        "description": "Creates a default breadcrumb list"
+    },
+    "snippet-uk-button-default": {
+        "prefix": "uk-button-default",
+        "body": [
+            "<${1:button} class=\"uk-button uk-button-default\"></${2:button}>"
+        ],
+        "description": "Creates a button with a default style"
+    },
+    "snippet-uk-button-primary": {
+        "prefix": "uk-button-primary",
+        "body": [
+            "<${1:button} class=\"uk-button uk-button-primary\"></${2:button}>"
+        ],
+        "description": "Creates a button with a primary style"
+    },
+    "snippet-uk-button-secondary": {
+        "prefix": "uk-button-secondary",
+        "body": [
+            "<${1:button} class=\"uk-button uk-button-secondary\"></${2:button}>"
+        ],
+        "description": "Creates a button with a secondary style"
+    },
+    "snippet-uk-button-danger": {
+        "prefix": "uk-button-danger",
+        "body": [
+            "<${1:button} class=\"uk-button uk-button-danger\"></${2:button}>"
+        ],
+        "description": "Creates a button with a danger style"
+    },
+    "snippet-uk-button-text": {
+        "prefix": "uk-button-text",
+        "body": [
+            "<${1:button} class=\"uk-button uk-button-text\"></${2:button}>"
+        ],
+        "description": "Creates a button with a alternative, typographic style"
+    },
+    "snippet-uk-button-link": {
+        "prefix": "uk-button-link",
+        "body": [
+            "<${1:button} class=\"uk-button uk-button-link\"></${2:button}>"
+        ],
+        "description": "Creates a button that looks like a link"
+    },
+    "snippet-uk-button-disabled": {
+        "prefix": "uk-button-disabled",
+        "body": [
+            "<button class=\"uk-button uk-button-default disabled\"></button>"
+        ],
+        "description": "Creates a disabled button"
+    },
+    "snippet-uk-button-small": {
+        "prefix": "uk-button-small",
+        "body": [
+            "<${1:button} class=\"uk-button uk-button-${2:default} uk-button-small\"></{0:button}>"
+        ],
+        "description": "Creates a small button"
+    },
+    "snippet-uk-button-large": {
+        "prefix": "uk-button-large",
+        "body": [
+            "<${1:button} class=\"uk-button uk-button-${2:default} uk-button-large\"></{0:button}>"
+        ],
+        "description": "Creates a large button"
+    },
+    "snippet-uk-button-full-width": {
+        "prefix": "uk-button-full-width",
+        "body": [
+            "<button class=\"uk-button uk-button-${0:default} uk-width-1-1\"></button>"
+        ],
+        "description": "Creates a button that takes up the full width of its container"
+    },
+    "snippet-uk-button-dropdown": {
+        "prefix": "uk-button-dropdown",
+        "body": [
+            "<!-- A button toggling a dropdown -->",
+            "<button class=\"uk-button uk-button-default\" type=\"button\">$1</button>",
+            "<div uk-dropdown>$0</div>"
+        ],
+        "description": "Creates a button that toggles a dropdown menu"
+    },
+    "snippet-uk-button-group": {
+        "prefix": "uk-button-group",
+        "body": [
+            "<div class=\"uk-button-group\">",
+            "\t<button class=\"uk-button uk-button-${1:default}\"></button>",
+            "\t<button class=\"uk-button uk-button-${2:default}\"></button>",
+            "\t<button class=\"uk-button uk-button-${0:default}\"></button>",
+            "</div>"
+        ],
+        "description": "Creates a group of buttons"
+    },
+    "snippet-uk-button-group-dropdown": {
+        "prefix": "uk-button-group-dropdown",
+        "body": [
+            "<!-- A button group with a dropdown -->",
+            "<div class=\"uk-button-group\">",
+            "\t<button class=\"uk-button uk-button-default\">$0</button>",
+            "\t<div class=\"uk-inline\">",
+            "\t\t<!-- The button toggling the dropdown -->",
+            "\t\t<button class=\"uk-button uk-button-default\" type=\"button\"></button>",
+            "\t\t<div uk-dropdown=\"mode: click; boundary: ! .uk-button-group; boundary-align: true;\"></div>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates a button group with a dropdown toggle on the right"
+    },
+    "snippet-uk-card-default": {
+        "prefix": "uk-card-default",
+        "body": [
+            "<div class=\"uk-card uk-card-default uk-card-body\">",
+            "\t<h3 class=\"uk-card-title\">$0</h3>",
+            "</div>"
+        ],
+        "description": "Creates a card with a default style"
+    },
+    "snippet-uk-card-primary": {
+        "prefix": "uk-card-primary",
+        "body": [
+            "<div class=\"uk-card uk-card-primary uk-card-body\">",
+            "\t<h3 class=\"uk-card-title\">$0</h3>",
+            "</div>"
+        ],
+        "description": "Creates a card with a primary style"
+    },
+    "snippet-uk-card-secondary": {
+        "prefix": "uk-card-secondary",
+        "body": [
+            "<div class=\"uk-card uk-card-secondary uk-card-body\">",
+            "\t<h3 class=\"uk-card-title\">$0</h3>",
+            "</div>"
+        ],
+        "description": "Creates a card with a secondary style"
+    },
+    "snippet-uk-card-hover": {
+        "prefix": "uk-card-hover",
+        "body": [
+            "<div class=\"uk-card uk-card-hover ${1:uk-card-${2:default}} uk-card-body\">",
+            "\t<h3 class=\"uk-card-title\">$0</h3>",
+            "</div>"
+        ],
+        "description": "Creates a card with a hover effect"
+    },
+    "snippet-uk-card-small": {
+        "prefix": "uk-card-small",
+        "body": [
+            "<div class=\"uk-card uk-card-small ${1:uk-card-${2:default}} uk-card-body\">",
+            "\t<h3 class=\"uk-card-title\">$0</h3>",
+            "</div>"
+        ],
+        "description": "Creates a card with reduced padding"
+    },
+    "snippet-uk-card-large": {
+        "prefix": "uk-card-large",
+        "body": [
+            "<div class=\"uk-card uk-card-large ${1:uk-card-${2:default}} uk-card-body\">",
+            "\t<h3 class=\"uk-card-title\">$0</h3>",
+            "</div>"
+        ],
+        "description": "Creates a card with increased padding"
+    },
+    "snippet-uk-card-header-footer": {
+        "prefix": "uk-card-header-footer",
+        "body": [
+            "<div class=\"uk-card\" ${1:uk-card-${2:default}}>",
+            "\t<div class=\"uk-card-header\">",
+            "\t\t<h3 class=\"uk-card-title\">$3</h3>",
+            "\t</div>",
+            "\t<div class=\"uk-card-body\">$4</div>",
+            "\t<div class=\"uk-card-footer\">$0</div>",
+            "</div>"
+        ],
+        "description": "Creates a card divided into three sections"
+    },
+    "snippet-uk-card-media": {
+        "prefix": "uk-card-media",
+        "body": [
+            "<div class=\"uk-card uk-card-default\">",
+            "\t<div class=\"uk-card-media-${1:[top|bottom|left|right]}\">",
+            "\t\t<img src=\"$2\" alt=\"$3\">",
+            "\t</div>",
+            "\t<div class=\"uk-card-body\"></div>",
+            "</div>"
+        ],
+        "description": "Displays an image inside a card without any spacing"
+    },
+    "snippet-uk-card-horizontal": {
+        "prefix": "uk-card-horizontal",
+        "body": [
+            "<div class=\"uk-card uk-card-default uk-child-width-1-2\" uk-grid>",
+            "\t<div class=\"uk-card-media-${1:[left|right]} uk-cover-container\">",
+            "\t\t<img src=\"\" alt=\"\" uk-cover>",
+            "\t\t<canvas width=\"\" height=\"\">$2</canvas>",
+            "\t</div>",
+            "\t<div>",
+            "\t\t<div class=\"uk-card-body\">$3</div>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates a card with a horizontal layout (Ideal for media-left & media-right)"
+    },
+    "snippet-uk-card-badge": {
+        "prefix": "uk-card-badge",
+        "body": [
+            "<div class=\"uk-card uk-card-body\">",
+            "\t<div class=\"uk-card-badge uk-label\">${1:Label}</div>",
+            "\t<h3 class=\"uk-card-title\">${0:Title}</h3>",
+            "</div>"
+        ],
+        "description": "Creates a card with a styled badge inside"
+    },
+    "snippet-uk-close": {
+        "prefix": "uk-close",
+        "body": [
+            "<${1:button} type=\"button\" uk-close></${2:button}>"
+        ],
+        "description": "Creates a close icon"
+    },
+    "snippet-uk-close-large": {
+        "prefix": "uk-close-large",
+        "body": [
+            "<${1:button} class=\"uk-close-large\" type=\"button\" uk-close></${2:button}>"
+        ],
+        "description": "Creates a larger close icon"
+    },
+    "snippet-uk-column": {
+        "prefix": "uk-column",
+        "body": [
+            " class=\"uk-column-1-${0:[2|3|4|5|6]\" "
+        ],
+        "description": "Displays the inline content in multiple columns"
+    },
+    "snippet-uk-column-responsive": {
+        "prefix": "uk-column-responsive",
+        "body": [
+            " class=\"uk-column-1-${1:[2|3|4|5|6]@${0:[s|m|l|xl]}\" "
+        ],
+        "description": "Displays the inline content in multiple columns on specific width breakpoints"
+    },
+    "snippet-uk-column-divider": {
+        "prefix": "uk-column-divider",
+        "body": [
+            " class=\"uk-column-1-${0:[2|3|4|5|6] uk-column-divider\" "
+        ],
+        "description": "Displays the inline content in multiple columns seperated by dividers"
+    },
+    "snippet-uk-column-span": {
+        "prefix": "uk-column-span",
+        "body": [
+            "<div class=\"uk-column-1-${1:[2|3|4|5|6]\">",
+            "\t...",
+            "\t<p class=\"uk-column-span\">$0</p>",
+            "\t...",
+            "</div>"
+        ],
+        "description": "Creates a column with an inline element that spans each column"
+    },
+    "snippet-uk-comment-default": {
+        "prefix": "uk-comment-default",
+        "body": [
+            "<article class=\"uk-comment\">",
+            "\t<header class=\"uk-comment-header\">",
+            "\t\t<img class=\"uk-comment-avatar\" src=\"$1\" alt=\"\">",
+            "\t\t<h4 class=\"uk-comment-title\">$2</h4>",
+            "\t\t<ul class=\"uk-comment-meta uk-subnav\">$3</ul>",
+            "\t</header>",
+            "<div class=\"uk-comment-body\">$0</div>",
+            "</article>"
+        ],
+        "description": "Creates a standard comment layout"
+    },
+    "snippet-uk-comment-primary": {
+        "prefix": "uk-comment-primary",
+        "body": [
+            "<article class=\"uk-comment uk-comment-primary\">",
+            "\t<header class=\"uk-comment-header\">",
+            "\t\t<img class=\"uk-comment-avatar\" src=\"$1\" alt=\"\">",
+            "\t\t<h4 class=\"uk-comment-title\">$2</h4>",
+            "\t\t<ul class=\"uk-comment-meta uk-subnav\">$3</ul>",
+            "\t</header>",
+            "<div class=\"uk-comment-body\">$0</div>",
+            "</article>"
+        ],
+        "description": "Creates a highlighted comment with a standard layout"
+    },
+    "snippet-uk-comment-list": {
+        "prefix": "uk-comment-list",
+        "body": [
+            "<ul class=\"uk-comment-list\">",
+            "\t<li>",
+            "\t\t<article class=\"uk-comment\">$1</article>",
+            "\t\t<ul>",
+            "\t\t\t<li>",
+            "\t\t\t\t<article class=\"uk-comment\">$2</article>",
+            "\t\t\t</li>",
+            "\t\t</ul>",
+            "/t</li>",
+            "</ul>"
+        ],
+        "description": "Creates a nestable list of comments"
+    },
+    "snippet-uk-container": {
+        "prefix": "uk-container",
+        "body": [
+            "<div class=\"uk-container\">$0</div>"
+        ],
+        "description": "Creates a centered container"
+    },
+    "snippet-uk-container-small": {
+        "prefix": "uk-container-small",
+        "body": [
+            "<div class=\"uk-container uk-container-small\">$0</div>"
+        ],
+        "description": "Creates a narrower, centered container"
+    },
+    "snippet-uk-container-large": {
+        "prefix": "uk-container-large",
+        "body": [
+            "<div class=\"uk-container uk-container-large\">$0</div>"
+        ],
+        "description": "Creates a wider, centered container"
+    },
+    "snippet-uk-container-expand": {
+        "prefix": "uk-container-expand",
+        "body": [
+            "<div class=\"uk-container uk-container-expand\">$0</div>"
+        ],
+        "description": "Creates a max-width container"
+    },
+    "snippet-uk-cover-container": {
+        "prefix": "uk-cover-container",
+        "body": [
+            "<div class=\"uk-cover-container\">",
+            "\t<img src=\"$1\" alt=\"$0\" uk-cover>",
+            "</div>"
+        ],
+        "description": "Creates an image that covers its parent element"
+    },
+    "snippet-uk-cover-container-video": {
+        "prefix": "uk-cover-container-video",
+        "body": [
+            "<div class=\"uk-cover-container\">",
+            "\t<video uk-cover>$0</video>",
+            "</div>"
+        ],
+        "description": "Creates a video that covers its parent element"
+    },
+    "snippet-uk-cover-container-iframe": {
+        "prefix": "uk-cover-container-iframe",
+        "body": [
+            "<div class=\"uk-cover-container\">",
+            "\t<iframe src=\"$1\" uk-cover>$0</iframe>",
+            "</div>"
+        ],
+        "description": "Creates an iframe that covers its parent element"
+    },
+    "snippet-uk-cover-container-responsive": {
+        "prefix": "uk-cover-container-responsive",
+        "body": [
+            "<div class=\"uk-cover-container\">",
+            "\t<canvas width=\"$1\" height=\"$2\"></canvas>",
+            "\t<${3:video} uk-cover>$0</${4:video}>",
+            "</div>"
+        ],
+        "description": "Creates an element that scales responsively with its parent"
+    },
+    "snippet-uk-description-list": {
+        "prefix": "uk-cover-description-list",
+        "body": [
+            "<dl class=\"uk-description-list\">",
+            "\t<dt></dt>",
+            "\t<dd></dd>",
+            "</dl>"
+        ],
+        "description": "Creates a list to display terms and descriptions below each other"
+    },
+    "snippet-uk-description-list-divider": {
+        "prefix": "uk-cover-description-list",
+        "body": [
+            "<dl class=\"uk-description-list uk-description-list-divider\">",
+            "\t<dt></dt>",
+            "\t<dd></dd>",
+            "</dl>"
+        ],
+        "description": "Creates a divided description list"
+    },
+    "snippet-uk-disabled": {
+        "prefix": "uk-disabled",
+        "body": [
+            " class=\"uk-disabled\" "
+        ],
+        "description": "Disables an item within a list"
+    },
+    "snippet-uk-divider-icon": {
+        "prefix": "uk-divider-icon",
+        "body": [
+            "<hr class=\"uk-divider-icon\">"
+        ],
+        "description": "Creates a divider with a decoration"
+    },
+    "snippet-uk-divider-small": {
+        "prefix": "uk-divider-small",
+        "body": [
+            "<hr class=\"uk-divider-small\">"
+        ],
+        "description": "Creates a smaller divider"
+    },
+    "snippet-uk-dotnav": {
+        "prefix": "uk-dotnav",
+        "body": [
+            "<ul class=\"uk-dotnav\">",
+            "\t<li class=\"uk-active\"><a href=\"\"></a></li>",
+            "\t<li><a href=\"\"></a></li>",
+            "</ul>"
+        ],
+        "description": "Creates a navigation list with dots"
+    },
+    "snippet-uk-dotnav-vertical": {
+        "prefix": "uk-dotnav-vertical",
+        "body": [
+            "<ul class=\"uk-dotnav uk-dotnav-vertical\">",
+            "\t<li class=\"uk-active\"><a href=\"\"></a></li>",
+            "\t<li><a href=\"\"></a></li>",
+            "</ul>"
+        ],
+        "description": "Creates a vertical navigation list with dots"
+    },
+    "snippet-uk-dotnav-centered-viewport": {
+        "prefix": "uk-dotnav-centered-viewport",
+        "body": [
+            "<div class=\"uk-position-center-right uk-position-medium uk-position-fixed\">",
+            "\t<ul class=\"uk-dotnav uk-dotnav-vertical\">$0</ul>",
+            "</div>"
+        ],
+        "description": "Creates a dotnav centered vertically and aligned right"
+    },
+    "snippet-uk-drop-basic": {
+        "prefix": "uk-drop-basic",
+        "body": [
+            "<button type=\"button\"></button>",
+            "<div uk-drop></div>"
+        ],
+        "description": "Creates a basic drop element"
+    },
+    "snippet-uk-drop-example": {
+        "prefix": "uk-drop-example",
+        "body": [
+            "<div class=\"uk-inline\">",
+            "\t<button class=\"uk-button uk-button-default\" type=\"button\">Hover</button>",
+            "\t<div uk-drop>",
+            "\t\t<div class=\"uk-card uk-card-body uk-card-default\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>",
+            "\t</div>",
+            "</div>",
+            "<div class=\"uk-inline\">",
+            "\t<button class=\"uk-button uk-button-default\" type=\"button\">Click</button>",
+            "\t<div uk-drop=\"mode: click\">",
+            "\t\t<div class=\"uk-card uk-card-body uk-card-default\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates two example drops with different modes"
+    },
+    "snippet-uk-drop-grid": {
+        "prefix": "uk-drop-grid",
+        "body": [
+            "<div class=\"uk-width-large\" uk-drop>",
+            "\t<div class=\"uk-drop-grid uk-child-width-1-2@m\" uk-grid>$0</div>",
+            "</div>"
+        ],
+        "description": "Creates a drop with a grid inside"
+    },
+    "snippet-uk-drop-position": {
+        "prefix": "uk-drop-position",
+        "body": [
+            "<div uk-drop=\"pos: ${1:[bottom|top|left|right]}-${2:[left|center|right|justify|top|bottom]}\">$0</div>"
+        ],
+        "description": "Creates a drop with its alignment adjusted"
+    },
+    "snippet-uk-drop-boundary": {
+        "prefix": "uk-drop-boundary",
+        "body": [
+            "<div class=\"${1:my-class}\">",
+            "\t<button type=\"button\"></button>",
+            "\t<div uk-drop=\"boundary: .${0:my-class}\"></div>",
+            "</div>"
+        ],
+        "description": "Creates a drop with a predetermined element as its boundary"
+    },
+    "snippet-uk-drop-boundary-aligned": {
+        "prefix": "uk-drop-boundary-aligned",
+        "body": [
+            "<div class=\"${1:my-class}\">",
+            "\t<button type=\"button\"></button>",
+            "\t<div uk-drop=\"boundary: .${0:my-class}; boundary-align: true\"></div>",
+            "</div>"
+        ],
+        "description": "Creates a drop aligned to its boundary"
+    },
+    "snippet-uk-drop-offset": {
+        "prefix": "uk-drop-offset",
+        "body": [
+            "<div uk-drop=\"offset: ${1:80}\">$0</div>"
+        ],
+        "description": "Creates a drop with an offset"
+    },
+    "snippet-uk-drop-animated": {
+        "prefix": "uk-drop-animated",
+        "body": [
+            "<div uk-drop=\"animation: ${1:uk-animation-slide-top-small}; duration: ${2:1000}\">$0</div>"
+        ],
+        "description": "Creates a drop with an offset"
+    },
+    "snippet-uk-dropdown-basic": {
+        "prefix": "uk-dropdown-basic",
+        "body": [
+            "<button type=\"button\">$1</button>",
+            "<div uk-dropdown>$0</div>"
+        ],
+        "description": "Creates a basic dropdown underneath a button toggle"
+    },
+    "snippet-uk-dropdown-basic-inline": {
+        "prefix": "uk-dropdown-basic-inline",
+        "body": [
+            "<div class=\"uk-inline\">",
+            "\t<button type=\"button\">$1</button>",
+            "\t<div uk-dropdown=\"mode: click\">$0</div>",
+            "</div>"
+        ],
+        "description": "Creates a basic dropdown grouped with its toggle"
+    },
+    "snippet-uk-dropdown-nav": {
+        "prefix": "uk-dropdown-nav",
+        "body": [
+            "<button type=\"button\">$1</button>",
+            "<div uk-dropdown>",
+            "\t<ul class=\"uk-nav uk-dropdown-nav\">${0:<li>$2</li>}</ul>",
+            "</div>"
+        ],
+        "description": "Creates a dropdown containing a nav element"
+    },
+    "snippet-uk-dropdown-grid": {
+        "prefix": "uk-dropdown-grid",
+        "body": [
+            "<div class=\"uk-width-large\" uk-dropdown>",
+            "\t<div class=\"uk-dropdown-grid uk-child-width-1-2@m\" uk-grid>$0</div>",
+            "</div>"
+        ],
+        "description": "Creates a dropdown containing a grid"
+    },
+    "snippet-uk-dropdown-position": {
+        "prefix": "uk-dropdown-position",
+        "body": [
+            "<div uk-dropdown=\"pos: ${1:[top|bottom|left|right]}-${2:[left|center|right|justify|top|bottom]}\">$0</div>"
+        ],
+        "description": "Creates a dropdown with its alignment adjusted"
+    },
+    "snippet-uk-dropdown-boundary": {
+        "prefix": "uk-dropdown-boundary",
+        "body": [
+            "<div class=\"${1:my-class}\">",
+            "\t<button type=\"button\">$3</button>",
+            "\t<div uk-dropdown=\"boundary: .${2:my-class}\">$0</div>",
+            "</div>"
+        ],
+        "description": "Determines a parent element as the dropdown's boundary"
+    },
+    "snippet-uk-dropdown-boundary-aligned": {
+        "prefix": "uk-dropdown-boundary-aligned",
+        "body": [
+            "<div class=\"${1:my-class}\">",
+            "\t<button type=\"button\">$3</button>",
+            "\t<div uk-dropdown=\"boundary: .${2:my-class}; boundary-align: true\">$0</div>",
+            "</div>"
+        ],
+        "description": "Aligns the dropdown to the parent's boundary"
+    },
+    "snippet-uk-dropdown-offset": {
+        "prefix": "uk-dropdown-offset",
+        "body": [
+            "<div uk-dropdown=\"offset: ${1:80}\">$0</div>"
+        ],
+        "description": "Defines a custom offset for the dropdown"
+    },
+    "snippet-uk-dropdown-animated": {
+        "prefix": "uk-dropdown-animated",
+        "body": [
+            "<div uk-dropdown=\"animation: ${1:uk-animation-slide-top-small}; duration: ${2:1000}\">$0</div>"
+        ],
+        "description": "Applies one or more animations to the dropdown"
+    },
+    "snippet-uk-flex-block": {
+        "prefix": "uk-flex-block",
+        "body": [
+            "<div class=\"uk-flex\">",
+            "\t<div>$0</div>",
+            "</div>"
+        ],
+        "description": "Creates a flex container and behaves like a block element"
+    },
+    "snippet-uk-flex-inline": {
+        "prefix": "uk-flex-inline",
+        "body": [
+            "<div class=\"uk-flex-inline\">",
+            "\t<div>$0</div>",
+            "</div>"
+        ],
+        "description": "Creates a flex container and behaves like an inline element"
+    },
+    "snippet-uk-flex-horizontal-alignment": {
+        "prefix": "uk-flex-horizontal-alignment",
+        "body": [
+            "<div class=\"uk-flex uk-flex-${1:[left|center|right|between|around]}\">",
+            "\t<div>$0</div>",
+            "</div>"
+        ],
+        "description": "Defines the horizontal alignment of flex items and distributes space between them"
+    },
+    "snippet-uk-flex-vertical-alignment": {
+        "prefix": "uk-flex-vertical-alignment",
+        "body": [
+            "<div class=\"uk-flex uk-flex-${1:[stretch|top|middle|bottom]}\">",
+            "\t<div>$0</div>",
+            "</div>"
+        ],
+        "description": "Defines the vertical alignment of flex items and distributes space between them"
+    },
+    "snippet-uk-flex-direction": {
+        "prefix": "uk-flex-direction",
+        "body": [
+            "<div class=\"uk-flex uk-flex-${1:[row|row-reverse|column|column-reverse]}\">$0</div>"
+        ],
+        "description": "Defines the axis that flex items are placed on and their direction"
+    },
+    "snippet-uk-flex-wrap-modifier": {
+        "prefix": "uk-flex-wrap-modifier",
+        "body": [
+            "<div class=\"uk-flex uk-flex-${1:[wrap|wrap-reverse|nowrap]} uk-flex-wrap-${2:[stretch|between|around|top|middle|bottom]}\">$0</div>"
+        ],
+        "description": "Defines the axis that flex items are placed on and their direction"
+    },
+    "snippet-uk-flex-item-order": {
+        "prefix": "uk-flex-item-order",
+        "body": [
+            " class=\"uk-flex-${1:[first|last]}@${2:[s|m|l|xl]}\" "
+        ],
+        "description": "Displays an item as the first or last one (Add to item)"
+    },
+    "snippet-uk-flex-item-dimensions": {
+        "prefix": "uk-flex-item-dimensions",
+        "body": [
+            " class=\"uk-flex-${0:[none|auto|1]}\" "
+        ],
+        "description": "Determines how much space a flex item should take up (Add to item)"
+    },
+    "snippet-uk-flex-grid-example": {
+        "prefix": "uk-flex-grid-example",
+        "body": [
+            "<div class=\"uk-flex-middle\" uk-grid>",
+            "\t<div class=\"uk-width-2-3@m\">",
+            "\t\t<p>$1</p>",
+            "\t</div>",
+            "\t<div class=\"uk-width-1-3@m uk-flex-first\">",
+            "\t\t<img src=\"$2\" alt=\"Image\">",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates a sample flex with a grid inside"
+    },
+    "snippet-uk-form-sample": {
+        "prefix": "uk-form-sample",
+        "body": [
+            "<form>",
+            "\t<select class=\"uk-select\">",
+            "\t\t<option></option>",
+            "\t\t<option></option>",
+            "\t</select>",
+            "\t<textarea class=\"uk-textarea\"></textarea>",
+            "\t<input class=\"uk-input\"></input>",
+            "\t<input class=\"uk-radio\" type=\"radio\">",
+            "\t<input class=\"uk-checkbox\" type=\"checkbox\">",
+            "</form>"
+        ],
+        "description": "Creates a sample form with all elements as reference"
+    },
+    "snippet-uk-form-fieldset": {
+        "prefix": "uk-form-fieldset",
+        "body": [
+            "<fieldset class=\"uk-fieldset\">\r$0</fieldset>"
+        ],
+        "description": "Creates a fieldset for a form"
+    },
+    "snippet-uk-form-legend": {
+        "prefix": "uk-form-legend",
+        "body": [
+            "<legend class=\"uk-legend\">$0</legend>"
+        ],
+        "description": "Creates a legend for a form"
+    },
+    "snippet-uk-form-states": {
+        "prefix": "uk-form-states",
+        "body": [
+            " class=\"uk-form-${0:[danger|success]}\" "
+        ],
+        "description": "Applies a custom state to a form control"
+    },
+    "snippet-uk-form-disabled": {
+        "prefix": "uk-form-disabled",
+        "body": [
+            "<input class=\"$0\" disabled>"
+        ],
+        "description": "Disables a form control"
+    },
+    "snippet-uk-form-sizes": {
+        "prefix": "uk-form-sizes",
+        "body": [
+            "<input class=\"${0:uk-input} uk-form-${1:[large|small]}\">"
+        ],
+        "description": "Modifies the size of an input, select or textarea"
+    },
+    "snippet-uk-form-width-modifiers": {
+        "prefix": "uk-form-width-modifiers",
+        "body": [
+            "<input class=\"${0:uk-input} uk-form-width-${1:[large|medium|small|x-small]}\">"
+        ],
+        "description": "Modifies the width of an input, select or textarea"
+    },
+    "snippet-uk-form-blank": {
+        "prefix": "uk-form-blank",
+        "body": [
+            "<input class=\"${0:uk-input} uk-form-blank\">"
+        ],
+        "description": "Minimizes the styling of form controls"
+    },
+    "snippet-uk-form-stacked": {
+        "prefix": "uk-form-stacked",
+        "body": [
+            "<form class=\"uk-form-stacked\">",
+            "\t<div>",
+            "\t\t<label class=\"uk-form-label\">$1</label>",
+            "\t\t<div class=\"uk-form-controls\">$2</div>",
+            "\t</div>",
+            "\t<div>",
+            "\t\t<div class=\"uk-form-label\">$3</div>",
+            "\t\t<div class=\"uk-form-controls\">$4</div>",
+            "\t</div>",
+            "</form>"
+        ],
+        "description": "Stacks labels and controls on top of each other"
+    },
+    "snippet-uk-form-horizontal": {
+        "prefix": "uk-form-horizontal",
+        "body": [
+            "<form class=\"uk-form-horizontal\">",
+            "\t<div>",
+            "\t\t<label class=\"uk-form-label\">$1</label>",
+            "\t\t<div class=\"uk-form-controls\">$2</div>",
+            "\t</div>",
+            "\t<div>",
+            "\t\t<div class=\"uk-form-label\">$3</div>",
+            "\t\t<div class=\"uk-form-controls uk-form-controls-text\">$4</div>",
+            "\t</div>",
+            "</form>"
+        ],
+        "description": "Aligns labels and controls horizontally (use uk-form-controls-text to better align checkboxes and radio buttons)"
+    },
+    "snippet-uk-form-icon": {
+        "prefix": "uk-form-icon",
+        "body": [
+            "<div class=\"uk-inline\">",
+            "\t<span class=\"uk-form-icon ${1:uk-form-icon-flip}\" uk-icon=\"icon: ${2:user}\"></span>",
+            "\t<input class=\"uk-input\">",
+            "</div>"
+        ],
+        "description": "Creates a form control with an icon inside to the left (or right with flip class)"
+    },
+    "snippet-uk-form-icon-click": {
+        "prefix": "uk-form-icon-click",
+        "body": [
+            "<div class=\"uk-inline\">",
+            "\t<a class=\"uk-form-icon ${1:uk-form-icon-flip}\" href=\"\" uk-icon=\"icon: ${2:user}\"></a>",
+            "\t<input class=\"uk-input\">",
+            "</div>"
+        ],
+        "description": "Creates a form icon that can be clicked"
+    },
+    "snippet-uk-form-grid-example": {
+        "prefix": "uk-form-grid-example",
+        "body": [
+            "<form class=\"uk-grid-small\" uk-grid>",
+            "\t<div class=\"uk-width-1-1\">",
+            "\t\t<input class=\"uk-input\" type=\"text\" placeholder=\"100\">",
+            "\t</div>",
+            "\t<div class=\"uk-width-1-2@s\">",
+            "\t\t<input class=\"uk-input\" type=\"text\" placeholder=\"50\">",
+            "\t</div>",
+            "\t<div class=\"uk-width-1-4@s\">",
+            "\t\t<input class=\"uk-input\" type=\"text\" placeholder=\"25\">",
+            "\t</div>",
+            "\t<div class=\"uk-width-1-4@s\">",
+            "\t\t<input class=\"uk-input\" type=\"text\" placeholder=\"25\">",
+            "\t</div>",
+            "\t<div class=\"uk-width-1-2@s\">",
+            "\t\t<input class=\"uk-input\" type=\"text\" placeholder=\"50\">",
+            "\t</div>",
+            "\t<div class=\"uk-width-1-2@s\">",
+            "\t\t<input class=\"uk-input\" type=\"text\" placeholder=\"50\">",
+            "\t</div>",
+            "</form>"
+        ],
+        "description": "Creates a form defined by a grid layout"
+    },
+    "snippet-uk-form-custom-control": {
+        "prefix": "uk-form-custom-control",
+        "body": [
+            "<div uk-form-custom>",
+            "\t<input type=\"file\">",
+            "\t<button type=\"button\"></button>",
+            "</div>",
+            "<div uk-form-custom=\"target: true\">",
+            "\t<select>",
+            "\t\t<option></option>",
+            "\t\t<option></option>",
+            "\t</select>",
+            "\t<button type=\"button\"></button>",
+            "</div>"
+        ],
+        "description": "Replaces a file input or select form with your own HTML content"
+    },
+    "snippet-uk-grid-stacked": {
+        "prefix": "uk-grid-stacked",
+        "body": [
+            "<div uk-grid>",
+            "\t<div></div>",
+            "\t<div></div>",
+            "</div>"
+        ],
+        "description": "Creates a basic stacked grid container"
+    },
+    "snippet-uk-grid-expanded": {
+        "prefix": "uk-grid-expanded",
+        "body": [
+            "<div class=\"uk-child-width-expand${0:@[s|m|l|xl]}\" uk-grid>",
+            "\t<div></div>",
+            "\t<div></div>",
+            "</div>"
+        ],
+        "description": "Creates an expanded grid container with elements side by side"
+    },
+    "snippet-uk-grid-gutter-modifier": {
+        "prefix": "uk-grid-gutter-modifier",
+        "body": [
+            "<div class=\"uk-grid-${0:[small|medium|large|collapse]}\" uk-grid>",
+            "\t<div></div>",
+            "</div>"
+        ],
+        "description": "Modifies the spacing between grid items"
+    },
+    "snippet-uk-grid-nested-sample": {
+        "prefix": "uk-grid-nested-sample",
+        "body": [
+            "<div uk-grid>",
+            "\t<div>",
+            "\t\t<div uk-grid>",
+            "\t\t\t<div></div>",
+            "\t\t\t<div></div>",
+            "\t\t</div>",
+            "\t</div>",
+            "\t<div>",
+            "\t\t<div uk-grid>",
+            "\t\t\t<div></div>",
+            "\t\t\t<div></div>",
+            "\t\t</div>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates a sample nested grid"
+    },
+    "snippet-uk-grid-divided": {
+        "prefix": "uk-grid-divided",
+        "body": [
+            "<div class=\"uk-grid-divider\" uk-grid>",
+            "\t<div></div>",
+            "</div>"
+        ],
+        "description": "Seperates each grid cell with lines"
+    },
+    "snippet-uk-grid-match-height": {
+        "prefix": "uk-grid-match-height",
+        "body": [
+            "<div class=\"uk-grid-match\" uk-grid>",
+            "\t<div></div>",
+            "</div>"
+        ],
+        "description": "Matches the height of all grid cells"
+    },
+    "snippet-uk-grid-width": {
+        "prefix": "uk-grid-width",
+        "body": [
+            "<div uk-grid>",
+            "\t<div class=\"uk-width-${1:auto@m}\"></div>",
+            "\t<div class=\"uk-width-${2:1-3@m}\"></div>",
+            "\t<div class=\"uk-width-${3:expand@m}\"></div>",
+            "</div>"
+        ],
+        "description": "Manually determines the column widths"
+    },
+    "snippet-uk-grid-flex": {
+        "prefix": "uk-grid-flex",
+        "body": [
+            "<div class=\"uk-flex-center\" uk-grid>",
+            "\t<div></div>",
+            "\t<div class=\"uk-flex-first\"></div>",
+            "</div>"
+        ],
+        "description": "Combines a grid element with flex"
+    },
+    "snippet-uk-heading-primary": {
+        "prefix": "uk-heading-primary",
+        "body": [
+            "<h1 class=\"uk-heading-primary\">$0</h1>"
+        ],
+        "description": "Creates an emphasized heading"
+    },
+    "snippet-uk-heading-divider": {
+        "prefix": "uk-heading-divider",
+        "body": [
+            "<h1 class=\"uk-heading-divider\">$0</h1>"
+        ],
+        "description": "Creates a heading with a divider underneath"
+    },
+    "snippet-uk-heading-bullet": {
+        "prefix": "uk-heading-bullet",
+        "body": [
+            "<h1 class=\"uk-heading-bullet\">$0</h1>"
+        ],
+        "description": "Creates a heading as part of a list"
+    },
+    "snippet-uk-heading-line": {
+        "prefix": "uk-heading-line",
+        "body": [
+            "<h1 class=\"uk-heading-line ${1:uk-text-center}\"><span>$0</span></h1>"
+        ],
+        "description": "Creates a heading with a vertically centered line"
+    },
+    "snippet-uk-icon-span": {
+        "prefix": "uk-icon-span",
+        "body": [
+            "<span uk-icon=\"icon: ${1:check}\"></span>"
+        ],
+        "description": "Creates an icon within a span. (List of Icons Here: https://getuikit.com/docs/icon)"
+    },
+    "snippet-uk-icon-link": {
+        "prefix": "uk-icon-link",
+        "body": [
+            "<a href=\"\" uk-icon=\"icon: ${1:check}\"></a>"
+        ],
+        "description": "Creates an icon within a link. (List of Icons Here: https://getuikit.com/docs/icon)"
+    },
+    "snippet-uk-icon-ratio": {
+        "prefix": "uk-icon-ratio",
+        "body": [
+            "<span uk-icon=\"icon: ${1:check}; ratio: ${2:2}\"></span>"
+        ],
+        "description": "Modifies the size of the icon by the ratio"
+    },
+    "snippet-uk-icon-link-modifier": {
+        "prefix": "uk-icon-link-modifier",
+        "body": [
+            "<a href=\"\" class=\"uk-icon-link\" uk-icon=\"icon: ${1:heart}\"></a>"
+        ],
+        "description": "Resets the default link styling to a more muted color when using an icon inside an anchor"
+    },
+    "snippet-uk-icon-button-modifier": {
+        "prefix": "uk-icon-button-modifier",
+        "body": [
+            "<a href=\"\" class=\"uk-icon-button\" uk-icon=\"icon: ${1:heart}\"></a>"
+        ],
+        "description": "Creates an icon button"
+    },
+    "snippet-uk-icon-image-modifier": {
+        "prefix": "uk-icon-image-modifier",
+        "body": [
+            "<span class=\"uk-icon uk-icon-image\" style=\"background-image: url($1);\"></span>"
+        ],
+        "description": "Scales a background image to the size of an icon"
+    },
+    "snippet-uk-iconnav-horizontal": {
+        "prefix": "uk-iconnav-horizontal",
+        "body": [
+            "<ul class=\"uk-iconnav\">",
+            "\t<li><a href=\"$1\" uk-icon=\"icon: ${0:check}\"></a></li>",
+            "</ul>"
+        ],
+        "description": "Creates a navigation consisting of icons"
+    },
+    "snippet-uk-iconnav-vertical": {
+        "prefix": "uk-iconnav-vertical",
+        "body": [
+            "<ul class=\"uk-iconnav uk-iconnav-vertical\">",
+            "\t<li><a href=\"$1\" uk-icon=\"icon: ${0:check}\"></a></li>",
+            "</ul>"
+        ],
+        "description": "Creates a vertical navigation consisting of icons"
+    },
+    "snippet-uk-inverse-light": {
+        "prefix": "uk-inverse-light",
+        "body": [
+            "<div class=\"uk-light\">$0</div>"
+        ],
+        "description": "Improves the visibility of objects on dark backgrounds in a light style"
+    },
+    "snippet-uk-inverse-dark": {
+        "prefix": "uk-inverse-dark",
+        "body": [
+            "<div class=\"uk-light\">$0</div> "
+        ],
+        "description": "Improves the visibility of objects on light backgrounds in a dark style"
+    },
+    "snippet-uk-label-default": {
+        "prefix": "uk-label-default",
+        "body": [
+            "<span class=\"uk-label\"></span>"
+        ],
+        "description": "Creates a label with a default style"
+    },
+    "snippet-uk-label-success": {
+        "prefix": "uk-label-success",
+        "body": [
+            "<span class=\"uk-label uk-label-success\"></span>"
+        ],
+        "description": "Creates a label with a success style"
+    },
+    "snippet-uk-label-warning": {
+        "prefix": "uk-label-warning",
+        "body": [
+            "<span class=\"uk-label uk-label-warning\"></span>"
+        ],
+        "description": "Creates a label with a warning style"
+    },
+    "snippet-uk-label-danger": {
+        "prefix": "uk-label-danger",
+        "body": [
+            "<span class=\"uk-label uk-label-danger\"></span>"
+        ],
+        "description": "Creates a label with a danger style"
+    },
+    "snippet-uk-link-muted": {
+        "prefix": "uk-link-muted",
+        "body": [
+            "<a class=\"uk-link-muted\" href=\"$0\"></a>"
+        ],
+        "description": "Creates a link with a muted style"
+    },
+    "snippet-uk-link-reset": {
+        "prefix": "uk-link-reset",
+        "body": [
+            "<a class=\"uk-link-muted\" href=\"$0\"></a>"
+        ],
+        "description": "Creates a link that inherits its color from its parent"
+    },
+    "snippet-uk-list-basic": {
+        "prefix": "uk-list-basic",
+        "body": [
+            "<ul class=\"uk-list\">",
+            "\t<li>$0</li>",
+            "\t<li></li>",
+            "\t<li></li>",
+            "</ul>"
+        ],
+        "description": "Creates a basic unordered or ordered list"
+    },
+    "snippet-uk-list-bullet-modifier": {
+        "prefix": "uk-list-bullet-modifier",
+        "body": [
+            "<ul class=\"uk-list uk-list-bullet\">",
+            "\t<li>$0</li>",
+            "\t<li></li>",
+            "\t<li></li>",
+            "</ul>"
+        ],
+        "description": "Creates a bulleted list"
+    },
+    "snippet-uk-list-divider-modifier": {
+        "prefix": "uk-list-divider-modifier",
+        "body": [
+            "<ul class=\"uk-list uk-list-divider\">",
+            "\t<li>$0</li>",
+            "\t<li></li>",
+            "\t<li></li>",
+            "</ul>"
+        ],
+        "description": "Creates a divided list"
+    },
+    "snippet-uk-list-striped-modifier": {
+        "prefix": "uk-list-striped-modifier",
+        "body": [
+            "<ul class=\"uk-list uk-list-striped\">",
+            "\t<li>$0</li>",
+            "\t<li></li>",
+            "\t<li></li>",
+            "</ul>"
+        ],
+        "description": "Creates a striped list"
+    },
+    "snippet-uk-list-large-modifier": {
+        "prefix": "uk-list-large-modifier",
+        "body": [
+            "<ul class=\"uk-list uk-list-large\">",
+            "\t<li>$0</li>",
+            "\t<li></li>",
+            "\t<li></li>",
+            "</ul>"
+        ],
+        "description": "Creates a list with increased spacing between items. Can be combined with other list styles"
+    },
+    "snippet-uk-margin": {
+        "prefix": "uk-margin",
+        "body": [
+            " class=\"uk-margin\" "
+        ],
+        "description": "Adds top margin, if it is preceded by another element, and always bottom margin"
+    },
+    "snippet-uk-margin-position": {
+        "prefix": "uk-margin-position",
+        "body": [
+            " class=\"uk-margin-${0:[top|bottom|left|right]}\" "
+        ],
+        "description": "Adds the selected margin to that side"
+    },
+    "snippet-uk-margin-size": {
+        "prefix": "uk-margin-size",
+        "body": [
+            " class=\"uk-margin-${1:[small|medium|large|xlarge]}\"> "
+        ],
+        "description": "Adds a margin of chosen size"
+    },
+    "snippet-uk-margin-size-position": {
+        "prefix": "uk-margin-size-position",
+        "body": [
+            " class=\"uk-margin-${1:[small|medium|large|xlarge]}-${2:[top|bottom|left|right]}\"> "
+        ],
+        "description": "Adds a margin of chosen size to the chosen side"
+    },
+    "snippet-uk-margin-remove": {
+        "prefix": "uk-margin-remove",
+        "body": [
+            " class=\"uk-margin-remove\"> "
+        ],
+        "description": "Removes all margins"
+    },
+    "snippet-uk-margin-remove-position": {
+        "prefix": "uk-margin-remove-position",
+        "body": [
+            " class=\"uk-margin-remove-${1:[top|bottom|left|right|vertical|adjacent]}\"> "
+        ],
+        "description": "Removes the margin the chosen side(s)"
+    },
+    "snippet-uk-margin-auto": {
+        "prefix": "uk-margin-auto",
+        "body": [
+            " class=\"uk-margin-auto\"> "
+        ],
+        "description": "Sets left and right margins to auto, centering block and flex elements"
+    },
+    "snippet-uk-margin-auto-position": {
+        "prefix": "uk-margin-auto-position",
+        "body": [
+            " class=\"uk-margin-auto-${1:[left|right|vertical]}\"> "
+        ],
+        "description": "Sets the selected margin to auto, pushing block and flex elements to the opposite end"
+    },
+    "snippet-uk-margin-dynamic-sample": {
+        "prefix": "uk-margin-dynamic-sample",
+        "body": [
+            "<div uk-margin>",
+            "\t<button></button>",
+            "\t<button></button>",
+            "</div>"
+        ],
+        "description": "Automatically adds spacing to stacking elements with the uk-margin attribute"
+    },
+    "snippet-uk-modal-sample": {
+        "prefix": "uk-modal-sample",
+        "body": [
+            "<!-- This is a button toggling the modal -->",
+            "<button uk-toggle=\"target: #${1:my-id}\" type=\"button\">$3</button>",
+            "\r<!-- This is the modal -->",
+            "<div id=\"${2:my-id}\" uk-modal>",
+            "\t<div class=\"uk-modal-dialog uk-modal-body\">",
+            "\t\t<h2 class=\"uk-modal-title\">$4</h2>",
+            "\t\t<button class=\"uk-modal-close\" type=\"button\">$5</button>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates a modal with a button toggle"
+    },
+    "snippet-uk-modal-close-default": {
+        "prefix": "uk-modal-close-default",
+        "body": [
+            "<div id=\"my-id\">",
+            "\t<div class=\"uk-modal-dialog\">",
+            "\t\t<button class=\"uk-modal-close-default\" type=\"button\" uk-close></button>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates a modal with close button inside"
+    },
+    "snippet-uk-modal-close-outside": {
+        "prefix": "uk-modal-close-outside",
+        "body": [
+            "<div id=\"my-id\">",
+            "\t<div class=\"uk-modal-dialog\">",
+            "\t\t<button class=\"uk-modal-close-outside\" type=\"button\" uk-close></button>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates a modal with close button outside"
+    },
+    "snippet-uk-modal-center": {
+        "prefix": "uk-modal-center",
+        "body": [
+            "<div id=\"${1:my-id}\" uk-modal=\"center: true\">\r$0</div>"
+        ],
+        "description": "Creates a centered modal using the parameter 'center'"
+    },
+    "snippet-uk-modal-header-footer": {
+        "prefix": "uk-modal-header-footer",
+        "body": [
+            "<div id=\"${1:my-id}\" uk-modal>",
+            "\t<div class=\"uk-modal-dialog\">",
+            "\t\t<button class=\"uk-modal-close-default\" type=\"button\" uk-close>$5</button>",
+            "\t\t<div class=\"uk-modal-header\">",
+            "\t\t\t<h2 class=\"uk-modal-title\">$2</h2>",
+            "\t\t</div>",
+            "\t\t<div class=\"uk-modal-body\">$3</div>",
+            "\t\t<div class=\"uk-modal-footer\">$4</div>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates a modal divided into different content sections"
+    },
+    "snippet-uk-modal-caption": {
+        "prefix": "uk-modal-caption",
+        "body": [
+            "<div uk-modal>",
+            "\t<div class=\"uk-modal-dialog\">",
+            "\t\t<div class=\"uk-modal-body\"></div>",
+            "\t\t<div class=\"uk-modal-caption\"></div>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates a modal with a caption outside of it"
+    },
+    "snippet-uk-modal-container-modifier": {
+        "prefix": "uk-modal-container-modifier",
+        "body": [
+            "<div id=\"${1:my-id}\" class=\"uk-modal-container\" uk-modal>$0</div>"
+        ],
+        "description": "Creates a modal that expands to the default container width"
+    },
+    "snippet-uk-modal-full-modifier": {
+        "prefix": "uk-modal-full-modifier",
+        "body": [
+            "<div id=\"my-id\" class=\"uk-modal-full\" uk-modal>",
+            "\t<div class=\"uk-modal-dialog\">",
+            "\t\t<button class=\"uk-modal-close-full\" type=\"button\" uk-close></button>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates a modal that fills the entire page"
+    },
+    "snippet-uk-nav-default": {
+        "prefix": "uk-nav-default",
+        "body": [
+            "<ul class=\"uk-nav uk-nav-default\">",
+            "\t<li class=\"uk-active\"><a href=\"\">$1</a></li>",
+            "\t<li><a href=\"\">$0</a></li>",
+            "</ul>"
+        ],
+        "description": "Creates a nav with default styling"
+    },
+    "snippet-uk-nav-nested": {
+        "prefix": "uk-nav-nested",
+        "body": [
+            "<<ul class=\"uk-nav uk-nav-default\">",
+            "\t<li class=\"uk-parent\">",
+            "\t\t<a href=\"\"></a>",
+            "\t\t<ul class=\"uk-nav-sub\">",
+            "\t\t\t<li><a href=\"\"></a></li>",
+            "\t\t\t<li>",
+            "\t\t\t\t<a href=\"\"></a>",
+            "\t\t\t\t<ul>...</ul>",
+            "\t\t\t</li>",
+            "\t\t</ul>",
+            "\t</li>",
+            "</ul>"
+        ],
+        "description": "Creates a nested nav with default styling"
+    },
+    "snippet-uk-nav-accordion": {
+        "prefix": "uk-nav-accordion",
+        "body": [
+            "<ul class=\"uk-nav-parent-icon\" uk-nav>$0</ul>"
+        ],
+        "description": "Creates an accordion-styled nav with icons for parents"
+    },
+    "snippet-uk-nav-accordion-multiple-open": {
+        "prefix": "uk-nav-accordion-multiple-open",
+        "body": [
+            "<ul class=\"uk-nav-parent-icon\" uk-nav=\"multiple: true\">$0</ul>"
+        ],
+        "description": "Creates an accordion nav that can have multiple sub-navs open at once"
+    },
+    "snippet-uk-nav-header": {
+        "prefix": "uk-nav-header",
+        "body": [
+            "<li class=\"uk-nav-header\"></li>"
+        ],
+        "description": "Creates a nav header"
+    },
+    "snippet-uk-nav-divider": {
+        "prefix": "uk-nav-divider",
+        "body": [
+            "<li class=\"uk-nav-divider\"></li>"
+        ],
+        "description": "Creates a nav divider"
+    },
+    "snippet-uk-nav-primary": {
+        "prefix": "uk-nav-primary",
+        "body": [
+            "<ul class=\"uk-nav uk-nav-primary\">",
+            "\t<li class=\"uk-active\"><a href=\"\">$1</a></li>",
+            "\t<li><a href=\"\">$0</a></li>",
+            "</ul>"
+        ],
+        "description": "Creates a nav with emphasized styling"
+    },
+    "snippet-uk-nav-center": {
+        "prefix": "uk-nav-center",
+        "body": [
+            "<ul class=\"uk-nav ${1:uk-nav-default} uk-nav-center\">",
+            "\t<li class=\"uk-active\"><a href=\"\">$2</a></li>",
+            "\t<li><a href=\"\">$0</a></li>",
+            "</ul>"
+        ],
+        "description": "Creates a centered nav"
+    },
+    "snippet-uk-nav-dropdown": {
+        "prefix": "uk-nav-dropdown",
+        "body": [
+            "<div uk-dropdown>",
+            "\t<ul class=\"uk-nav uk-dropdown-nav\">$0</ul>",
+            "</div>"
+        ],
+        "description": "Creates a nav in a dropdown"
+    },
+    "snippet-uk-nav-navbar": {
+        "prefix": "uk-nav-navbar",
+        "body": [
+            "<div uk-navbar-dropdown>",
+            "\t<ul class=\"uk-nav uk-dropdown-nav\">$0</ul>",
+            "</div>"
+        ],
+        "description": "Creates a nav in a navbar"
+    },
+    "snippet-uk-navbar": {
+        "prefix": "uk-navbar",
+        "body": [
+            "<nav class=\"uk-navbar-container\" uk-navbar>",
+            "\t<div class=\"uk-navbar-left\">",
+            "\t\t<ul class=\"uk-navbar-nav\">",
+            "\t\t\t<li class=\"uk-active\"><a href=\"\"></a></li>",
+            "\t\t\t<li class=\"uk-parent\"><a href=\"\"></a></li>",
+            "\t\t\t<li><a href=\"\"></a></li>",
+            "\t\t</ul>",
+            "\t</div>",
+            "</nav>"
+        ],
+        "description": "Creates a primary navigation bar"
+    },
+    "snippet-uk-navbar-multiple": {
+        "prefix": "uk-navbar-multiple",
+        "body": [
+            "<nav class=\"uk-navbar-container\" uk-navbar>",
+            "\t<div class=\"uk-navbar-left\">$1</div>",
+            "\t<div class=\"uk-navbar-center\">$2</div>",
+            "\t<div class=\"uk-navbar-right\">$3</div>",
+            "</nav>"
+        ],
+        "description": "Creates multiple navigations inside the navbar container"
+    },
+    "snippet-uk-navbar-click": {
+        "prefix": "uk-navbar-click",
+        "body": [
+            "<nav class=\"uk-navbar-container\" uk-navbar=\"mode: click\">",
+            "\t<div class=\"uk-navbar-left\">",
+            "\t\t<ul class=\"uk-navbar-nav\">",
+            "\t\t\t<li class=\"uk-active\"><a href=\"\"></a></li>",
+            "\t\t\t<li class=\"uk-parent\"><a href=\"\"></a></li>",
+            "\t\t\t<li><a href=\"\"></a></li>",
+            "\t\t</ul>",
+            "\t</div>",
+            "</nav>"
+        ],
+        "description": "Creates a primary navigation bar that is toggled with a click"
+    },
+    "snippet-uk-navbar-transparent": {
+        "prefix": "uk-navbar-transparent",
+        "body": [
+            "<nav class=\"uk-navbar-container uk-navbar-transparent\" uk-navbar>",
+            "\t<div class=\"uk-navbar-left\">",
+            "\t\t<ul class=\"uk-navbar-nav\">",
+            "\t\t\t<li class=\"uk-active\"><a href=\"\"></a></li>",
+            "\t\t\t<li class=\"uk-parent\"><a href=\"\"></a></li>",
+            "\t\t\t<li><a href=\"\"></a></li>",
+            "\t\t</ul>",
+            "\t</div>",
+            "</nav>"
+        ],
+        "description": "Creates a transparent navigation bar"
+    },
+    "snippet-uk-navbar-subtitle": {
+        "prefix": "uk-navbar-subtitle",
+        "body": [
+            "<div class=\"uk-navbar-subtitle\"></div>"
+        ],
+        "description": "Creates a subtitle for a navbar item"
+    },
+    "snippet-uk-navbar-custom-content": {
+        "prefix": "uk-navbar-custom-content",
+        "body": [
+            "<div class=\"uk-navbar-container\" uk-navbar>",
+            "\t<div class=\"uk-navbar-left\">",
+            "\t\t<a href=\"\" class=\"uk-navbar-item uk-logo\">$1</a>",
+            "\t\t<ul class=\"uk-navbar-nav\">$2</ul>",
+            "\t\t<div class=\"uk-navbar-item\">$3</div>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates a navbar which can hold custom items (text, icons, buttons, forms)"
+    },
+    "snippet-uk-navbar-centered-logo": {
+        "prefix": "uk-navbar-centered-logo",
+        "body": [
+            "<div class=\"uk-navbar-container\" uk-navbar>",
+            "\t<div class=\"uk-navbar-center\">",
+            "\t\t<div class=\"uk-navbar-center-left\">$1</div>",
+            "\t\t<a href=\"\" class=\"uk-navbar-item uk-logo\">$2</a>",
+            "\t\t<div class=\"uk-navbar-center-right\">$3</div>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates a navbar with a centered logo"
+    },
+    "snippet-uk-navbar-toggle-item": {
+        "prefix": "uk-navbar-toggle-item",
+        "body": [
+            "<div class=\"uk-navbar-container\" uk-navbar>",
+            "\t<div class=\"uk-navbar-left\">",
+            "\t\t<a class=\"uk-navbar-toggle\" uk-navbar-toggle-icon href=\"\"></a>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates a navbar with an icon as a toggle"
+    },
+    "snippet-uk-navbar-dropdown": {
+        "prefix": "uk-navbar-dropdown",
+        "body": [
+            "<ul class=\"uk-navbar-nav\">",
+            "\t<li>",
+            "\t\t<a href=\"\"></a>",
+            "\t\t<div class=\"uk-navbar-dropdown\">",
+            "\t\t\t<ul class=\"uk-nav uk-navbar-dropdown-nav\">$0</ul>",
+            "\t\t</div>",
+            "\t</li>",
+            "</ul>"
+        ],
+        "description": "Creates a navbar with a dropdown component"
+    },
+    "snippet-uk-navbar-dropdown-multiple-columns": {
+        "prefix": "uk-navbar-dropdown-multiple-columns",
+        "body": [
+            "<div class=\"uk-navbar-dropdown uk-navbar-dropdown-width-${1:[2|3|4|5]\">",
+            "\t<div class=\"uk-navbar-dropdown-grid uk-child-width-1-2\" uk-grid>",
+            "\t\t<div>",
+            "\t\t\t<ul class=\"uk-nav uk-navbar-dropdown-nav\">$2</ul>",
+            "\t\t</div>",
+            "\t\t<div>$0</div>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates a navbar dropdown with multiple columns"
+    },
+    "snippet-uk-navbar-dropdown-boundary-align": {
+        "prefix": "uk-navbar-dropdown-boundary-align",
+        "body": [
+            "<nav class=\"uk-navbar-container\" uk-navbar=\"boundary-align: true; align: center;\">$0</nav>"
+        ],
+        "description": "Creates a navbar with dropdowns aligned to the navbar boundary"
+    },
+    "snippet-uk-navbar-dropdown-justify": {
+        "prefix": "uk-navbar-dropdown-justify",
+        "body": [
+            "<div class=\"uk-navbar-dropdown\" uk-drop=\"boundary: .parent; boundary-align: true; pos: bottom-justify;\">$0</div>"
+        ],
+        "description": "Creates a navbar with dropdowns justified"
+    },
+    "snippet-uk-navbar-dropbar": {
+        "prefix": "uk-navbar-dropbar",
+        "body": [
+            "<nav class=\"uk-navbar-container\" uk-navbar=\"dropbar: true;\">$0</nav>",
+            "<div class=\"uk-navbar-dropbar\"></div>"
+        ],
+        "description": "Creates a navbar with dropdowns justified"
+    },
+    "snippet-uk-navbar-dropbar-push": {
+        "prefix": "uk-navbar-dropbar-push",
+        "body": [
+            "<nav class=\"uk-navbar-container\" uk-navbar=\"dropbar: true; dropbar-mode: push;\">$0</nav>",
+            "<div class=\"uk-navbar-dropbar\"></div>"
+        ],
+        "description": "Creates a navbar with a dropdown that pushes page content down to fit the space"
+    },
+    "snippet-uk-notification-example": {
+        "prefix": "uk-notification-example",
+        "body": [
+            "<script>",
+            "\tUIkit.notification({",
+            "\t\tmessage: 'my-message!',",
+            "\t\tstatus: 'primary',",
+            "\t\tpos: 'top-right',",
+            "\t\ttimeout: 5000",
+            "\t});",
+            "\t// Shortcuts",
+            "\tUIkit.notification('My message');",
+            "\tUIkit.notification('My message', status);",
+            "\tUIkit.notification('My message', { /* options */ });",
+            "</script>"
+        ],
+        "description": "Creates a notification example using javascript"
+    },
+    "snippet-uk-notification-html-message": {
+        "prefix": "uk-notification-html-message",
+        "body": [
+            "<script>",
+            "\tUIkit.notification(\"<span uk-icon='icon: check'></span> Message\");",
+            "</script>"
+        ],
+        "description": "Creates a notification with html content"
+    },
+    "snippet-uk-notification-position": {
+        "prefix": "uk-notification-position",
+        "body": [
+            "<script>",
+            "\tUIkit.notification(\"${1:...}\", {pos: '${2:[top|bottom]}-${3:[left|center|right]}'});",
+            "</script>"
+        ],
+        "description": "Creates a notification with an adjusted position"
+    },
+    "snippet-uk-notification-style": {
+        "prefix": "uk-notification-style",
+        "body": [
+            "<script>",
+            "\tUIkit.notification(\"${1:...}\", {status: '${2:[primary|success|warning|danger]}'});",
+            "</script>"
+        ],
+        "description": "Creates a styled notification"
+    },
+    "snippet-uk-notification-close-all": {
+        "prefix": "uk-notification-close-all",
+        "body": [
+            "<script>",
+            "\tUIkit.notification.closeAll();",
+            "</script>"
+        ],
+        "description": "Closes all notifications"
+    },
+    "snippet-uk-offcanvas-sample": {
+        "prefix": "uk-offcanvas-sample",
+        "body": [
+            "<!-- This is a button toggling the off-canvas -->",
+            "<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
+            "<!-- This is an anchor toggling the off-canvas -->",
+            "<a href=\"#${2:my-id}\" uk-toggle></a>",
+            "<!-- This is the off-canvas -->",
+            "<div id=\"${3:my-id}\" uk-offcanvas>",
+            "\t<div class=\"uk-offcanvas-bar\"></div>",
+            "</div>"
+        ],
+        "description": "Creates a basic off-canvas"
+    },
+    "snippet-uk-offcanvas-overlay": {
+        "prefix": "uk-offcanvas-overlay",
+        "body": [
+            "<!-- This is a button toggling the off-canvas -->",
+            "<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
+            "<!-- This is an anchor toggling the off-canvas -->",
+            "<a href=\"#${2:my-id}\" uk-toggle></a>",
+            "<!-- This is the off-canvas -->",
+            "<div id=\"${3:my-id}\" uk-offcanvas=\"overlay: true;\">",
+            "\t<div class=\"uk-offcanvas-bar\"></div>",
+            "</div>"
+        ],
+        "description": "Creates an off-canvas that adds an overlay to the page"
+    },
+    "snippet-uk-offcanvas-flip-modifier": {
+        "prefix": "uk-offcanvas-flip-modifier",
+        "body": [
+            "<!-- This is a button toggling the off-canvas -->",
+            "<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
+            "<!-- This is an anchor toggling the off-canvas -->",
+            "<a href=\"#${2:my-id}\" uk-toggle></a>",
+            "<!-- This is the off-canvas -->",
+            "<div id=\"${3:my-id}\" uk-offcanvas=\"flip: true;\">",
+            "\t<div class=\"uk-offcanvas-bar\"></div>",
+            "</div>"
+        ],
+        "description": "Creates an off-canvas that slides in from the right"
+    },
+    "snippet-uk-offcanvas-animation-mode": {
+        "prefix": "uk-offcanvas-animation-mode",
+        "body": [
+            "<!-- This is a button toggling the off-canvas -->",
+            "<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
+            "<!-- This is an anchor toggling the off-canvas -->",
+            "<a href=\"#${2:my-id}\" uk-toggle></a>",
+            "<!-- This is the off-canvas -->",
+            "<div id=\"${3:my-id}\" uk-offcanvas=\"mode: ${4:[slide|push|reveal|none]};\">",
+            "\t<div class=\"uk-offcanvas-bar\"></div>",
+            "</div>"
+        ],
+        "description": "Creates an off-canvas with a modified animation mode for its entrance"
+    },
+    "snippet-uk-offcanvas-nav": {
+        "prefix": "uk-offcanvas-nav",
+        "body": [
+            "<!-- This is a button toggling the off-canvas -->",
+            "<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
+            "<!-- This is an anchor toggling the off-canvas -->",
+            "<a href=\"#${2:my-id}\" uk-toggle></a>",
+            "<!-- This is the off-canvas -->",
+            "<div id=\"${3:my-id}\" uk-offcanvas=\"mode: ${4:[slide|push|reveal|none]};\">",
+            "\t<div class=\"uk-offcanvas-bar\">",
+            "\t\t<ul class=\"uk-nav uk-nav-default\">$0</ul>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates an off-canvas containing a nav component"
+    },
+    "snippet-uk-overlay-basic": {
+        "prefix": "uk-overlay-basic",
+        "body": [
+            "<div class=\"uk-inline\">",
+            "\t<img src=\"\" alt=\"\">",
+            "\t<div class=\"uk-overlay uk-position-${1:bottom}\"></div>",
+            "</div>"
+        ],
+        "description": "Creates a basic image overlay at a modifiable position"
+    },
+    "snippet-uk-overlay-style-default": {
+        "prefix": "uk-overlay-style-default",
+        "body": [
+            "<div class=\"uk-inline\">",
+            "\t<img src=\"\" alt=\"\">",
+            "\t<div class=\"uk-overlay uk-overlay-default uk-position-${1:bottom}\"></div>",
+            "</div>"
+        ],
+        "description": "Creates an image overlay with a default style"
+    },
+    "snippet-uk-overlay-style-primary": {
+        "prefix": "uk-overlay-style-primary",
+        "body": [
+            "<div class=\"uk-inline\">",
+            "\t<img src=\"\" alt=\"\">",
+            "\t<div class=\"uk-overlay uk-overlay-primary uk-position-${1:bottom}\"></div>",
+            "</div>"
+        ],
+        "description": "Creates an image overlay with a primary style"
+    },
+    "snippet-uk-overlay-icon": {
+        "prefix": "uk-overlay-icon",
+        "body": [
+            "<div class=\"uk-position-center\">",
+            "\t<span uk-overlay-icon></span>",
+            "</div>"
+        ],
+        "description": "Creates an image overlay icon"
+    },
+    "snippet-uk-padding": {
+        "prefix": "uk-padding",
+        "body": [
+            " class=\"uk-padding\" "
+        ],
+        "description": "Adds default padding to the element"
+    },
+    "snippet-uk-padding-size": {
+        "prefix": "uk-padding-size",
+        "body": [
+            " class=\"uk-padding-${0:[small|large]}\" "
+        ],
+        "description": "Adds a smaller or larger padding to the element"
+    },
+    "snippet-uk-padding-remove": {
+        "prefix": "uk-padding-remove",
+        "body": [
+            " class=\"uk-padding-remove\" "
+        ],
+        "description": "Removes all padding from an element"
+    },
+    "snippet-uk-padding-remove-position": {
+        "prefix": "uk-padding-remove-position",
+        "body": [
+            " class=\"uk-padding-remove-${0:[top|bottom|vertical|horizontal]}\" "
+        ],
+        "description": "Removes padding from the chosen side(s) of an element"
+    },
+    "snippet-uk-pagination-basic": {
+        "prefix": "uk-pagination-basic",
+        "body": [
+            "<ul class=\"uk-pagination\">",
+            "\t<li><a href=\"\"></a></li>",
+            "\t<!-- Use <span> instead of <a> tags for active and disabled items -->",
+            "\t<li class=\"uk-active\"><span></span></li>",
+            "\t<li class=\"uk-disabled\"><span></span></li>",
+            "</ul>"
+        ],
+        "description": "Creates a simple pagination for navigation through pages"
+    },
+    "snippet-uk-pagination-alignment": {
+        "prefix": "uk-pagination-alignment",
+        "body": [
+            "<ul class=\"uk-pagination uk-flex-${0:center}\">",
+            "\t<li><a href=\"\"></a></li>",
+            "\t<!-- Use <span> instead of <a> tags for active and disabled items -->",
+            "\t<li class=\"uk-active\"><span></span></li>",
+            "\t<li class=\"uk-disabled\"><span></span></li>",
+            "</ul>"
+        ],
+        "description": "Creates a simple pagination aligned with flex"
+    },
+    "snippet-uk-pagination-previous-next": {
+        "prefix": "uk-pagination-previous-next",
+        "body": [
+            "<ul class=\"uk-pagination\">",
+            "\t<li><a href=\"\"><span uk-pagination-previous></span>",
+            "\t<li><a href=\"\"><span uk-pagination-next></span>",
+            "</ul>"
+        ],
+        "description": "Creates a previous and next button inside of a pagination"
+    },
+    "snippet-uk-placeholder": {
+        "prefix": "uk-placeholder",
+        "body": [
+            "<div class=\"uk-placeholder\"></div>"
+        ],
+        "description": "Creates a placeholder space"
+    },
+    "snippet-uk-position": {
+        "prefix": "uk-position",
+        "body": [
+            " class=\"uk-position-${0:[top|left|right|bottom]}\" "
+        ],
+        "description": "Positions the element at the chosen location"
+    },
+    "snippet-uk-position-extended": {
+        "prefix": "uk-position-extended",
+        "body": [
+            " class=\"uk-position-${1:[top|center|bottom]}-${2:[left|center|right]}\" "
+        ],
+        "description": "Positions the element at specific locations without it being spread over its parent container"
+    },
+    "snippet-uk-position-cover": {
+        "prefix": "uk-position-cover",
+        "body": [
+            " class=\"uk-position-cover\" "
+        ],
+        "description": "Positions the element to cover its container"
+    },
+    "snippet-uk-position-small": {
+        "prefix": "uk-position-small",
+        "body": [
+            " class=\"uk-position-${1:[top|center|bottom]}-${2:[left|center|right]} uk-position-small\" "
+        ],
+        "description": "Positions the element at specific locations with a small margin"
+    },
+    "snippet-uk-position-medium": {
+        "prefix": "uk-position-medium",
+        "body": [
+            " class=\"uk-position-${1:[top|center|bottom]}-${2:[left|center|right]} uk-position-medium\" "
+        ],
+        "description": "Positions the element at specific locations with a medium margin"
+    },
+    "snippet-uk-position-relative": {
+        "prefix": "uk-position-relative",
+        "body": [
+            " class=\"uk-position-relative\" "
+        ],
+        "description": "Positions the element at a relative position"
+    },
+    "snippet-uk-position-absolute": {
+        "prefix": "uk-position-absolute",
+        "body": [
+            " class=\"uk-position-absolute\" "
+        ],
+        "description": "Positions the element at an absolute position"
+    },
+    "snippet-uk-position-fixed": {
+        "prefix": "uk-position-fixed",
+        "body": [
+            " class=\"uk-position-fixed\" "
+        ],
+        "description": "Positions the element at a fixed position"
+    },
+    "snippet-uk-position-z-index": {
+        "prefix": "uk-position-z-index",
+        "body": [
+            " class=\"uk-position-z-index\" "
+        ],
+        "description": "Positions the element at a z-index position of 1"
+    },
+    "snippet-uk-progress": {
+        "prefix": "uk-progress",
+        "body": [
+            "<progress class=\"uk-progress\" value=\"$1\" max=\"$2\"></progress>"
+        ],
+        "description": "Creates a progress bar"
+    },
+    "snippet-uk-scroll": {
+        "prefix": "uk-scroll",
+        "body": [
+            "<a href=\"#${1:my-id}\" uk-scroll></a>"
+        ],
+        "description": "Creates a link that smooth scrolls to the targetted element with matching id"
+    },
+    "snippet-uk-scrollspy": {
+        "prefix": "uk-scrollspy",
+        "body": [
+            " uk-scrollspy=\"cls:${1:uk-animation-fade}\" "
+        ],
+        "description": "Adds the scrollspy attribute to an element and animates it when in view"
+    },
+    "snippet-uk-scrollspy-group": {
+        "prefix": "uk-scrollspy-group",
+        "body": [
+            " uk-scrollspy=\"cls:${1:uk-animation-fade}; target: ${2:> div}; ${3:delay: 500}\" "
+        ],
+        "description": "Adds the scrollspy attribute to an element and animates it when in view"
+    },
+    "snippet-uk-search-default": {
+        "prefix": "uk-search-default",
+        "body": [
+            "<form class=\"uk-search uk-search-default\">",
+            "\t<input class=\"uk-search-input\" type=\"search\" placeholder=\"$0\">",
+            "</form>"
+        ],
+        "description": "Creates a search bar with default styling"
+    },
+    "snippet-uk-search-icon": {
+        "prefix": "uk-search-icon",
+        "body": [
+            "<form class=\"uk-search uk-search-default\">",
+            "\t<span uk-search-icon></span>",
+            "\t<input class=\"uk-search-input\" type=\"search\" placeholder=\"$0\">",
+            "</form>"
+        ],
+        "description": "Creates a search bar with a search icon to the left"
+    },
+    "snippet-uk-search-icon-flip": {
+        "prefix": "uk-search-icon-flip",
+        "body": [
+            "<form class=\"uk-search uk-search-default\">",
+            "\t<span class=\"uk-search-icon-flip\" uk-search-icon></span>",
+            "\t<input class=\"uk-search-input\" type=\"search\" placeholder=\"$0\">",
+            "</form>"
+        ],
+        "description": "Creates a search bar with a search icon to the right"
+    },
+    "snippet-uk-search-icon-button": {
+        "prefix": "uk-search-icon-button",
+        "body": [
+            "<form class=\"uk-search uk-search-default\">",
+            "\t<a href=\"\" uk-search-icon></a>",
+            "\t<input class=\"uk-search-input\" type=\"search\" placeholder=\"$0\">",
+            "</form>"
+        ],
+        "description": "Creates a search bar with a clickable search icon"
+    },
+    "snippet-uk-search-large": {
+        "prefix": "uk-search-large",
+        "body": [
+            "<form class=\"uk-search uk-search-large\">",
+            "\t<span uk-search-icon></span>",
+            "\t<input class=\"uk-search-input\" type=\"search\" placeholder=\"$0\">",
+            "</form>"
+        ],
+        "description": "Creates a larger search bar"
+    },
+    "snippet-uk-search-navbar": {
+        "prefix": "uk-search-navbar",
+        "body": [
+            "<form class=\"uk-search uk-search-navbar\">",
+            "\t<span uk-search-icon></span>",
+            "\t<input class=\"uk-search-input\" type=\"search\" placeholder=\"$0\">",
+            "</form>"
+        ],
+        "description": "Creates a search bar that can be used within a navbar"
+    },
+    "snippet-uk-search-toggle": {
+        "prefix": "uk-search-toggle",
+        "body": [
+            "<a class=\"uk-search-toggle\" href=\"\" uk-search-icon></a>"
+        ],
+        "description": "Creates a toggle using a search icon"
+    },
+    "snippet-uk-search-navbar-toggle": {
+        "prefix": "uk-search-navbar-toggle",
+        "body": [
+            "<a class=\"uk-navbar-toggle\" href=\"\" uk-search-icon uk-toggle></a>"
+        ],
+        "description": "Creates a search icon toggle inside of a navbar"
+    },
+    "snippet-uk-section-default": {
+        "prefix": "uk-section-default",
+        "body": [
+            "<div class=\"uk-section uk-section-default\">$0</div>"
+        ],
+        "description": "Creates a section with a default style"
+    },
+    "snippet-uk-section-muted": {
+        "prefix": "uk-section-muted",
+        "body": [
+            "<div class=\"uk-section uk-section-muted\">$0</div>"
+        ],
+        "description": "Creates a section with a muted style"
+    },
+    "snippet-uk-section-primary": {
+        "prefix": "uk-section-primary",
+        "body": [
+            "<div class=\"uk-section uk-section-primary\">$0</div>"
+        ],
+        "description": "Creates a section with a primary style"
+    },
+    "snippet-uk-section-secondary": {
+        "prefix": "uk-section-secondary",
+        "body": [
+            "<div class=\"uk-section uk-section-secondary\">$0</div>"
+        ],
+        "description": "Creates a section with a secondary style"
+    },
+    "snippet-uk-section-media": {
+        "prefix": "uk-section-media",
+        "body": [
+            "<div class=\"uk-section uk-section-media\">$0</div>"
+        ],
+        "description": "Creates a section used for custom background images"
+    },
+    "snippet-uk-section-preserve-color": {
+        "prefix": "uk-section-preserve-color",
+        "body": [
+            "<div class=\"uk-section uk-section-${1:primary} uk-preserve-color\">$0</div>"
+        ],
+        "description": "Creates a section that preserves the font colours of child elements"
+    },
+    "snippet-uk-section-size-modifier": {
+        "prefix": "uk-section-size-modifier",
+        "body": [
+            "<div class=\"uk-section uk-section-${1:primary} uk-section-${2:[xsmall|small|large|xlarge]}\">$0</div>"
+        ],
+        "description": "Creates a section with modified padding applied"
+    },
+    "snippet-uk-section-overlap-modifier": {
+        "prefix": "uk-section-overlap-modifier",
+        "body": [
+            "<div class=\"uk-section uk-section-overlap\">$0</div>"
+        ],
+        "description": "Creates a section that applies a border image and a negative offset"
+    },
+    "snippet-uk-slidenav": {
+        "prefix": "uk-slidenav",
+        "body": [
+            "<a href=\"\" uk-slidenav-next></a>",
+            "<a href=\"\" uk-slidenav-previous></a>"
+        ],
+        "description": "Creates a previous and next button for flipping through slideshows"
+    },
+    "snippet-uk-slidenav-large": {
+        "prefix": "uk-slidenav-large",
+        "body": [
+            "<a href=\"\" class=\"uk-slidenav-large\" uk-slidenav-next></a>",
+            "<a href=\"\" class=\"uk-slidenav-large\" uk-slidenav-previous></a>"
+        ],
+        "description": "Creates a larger slidenav"
+    },
+    "snippet-uk-slidenav-position-image": {
+        "prefix": "uk-slidenav-position-image",
+        "body": [
+            "<div class=\"uk-inline uk-light\">",
+            "\t<img src=\"\" alt=\"\">",
+            "\t<a class=\"uk-position-center-left\" href=\"\" uk-slidenav-previous></a>",
+            "\t<a class=\"uk-position-center-right\" href=\"\" uk-slidenav-next></a>",
+            "</div>"
+        ],
+        "description": "Creates a slidenav appropriately positioned to the sides of an image"
+    },
+    "snippet-uk-slidenav-container": {
+        "prefix": "uk-slidenav-container",
+        "body": [
+            "<div class=\"uk-inline\">",
+            "\t<img src=\"\" alt=\"\">",
+            "\t<div class=\"uk-slidenav-container uk-position-bottom-right\">",
+            "\t\t<a href=\"\" uk-slidenav-previous></a>",
+            "\t\t<a href=\"\" uk-slidenav-next></a>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Displays a cojoint slidenav"
+    },
+    "snippet-uk-sortable": {
+        "prefix": "uk-sortable",
+        "body": [
+            "<div uk-sortable>",
+            "\t<div></div>",
+            "\t<div></div>",
+            "</div>"
+        ],
+        "description": "Creates a sortable, re-arrangable grid of elements"
+    },
+    "snippet-uk-sortable-handle": {
+        "prefix": "uk-sortable-handle",
+        "body": [
+            "<ul uk-sortable=\"handle: .uk-sortable-handle\">",
+            "\t<li>",
+            "\t\t<div class=\"uk-sortable-handle\"></div>",
+            "\t</li>",
+            "</ul>"
+        ],
+        "description": "Creates a sortable list using a special handle button instead of the entire element"
+    },
+    "snippet-uk-sortable-group": {
+        "prefix": "uk-sortable-group",
+        "body": [
+            "<div uk-sortable=\"group: my-group\">",
+            "\t<div></div>",
+            "</div>",
+            "<div uk-sortable=\"group: my-group\">",
+            "\t<div></div>",
+            "</div>"
+        ],
+        "description": "Creates a sortable group that can interchange elements"
+    },
+    "snippet-uk-sortable-custom-class": {
+        "prefix": "uk-sortable-custom-class",
+        "body": [
+            "<div uk-sortable=\"cls-custom: ${1:my-class}\">",
+            "\t<div></div>",
+            "</div>"
+        ],
+        "description": "Creates sortable that can apply multiple classes to items while being dragged"
+    },
+    "snippet-uk-spinner": {
+        "prefix": "uk-spinner",
+        "body": [
+            "<div uk-spinner></div>"
+        ],
+        "description": "Creates an animated loading spinner"
+    },
+    "snippet-uk-sticky": {
+        "prefix": "uk-sticky",
+        "body": [
+            "<div uk-sticky></div>"
+        ],
+        "description": "Creates an element that remains at the top of the viewport while scrolling down"
+    },
+    "snippet-uk-sticky-offset": {
+        "prefix": "uk-sticky-offset",
+        "body": [
+            "<div uk-sticky=\"offset: ${1:100}\"></div>"
+        ],
+        "description": "Creates a sticky element with a pixel offset from the top"
+    },
+    "snippet-uk-sticky-top": {
+        "prefix": "uk-sticky-top",
+        "body": [
+            "<!-- Sticks after 100px of scrolling -->",
+            "<div uk-sticky=\"top: 100\"></div>",
+            "<!-- Sticks after 100vh -->",
+            "<div uk-sticky=\"top: 100vh\"></div>",
+            "<!-- Sticks to the top of the container -->",
+            "<div id=\"my-id\">",
+            "\t<div uk-sticky=\"top: #my-id\"></div>",
+            "</div>"
+        ],
+        "description": "Creates a sticky element with a delay"
+    },
+    "snippet-uk-sticky-animation": {
+        "prefix": "uk-sticky-animation",
+        "body": [
+            "<div uk-sticky=\"animation: ${1:uk-animation-slide-top}\"></div>"
+        ],
+        "description": "Creates a sticky element with an animation when it reappears"
+    },
+    "snippet-uk-sticky-scroll-up": {
+        "prefix": "uk-sticky-scroll-up",
+        "body": [
+            "<div uk-sticky=\"show-on-up: true\"></div>"
+        ],
+        "description": "Creates a sticky element that shows only when scrolling up"
+    },
+    "snippet-uk-sticky-bottom": {
+        "prefix": "uk-sticky-bottom",
+        "body": [
+            "<!-- Sticks until the bottom of its parent container -->",
+            "<div>",
+            "\t<div uk-sticky=\"bottom: true\"></div>",
+            "</div>",
+            "<!-- Sticks until the second container -->",
+            "<div uk-sticky=\"bottom: #my-id\"></div>",
+            "<div id=\"my-id\"></div>"
+        ],
+        "description": "Creates a sticky element that is bound to a specific element"
+    },
+    "snippet-uk-sticky-responsive": {
+        "prefix": "uk-sticky-responsive",
+        "body": [
+            "<div uk-sticky=\"media: ${1:640}\"></div>"
+        ],
+        "description": "Creates a sticky element that is only enabled on specified device widths and above"
+    },
+    "snippet-uk-subnav-basic": {
+        "prefix": "uk-subnav-basic",
+        "body": [
+            "<ul class=\"uk-subnav\" uk-margin>",
+            "\t<li class=\"uk-active\"><a href=\"\"></a></li>",
+            "\t<li><a href=\"\"></a></li>",
+            "\t<li><span></span></li>",
+            "</ul>"
+        ],
+        "description": "Creates a basic sub-navigation with items wrapping into the next line"
+    },
+    "snippet-uk-subnav-divider": {
+        "prefix": "uk-subnav-divider",
+        "body": [
+            "<ul class=\"uk-subnav uk-subnav-divider\" uk-margin>",
+            "\t<li class=\"uk-active\"><a href=\"\"></a></li>",
+            "\t<li><a href=\"\"></a></li>",
+            "\t<li><span></span></li>",
+            "</ul>"
+        ],
+        "description": "Creates a sub-navigation seperated with lines"
+    },
+    "snippet-uk-subnav-pill": {
+        "prefix": "uk-subnav-pill",
+        "body": [
+            "<ul class=\"uk-subnav uk-subnav-pill\" uk-margin>",
+            "\t<li class=\"uk-active\"><a href=\"\"></a></li>",
+            "\t<li><a href=\"\"></a></li>",
+            "\t<li><span></span></li>",
+            "</ul>"
+        ],
+        "description": "Creates a sub-navigation that highlights the active item with a background"
+    },
+    "snippet-uk-subnav-dropdown": {
+        "prefix": "uk-subnav-dropdown",
+        "body": [
+            "<ul class=\"uk-subnav\" uk-margin>",
+            "\t<li class=\"uk-active\"><a href=\"\"></a></li>",
+            "\t<li><a href=\"\"></a></li>",
+            "\t<div uk-dropdown=\"mode: click;\"></div>",
+            "\t<li><span></span></li>",
+            "</ul>"
+        ],
+        "description": "Creates a sub-navigation that contains a dropdown"
+    },
+    "snippet-uk-switcher": {
+        "prefix": "uk-switcher",
+        "body": [
+            "<!-- This is the nav containing the toggling elements -->",
+            "<ul uk-switcher>",
+            "\t<li><a href=\"\"></a></li>",
+            "</ul>",
+            "<!-- This is the container of the content items -->",
+            "<ul class=\"uk-switcher\">",
+            "\t<li></li>",
+            "</ul>"
+        ],
+        "description": "Creates a switcher that dynamically transitions through different content panes"
+    },
+    "snippet-uk-switcher-navigation": {
+        "prefix": "uk-switcher-navigation",
+        "body": [
+            "<ul class=\"uk-switcher uk-margin\">",
+            "\t<li><a href=\"\" uk-switcher-item=\"0\"></a></li>",
+            "\t<li><a href=\"\" uk-switcher-item=\"1\"></a></li>",
+            "\t<li><a href=\"\" uk-switcher-item=\"next\"></a></li>",
+            "\t<li><a href=\"\" uk-switcher-item=\"previous\"></a></li>",
+            "</ul>"
+        ],
+        "description": "Creates a switcher with navigation controls within the content pane"
+    },
+    "snippet-uk-switcher-connect-containers": {
+        "prefix": "uk-switcher-connect-containers",
+        "body": [
+            "<!-- This is the nav containing the toggling elements -->",
+            "<ul uk-switcher=\"connect: my-class\">...</ul>",
+            "<!-- These are the containers of the content items -->",
+            "<ul class=\"uk-switcher my-class\">...</ul>",
+            "<ul class=\"uk-switcher my-class\">...</ul>"
+        ],
+        "description": "Creates a switcher that connects multiple content containers"
+    },
+    "snippet-uk-switcher-animation": {
+        "prefix": "uk-switcher-animation",
+        "body": [
+            "<ul uk-switcher=\"animation: ${1:uk-animation-fade}\">\r$0</ul>"
+        ],
+        "description": "Creates a switcher animates its transitions"
+    },
+    "snippet-uk-switcher-multiple-animations": {
+        "prefix": "uk-switcher-multiple-animations",
+        "body": [
+            "<ul uk-switcher=\"animation: ${1:uk-animation-slide-left-medium, uk-animation-slide-right-medium}\">\r$0</ul>"
+        ],
+        "description": "Creates a switcher with multiple animations"
+    },
+    "snippet-uk-switcher-subnav": {
+        "prefix": "uk-switcher-subnav",
+        "body": [
+            "<!-- This is the subnav containing the toggling elements -->",
+            "<ul class=\"uk-subnav uk-subnav-pill\" uk-switcher>$0</ul>",
+            "<!-- This is the container of the content items -->",
+            "<ul class=\"uk-switcher\"></ul>"
+        ],
+        "description": "Creates a switcher combined with a subnav"
+    },
+    "snippet-uk-switcher-tab": {
+        "prefix": "uk-switcher-tab",
+        "body": [
+            "<!-- This is the subnav containing the toggling elements -->",
+            "<ul uk-tab>...</ul>",
+            "<!-- This is the container of the content items -->",
+            "<ul class=\"uk-switcher\">$0</ul>"
+        ],
+        "description": "Creates a switcher combined with a tab"
+    },
+    "snippet-uk-switcher-tab-vertical": {
+        "prefix": "uk-switcher-tab-vertical",
+        "body": [
+            "<div uk-grid>",
+            "\t<div class=\"uk-width-auto\">",
+            "\t\t<ul class=\"uk-tab-left\" uk-tab=\"connect: #my-id\">$1</ul>",
+            "\t</div>",
+            "\t<div class=\"uk-width-expand\">",
+            "\t\t<ul id=\"my-id\" class=\"uk-switcher\">$2</ul>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates a switcher combined with a vertical tab"
+    },
+    "snippet-uk-switcher-button": {
+        "prefix": "uk-switcher-button",
+        "body": [
+            "<!-- This is a switcher using a number of buttons -->",
+            "<div uk-switcher>",
+            "\t<button class=\"uk-button uk-button-default\" type=\"button\"></button>",
+            "\t<button class=\"uk-button uk-button-default\" type=\"button\"></button>",
+            "</div>",
+            "<ul class=\"uk-switcher\">$0</ul>"
+        ],
+        "description": "Creates a switcher combined with a vertical tab"
+    },
+    "snippet-uk-switcher-nav": {
+        "prefix": "uk-switcher-nav",
+        "body": [
+            "<div uk-grid>",
+            "\t<div class=\"uk-width-small\">",
+            "\t\t<ul class=\"uk-nav uk-nav-default\" uk-switcher=\"connect: #my-id\">$1</ul>",
+            "\t</div>",
+            "\t<div class=\"uk-width-expand\">",
+            "\t\t<ul id=\"my-id\" class=\"uk-switcher\">$2</ul>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates a switcher combined with a vertical tab"
+    },
+    "snippet-uk-tab-basic": {
+        "prefix": "uk-tab-basic",
+        "body": [
+            "<ul uk-tab>",
+            "\t<li class=\"uk-active\"><a href=\"\"></a></li>",
+            "\t<li><a href=\"\"></a></li>",
+            "\t<li class=\"uk-disabled\"><a href=\"\"></a></li>",
+            "</ul>"
+        ],
+        "description": "Creates a basic tabbed navigation"
+    },
+    "snippet-uk-tab-bottom": {
+        "prefix": "uk-tab-bottom",
+        "body": [
+            "<ul class=\"uk-tab-bottom\" uk-tab>",
+            "\t<li class=\"uk-active\"><a href=\"\"></a></li>",
+            "\t<li><a href=\"\"></a></li>",
+            "\t<li class=\"uk-disabled\"><a href=\"\"></a></li>",
+            "</ul>"
+        ],
+        "description": "Creates a tab with items flipped to the bottom"
+    },
+    "snippet-uk-tab-vertical": {
+        "prefix": "uk-tab-vertical",
+        "body": [
+            "<ul class=\"uk-tab-${1:[left|right]}\" uk-tab>",
+            "\t<li class=\"uk-active\"><a href=\"\"></a></li>",
+            "\t<li><a href=\"\"></a></li>",
+            "\t<li class=\"uk-disabled\"><a href=\"\"></a></li>",
+            "</ul>"
+        ],
+        "description": "Creates a tab with items aligned left or right"
+    },
+    "snippet-uk-tab-alignment": {
+        "prefix": "uk-tab-alignment",
+        "body": [
+            "<ul class=\"uk-tab-${1:[left|right]}\" uk-tab>",
+            "\t<li class=\"uk-active\"><a href=\"\"></a></li>",
+            "\t<li><a href=\"\"></a></li>",
+            "\t<li class=\"uk-disabled\"><a href=\"\"></a></li>",
+            "</ul>"
+        ],
+        "description": "Creates a tab with items aligned left or right"
+    },
+    "snippet-uk-tab-dropdown": {
+        "prefix": "uk-tab-dropdown",
+        "body": [
+            "<ul uk-tab>",
+            "\t<li>",
+            "\t\t<!-- This is the menu item toggling the dropdown -->",
+            "\t\t<a href=\"\"></a>",
+            "\t\t<!-- This is the dropdown -->",
+            "\t\t<div uk-dropdown=\"mode: click\">",
+            "\t\t\t<ul class=\"uk-nav uk-dropdown-nav\">...</ul>",
+            "\t\t</div>",
+            "\t</li>",
+            "</ul>"
+        ],
+        "description": "Creates a tab with a dropdown"
+    },
+    "snippet-uk-table": {
+        "prefix": "uk-table",
+        "body": [
+            "<table class=\"uk-table\">",
+            "\t<caption></caption>",
+            "\t<thead>",
+            "\t\t<tr>",
+            "\t\t\t<th></th>",
+            "\t\t</tr>",
+            "\t</thead>",
+            "\t<tfoot>",
+            "\t\t<tr>",
+            "\t\t\t<td></td>",
+            "\t\t</tr>",
+            "\t</tfoot>",
+            "\t<tbody>",
+            "\t\t<tr>",
+            "\t\t\t<td></td>",
+            "\t\t</tr>",
+            "\t</tbody>",
+            "</table>"
+        ],
+        "description": "Creates a table with a default style"
+    },
+    "snippet-uk-table-hover": {
+        "prefix": "uk-table-hover",
+        "body": [
+            "<table class=\"uk-table uk-table-hover\">",
+            "\t<caption></caption>",
+            "\t<thead>",
+            "\t\t<tr>",
+            "\t\t\t<th></th>",
+            "\t\t</tr>",
+            "\t</thead>",
+            "\t<tbody>",
+            "\t\t<tr>",
+            "\t\t\t<td></td>",
+            "\t\t</tr>",
+            "\t</tbody>",
+            "</table>"
+        ],
+        "description": "Creates a table with a hover state on table rows"
+    },
+    "snippet-uk-table-striped": {
+        "prefix": "uk-table-striped",
+        "body": [
+            "<table class=\"uk-table uk-table-striped\">",
+            "\t<caption></caption>",
+            "\t<thead>",
+            "\t\t<tr>",
+            "\t\t\t<th></th>",
+            "\t\t</tr>",
+            "\t</thead>",
+            "\t<tbody>",
+            "\t\t<tr>",
+            "\t\t\t<td></td>",
+            "\t\t</tr>",
+            "\t</tbody>",
+            "</table>"
+        ],
+        "description": "Creates a table with zebra-striping on table rows"
+    },
+    "snippet-uk-table-small": {
+        "prefix": "uk-table-small",
+        "body": [
+            "<table class=\"uk-table uk-table-small\">",
+            "\t<caption></caption>",
+            "\t<thead>",
+            "\t\t<tr>",
+            "\t\t\t<th></th>",
+            "\t\t</tr>",
+            "\t</thead>",
+            "\t<tbody>",
+            "\t\t<tr>",
+            "\t\t\t<td></td>",
+            "\t\t</tr>",
+            "\t</tbody>",
+            "</table>"
+        ],
+        "description": "Creates a smaller, more compact table"
+    },
+    "snippet-uk-table-center": {
+        "prefix": "uk-table-center",
+        "body": [
+            "<table class=\"uk-table uk-table-center\">",
+            "\t<caption></caption>",
+            "\t<thead>",
+            "\t\t<tr>",
+            "\t\t\t<th></th>",
+            "\t\t</tr>",
+            "\t</thead>",
+            "\t<tbody>",
+            "\t\t<tr>",
+            "\t\t\t<td></td>",
+            "\t\t</tr>",
+            "\t</tbody>",
+            "</table>"
+        ],
+        "description": "Creates a table with center aligned elements"
+    },
+    "snippet-uk-table-responsive": {
+        "prefix": "uk-table-responsive",
+        "body": [
+            "<div class=\"uk-overflow-auto\">",
+            "\t<table class=\"uk-table\">\r${0:...}</table>",
+            "</div>"
+        ],
+        "description": "Creates a table that provides a horizontal scrollbar on smaller device screens when needed"
+    },
+    "snippet-uk-table-column-width": {
+        "prefix": "uk-table-column-width",
+        "body": [
+            "<th class=\"uk-table-${0:[shrink|expand]}\"></th>"
+        ],
+        "description": "Modifies the width of a table column"
+    },
+    "snippet-uk-text-lead": {
+        "prefix": "uk-text-lead",
+        "body": [
+            " class=\"uk-text-lead\" "
+        ],
+        "description": "Highlights text for subheadings and article subtitles"
+    },
+    "snippet-uk-text-meta": {
+        "prefix": "uk-text-meta",
+        "body": [
+            " class=\"uk-text-meta\" "
+        ],
+        "description": "Text class for paragraphs with meta data about an article or similar"
+    },
+    "snippet-uk-text-size": {
+        "prefix": "uk-text-size",
+        "body": [
+            " class=\"uk-text-${0:[small|large]}\" "
+        ],
+        "description": "Modifies the font size of text"
+    },
+    "snippet-uk-text-bold": {
+        "prefix": "uk-text-bold",
+        "body": [
+            " class=\"uk-text-bold}\" "
+        ],
+        "description": "Creates bold text"
+    },
+    "snippet-uk-text-transform": {
+        "prefix": "uk-text-transform",
+        "body": [
+            " class=\"uk-text-${0:[uppercase|capitalize|lowercase]}\" "
+        ],
+        "description": "Transforms text characters into the chosen case"
+    },
+    "snippet-uk-text-color": {
+        "prefix": "uk-text-color",
+        "body": [
+            " class=\"uk-text-${0:[muted|primary|success|warning|danger]}\" "
+        ],
+        "description": "Modifies the color of text into the chosen color scheme"
+    },
+    "snippet-uk-text-alignment": {
+        "prefix": "uk-text-alignment",
+        "body": [
+            " class=\"uk-text-${0:[left|center|right|justify]}\" "
+        ],
+        "description": "Aligns text to a chosen position"
+    },
+    "snippet-uk-text-alignment-responsive": {
+        "prefix": "uk-text-alignment-responsive",
+        "body": [
+            " class=\"uk-text-${1:[left|center|right]}-@${0:[s|m|l|xl]}\" "
+        ],
+        "description": "Aligns text to a chosen position on specific screen widths"
+    },
+    "snippet-uk-text-vertical-alignment": {
+        "prefix": "uk-text-vertical-alignment",
+        "body": [
+            " class=\"uk-text-${0:[top|middle|bottom|baseline]}\" "
+        ],
+        "description": "Aligns text vertically"
+    },
+    "snippet-uk-text-wrapping": {
+        "prefix": "uk-text-wrapping",
+        "body": [
+            " class=\"uk-text-${0:[truncate|break|nowrap]}\" "
+        ],
+        "description": "Wraps text according to your choice"
+    },
+    "snippet-uk-toggle-example": {
+        "prefix": "uk-toggle-example",
+        "body": [
+            "<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
+            "<p id=\"${2:my-id}\"></p>"
+        ],
+        "description": "Creates a toggle that shows/hides an element"
+    },
+    "snippet-uk-toggle-multiple": {
+        "prefix": "uk-toggle-multiple",
+        "body": [
+            "<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
+            "<p id=\"${2:my-id}\"></p>",
+            "<p id=\"${2:my-id}\"></p>"
+        ],
+        "description": "Creates a toggle that shows/hides multiple elements"
+    },
+    "snippet-uk-toggle-custom-class": {
+        "prefix": "uk-toggle-custom-class",
+        "body": [
+            "<button uk-toggle=\"target: #${1:my-id}; cls: uk-card-primary;\" type=\"button\"></button>",
+            "<p id=\"${2:my-id}\" class=\"uk-card uk-card-default\"></p>"
+        ],
+        "description": "Creates a toggle that applies a custom class to the target element"
+    },
+    "snippet-uk-toggle-animation": {
+        "prefix": "uk-toggle-animation",
+        "body": [
+            "<button uk-toggle=\"target: #${1:my-id}; animation: uk-animation-fade\" type=\"button\"></button>",
+            "<p id=\"${2:my-id}\"></p>"
+        ],
+        "description": "Creates a toggle that animates when toggling between items"
+    },
+    "snippet-uk-toggle-multiple-animations": {
+        "prefix": "uk-toggle-multiple-animations",
+        "body": [
+            "<button uk-toggle=\"target: #${1:my-id}; animation: uk-animation-slide-left, uk-animation-slide-bottom\" type=\"button\"></button>",
+            "<p id=\"${2:my-id}\"></p>"
+        ],
+        "description": "Creates a toggle with multiple animations"
+    },
+    "snippet-uk-toggle-queued-animation": {
+        "prefix": "uk-toggle-queued-animation",
+        "body": [
+            "<button uk-toggle=\"target: #${1:my-id}; animation: uk-animation-fade; queued: true\" type=\"button\"></button>",
+            "<p id=\"${2:my-id}\"></p>",
+            "<p id=\"${2:my-id}\"></p>"
+        ],
+        "description": "Creates a toggle with queued animations"
+    },
+    "snippet-uk-toggle-modes": {
+        "prefix": "uk-toggle-modes",
+        "body": [
+            "<button uk-toggle=\"target: #${1:my-id}; mode: ${2:[hover|click]};\" type=\"button\"></button>",
+            "<p id=\"${3:my-id}\"></p>"
+        ],
+        "description": "Changes the trigger mode for the toggle"
+    },
+    "snippet-uk-toggle-media": {
+        "prefix": "uk-toggle-media",
+        "body": [
+            "<!-- The primary modifier will only be applied on large screens -->",
+            "<div class=\"uk-card uk-card-default\" uk-toggle=\"cls: uk-card-primary; mode: media; media: @${1:[s|m|l|xl]}\"></div>"
+        ],
+        "description": "Toggles an element based on the screen width"
+    },
+    "snippet-uk-tooltip": {
+        "prefix": "uk-tooltip",
+        "body": [
+            "<div title=\"$0\" uk-tooltip></div>"
+        ],
+        "description": "Creates an element with a tooltip"
+    },
+    "snippet-uk-tooltip-alignment": {
+        "prefix": "uk-tooltip-alignment",
+        "body": [
+            "<div title=\"$0\" uk-tooltip=\"pos: ${1:[top|bottom|left|right]}-${2:[left|right]}\"></div>"
+        ],
+        "description": "Creates a tooltip with a modified alignment"
+    },
+    "snippet-uk-tooltip-delay": {
+        "prefix": "uk-tooltip-delay",
+        "body": [
+            "<div title=\"$0\" uk-tooltip=\"delay: ${1:500}\"></div>"
+        ],
+        "description": "Creates a tooltip with a specified delay in milliseconds"
+    },
+    "snippet-uk-totop": {
+        "prefix": "uk-totop",
+        "body": [
+            "<a href=\"\" uk-totop></a>"
+        ],
+        "description": "Creates an icon used for scrolling to the top of the page"
+    },
+    "snippet-uk-totop-smooth": {
+        "prefix": "uk-totop-smooth",
+        "body": [
+            "<a href=\"\" uk-totop uk-scroll></a>"
+        ],
+        "description": "Creates a totop component with smooth scrolling"
+    },
+    "snippet-uk-transition-fade": {
+        "prefix": "uk-transition-fade",
+        "body": [
+            "<div class=\"uk-transition-toggle\">",
+            "\t<div class=\"uk-transition-fade\"></div>",
+            "</div>"
+        ],
+        "description": "Creates a smooth transition between two states when hovering an element"
+    },
+    "snippet-uk-transition-scale": {
+        "prefix": "uk-transition-scale",
+        "body": [
+            "<div class=\"uk-transition-toggle\">",
+            "\t<div class=\"uk-transition-scale-${0:[up|down]}\"></div>",
+            "</div>"
+        ],
+        "description": "Creates a smooth transition between two states when hovering an element"
+    },
+    "snippet-uk-transition-slide": {
+        "prefix": "uk-transition-slide",
+        "body": [
+            "<div class=\"uk-transition-toggle\">",
+            "\t<div class=\"uk-transition-slide-${0:[top|bottom|left|right]}\"></div>",
+            "</div>"
+        ],
+        "description": "Creates a smooth transition between two states when hovering an element"
+    },
+    "snippet-uk-transition-slide-size": {
+        "prefix": "uk-transition-slide-size",
+        "body": [
+            "<div class=\"uk-transition-toggle\">",
+            "\t<div class=\"uk-transition-slide-${1:[top|bottom|left|right]}-${2:[small|medium]}\"></div>",
+            "</div>"
+        ],
+        "description": "Creates a smooth transition between two states when hovering an element"
+    },
+    "snippet-uk-upload-select": {
+        "prefix": "uk-upload-select",
+        "body": [
+            "<div class=\"test-upload\" uk-form-custom>",
+            "\t<input type=\"file\" multiple>",
+            "\t<button class=\"uk-button uk-button-default\" type=\"button\" tabindex=\"-1\">Select</button>",
+            "</div>"
+        ],
+        "description": "Creates a button which opens a file select window"
+    },
+    "snippet-uk-upload-drop-area": {
+        "prefix": "uk-upload-drop-area",
+        "body": [
+            "<div class=\"test-upload uk-placeholder uk-text-center\">",
+            "\t<span uk-icon=\"icon: cloud-upload\"></span>",
+            "\t<span class=\"uk-text-middle\">Attach binaries by dropping them here or</span>",
+            "\t<div uk-form-custom>",
+            "\t\t<input type=\"file\" multiple>",
+            "\t\t<span class=\"uk-link\">selecting one</span>",
+            "\t</div>",
+            "</div>",
+            "<progress id=\"progressbar\" class=\"uk-progress\" value=\"0\" max=\"100\" hidden></progress>",
+            "<script>",
+            "(function ($) {",
+            "\tvar bar = $(\"#progressbar\")[0];",
+            "\tUIkit.upload('.test-upload', {",
+            "\t\turl: '',",
+            "\t\tmultiple: true,",
+            "\t\tbeforeSend: function() { console.log('beforeSend', arguments); },",
+            "\t\tbeforeAll: function() { console.log('beforeAll', arguments); },",
+            "\t\tload: function() { console.log('load', arguments); },",
+            "\t\terror: function() { console.log('error', arguments); },",
+            "\t\tcomplete: function() { console.log('complete', arguments); },",
+            "\t\tloadStart: function (e) {",
+            "\t\t\tconsole.log('loadStart', arguments);",
+            "\t\t\tbar.removeAttribute('hidden');",
+            "\t\t\tbar.max =  e.total;",
+            "\t\t\tbar.value =  e.loaded;",
+            "\t\t},",
+            "\t\tprogress: function (e) {",
+            "\t\t\tconsole.log('progress', arguments);",
+            "\t\t\tbar.max =  e.total;",
+            "\t\t\tbar.value =  e.loaded;",
+            "\t\t},",
+            "\t\tloadEnd: function (e) {",
+            "\t\t\tconsole.log('loadEnd', arguments);",
+            "\t\t\tbar.max =  e.total;",
+            "\t\t\tbar.value =  e.loaded;",
+            "\t\t},",
+            "\t\tcompleteAll: function () {",
+            "\t\t\tconsole.log('completeAll', arguments);",
+            "\t\t\tsetTimeout(function () {",
+            "\t\t\t\tbar.setAttribute('hidden', 'hidden');",
+            "\t\t\t}, 1000);",
+            "\t\t\talert('Upload Completed');",
+            "\t\t}",
+            "\t});",
+            "})(jQuery);",
+            "</script>"
+        ],
+        "description": "Creates an area for files to be dropped and uploaded"
+    },
+    "snippet-uk-upload-script": {
+        "prefix": "uk-upload-script",
+        "body": [
+            "<script>",
+            "(function ($) {",
+            "\tvar bar = $(\"#progressbar\")[0];",
+            "\tUIkit.upload('.test-upload', {",
+            "\t\turl: '',",
+            "\t\tmultiple: true,",
+            "\t\tbeforeSend: function() { console.log('beforeSend', arguments); },",
+            "\t\tbeforeAll: function() { console.log('beforeAll', arguments); },",
+            "\t\tload: function() { console.log('load', arguments); },",
+            "\t\terror: function() { console.log('error', arguments); },",
+            "\t\tcomplete: function() { console.log('complete', arguments); },",
+            "\t\tloadStart: function (e) {",
+            "\t\t\tconsole.log('loadStart', arguments);",
+            "\t\t\tbar.removeAttribute('hidden');",
+            "\t\t\tbar.max =  e.total;",
+            "\t\t\tbar.value =  e.loaded;",
+            "\t\t},",
+            "\t\tprogress: function (e) {",
+            "\t\t\tconsole.log('progress', arguments);",
+            "\t\t\tbar.max =  e.total;",
+            "\t\t\tbar.value =  e.loaded;",
+            "\t\t},",
+            "\t\tloadEnd: function (e) {",
+            "\t\t\tconsole.log('loadEnd', arguments);",
+            "\t\t\tbar.max =  e.total;",
+            "\t\t\tbar.value =  e.loaded;",
+            "\t\t},",
+            "\t\tcompleteAll: function () {",
+            "\t\t\tconsole.log('completeAll', arguments);",
+            "\t\t\tsetTimeout(function () {",
+            "\t\t\t\tbar.setAttribute('hidden', 'hidden');",
+            "\t\t\t}, 1000);",
+            "\t\t\talert('Upload Completed');",
+            "\t\t}",
+            "\t});",
+            "})(jQuery);",
+            "</script>"
+        ],
+        "description": "Creates the upload script"
+    },
+    "snippet-uk-utility-panel": {
+        "prefix": "uk-utility-panel",
+        "body": [
+            "<div class=\"uk-panel\"></div>"
+        ],
+        "description": "Creates a panel used to outline a section of content"
+    },
+    "snippet-uk-utility-panel-scrollable": {
+        "prefix": "uk-utility-panel-scrollable",
+        "body": [
+            "<div class=\"uk-panel uk-panel-scrollable\"></div>"
+        ],
+        "description": "Creates a scrollable panel"
+    },
+    "snippet-uk-utility-float": {
+        "prefix": "uk-utility-float",
+        "body": [
+            " class=\"uk-float-${0:[left|right]}\" "
+        ],
+        "description": "Floats an element left or right"
+    },
+    "snippet-uk-utility-clearfix": {
+        "prefix": "uk-utility-clearfix",
+        "body": [
+            " class=\"uk-clearfix\" "
+        ],
+        "description": "Removes floats from this element and its children"
+    },
+    "snippet-uk-utility-overflow": {
+        "prefix": "uk-utility-overflow",
+        "body": [
+            " class=\"uk-overflow-${0:[hidden|auto]}\" "
+        ],
+        "description": "Modifies an element's overflow behaviour"
+    },
+    "snippet-uk-utility-resize": {
+        "prefix": "uk-utility-resize",
+        "body": [
+            " class=\"uk-resize${0:-vertical}\" "
+        ],
+        "description": "Allows an element to be resized"
+    },
+    "snippet-uk-utility-display": {
+        "prefix": "uk-utility-display",
+        "body": [
+            " class=\"uk-display-${0:[block|inline|inline-block]}\" "
+        ],
+        "description": "Changes the display properties of an element"
+    },
+    "snippet-uk-utility-inline": {
+        "prefix": "uk-utility-inline",
+        "body": [
+            " class=\"uk-inline${0:-clip}\" "
+        ],
+        "description": "Applies inline-block behaviour to an element, adds a max-width of 100% and creates a position context. Optionally clips overflowing child elements."
+    },
+    "snippet-uk-utility-height": {
+        "prefix": "uk-utility-height",
+        "body": [
+            " class=\"uk-height-${0:[1-1|small|medium|large]}\" "
+        ],
+        "description": "Modifies the height of an element to 100%|150px|300px|450px respectively."
+    },
+    "snippet-uk-utility-max-height": {
+        "prefix": "uk-utility-max-height",
+        "body": [
+            " class=\"uk-max-height-${0:[small|medium|large]}\" "
+        ],
+        "description": "Modifies the max-height of an element to 150px|300px|450px respectively."
+    },
+    "snippet-uk-utility-viewport-height": {
+        "prefix": "uk-utility-viewport-height",
+        "body": [
+            " uk-height-viewport=\"${1:[offset-top: true|offset-bottom: ${2:20}|expand: true]}\" "
+        ],
+        "description": "Modifies the height of an element to fill the entire viewport. Height behaviour can be changed with an option."
+    },
+    "snippet-uk-utility-match-height": {
+        "prefix": "uk-utility-match-height",
+        "body": [
+            " uk-height-match "
+        ],
+        "description": "Expands all children of a container to the same height."
+    },
+    "snippet-uk-utility-match-height-specific": {
+        "prefix": "uk-utility-match-height-specific",
+        "body": [
+            " uk-height-match=\"target: ${0:SELECTOR}\" "
+        ],
+        "description": "Matches the height of specific child elements"
+    },
+    "snippet-uk-utility-match-height-all": {
+        "prefix": "uk-utility-match-height-all",
+        "body": [
+            " uk-height-match=\"row: false\" "
+        ],
+        "description": "Matches the height of all child elements even in other rows"
+    },
+    "snippet-uk-utility-responsive": {
+        "prefix": "uk-utility-responsive",
+        "body": [
+            " class=\"uk-responsive-${0:[width|height]}\" "
+        ],
+        "description": "Applies a responsive behaviour to any element"
+    },
+    "snippet-uk-utility-preserve-width": {
+        "prefix": "uk-utility-preserve-width",
+        "body": [
+            " class=\"uk-preserve-width\" "
+        ],
+        "description": "Avoids responsive behaviour and preserves original dimensions"
+    },
+    "snippet-uk-utility-border-radius": {
+        "prefix": "uk-utility-border-radius",
+        "body": [
+            " class=\"uk-border-${0:[rounded|circle]}\" "
+        ],
+        "description": "Modifies the border radius of an element"
+    },
+    "snippet-uk-utility-box-shadow": {
+        "prefix": "uk-utility-box-shadow",
+        "body": [
+            " class=\"uk-box-shadow-${0:[small|medium|large|xlarge]}\" "
+        ],
+        "description": "Adds a box shadow to an element"
+    },
+    "snippet-uk-utility-box-shadow-hover": {
+        "prefix": "uk-utility-box-shadow-hover",
+        "body": [
+            " class=\"uk-box-shadow-hover-${0:[small|medium|large|xlarge]}\" "
+        ],
+        "description": "Adds a box shadow to an element on hover"
+    },
+    "snippet-uk-utility-dropcap": {
+        "prefix": "uk-utility-dropcap",
+        "body": [
+            "<p class=\"uk-dropcap\"></p>"
+        ],
+        "description": "Applies a drop cap on a paragraph"
+    },
+    "snippet-uk-utility-logo-text": {
+        "prefix": "uk-utility-logo-text",
+        "body": [
+            "<a href=\"\" class=\"uk-logo\"></a>"
+        ],
+        "description": "Creates a text logo"
+    },
+    "snippet-uk-utility-logo-image": {
+        "prefix": "uk-utility-logo-image",
+        "body": [
+            "<a href=\"\" class=\"uk-logo\">",
+            "\t<img src=\"\" alt=\"\" ",
+            "</a>"
+        ],
+        "description": "Creates an image logo"
+    },
+    "snippet-uk-utility-inline-svg": {
+        "prefix": "uk-utility-inline-svg",
+        "body": [
+            "<img src=\"\" uk-svg>"
+        ],
+        "description": "Adds an inline SVG"
+    },
+    "snippet-uk-utility-gif": {
+        "prefix": "uk-utility-gif",
+        "body": [
+            "<img src=\"\" alt=\"\" uk-gif>"
+        ],
+        "description": "Adds a GIF that plays when it comes into view"
+    },
+    "snippet-uk-utility-blend": {
+        "prefix": "uk-utility-blend",
+        "body": [
+            " class=\"uk-blend-${0:[multiply|screen|overlay|darken|lighten|color-dodge|color-burn|hard-light|soft-light|difference|exclusion|hue|saturation|color|luminosity]}\" "
+        ],
+        "description": "Applies a modified blend mode to a background"
+    },
+    "snippet-uk-utility-transform-origin": {
+        "prefix": "uk-utility-transform-origin",
+        "body": [
+            " class=\"uk-transform-origin-${1:[top|center|bottom]}-${2:[left|center|right]}\" "
+        ],
+        "description": "Modifies the origin of an animation"
+    },
+    "snippet-uk-utility-disabled": {
+        "prefix": "uk-utility-disabled",
+        "body": [
+            " class=\"uk-disabled\" "
+        ],
+        "description": "Disables the click behaviour of any element"
+    },
+    "snippet-uk-utility-drag": {
+        "prefix": "uk-utility-drag",
+        "body": [
+            " class=\"uk-drag\" "
+        ],
+        "description": "Applies a move cursor to an element"
+    },
+    "snippet-uk-utility-dragover": {
+        "prefix": "uk-utility-dragover",
+        "body": [
+            " class=\"uk-dragover\" "
+        ],
+        "description": "Creates a box shadow used for upload areas when dragging a file over it"
+    },
+    "snippet-uk-hidden": {
+        "prefix": "uk-hidden",
+        "body": [
+            " class=\"uk-hidden\" "
+        ],
+        "description": "Legacy class used for hiding an element. Recommended: Use 'hidden' attribute instead."
+    },
+    "snippet-uk-hidden-responsive": {
+        "prefix": "uk-hidden-responsive",
+        "body": [
+            " class=\"uk-hidden@${0:[s|m|l|xl]}\" "
+        ],
+        "description": "Hides an element from screens larger than the specified width (640|960|1200|1600 px respectively)"
+    },
+    "snippet-uk-hidden-hover": {
+        "prefix": "uk-hidden-hover",
+        "body": [
+            "<div class=\"uk-visible-toggle\">",
+            "\t<div class=\"uk-hidden-hover\"></div>",
+            "</div>"
+        ],
+        "description": "Hides the content until the parent container is hovered"
+    },
+    "snippet-uk-visible": {
+        "prefix": "uk-visible",
+        "body": [
+            " class=\"uk-visible@${0:[s|m|l|xl]}\" "
+        ],
+        "description": "Shows an element on screens larger than the specified width (640|960|1200|1600 px respectively)"
+    },
+    "snippet-uk-invisible": {
+        "prefix": "uk-invisible",
+        "body": [
+            " class=\"uk-invisible\" "
+        ],
+        "description": "Hides the element without removing it from the document flow."
+    },
+    "snippet-uk-invisible-hover": {
+        "prefix": "uk-invisible-hover",
+        "body": [
+            "<div class=\"uk-visible-toggle\">",
+            "\t<div class=\"uk-invisible-hover\"></div>",
+            "</div>"
+        ],
+        "description": "Hides the content (without removing it from the document flow) until the parent container is hovered"
+    },
+    "snippet-uk-width": {
+        "prefix": "uk-width",
+        "body": [
+            " class=\"uk-width-${1:[1|2|3|4|5]}-${0:[1|2|3|4|5|6]}\" "
+        ],
+        "description": "Modifies the width of an element to take up a portion of its parent container, or the entire width. Usually used with 'uk-grid'."
+    },
+    "snippet-uk-width-responsive": {
+        "prefix": "uk-width-responsive",
+        "body": [
+            " class=\"uk-width-${1:[1|2|3|4|5]}-${2:[1|2|3|4|5|6]}@{3:[s|m|l|xl]}\" "
+        ],
+        "description": "Modifies the width of an element to take up a portion of its parent container on specified device widths and higher. Columns stack on smaller sizes."
+    },
+    "snippet-uk-width-auto": {
+        "prefix": "uk-width-auto",
+        "body": [
+            " class=\"uk-width-auto\" "
+        ],
+        "description": "The item expands to the width of its own content. Usually used with 'uk-grid'."
+    },
+    "snippet-uk-width-expand": {
+        "prefix": "uk-width-expand",
+        "body": [
+            " class=\"uk-width-expand\" "
+        ],
+        "description": "The item expands to fill up the remaining space of the grid container. Usually used with 'uk-grid'."
+    },
+    "snippet-uk-child-width": {
+        "prefix": "uk-child-width",
+        "body": [
+            " class=\"uk-child-width-${0:[1-2|1-3|1-4|1-5|1-6|auto|expand]}\" "
+        ],
+        "description": "Evenly divides the width of all child elements in a 'uk-grid'"
+    },
+    "snippet-uk-child-width-responsive": {
+        "prefix": "uk-child-width-responsive",
+        "body": [
+            " class=\"uk-child-width-${1:[1-2|1-3|1-4|1-5|1-6|auto|expand]}@{0:[s|m|l|xl]\" "
+        ],
+        "description": "Evenly divides the width of all child elements in a 'uk-grid' on specified device widths and higher. Columns stack on smaller sizes."
+    },
+    "snippet-uk-fixed-width": {
+        "prefix": "uk-fixed-width",
+        "body": [
+            " class=\"uk-width-${0:[small|medium|large|xlarge|xxlarge]}\" "
+        ],
+        "description": "Applies a fixed width to an element of 150|300|450|600|750 px respectively."
+    }
 }
