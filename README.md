@@ -1,9 +1,9 @@
 UIKit 3.0 Snippets for Visual Studio Code
 ===
 
-![Demo](demo.gif)
+![Demo Image](https://zippy.gfycat.com/AmusingGiftedJumpingbean.gif)
 
-<img src="https://zippy.gfycat.com/AmusingGiftedJumpingbean.gif" width="900"/>
+[Gfycat Link](https://gfycat.com/AmusingGiftedJumpingbean)
 
 This extension adds all the snippets from [UIKit 3.0](https://getuikit.com/docs/introduction) into Visual Studio Code for easy access and usage.
 
