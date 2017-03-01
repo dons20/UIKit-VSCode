@@ -1,7 +1,9 @@
 UIKit 3.0 Snippets for Visual Studio Code
 ===
 
-<iframe src='https://gfycat.com/ifr/AmusingGiftedJumpingbean' frameborder='0' scrolling='no' width='640' height='360' allowfullscreen></iframe>
+![Demo](demo.gif)
+
+<img src="https://zippy.gfycat.com/AmusingGiftedJumpingbean.gif" width="900"/>
 
 This extension adds all the snippets from [UIKit 3.0](https://getuikit.com/docs/introduction) into Visual Studio Code for easy access and usage.
 
