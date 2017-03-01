@@ -1,9 +1,9 @@
 {
-  "name": "uikit-3.0-snippets",
+  "name": "uikit-3-snippets",
   "displayName": "UIKit 3.0 Snippets",
-  "publisher": "Keno Clayton",
+  "publisher": "Keno",
   "description": "UIKit 3.0 Snippets based on documentation",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "SEE LICENSE IN LICENSE.md",
   "icon": "images/icon.svg",
   "galleryBanner": {
@@ -27,12 +27,9 @@
   "contributes": {
     "snippets": [
       {
-        "language": "HTML",
+        "language": "html",
         "path": "./snippets/html.json"
       }
     ]
-  },
-  "dependencies": {
-    "strip-json-comments": "^2.0.1"
   }
 }

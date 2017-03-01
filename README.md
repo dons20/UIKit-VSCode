@@ -3,17 +3,30 @@ UIKit 3.0 Snippets for Visual Studio Code
 
 This extension adds all the snippets from [UIKit 3.0](https://getuikit.com/docs/introduction) into Visual Studio Code for easy access and usage.
 
+Suggestions are welcome in order to improve the quality of the snippets, as well as keeping it up to date.
+Head over to the [issues](https://github.com/dons20/UIKit-VSCode/issues) page to submit those.
+
 Setup
 ---
+#### Method 1
+
 1. Go to Extensions by pressing Ctrl-Shift-X (Windows/Linux) or Cmd-Shift-X (Mac)
 2. Search for UIKit 3.0 Snippets
 3. Click on Install
 4. Reload your editor and you're good to go!
 
+#### Method 2
+
+1. With Visual Studio Code opened, press `Ctrl+P`.
+2. Type in `ext install uikit-3.0-snippets` and press `Enter`.
+
+
 Table of Contents
 ---
 * [UIKit 3.0 Snippets](#uikit-30-snippets-for-visual-studio-code)
   * [Setup](#setup)
+    * [Method 1](#method-1)
+    * [Method 2](#method-2)
   * [Table of Contents](#table-of-contents)
   * [Usage](#usage)
   * [Contribution Guidelines](#contribution-guidelines)
@@ -24,6 +37,8 @@ Table of Contents
     * [Testing Changes](#testing-changes)
     * [Tab Locations](#tab-locations)
   * [Changelog](#changelog)
+  * [License](#license)
+  * [Disclaimer](#disclaimer)
   * [List of Commands](#list-of-commands)
     * [UIKit Master Template](#uikit-master-template)
     * [Accordion](#accordion)
@@ -193,6 +208,16 @@ You can also have placeholder content that is automatically highlighted when the
 Changelog
 ---
 [View the changelog](../CHANGELOG.md)
+
+License
+---
+UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT License](http://opensource.org/licenses/MIT)
+
+Disclaimer
+---
+[Readme layout inspiration](https://github.com/thekalinga/bootstrap4-vscode)
+
+[UIKit Snippets Original Source](https://getuikit.com/docs/introduction)
 
 List of Commands
 ---
@@ -824,8 +849,3 @@ List of Commands
 | uk-child-width | Evenly divides the width of all child elements in a 'uk-grid' |
 | uk-child-width-responsive | Evenly divides the width of all child elements in a 'uk-grid' on specified device widths and higher. Columns stack on smaller sizes. |
 | uk-fixed-width | Applies a fixed width to an element of 150/300/450/600/750 px respectively. | 
-
-Disclaimer
----
-[Readme layout inspiration](https://github.com/thekalinga/bootstrap4-vscode)
-[UIKit Snippets Original Source](https://getuikit.com/docs/introduction)
