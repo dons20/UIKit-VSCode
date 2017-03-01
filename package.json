@@ -3,7 +3,7 @@
   "displayName": "UIKit 3.0 Snippets",
   "publisher": "Keno",
   "description": "UIKit 3.0 Snippets based on documentation",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "SEE LICENSE IN LICENSE.md",
   "icon": "images/icon.svg",
   "galleryBanner": {
@@ -27,7 +27,11 @@
   "contributes": {
     "snippets": [
       {
-        "language": "html",
+        "languages": [{
+            "id": "html",
+            "extensions": [ ".html", ".htm", ".php"],
+            "filenames": ["./snippets/html.json"]
+        }],
         "path": "./snippets/html.json"
       }
     ]
