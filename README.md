@@ -12,9 +12,83 @@ Setup
 
 Table of Contents
 ---
-* [UIKit 3.0 Snippets](#uikit-3.0-snippets-for-visual-studio-code)
+* [UIKit 3.0 Snippets](#uikit-30-snippets-for-visual-studio-code)
   * [Setup](#setup)
   * [Table of Contents](#table-of-contents)
+  * [Usage](#usage)
+  * [Contribution Guidelines](#contribution-guidelines)
+    * [Snippet Template](#snippet-template)
+  * [Snippet Modification Tips](#snippet-modification-tips)
+    * [Official Documention](#official-documentation)
+    * [Keeping Snippets Well Formatted](#keeping-snippets-well-formatted)
+    * [Testing Changes](#testing-changes)
+    * [Tab Locations](#tab-locations)
+  * [Changelog](#changelog)
+  * [List of Commands](#list-of-commands)
+    * [UIKit Master Template](#uikit-master-template)
+    * [Accordion](#accordion)
+    * [Alert](#alert)
+    * [Alignment](#alignment)
+    * [Animation](#animation)
+    * [Article](#article)
+    * [Background](#background)
+    * [Badge](#badge)
+    * [Breadcrumb](#breadcrumb)
+    * [Button](#button)
+    * [Card](#card)
+    * [Close](#close)
+    * [Column](#column)
+    * [Comment](#comment)
+    * [Container](#container)
+    * [Cover](#cover)
+    * [Description List](#description-list)
+    * [Divider](#divider)
+    * [Dotnav](#dotnav)
+    * [Drop](#drop)
+    * [Dropdown](#dropdown)
+    * [Flex](#flex)
+    * [Form](#form)
+    * [Grid](#grid)
+    * [Heading](#heading)
+    * [Icon](#icon)
+    * [Iconnav](#iconnav)
+    * [Inverse](#inverse)
+    * [Label](#label)
+    * [Link](#link)
+    * [List](#list)
+    * [Margin](#margin)
+    * [Modal](#modal)
+    * [Nav](#nav)
+    * [Navbar](#navbar)
+    * [Notification](#notification)
+    * [Offcanvas](#offcanvas)
+    * [Overlay](#overlay)
+    * [Padding](#padding)
+    * [Pagination](#pagination)
+    * [Placeholder](#placeholder)
+    * [Position](#position)
+    * [Progress](#progress)
+    * [Scroll](#scroll)
+    * [Scrollspy](#scrollspy)
+    * [Search](#search)
+    * [Section](#section)
+    * [Slidenav](#slidenav)
+    * [Sortable](#sortable)
+    * [Spinner](#spinner)
+    * [Sticky](#sticky)
+    * [Subnav](#subnav)
+    * [Switcher](#switcher)
+    * [Tab](#tab)
+    * [Table](#table)
+    * [Text](#text)
+    * [Toggle](#toggle)
+    * [Tooltip](#tooltip)
+    * [Totop](#totop)
+    * [Transition](#transition)
+    * [Upload](#upload)
+    * [Utility](#utility)
+    * [Visibility](#visibility)
+    * [Width](#width)
 
 Usage
 ---
@@ -53,11 +127,11 @@ Snippet Modification Tips
 
 Getting the hang of modifying snippets can be tricky at first, so here are some useful tips to get you started.
 
-**Official Documentation**
+#### Official Documentation
 
 First, [check out Microsoft's offical documentation on snippets](https://code.visualstudio.com/Docs/customization/userdefinedsnippets)
 
-**Keeping snippets well formatted**
+#### Keeping snippets well formatted
 
 HTML code needs to have proper indentation to be human readable, so use the `\t` modifier in front of a string in the `"body"` to tab it in. You can combine multiple `\t` characters to properly indent the code as you like.
 
@@ -71,7 +145,6 @@ Take this example below:
                 "</html>"
     ],
     ...
-}
 ```
 
 When inserted into a document, it would be displayed as:
@@ -83,7 +156,7 @@ When inserted into a document, it would be displayed as:
 </html>
 ```
 
-**To test your changes:**
+#### Testing Changes:
 
 1. Press `F1` in Visual Studio Code
 2. Click on "Preferences: Open User Snippets"
@@ -91,6 +164,35 @@ When inserted into a document, it would be displayed as:
 4. Copy the contents of `html.json` from the existing project, to your user snippets.
 5. Create a local `.html` file to test it in.
 6. Start typing in the command you wish to test.
+
+#### Tab Locations
+
+When a user enters a snippet, you may want to add some placeholder content for them to modify with ease, simply by pressing tab to cycle through them. The official documentation covers this more, but here are two simple examples.
+
+You can have a user tab through locations in order from 1-anything, but 0 is the final stop for the tab.
+```json
+    ...
+    "body": [   "<h1>$1</h1>",
+                "<p>$2</p>",
+                "<p>$0</p>"
+    ],
+    ...
+```
+
+You can also have placeholder content that is automatically highlighted when the user tabs to it.
+
+```json
+    ...
+    "body": [   "<h1>${1:Sample header}</h1>",
+                "<p>${2:Paragraph 1}</p>",
+                "<p>${0:Final Stop}</p>"
+    ],
+    ...
+```
+
+Changelog
+---
+[View the changelog](../CHANGELOG.md)
 
 List of Commands
 ---
@@ -722,3 +824,8 @@ List of Commands
 | uk-child-width | Evenly divides the width of all child elements in a 'uk-grid' |
 | uk-child-width-responsive | Evenly divides the width of all child elements in a 'uk-grid' on specified device widths and higher. Columns stack on smaller sizes. |
 | uk-fixed-width | Applies a fixed width to an element of 150/300/450/600/750 px respectively. | 
+
+Disclaimer
+---
+[Readme layout inspiration](https://github.com/thekalinga/bootstrap4-vscode)
+[UIKit Snippets Original Source](https://getuikit.com/docs/introduction)
