@@ -3,7 +3,7 @@
   "displayName": "UIKit 3.0 Snippets",
   "publisher": "Keno",
   "description": "UIKit 3.0 Snippets based on documentation",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "SEE LICENSE IN LICENSE.md",
   "icon": "images/icon.svg",
   "galleryBanner": {
@@ -19,7 +19,7 @@
     "url": "https://github.com/dons20/UIKit-VSCode/issues"
   },
   "engines": {
-    "vscode": "0.10.x"
+    "vscode": "^0.10.1"
   },
   "categories": [
     "Snippets"
@@ -27,12 +27,12 @@
   "contributes": {
     "snippets": [
       {
-        "languages": [{
-            "id": "html",
-            "extensions": [ ".html", ".htm", ".php"],
-            "filenames": ["./snippets/html.json"]
-        }],
-        "path": "./snippets/html.json"
+        "language": "html",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/snippets.json"
       }
     ]
   }

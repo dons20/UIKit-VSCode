@@ -120,7 +120,7 @@ A detailed list of supported commands are listed below in the **List of Commands
 Contribution Guidelines
 ---
 1. Clone this repo
-2. All the snippets are located inside of `/snippets/html.json`.
+2. All the snippets are located inside of `/snippets/snippets.json`.
 3. a. For new entries, copy the snippet syntax below (or an existing one for simplicity)
 
    b. For existing entries, simply search the list `Ctrl+F`, and modify as you like.
@@ -211,7 +211,7 @@ You can also have placeholder content that is automatically highlighted when the
 
 Changelog
 ---
-[View the changelog](../CHANGELOG.md)
+[View the changelog](./CHANGELOG.md)
 
 License
 ---
