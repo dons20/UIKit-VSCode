@@ -13,12 +13,35 @@
             "\t</head>",
             "\t<body>",
             "\t\t$0",
-            "\t\t<script src=\"https://code.jquery.com/jquery-3.1.1.min.js\" \r\t\t\t\tintegrity=\"sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=\" crossorigin=\"anonymous\"></script>",
+            "\r\t\t<script src=\"https://code.jquery.com/jquery-3.1.1.min.js\" \r\t\t\t\tintegrity=\"sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=\" crossorigin=\"anonymous\"></script>",
             "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.16/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-HM5Ln23ZwUKUp2XJmTYmSVWc7Ymwdbt8YyQX/k3fsY4=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.16/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-IwFu/0hq7CewRpF0Uw1qW08A8M6/c72km5+VAegaWX8=\" crossorigin=\"anonymous\"></script>",
             "\t</body>",
             "</html>"
         ],
         "description": "Creates a basic UIKit template"
+    },
+    "snippet-uk-$-rtl": {
+        "prefix": "uk-$-rtl",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html dir=\"rtl\">",
+            "\t<head>",
+            "\t\t<title>$1</title>",
+            "\t\t<meta charset=\"UTF-8\">",
+            "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.16/css/uikit-rtl.min.css\" />",
+            "\t\t<link href=\"${2:css/style.css}\" rel=\"stylesheet\">",
+            "\t</head>",
+            "\t<body>",
+            "\t\t$0",
+            "\r\t\t<script src=\"https://code.jquery.com/jquery-3.1.1.min.js\" \r\t\t\t\tintegrity=\"sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.16/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-HM5Ln23ZwUKUp2XJmTYmSVWc7Ymwdbt8YyQX/k3fsY4=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.16/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-IwFu/0hq7CewRpF0Uw1qW08A8M6/c72km5+VAegaWX8=\" crossorigin=\"anonymous\"></script>",
+            "\t</body>",
+            "</html>"
+        ],
+        "description": "Creates a basic UIKit template with RTL support"
     },
     "snippet-uk-accordion-default": {
         "prefix": "uk-accordion-default",
@@ -26,7 +49,9 @@
             "<ul uk-accordion>",
             "\t<li>",
             "\t\t<h3 class=\"uk-accordion-title\">$1</h3>",
-            "\t\t<div class=\"uk-accordion-content\">$0</div>",
+            "\t\t<div class=\"uk-accordion-content\">",
+            "\t\t\t$0",
+            "\t\t</div>",
             "\t</li>",
             "</ul>"
         ],
@@ -38,7 +63,9 @@
             "<ul uk-accordion=\"collapsible: false\">",
             "\t<li>",
             "\t\t<h3 class=\"uk-accordion-title\">$1</h3>",
-            "\t\t<div class=\"uk-accordion-content\">$0</div>",
+            "\t\t<div class=\"uk-accordion-content\">",
+            "\t\t\t$0",
+            "\t\t</div>",
             "\t</li>",
             "</ul>"
         ],
@@ -50,7 +77,9 @@
             "<ul uk-accordion=\"collapsible: false\">",
             "\t<li>",
             "\t\t<h3 class=\"uk-accordion-title\">$1</h3>",
-            "\t\t<div class=\"uk-accordion-content\">$0</div>",
+            "\t\t<div class=\"uk-accordion-content\">",
+            "\t\t\t$0",
+            "\t\t</div>",
             "\t</li>",
             "</ul>"
         ],
@@ -62,7 +91,9 @@
             "<ul uk-accordion=\"active: ${1:0}\">",
             "\t<li>",
             "\t\t<h3 class=\"uk-accordion-title\">$2</h3>",
-            "\t\t<div class=\"uk-accordion-content\">$0</div>",
+            "\t\t<div class=\"uk-accordion-content\">",
+            "\t\t\t$0",
+            "\t\t</div>",
             "\t</li>",
             "</ul>"
         ],
@@ -457,7 +488,11 @@
         "body": [
             "<!-- A button toggling a dropdown -->",
             "<button class=\"uk-button uk-button-default\" type=\"button\">$1</button>",
-            "<div uk-dropdown>$0</div>"
+            "<div uk-dropdown>",
+            "\t<ul class=\"uk-nav uk-dropdown-nav\">",
+            "\t\t$0",
+            "\t</ul>",
+            "</div>"
         ],
         "description": "Creates a button that toggles a dropdown menu"
     },
@@ -684,28 +719,36 @@
     "snippet-uk-container": {
         "prefix": "uk-container",
         "body": [
-            "<div class=\"uk-container\">$0</div>"
+            "<div class=\"uk-container\">",
+            "\t$0",
+            "</div>"
         ],
         "description": "Creates a centered container"
     },
     "snippet-uk-container-small": {
         "prefix": "uk-container-small",
         "body": [
-            "<div class=\"uk-container uk-container-small\">$0</div>"
+            "<div class=\"uk-container uk-container-small\">",
+            "\t$0",
+            "</div>"
         ],
         "description": "Creates a narrower, centered container"
     },
     "snippet-uk-container-large": {
         "prefix": "uk-container-large",
         "body": [
-            "<div class=\"uk-container uk-container-large\">$0</div>"
+            "<div class=\"uk-container uk-container-large\">",
+            "\t$0",
+            "</div>"
         ],
         "description": "Creates a wider, centered container"
     },
     "snippet-uk-container-expand": {
         "prefix": "uk-container-expand",
         "body": [
-            "<div class=\"uk-container uk-container-expand\">$0</div>"
+            "<div class=\"uk-container uk-container-expand\">",
+            "\t$0",
+            "</div>"
         ],
         "description": "Creates a max-width container"
     },
@@ -846,7 +889,9 @@
         "prefix": "uk-drop-grid",
         "body": [
             "<div class=\"uk-width-large\" uk-drop>",
-            "\t<div class=\"uk-drop-grid uk-child-width-1-2@m\" uk-grid>$0</div>",
+            "\t<div class=\"uk-drop-grid uk-child-width-1-2@m\" uk-grid>",
+            "\t\t$0",
+            "\t</div>",
             "</div>"
         ],
         "description": "Creates a drop with a grid inside"
@@ -854,7 +899,9 @@
     "snippet-uk-drop-position": {
         "prefix": "uk-drop-position",
         "body": [
-            "<div uk-drop=\"pos: ${1:[bottom|top|left|right]}-${2:[left|center|right|justify|top|bottom]}\">$0</div>"
+            "<div uk-drop=\"pos: ${1:[bottom|top|left|right]}-${2:[left|center|right|justify|top|bottom]}\">",
+            "\t$0",
+            "</div>"
         ],
         "description": "Creates a drop with its alignment adjusted"
     },
@@ -1067,7 +1114,7 @@
     "snippet-uk-form-fieldset": {
         "prefix": "uk-form-fieldset",
         "body": [
-            "<fieldset class=\"uk-fieldset\">\r$0</fieldset>"
+            "<fieldset class=\"uk-fieldset\">$0</fieldset>"
         ],
         "description": "Creates a fieldset for a form"
     },
@@ -1601,7 +1648,9 @@
     "snippet-uk-modal-center": {
         "prefix": "uk-modal-center",
         "body": [
-            "<div id=\"${1:my-id}\" uk-modal=\"center: true\">\r$0</div>"
+            "<div id=\"${1:my-id}\" uk-modal=\"center: true\">",
+            "\t$0",
+            "</div>"
         ],
         "description": "Creates a centered modal using the parameter 'center'"
     },
@@ -1636,7 +1685,9 @@
     "snippet-uk-modal-container-modifier": {
         "prefix": "uk-modal-container-modifier",
         "body": [
-            "<div id=\"${1:my-id}\" class=\"uk-modal-container\" uk-modal>$0</div>"
+            "<div id=\"${1:my-id}\" class=\"uk-modal-container\" uk-modal>",
+            "\t$0",
+            "</div>"
         ],
         "description": "Creates a modal that expands to the default container width"
     },
@@ -2304,56 +2355,72 @@
     "snippet-uk-section-default": {
         "prefix": "uk-section-default",
         "body": [
-            "<div class=\"uk-section uk-section-default\">$0</div>"
+            "<div class=\"uk-section uk-section-default\">",
+            "\t$0",
+            "</div>"
         ],
         "description": "Creates a section with a default style"
     },
     "snippet-uk-section-muted": {
         "prefix": "uk-section-muted",
         "body": [
-            "<div class=\"uk-section uk-section-muted\">$0</div>"
+            "<div class=\"uk-section uk-section-muted\">",
+            "\t$0",
+            "</div>"
         ],
         "description": "Creates a section with a muted style"
     },
     "snippet-uk-section-primary": {
         "prefix": "uk-section-primary",
         "body": [
-            "<div class=\"uk-section uk-section-primary\">$0</div>"
+            "<div class=\"uk-section uk-section-primary\">",
+            "\t$0",
+            "</div>"
         ],
         "description": "Creates a section with a primary style"
     },
     "snippet-uk-section-secondary": {
         "prefix": "uk-section-secondary",
         "body": [
-            "<div class=\"uk-section uk-section-secondary\">$0</div>"
+            "<div class=\"uk-section uk-section-secondary\">",
+            "\t$0",
+            "</div>"
         ],
         "description": "Creates a section with a secondary style"
     },
     "snippet-uk-section-media": {
         "prefix": "uk-section-media",
         "body": [
-            "<div class=\"uk-section uk-section-media\">$0</div>"
+            "<div class=\"uk-section uk-section-media\">",
+            "\t$0",
+            "</div>"
         ],
         "description": "Creates a section used for custom background images"
     },
     "snippet-uk-section-preserve-color": {
         "prefix": "uk-section-preserve-color",
         "body": [
-            "<div class=\"uk-section uk-section-${1:primary} uk-preserve-color\">$0</div>"
+            "<div class=\"uk-section uk-section-${1:primary} uk-preserve-color\">",
+            "\t$0",
+            "</div>"
         ],
         "description": "Creates a section that preserves the font colours of child elements"
     },
     "snippet-uk-section-size-modifier": {
         "prefix": "uk-section-size-modifier",
         "body": [
-            "<div class=\"uk-section uk-section-${1:primary} uk-section-${2:[xsmall|small|large|xlarge]}\">$0</div>"
+            "<div class=\"uk-section uk-section-${1:primary} uk-section-${2:[xsmall|small|large|xlarge]}\">",
+            "\t$0",
+            "</div>"
         ],
         "description": "Creates a section with modified padding applied"
     },
     "snippet-uk-section-overlap-modifier": {
         "prefix": "uk-section-overlap-modifier",
         "body": [
-            "<div class=\"uk-section uk-section-overlap\">$0</div>"
+            "<div class=\"uk-section uk-section-overlap\">",
+            "\t$0",
+            "</div>"
         ],
         "description": "Creates a section that applies a border image and a negative offset"
     },
@@ -2593,7 +2660,9 @@
     "snippet-uk-switcher-animation": {
         "prefix": "uk-switcher-animation",
         "body": [
-            "<ul uk-switcher=\"animation: ${1:uk-animation-fade}\">\r$0</ul>"
+            "<ul uk-switcher=\"animation: ${1:uk-animation-fade}\">",
+            "\t$0",
+            "</ul>"
         ],
         "description": "Creates a switcher animates its transitions"
     },
