@@ -8,14 +8,14 @@
             "\t\t<title>$2</title>",
             "\t\t<meta charset=\"UTF-8\">",
             "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.16/css/uikit.min.css\" />",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/css/uikit.min.css\" />",
             "\t\t<link href=\"${3:css/style.css}\" rel=\"stylesheet\">",
             "\t</head>",
             "\t<body>",
             "\t\t$0",
             "\r\t\t<script src=\"https://code.jquery.com/jquery-3.1.1.min.js\" \r\t\t\t\tintegrity=\"sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.16/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-HM5Ln23ZwUKUp2XJmTYmSVWc7Ymwdbt8YyQX/k3fsY4=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.16/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-IwFu/0hq7CewRpF0Uw1qW08A8M6/c72km5+VAegaWX8=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-LUEy7nYsrDZzEXVbDyFBiGH7w/7Jmy21CEB9Oha8hvc=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-14DawicAGydmUlgILWilIY+jh281m4dnI9dPPUrW8rw=\" crossorigin=\"anonymous\"></script>",
             "\t</body>",
             "</html>"
         ],
@@ -30,14 +30,14 @@
             "\t\t<title>$1</title>",
             "\t\t<meta charset=\"UTF-8\">",
             "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.16/css/uikit-rtl.min.css\" />",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/css/uikit-rtl.min.css\" />",
             "\t\t<link href=\"${2:css/style.css}\" rel=\"stylesheet\">",
             "\t</head>",
             "\t<body>",
             "\t\t$0",
             "\r\t\t<script src=\"https://code.jquery.com/jquery-3.1.1.min.js\" \r\t\t\t\tintegrity=\"sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.16/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-HM5Ln23ZwUKUp2XJmTYmSVWc7Ymwdbt8YyQX/k3fsY4=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.16/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-IwFu/0hq7CewRpF0Uw1qW08A8M6/c72km5+VAegaWX8=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-LUEy7nYsrDZzEXVbDyFBiGH7w/7Jmy21CEB9Oha8hvc=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-14DawicAGydmUlgILWilIY+jh281m4dnI9dPPUrW8rw=\" crossorigin=\"anonymous\"></script>",
             "\t</body>",
             "</html>"
         ],
@@ -416,70 +416,77 @@
     "snippet-uk-button-default": {
         "prefix": "uk-button-default",
         "body": [
-            "<${1:button} class=\"uk-button uk-button-default\"></${2:button}>"
+            "<${1:button} class=\"uk-button uk-button-default\">$0</${2:button}>"
         ],
         "description": "Creates a button with a default style"
+    },
+    "snippet-uk-button-href": {
+        "prefix": "uk-button-href",
+        "body": [
+            "<${1:a} class=\"uk-button uk-button-${2:default}\" href=\"$3\">$0</${4:a}>"
+        ],
+        "description": "Creates an <a> element with a button style"
     },
     "snippet-uk-button-primary": {
         "prefix": "uk-button-primary",
         "body": [
-            "<${1:button} class=\"uk-button uk-button-primary\"></${2:button}>"
+            "<${1:button} class=\"uk-button uk-button-primary\">$0</${2:button}>"
         ],
         "description": "Creates a button with a primary style"
     },
     "snippet-uk-button-secondary": {
         "prefix": "uk-button-secondary",
         "body": [
-            "<${1:button} class=\"uk-button uk-button-secondary\"></${2:button}>"
+            "<${1:button} class=\"uk-button uk-button-secondary\">$0</${2:button}>"
         ],
         "description": "Creates a button with a secondary style"
     },
     "snippet-uk-button-danger": {
         "prefix": "uk-button-danger",
         "body": [
-            "<${1:button} class=\"uk-button uk-button-danger\"></${2:button}>"
+            "<${1:button} class=\"uk-button uk-button-danger\">$0</${2:button}>"
         ],
         "description": "Creates a button with a danger style"
     },
     "snippet-uk-button-text": {
         "prefix": "uk-button-text",
         "body": [
-            "<${1:button} class=\"uk-button uk-button-text\"></${2:button}>"
+            "<${1:button} class=\"uk-button uk-button-text\">$0</${2:button}>"
         ],
         "description": "Creates a button with a alternative, typographic style"
     },
     "snippet-uk-button-link": {
         "prefix": "uk-button-link",
         "body": [
-            "<${1:button} class=\"uk-button uk-button-link\"></${2:button}>"
+            "<${1:button} class=\"uk-button uk-button-link\">$0</${2:button}>"
         ],
         "description": "Creates a button that looks like a link"
     },
     "snippet-uk-button-disabled": {
         "prefix": "uk-button-disabled",
         "body": [
-            "<button class=\"uk-button uk-button-default disabled\"></button>"
+            "<button class=\"uk-button uk-button-default\" disabled>$0</button>"
         ],
         "description": "Creates a disabled button"
     },
     "snippet-uk-button-small": {
         "prefix": "uk-button-small",
         "body": [
-            "<${1:button} class=\"uk-button uk-button-${2:default} uk-button-small\"></{0:button}>"
+            "<${1:button} class=\"uk-button uk-button-${2:default} uk-button-small\">$0</${3:button}>"
         ],
         "description": "Creates a small button"
     },
     "snippet-uk-button-large": {
         "prefix": "uk-button-large",
         "body": [
-            "<${1:button} class=\"uk-button uk-button-${2:default} uk-button-large\"></{0:button}>"
+            "<${1:button} class=\"uk-button uk-button-${2:default} uk-button-large\">$0</{3:button}>"
         ],
         "description": "Creates a large button"
     },
     "snippet-uk-button-full-width": {
         "prefix": "uk-button-full-width",
         "body": [
-            "<button class=\"uk-button uk-button-${0:default} uk-width-1-1\"></button>"
+            "<button class=\"uk-button uk-button-${1:default} uk-width-1-1\">$0</button>"
         ],
         "description": "Creates a button that takes up the full width of its container"
     },
@@ -2978,6 +2985,41 @@
             " class=\"uk-text-${0:[truncate|break|nowrap]}\" "
         ],
         "description": "Wraps text according to your choice"
+    },
+    "snippet-uk-tile-default": {
+        "prefix": "uk-tile-default",
+        "body": [
+            "<div class=\"uk-tile uk-tile-default\">$0</div>"
+        ],
+        "description": "Creates a tile with a default style"
+    },
+    "snippet-uk-tile-muted": {
+        "prefix": "uk-tile-muted",
+        "body": [
+            "<div class=\"uk-tile uk-tile-muted\">$0</div>"
+        ],
+        "description": "Creates a tile with a muted style"
+    },
+    "snippet-uk-tile-primary": {
+        "prefix": "uk-tile-primary",
+        "body": [
+            "<div class=\"uk-tile uk-tile-primary\">$0</div>"
+        ],
+        "description": "Creates a tile with a primary style"
+    },
+    "snippet-uk-tile-secondary": {
+        "prefix": "uk-tile-secondary",
+        "body": [
+            "<div class=\"uk-tile uk-tile-secondary\">$0</div>"
+        ],
+        "description": "Creates a tile with a secondary style"
+    },
+    "snippet-uk-tile-padding": {
+        "prefix": "uk-tile-padding",
+        "body": [
+            "<div class=\"uk-tile uk-tile-${1:default} uk-padding-${2:large}\">$0</div>"
+        ],
+        "description": "Creates a tile with modified padding from the padding component"
     },
     "snippet-uk-toggle-example": {
         "prefix": "uk-toggle-example",

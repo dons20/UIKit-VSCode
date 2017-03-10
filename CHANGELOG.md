@@ -2,11 +2,28 @@
 * Snippets will have a simple/class-only version as well as an extended/example version to choose from. <br /> E.g. `uk-container` for the class only, while `uk-container-sample` would give a `<div class="uk-container">` based on the examples from the official documentation.
 * Possible indication of attributes/classes/example in each description
 
-# Version 1.0.0 - 1.0.5 (As of March 3, 2017)
-* Initial support for UIKit beta 3.0
-* Minor tweaks to readme for consistency
-* Added support for `php` files (Must be between `<?php ?>` tags for snippets to show up)
-* Updated to UIKit 3.0.0-beta.16
+# Version 1.0.6 (March 10, 2017)
+* Updated to UIKit 3.0.0-beta.18
+* Added the `tile` component (`uk-tile-`)
+* Fixed a few tab positions in some elements
+* Modified changlog style (again)
+
+# Version 1.0.5 (March 3, 2017)
 * Added RTL snippet (Triggered with `uk-$-rtl`)
 * Updated basic template snippet (`uk-$`) to include `uikit-icons.min.js`
 * Updated many existing snippets (such as `uk-container` & `uk-section`) to be better formatted when inserted
+
+# Version 1.0.4 (March 2, 2017)
+* Updated to UIKit 3.0.0-beta.16
+
+# Version 1.0.3 (March 1, 2017)
+* Updated to UIKit 3.0.0-beta.13
+
+# Version 1.0.2 (March 1, 2017)
+* Added support for `php` files (Must be between `<?php ?>` tags for snippets to show up)
+
+# Version 1.0.1 (March 1, 2017)
+* Minor tweaks to readme for consistency
+
+# Version 1.0.0 (March 1, 2017)
+* Initial support for UIKit beta 3.0

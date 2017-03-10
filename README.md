@@ -760,6 +760,15 @@ List of Commands
 | uk-text-vertical-alignment | Aligns text vertically |
 | uk-text-wrapping | Wraps text according to your choice |
 
+### Tile
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-tile-default | Creates a tile with a default style |
+| uk-tile-muted | Creates a tile with a muted style |
+| uk-tile-primary | Creates a tile with a primary style |
+| uk-tile-secondary | Creates a tile with a secondary style |
+| uk-tile-padding | Creates a tile with modified padding from the padding component |
+
 ### Toggle
 | Trigger | Description |
 | :-------: | :-----------: |
