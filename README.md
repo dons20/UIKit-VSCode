@@ -230,6 +230,10 @@ List of Commands
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-$ | Creates a basic UIKit template |
+| uk-$-rtl | Creates a basic UIKit template with RTL support |
+| uk-$-css-import | Imports the default minified css file for UIKit |
+| uk-$-css-rtl-import | Imports the RTL minified css file for UIKit |
+| uk-$-js-import | Imports the minified scripts for UIKit |
 
 ### Accordion
 | Trigger | Description |
@@ -252,28 +256,28 @@ List of Commands
 ### Alignment
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-align-default | Floats the element to a selected position |
-| uk-align-left | Floats the element to the left |
-| uk-align-center | Floats the element to the center |
-| uk-align-right | Floats the element to the right |
-| uk-align-responsive | Floats the element on specific widths |
+| uk-align-default | [Class] Floats the element to a selected position |
+| uk-align-left | [Class] Floats the element to the left |
+| uk-align-center | [Class] Floats the element to the center |
+| uk-align-right | [Class] Floats the element to the right |
+| uk-align-responsive | [Class] Floats the element on specific widths |
 
 ### Animation
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-animation-fade | The element fades in |
-| uk-animation-scale-up | The element fades in and scales up |
-| uk-animation-scale-down | The element fades in and scales down |
-| uk-animation-slide-top | The element fades in and slides in from the top |
-| uk-animation-slide-bottom | The element fades in and slides in from the bottom |
-| uk-animation-slide-left | The element fades in and slides in from the left |
-| uk-animation-slide-right | The element fades in and slides in from the right |
-| uk-animation-slide-custom | The element slides in with a specific distance |
-| uk-animation-kenburns | The element scales slowly up without fading in |
-| uk-animation-shake | The element shakes |
-| uk-animation-reverse | The element's animation plays in reverse |
-| uk-animation-fast | The element's animation plays at a faster speed |
-| uk-animation-transform-origin | The element scales in from a different direction |
+| uk-animation-fade | [Class] The element fades in |
+| uk-animation-scale-up | [Class] The element fades in and scales up |
+| uk-animation-scale-down | [Class] The element fades in and scales down |
+| uk-animation-slide-top | [Class] The element fades in and slides in from the top |
+| uk-animation-slide-bottom | [Class] The element fades in and slides in from the bottom |
+| uk-animation-slide-left | [Class] The element fades in and slides in from the left |
+| uk-animation-slide-right | [Class] The element fades in and slides in from the right |
+| uk-animation-slide-custom | [Class] The element slides in with a specific distance |
+| uk-animation-kenburns | [Class] The element scales slowly up without fading in |
+| uk-animation-shake | [Class] The element shakes |
+| uk-animation-reverse | [Class] The element's animation plays in reverse |
+| uk-animation-fast | [Class] The element's animation plays at a faster speed |
+| uk-animation-transform-origin | [Class] The element scales in from a different direction |
 
 ### Article
 | Trigger | Description |
@@ -460,6 +464,7 @@ List of Commands
 | uk-grid-nested-sample | Creates a sample nested grid |
 | uk-grid-divided | Seperates each grid cell with lines |
 | uk-grid-match-height | Matches the height of all grid cells |
+| uk-grid-match-cell | [Class] Matches the height of a grid cell |
 | uk-grid-width | Manually determines the column widths |
 | uk-grid-flex | Combines a grid element with flex |
 

@@ -43,6 +43,29 @@
         ],
         "description": "Creates a basic UIKit template with RTL support"
     },
+    "snippet-uk-$-css-import": {
+        "prefix": "uk-$-css-import",
+        "body": [
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/css/uikit.min.css\" />"
+        ],
+        "description": "Imports the default minified css file for UIKit"
+    },
+    "snippet-uk-$-css-rtl-import": {
+        "prefix": "uk-$-css-rtl-import",
+        "body": [
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/css/uikit-rtl.min.css\" />"
+        ],
+        "description": "Imports the RTL minified css file for UIKit"
+    },
+    "snippet-uk-$-js-import": {
+        "prefix": "uk-$-js-import",
+        "body": [
+            "<script src=\"https://code.jquery.com/jquery-3.1.1.min.js\" \r\tintegrity=\"sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=\" crossorigin=\"anonymous\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/js/uikit.min.js\" \r\tintegrity=\"sha256-LUEy7nYsrDZzEXVbDyFBiGH7w/7Jmy21CEB9Oha8hvc=\" crossorigin=\"anonymous\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/js/uikit-icons.min.js\" \r\tintegrity=\"sha256-14DawicAGydmUlgILWilIY+jh281m4dnI9dPPUrW8rw=\" crossorigin=\"anonymous\"></script>"
+        ],
+        "description": "Imports the minified scripts for UIKit"
+    },
     "snippet-uk-accordion-default": {
         "prefix": "uk-accordion-default",
         "body": [
@@ -102,7 +125,9 @@
     "snippet-uk-alert-default": {
         "prefix": "uk-alert-default",
         "body": [
-            "<div uk-alert></div>"
+            "<div uk-alert>",
+            "\t$0",
+            "</div>"
         ],
         "description": "A default alert applied to a div"
     },
@@ -111,6 +136,7 @@
         "body": [
             "<div uk-alert>",
             "\t<a class=\"uk-alert-close\" uk-close></a>",
+            "\t<p>$0</p>",
             "</div>"
         ],
         "description": "An alert with a close button"
@@ -160,126 +186,126 @@
         "body": [
             " class=\"uk-align-${0:left}\" "
         ],
-        "description": "Floats the element to a selected position"
+        "description": "[Class] Floats the element to a selected position"
     },
     "snippet-uk-align-left": {
         "prefix": "uk-align-left",
         "body": [
             " class=\"uk-align-left\" "
         ],
-        "description": "Floats the element to the left"
+        "description": "[Class] Floats the element to the left"
     },
     "snippet-uk-align-center": {
         "prefix": "uk-align-center",
         "body": [
             " class=\"uk-align-center\" "
         ],
-        "description": "Floats the element to the center"
+        "description": "[Class] Floats the element to the center"
     },
     "snippet-uk-align-right": {
         "prefix": "uk-align-right",
         "body": [
             " class=\"uk-align-right\" "
         ],
-        "description": "Floats the element to the right"
+        "description": "[Class] Floats the element to the right"
     },
     "snippet-uk-align-responsive": {
         "prefix": "uk-align-responsive",
         "body": [
             " class=\"uk-align-${1:left}@${0:s}\" "
         ],
-        "description": "Floats the element on specific widths"
+        "description": "[Class] Floats the element on specific widths"
     },
     "snippet-uk-animation-fade": {
         "prefix": "uk-animation-fade",
         "body": [
             " class=\"uk-animation-fade\" "
         ],
-        "description": "The element fades in"
+        "description": "[Class] The element fades in"
     },
     "snippet-uk-animation-scale-up": {
         "prefix": "uk-animation-scale-up",
         "body": [
             " class=\"uk-animation-scale-up\" "
         ],
-        "description": "The element fades in and scales up"
+        "description": "[Class] The element fades in and scales up"
     },
     "snippet-uk-animation-scale-down": {
         "prefix": "uk-animation-scale-down",
         "body": [
             " class=\"uk-animation-scale-down\" "
         ],
-        "description": "The element fades in and scales down"
+        "description": "[Class] The element fades in and scales down"
     },
     "snippet-uk-animation-slide-top": {
         "prefix": "uk-animation-slide-top",
         "body": [
             " class=\"uk-animation-slide-top\" "
         ],
-        "description": "The element fades in and slides in from the top"
+        "description": "[Class] The element fades in and slides in from the top"
     },
     "snippet-uk-animation-slide-bottom": {
         "prefix": "uk-animation-slide-bottom",
         "body": [
             " class=\"uk-animation-slide-bottom\" "
         ],
-        "description": "The element fades in and slides in from the bottom"
+        "description": "[Class] The element fades in and slides in from the bottom"
     },
     "snippet-uk-animation-slide-left": {
         "prefix": "uk-animation-slide-left",
         "body": [
             " class=\"uk-animation-slide-left\" "
         ],
-        "description": "The element fades in and slides in from the left"
+        "description": "[Class] The element fades in and slides in from the left"
     },
     "snippet-uk-animation-slide-right": {
         "prefix": "uk-animation-slide-right",
         "body": [
             " class=\"uk-animation-slide-right\" "
         ],
-        "description": "The element fades in and slides in from the right"
+        "description": "[Class] The element fades in and slides in from the right"
     },
     "snippet-uk-animation-slide-custom": {
         "prefix": "uk-animation-slide-custom",
         "body": [
             " class=\"uk-animation-slide-${1:direction}-${0:[small|medium]}\" "
         ],
-        "description": "The element slides in with a specific distance"
+        "description": "[Class] The element slides in with a specific distance"
     },
     "snippet-uk-animation-kenburns": {
         "prefix": "uk-animation-kenburns",
         "body": [
             " class=\"uk-animation-kenburns\" "
         ],
-        "description": "The element scales slowly up without fading in"
+        "description": "[Class] The element scales slowly up without fading in"
     },
     "snippet-uk-animation-shake": {
         "prefix": "uk-animation-shake",
         "body": [
             " class=\"uk-animation-shake\" "
         ],
-        "description": "The element shakes"
+        "description": "[Class] The element shakes"
     },
     "snippet-uk-animation-reverse": {
         "prefix": "uk-animation-reverse",
         "body": [
             " class=\"${1:uk-animation-fade} uk-animation-reverse\" "
         ],
-        "description": "The element's animation plays in reverse"
+        "description": "[Class] The element's animation plays in reverse"
     },
     "snippet-uk-animation-fast": {
         "prefix": "uk-animation-fast",
         "body": [
             " class=\"${1:uk-animation-fade} uk-animation-fast\" "
         ],
-        "description": "The element's animation plays at a faster speed"
+        "description": "[Class] The element's animation plays at a faster speed"
     },
     "snippet-uk-animation-transform-origin": {
         "prefix": "uk-animation-transform-origin",
         "body": [
             " class=\"${1:uk-animation-scale-up} uk-animation-transform-origin-${2:[top|center|bottom]}-${3:[left|center|right]}\" "
         ],
-        "description": "The element scales in from a different direction"
+        "description": "[Class] The element scales in from a different direction"
     },
     "snippet-uk-article-basic": {
         "prefix": "uk-article-basic",
@@ -314,7 +340,7 @@
     "snippet-uk-background-default": {
         "prefix": "uk-background-default",
         "body": [
-            "class=\"uk-background\" "
+            "class=\"uk-background-default\" "
         ],
         "description": "Applies the default background color"
     },
@@ -1328,6 +1354,13 @@
             "</div>"
         ],
         "description": "Matches the height of all grid cells"
+    },
+    "snippet-uk-grid-match-cell": {
+        "prefix": "uk-grid-match-cell",
+        "body": [
+            " class=\"uk-grid-item-match\" "
+        ],
+        "description": "[Class] Matches the height of a grid cell"
     },
     "snippet-uk-grid-width": {
         "prefix": "uk-grid-width",

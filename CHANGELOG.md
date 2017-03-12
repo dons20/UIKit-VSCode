@@ -1,6 +1,14 @@
 # Planned changes for Version 1.1.0
 * Snippets will have a simple/class-only version as well as an extended/example version to choose from. <br /> E.g. `uk-container` for the class only, while `uk-container-sample` would give a `<div class="uk-container">` based on the examples from the official documentation.
 * Possible indication of attributes/classes/example in each description
+* Javascript snippets where applicable
+
+# Version 1.0.7 (March 12, 2017)
+* Added "Match only one cell" snippet to grid (`uk-grid-match-cell`)
+* Added CSS and JS import snippets for ease of updating existing files (`uk-$-css-import`, `uk-$-css-rtl-import`, `uk-$-js-import`)
+* Changed `uk-background` snippet to `uk-background-default` to match [beta 17's change](https://getuikit.com/changelog)
+* Updated a few more tab locations to make them more intutive (work in progress)
+* Updated a few descriptions to specify that they are class-only snippets (WIP for version 1.1.0)
 
 # Version 1.0.6 (March 10, 2017)
 * Updated to UIKit 3.0.0-beta.18
