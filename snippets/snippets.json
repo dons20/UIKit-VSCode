@@ -505,7 +505,7 @@
     "snippet-uk-button-large": {
         "prefix": "uk-button-large",
         "body": [
-            "<${1:button} class=\"uk-button uk-button-${2:default} uk-button-large\">$0</{3:button}>"
+            "<${1:button} class=\"uk-button uk-button-${2:default} uk-button-large\">$0</${3:button}>"
         ],
         "description": "Creates a large button"
     },
@@ -545,10 +545,10 @@
         "body": [
             "<!-- A button group with a dropdown -->",
             "<div class=\"uk-button-group\">",
-            "\t<button class=\"uk-button uk-button-default\">$0</button>",
+            "\t<button class=\"uk-button uk-button-default\">$1</button>",
             "\t<div class=\"uk-inline\">",
             "\t\t<!-- The button toggling the dropdown -->",
-            "\t\t<button class=\"uk-button uk-button-default\" type=\"button\"></button>",
+            "\t\t<button class=\"uk-button uk-button-default\" type=\"button\">$0</button>",
             "\t\t<div uk-dropdown=\"mode: click; boundary: ! .uk-button-group; boundary-align: true;\"></div>",
             "\t</div>",
             "</div>"
@@ -678,21 +678,21 @@
         "body": [
             " class=\"uk-column-1-${0:[2|3|4|5|6]\" "
         ],
-        "description": "Displays the inline content in multiple columns"
+        "description": "[Class] Displays the inline content in multiple columns"
     },
     "snippet-uk-column-responsive": {
         "prefix": "uk-column-responsive",
         "body": [
             " class=\"uk-column-1-${1:[2|3|4|5|6]@${0:[s|m|l|xl]}\" "
         ],
-        "description": "Displays the inline content in multiple columns on specific width breakpoints"
+        "description": "[Class] Displays the inline content in multiple columns on specific width breakpoints"
     },
     "snippet-uk-column-divider": {
         "prefix": "uk-column-divider",
         "body": [
             " class=\"uk-column-1-${0:[2|3|4|5|6] uk-column-divider\" "
         ],
-        "description": "Displays the inline content in multiple columns seperated by dividers"
+        "description": "[Class] Displays the inline content in multiple columns seperated by dividers"
     },
     "snippet-uk-column-span": {
         "prefix": "uk-column-span",
@@ -847,7 +847,7 @@
         "body": [
             " class=\"uk-disabled\" "
         ],
-        "description": "Disables an item within a list"
+        "description": "[Class] Disables an item within a list"
     },
     "snippet-uk-divider-icon": {
         "prefix": "uk-divider-icon",
@@ -1105,14 +1105,14 @@
         "body": [
             " class=\"uk-flex-${1:[first|last]}@${2:[s|m|l|xl]}\" "
         ],
-        "description": "Displays an item as the first or last one (Add to item)"
+        "description": "[Class] Displays an item as the first or last one (Add to item)"
     },
     "snippet-uk-flex-item-dimensions": {
         "prefix": "uk-flex-item-dimensions",
         "body": [
             " class=\"uk-flex-${0:[none|auto|1]}\" "
         ],
-        "description": "Determines how much space a flex item should take up (Add to item)"
+        "description": "[Class] Determines how much space a flex item should take up (Add to item)"
     },
     "snippet-uk-flex-grid-example": {
         "prefix": "uk-flex-grid-example",
@@ -1163,7 +1163,7 @@
         "body": [
             " class=\"uk-form-${0:[danger|success]}\" "
         ],
-        "description": "Applies a custom state to a form control"
+        "description": "[Class] Applies a custom state to a form control"
     },
     "snippet-uk-form-disabled": {
         "prefix": "uk-form-disabled",
@@ -1587,56 +1587,56 @@
         "body": [
             " class=\"uk-margin\" "
         ],
-        "description": "Adds top margin, if it is preceded by another element, and always bottom margin"
+        "description": "[Class] Adds top margin, if it is preceded by another element, and always bottom margin"
     },
     "snippet-uk-margin-position": {
         "prefix": "uk-margin-position",
         "body": [
             " class=\"uk-margin-${0:[top|bottom|left|right]}\" "
         ],
-        "description": "Adds the selected margin to that side"
+        "description": "[Class] Adds the selected margin to that side"
     },
     "snippet-uk-margin-size": {
         "prefix": "uk-margin-size",
         "body": [
             " class=\"uk-margin-${1:[small|medium|large|xlarge]}\"> "
         ],
-        "description": "Adds a margin of chosen size"
+        "description": "[Class] Adds a margin of chosen size"
     },
     "snippet-uk-margin-size-position": {
         "prefix": "uk-margin-size-position",
         "body": [
             " class=\"uk-margin-${1:[small|medium|large|xlarge]}-${2:[top|bottom|left|right]}\"> "
         ],
-        "description": "Adds a margin of chosen size to the chosen side"
+        "description": "[Class] Adds a margin of chosen size to the chosen side"
     },
     "snippet-uk-margin-remove": {
         "prefix": "uk-margin-remove",
         "body": [
             " class=\"uk-margin-remove\"> "
         ],
-        "description": "Removes all margins"
+        "description": "[Class] Removes all margins"
     },
     "snippet-uk-margin-remove-position": {
         "prefix": "uk-margin-remove-position",
         "body": [
             " class=\"uk-margin-remove-${1:[top|bottom|left|right|vertical|adjacent]}\"> "
         ],
-        "description": "Removes the margin the chosen side(s)"
+        "description": "[Class] Removes the margin the chosen side(s)"
     },
     "snippet-uk-margin-auto": {
         "prefix": "uk-margin-auto",
         "body": [
             " class=\"uk-margin-auto\"> "
         ],
-        "description": "Sets left and right margins to auto, centering block and flex elements"
+        "description": "[Class] Sets left and right margins to auto, centering block and flex elements"
     },
     "snippet-uk-margin-auto-position": {
         "prefix": "uk-margin-auto-position",
         "body": [
             " class=\"uk-margin-auto-${1:[left|right|vertical]}\"> "
         ],
-        "description": "Sets the selected margin to auto, pushing block and flex elements to the opposite end"
+        "description": "[Class] Sets the selected margin to auto, pushing block and flex elements to the opposite end"
     },
     "snippet-uk-margin-dynamic-sample": {
         "prefix": "uk-margin-dynamic-sample",
@@ -2164,28 +2164,28 @@
         "body": [
             " class=\"uk-padding\" "
         ],
-        "description": "Adds default padding to the element"
+        "description": "[Class] Adds default padding to the element"
     },
     "snippet-uk-padding-size": {
         "prefix": "uk-padding-size",
         "body": [
             " class=\"uk-padding-${0:[small|large]}\" "
         ],
-        "description": "Adds a smaller or larger padding to the element"
+        "description": "[Class] Adds a smaller or larger padding to the element"
     },
     "snippet-uk-padding-remove": {
         "prefix": "uk-padding-remove",
         "body": [
             " class=\"uk-padding-remove\" "
         ],
-        "description": "Removes all padding from an element"
+        "description": "[Class] Removes all padding from an element"
     },
     "snippet-uk-padding-remove-position": {
         "prefix": "uk-padding-remove-position",
         "body": [
             " class=\"uk-padding-remove-${0:[top|bottom|vertical|horizontal]}\" "
         ],
-        "description": "Removes padding from the chosen side(s) of an element"
+        "description": "[Class] Removes padding from the chosen side(s) of an element"
     },
     "snippet-uk-pagination-basic": {
         "prefix": "uk-pagination-basic",
@@ -2233,63 +2233,63 @@
         "body": [
             " class=\"uk-position-${0:[top|left|right|bottom]}\" "
         ],
-        "description": "Positions the element at the chosen location"
+        "description": "[Class] Positions the element at the chosen location"
     },
     "snippet-uk-position-extended": {
         "prefix": "uk-position-extended",
         "body": [
             " class=\"uk-position-${1:[top|center|bottom]}-${2:[left|center|right]}\" "
         ],
-        "description": "Positions the element at specific locations without it being spread over its parent container"
+        "description": "[Class] Positions the element at specific locations without it being spread over its parent container"
     },
     "snippet-uk-position-cover": {
         "prefix": "uk-position-cover",
         "body": [
             " class=\"uk-position-cover\" "
         ],
-        "description": "Positions the element to cover its container"
+        "description": "[Class] Positions the element to cover its container"
     },
     "snippet-uk-position-small": {
         "prefix": "uk-position-small",
         "body": [
             " class=\"uk-position-${1:[top|center|bottom]}-${2:[left|center|right]} uk-position-small\" "
         ],
-        "description": "Positions the element at specific locations with a small margin"
+        "description": "[Class] Positions the element at specific locations with a small margin"
     },
     "snippet-uk-position-medium": {
         "prefix": "uk-position-medium",
         "body": [
             " class=\"uk-position-${1:[top|center|bottom]}-${2:[left|center|right]} uk-position-medium\" "
         ],
-        "description": "Positions the element at specific locations with a medium margin"
+        "description": "[Class] Positions the element at specific locations with a medium margin"
     },
     "snippet-uk-position-relative": {
         "prefix": "uk-position-relative",
         "body": [
             " class=\"uk-position-relative\" "
         ],
-        "description": "Positions the element at a relative position"
+        "description": "[Class] Positions the element at a relative position"
     },
     "snippet-uk-position-absolute": {
         "prefix": "uk-position-absolute",
         "body": [
             " class=\"uk-position-absolute\" "
         ],
-        "description": "Positions the element at an absolute position"
+        "description": "[Class] Positions the element at an absolute position"
     },
     "snippet-uk-position-fixed": {
         "prefix": "uk-position-fixed",
         "body": [
             " class=\"uk-position-fixed\" "
         ],
-        "description": "Positions the element at a fixed position"
+        "description": "[Class] Positions the element at a fixed position"
     },
     "snippet-uk-position-z-index": {
         "prefix": "uk-position-z-index",
         "body": [
             " class=\"uk-position-z-index\" "
         ],
-        "description": "Positions the element at a z-index position of 1"
+        "description": "[Class] Positions the element at a z-index position of 1"
     },
     "snippet-uk-progress": {
         "prefix": "uk-progress",
@@ -2954,70 +2954,70 @@
         "body": [
             " class=\"uk-text-lead\" "
         ],
-        "description": "Highlights text for subheadings and article subtitles"
+        "description": "[Class] Highlights text for subheadings and article subtitles"
     },
     "snippet-uk-text-meta": {
         "prefix": "uk-text-meta",
         "body": [
             " class=\"uk-text-meta\" "
         ],
-        "description": "Text class for paragraphs with meta data about an article or similar"
+        "description": "[Class] Text class for paragraphs with meta data about an article or similar"
     },
     "snippet-uk-text-size": {
         "prefix": "uk-text-size",
         "body": [
             " class=\"uk-text-${0:[small|large]}\" "
         ],
-        "description": "Modifies the font size of text"
+        "description": "[Class] Modifies the font size of text"
     },
     "snippet-uk-text-bold": {
         "prefix": "uk-text-bold",
         "body": [
             " class=\"uk-text-bold}\" "
         ],
-        "description": "Creates bold text"
+        "description": "[Class] Creates bold text"
     },
     "snippet-uk-text-transform": {
         "prefix": "uk-text-transform",
         "body": [
             " class=\"uk-text-${0:[uppercase|capitalize|lowercase]}\" "
         ],
-        "description": "Transforms text characters into the chosen case"
+        "description": "[Class] Transforms text characters into the chosen case"
     },
     "snippet-uk-text-color": {
         "prefix": "uk-text-color",
         "body": [
             " class=\"uk-text-${0:[muted|primary|success|warning|danger]}\" "
         ],
-        "description": "Modifies the color of text into the chosen color scheme"
+        "description": "[Class] Modifies the color of text into the chosen color scheme"
     },
     "snippet-uk-text-alignment": {
         "prefix": "uk-text-alignment",
         "body": [
             " class=\"uk-text-${0:[left|center|right|justify]}\" "
         ],
-        "description": "Aligns text to a chosen position"
+        "description": "[Class] Aligns text to a chosen position"
     },
     "snippet-uk-text-alignment-responsive": {
         "prefix": "uk-text-alignment-responsive",
         "body": [
             " class=\"uk-text-${1:[left|center|right]}-@${0:[s|m|l|xl]}\" "
         ],
-        "description": "Aligns text to a chosen position on specific screen widths"
+        "description": "[Class] Aligns text to a chosen position on specific screen widths"
     },
     "snippet-uk-text-vertical-alignment": {
         "prefix": "uk-text-vertical-alignment",
         "body": [
             " class=\"uk-text-${0:[top|middle|bottom|baseline]}\" "
         ],
-        "description": "Aligns text vertically"
+        "description": "[Class] Aligns text vertically"
     },
     "snippet-uk-text-wrapping": {
         "prefix": "uk-text-wrapping",
         "body": [
             " class=\"uk-text-${0:[truncate|break|nowrap]}\" "
         ],
-        "description": "Wraps text according to your choice"
+        "description": "[Class] Wraps text according to your choice"
     },
     "snippet-uk-tile-default": {
         "prefix": "uk-tile-default",
@@ -3315,56 +3315,56 @@
         "body": [
             " class=\"uk-float-${0:[left|right]}\" "
         ],
-        "description": "Floats an element left or right"
+        "description": "[Class] Floats an element left or right"
     },
     "snippet-uk-utility-clearfix": {
         "prefix": "uk-utility-clearfix",
         "body": [
             " class=\"uk-clearfix\" "
         ],
-        "description": "Removes floats from this element and its children"
+        "description": "[Class] Removes floats from this element and its children"
     },
     "snippet-uk-utility-overflow": {
         "prefix": "uk-utility-overflow",
         "body": [
             " class=\"uk-overflow-${0:[hidden|auto]}\" "
         ],
-        "description": "Modifies an element's overflow behaviour"
+        "description": "[Class] Modifies an element's overflow behaviour"
     },
     "snippet-uk-utility-resize": {
         "prefix": "uk-utility-resize",
         "body": [
             " class=\"uk-resize${0:-vertical}\" "
         ],
-        "description": "Allows an element to be resized"
+        "description": "[Class] Allows an element to be resized"
     },
     "snippet-uk-utility-display": {
         "prefix": "uk-utility-display",
         "body": [
             " class=\"uk-display-${0:[block|inline|inline-block]}\" "
         ],
-        "description": "Changes the display properties of an element"
+        "description": "[Class] Changes the display properties of an element"
     },
     "snippet-uk-utility-inline": {
         "prefix": "uk-utility-inline",
         "body": [
             " class=\"uk-inline${0:-clip}\" "
         ],
-        "description": "Applies inline-block behaviour to an element, adds a max-width of 100% and creates a position context. Optionally clips overflowing child elements."
+        "description": "[Class] Applies inline-block behaviour to an element, adds a max-width of 100% and creates a position context. Optionally clips overflowing child elements."
     },
     "snippet-uk-utility-height": {
         "prefix": "uk-utility-height",
         "body": [
             " class=\"uk-height-${0:[1-1|small|medium|large]}\" "
         ],
-        "description": "Modifies the height of an element to 100%|150px|300px|450px respectively."
+        "description": "[Class] Modifies the height of an element to 100%|150px|300px|450px respectively."
     },
     "snippet-uk-utility-max-height": {
         "prefix": "uk-utility-max-height",
         "body": [
             " class=\"uk-max-height-${0:[small|medium|large]}\" "
         ],
-        "description": "Modifies the max-height of an element to 150px|300px|450px respectively."
+        "description": "[Class] Modifies the max-height of an element to 150px|300px|450px respectively."
     },
     "snippet-uk-utility-viewport-height": {
         "prefix": "uk-utility-viewport-height",
@@ -3399,35 +3399,35 @@
         "body": [
             " class=\"uk-responsive-${0:[width|height]}\" "
         ],
-        "description": "Applies a responsive behaviour to any element"
+        "description": "[Class] Applies a responsive behaviour to any element"
     },
     "snippet-uk-utility-preserve-width": {
         "prefix": "uk-utility-preserve-width",
         "body": [
             " class=\"uk-preserve-width\" "
         ],
-        "description": "Avoids responsive behaviour and preserves original dimensions"
+        "description": "[Class] Avoids responsive behaviour and preserves original dimensions"
     },
     "snippet-uk-utility-border-radius": {
         "prefix": "uk-utility-border-radius",
         "body": [
             " class=\"uk-border-${0:[rounded|circle]}\" "
         ],
-        "description": "Modifies the border radius of an element"
+        "description": "[Class] Modifies the border radius of an element"
     },
     "snippet-uk-utility-box-shadow": {
         "prefix": "uk-utility-box-shadow",
         "body": [
             " class=\"uk-box-shadow-${0:[small|medium|large|xlarge]}\" "
         ],
-        "description": "Adds a box shadow to an element"
+        "description": "[Class] Adds a box shadow to an element"
     },
     "snippet-uk-utility-box-shadow-hover": {
         "prefix": "uk-utility-box-shadow-hover",
         "body": [
             " class=\"uk-box-shadow-hover-${0:[small|medium|large|xlarge]}\" "
         ],
-        "description": "Adds a box shadow to an element on hover"
+        "description": "[Class] Adds a box shadow to an element on hover"
     },
     "snippet-uk-utility-dropcap": {
         "prefix": "uk-utility-dropcap",
@@ -3471,49 +3471,49 @@
         "body": [
             " class=\"uk-blend-${0:[multiply|screen|overlay|darken|lighten|color-dodge|color-burn|hard-light|soft-light|difference|exclusion|hue|saturation|color|luminosity]}\" "
         ],
-        "description": "Applies a modified blend mode to a background"
+        "description": "[Class] Applies a modified blend mode to a background"
     },
     "snippet-uk-utility-transform-origin": {
         "prefix": "uk-utility-transform-origin",
         "body": [
             " class=\"uk-transform-origin-${1:[top|center|bottom]}-${2:[left|center|right]}\" "
         ],
-        "description": "Modifies the origin of an animation"
+        "description": "[Class] Modifies the origin of an animation"
     },
     "snippet-uk-utility-disabled": {
         "prefix": "uk-utility-disabled",
         "body": [
             " class=\"uk-disabled\" "
         ],
-        "description": "Disables the click behaviour of any element"
+        "description": "[Class] Disables the click behaviour of any element"
     },
     "snippet-uk-utility-drag": {
         "prefix": "uk-utility-drag",
         "body": [
             " class=\"uk-drag\" "
         ],
-        "description": "Applies a move cursor to an element"
+        "description": "[Class] Applies a move cursor to an element"
     },
     "snippet-uk-utility-dragover": {
         "prefix": "uk-utility-dragover",
         "body": [
             " class=\"uk-dragover\" "
         ],
-        "description": "Creates a box shadow used for upload areas when dragging a file over it"
+        "description": "[Class] Creates a box shadow used for upload areas when dragging a file over it"
     },
     "snippet-uk-hidden": {
         "prefix": "uk-hidden",
         "body": [
             " class=\"uk-hidden\" "
         ],
-        "description": "Legacy class used for hiding an element. Recommended: Use 'hidden' attribute instead."
+        "description": "[Class] Legacy class used for hiding an element. Recommended: Use 'hidden' attribute instead."
     },
     "snippet-uk-hidden-responsive": {
         "prefix": "uk-hidden-responsive",
         "body": [
             " class=\"uk-hidden@${0:[s|m|l|xl]}\" "
         ],
-        "description": "Hides an element from screens larger than the specified width (640|960|1200|1600 px respectively)"
+        "description": "[Class] Hides an element from screens larger than the specified width (640|960|1200|1600 px respectively)"
     },
     "snippet-uk-hidden-hover": {
         "prefix": "uk-hidden-hover",
@@ -3529,14 +3529,14 @@
         "body": [
             " class=\"uk-visible@${0:[s|m|l|xl]}\" "
         ],
-        "description": "Shows an element on screens larger than the specified width (640|960|1200|1600 px respectively)"
+        "description": "[Class] Shows an element on screens larger than the specified width (640|960|1200|1600 px respectively)"
     },
     "snippet-uk-invisible": {
         "prefix": "uk-invisible",
         "body": [
             " class=\"uk-invisible\" "
         ],
-        "description": "Hides the element without removing it from the document flow."
+        "description": "[Class] Hides the element without removing it from the document flow."
     },
     "snippet-uk-invisible-hover": {
         "prefix": "uk-invisible-hover",
@@ -3552,48 +3552,48 @@
         "body": [
             " class=\"uk-width-${1:[1|2|3|4|5]}-${0:[1|2|3|4|5|6]}\" "
         ],
-        "description": "Modifies the width of an element to take up a portion of its parent container, or the entire width. Usually used with 'uk-grid'."
+        "description": "[Class] Modifies the width of an element to take up a portion of its parent container, or the entire width. Usually used with 'uk-grid'."
     },
     "snippet-uk-width-responsive": {
         "prefix": "uk-width-responsive",
         "body": [
             " class=\"uk-width-${1:[1|2|3|4|5]}-${2:[1|2|3|4|5|6]}@{3:[s|m|l|xl]}\" "
         ],
-        "description": "Modifies the width of an element to take up a portion of its parent container on specified device widths and higher. Columns stack on smaller sizes."
+        "description": "[Class] Modifies the width of an element to take up a portion of its parent container on specified device widths and higher. Columns stack on smaller sizes."
     },
     "snippet-uk-width-auto": {
         "prefix": "uk-width-auto",
         "body": [
             " class=\"uk-width-auto\" "
         ],
-        "description": "The item expands to the width of its own content. Usually used with 'uk-grid'."
+        "description": "[Class] The item expands to the width of its own content. Usually used with 'uk-grid'."
     },
     "snippet-uk-width-expand": {
         "prefix": "uk-width-expand",
         "body": [
             " class=\"uk-width-expand\" "
         ],
-        "description": "The item expands to fill up the remaining space of the grid container. Usually used with 'uk-grid'."
+        "description": "[Class] The item expands to fill up the remaining space of the grid container. Usually used with 'uk-grid'."
     },
     "snippet-uk-child-width": {
         "prefix": "uk-child-width",
         "body": [
             " class=\"uk-child-width-${0:[1-2|1-3|1-4|1-5|1-6|auto|expand]}\" "
         ],
-        "description": "Evenly divides the width of all child elements in a 'uk-grid'"
+        "description": "[Class] Evenly divides the width of all child elements in a 'uk-grid'"
     },
     "snippet-uk-child-width-responsive": {
         "prefix": "uk-child-width-responsive",
         "body": [
             " class=\"uk-child-width-${1:[1-2|1-3|1-4|1-5|1-6|auto|expand]}@{0:[s|m|l|xl]\" "
         ],
-        "description": "Evenly divides the width of all child elements in a 'uk-grid' on specified device widths and higher. Columns stack on smaller sizes."
+        "description": "[Class] Evenly divides the width of all child elements in a 'uk-grid' on specified device widths and higher. Columns stack on smaller sizes."
     },
     "snippet-uk-fixed-width": {
         "prefix": "uk-fixed-width",
         "body": [
             " class=\"uk-width-${0:[small|medium|large|xlarge|xxlarge]}\" "
         ],
-        "description": "Applies a fixed width to an element of 150|300|450|600|750 px respectively."
+        "description": "[Class] Applies a fixed width to an element of 150|300|450|600|750 px respectively."
     }
 }

@@ -3,6 +3,10 @@
 * Possible indication of attributes/classes/example in each description
 * Javascript snippets where applicable
 
+# Version 1.0.8 (March 19, 2017)
+* Updated the descriptions of class-only snippets to include `[Class]` at the start for clarity
+* Fixed a few tab errors/inconsistensies
+
 # Version 1.0.7 (March 12, 2017)
 * Added "Match only one cell" snippet to grid (`uk-grid-match-cell`)
 * Added CSS and JS import snippets for ease of updating existing files (`uk-$-css-import`, `uk-$-css-rtl-import`, `uk-$-js-import`)

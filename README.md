@@ -351,9 +351,9 @@ List of Commands
 ### Column
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-column | Displays the inline content in multiple columns |
-| uk-column-responsive | Displays the inline content in multiple columns on specific width breakpoints |
-| uk-column-divider | Displays the inline content in multiple columns seperated by dividers |
+| uk-column | [Class] Displays the inline content in multiple columns |
+| uk-column-responsive | [Class] Displays the inline content in multiple columns on specific width breakpoints |
+| uk-column-divider | [Class] Displays the inline content in multiple columns seperated by dividers |
 | uk-column-span | Creates a column with an inline element that spans each column |
 
 ### Comment
@@ -384,7 +384,7 @@ List of Commands
 | :-------: | :-----------: |
 | uk-description-list | Creates a list to display terms and descriptions below each other |
 | uk-description-list | Creates a divided description list |
-| uk-disabled | Disables an item within a list |
+| uk-disabled | [Class] Disables an item within a list |
 
 ### Divider
 | Trigger | Description |
@@ -433,8 +433,8 @@ List of Commands
 | uk-flex-vertical-alignment | Defines the vertical alignment of flex items and distributes space between them |
 | uk-flex-direction | Defines the axis that flex items are placed on and their direction |
 | uk-flex-wrap-modifier | Defines the axis that flex items are placed on and their direction |
-| uk-flex-item-order | Displays an item as the first or last one (Add to item) |
-| uk-flex-item-dimensions | Determines how much space a flex item should take up (Add to item) |
+| uk-flex-item-order | [Class] Displays an item as the first or last one (Add to item) |
+| uk-flex-item-dimensions | [Class] Determines how much space a flex item should take up (Add to item) |
 | uk-flex-grid-example | Creates a sample flex with a grid inside |
 
 ### Form
@@ -443,7 +443,7 @@ List of Commands
 | uk-form-sample | Creates a sample form with all elements as reference |
 | uk-form-fieldset | Creates a fieldset for a form |
 | uk-form-legend | Creates a legend for a form |
-| uk-form-states | Applies a custom state to a form control |
+| uk-form-states | [Class] Applies a custom state to a form control |
 | uk-form-disabled | Disables a form control |
 | uk-form-sizes | Modifies the size of an input, select or textarea |
 | uk-form-width-modifiers | Modifies the width of an input, select or textarea |
@@ -524,14 +524,14 @@ List of Commands
 ### Margin
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-margin | Adds top margin, if it is preceded by another element, and always bottom margin |
-| uk-margin-position | Adds the selected margin to that side |
-| uk-margin-size | Adds a margin of chosen size |
-| uk-margin-size-position | Adds a margin of chosen size to the chosen side |
-| uk-margin-remove | Removes all margins |
-| uk-margin-remove-position | Removes the margin the chosen side(s) |
-| uk-margin-auto | Sets left and right margins to auto, centering block and flex elements |
-| uk-margin-auto-position | Sets the selected margin to auto, pushing block and flex elements to the opposite end |
+| uk-margin | [Class] Adds top margin, if it is preceded by another element, and always bottom margin |
+| uk-margin-position | [Class] Adds the selected margin to that side |
+| uk-margin-size | [Class] Adds a margin of chosen size |
+| uk-margin-size-position | [Class] Adds a margin of chosen size to the chosen side |
+| uk-margin-remove | [Class] Removes all margins |
+| uk-margin-remove-position | [Class] Removes the margin the chosen side(s) |
+| uk-margin-auto | [Class] Sets left and right margins to auto, centering block and flex elements |
+| uk-margin-auto-position | [Class] Sets the selected margin to auto, pushing block and flex elements to the opposite end |
 | uk-margin-dynamic-sample | Automatically adds spacing to stacking elements with the uk-margin attribute |
 
 ### Modal
@@ -607,10 +607,10 @@ List of Commands
 ### Padding
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-padding | Adds default padding to the element |
-| uk-padding-size | Adds a smaller or larger padding to the element |
-| uk-padding-remove | Removes all padding from an element |
-| uk-padding-remove-position | Removes padding from the chosen side(s) of an element |
+| uk-padding | [Class] Adds default padding to the element |
+| uk-padding-size | [Class] Adds a smaller or larger padding to the element |
+| uk-padding-remove | [Class] Removes all padding from an element |
+| uk-padding-remove-position | [Class] Removes padding from the chosen side(s) of an element |
 
 ### Pagination
 | Trigger | Description |
@@ -627,15 +627,15 @@ List of Commands
 ### Position
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-position | Positions the element at the chosen location |
-| uk-position-extended | Positions the element at specific locations without it being spread over its parent container |
-| uk-position-cover | Positions the element to cover its container |
-| uk-position-small | Positions the element at specific locations with a small margin |
-| uk-position-medium | Positions the element at specific locations with a medium margin |
-| uk-position-relative | Positions the element at a relative position |
-| uk-position-absolute | Positions the element at an absolute position |
-| uk-position-fixed | Positions the element at a fixed position |
-| uk-position-z-index | Positions the element at a z-index position of 1 |
+| uk-position | [Class] Positions the element at the chosen location |
+| uk-position-extended | [Class] Positions the element at specific locations without it being spread over its parent container |
+| uk-position-cover | [Class] Positions the element to cover its container |
+| uk-position-small | [Class] Positions the element at specific locations with a small margin |
+| uk-position-medium | [Class] Positions the element at specific locations with a medium margin |
+| uk-position-relative | [Class] Positions the element at a relative position |
+| uk-position-absolute | [Class] Positions the element at an absolute position |
+| uk-position-fixed | [Class] Positions the element at a fixed position |
+| uk-position-z-index | [Class] Positions the element at a z-index position of 1 |
 
 ### Progress
 | Trigger | Description |
@@ -754,16 +754,16 @@ List of Commands
 ### Text
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-text-lead | Highlights text for subheadings and article subtitles |
-| uk-text-meta | Text class for paragraphs with meta data about an article or similar |
-| uk-text-size | Modifies the font size of text |
-| uk-text-bold | Creates bold text |
-| uk-text-transform | Transforms text characters into the chosen case |
-| uk-text-color | Modifies the color of text into the chosen color scheme |
-| uk-text-alignment | Aligns text to a chosen position |
-| uk-text-alignment-responsive | Aligns text to a chosen position on specific screen widths |
-| uk-text-vertical-alignment | Aligns text vertically |
-| uk-text-wrapping | Wraps text according to your choice |
+| uk-text-lead | [Class] Highlights text for subheadings and article subtitles |
+| uk-text-meta | [Class] Text class for paragraphs with meta data about an article or similar |
+| uk-text-size | [Class] Modifies the font size of text |
+| uk-text-bold | [Class] Creates bold text |
+| uk-text-transform | [Class] Transforms text characters into the chosen case |
+| uk-text-color | [Class] Modifies the color of text into the chosen color scheme |
+| uk-text-alignment | [Class] Aligns text to a chosen position |
+| uk-text-alignment-responsive | [Class] Aligns text to a chosen position on specific screen widths |
+| uk-text-vertical-alignment | [Class] Aligns text vertically |
+| uk-text-wrapping | [Class] Wraps text according to your choice |
 
 ### Tile
 | Trigger | Description |
@@ -819,51 +819,51 @@ List of Commands
 | :-------: | :-----------: |
 | uk-utility-panel | Creates a panel used to outline a section of content |
 | uk-utility-panel-scrollable | Creates a scrollable panel |
-| uk-utility-float | Floats an element left or right |
-| uk-utility-clearfix | Removes floats from this element and its children |
-| uk-utility-overflow | Modifies an element's overflow behaviour |
-| uk-utility-resize | Allows an element to be resized |
-| uk-utility-display | Changes the display properties of an element |
-| uk-utility-inline | Applies inline-block behaviour to an element, adds a max-width of 100% and creates a position context. Optionally clips overflowing child elements. |
-| uk-utility-height | Modifies the height of an element to 100%/150px/300px/450px respectively. |
-| uk-utility-max-height | Modifies the max-height of an element to 150px/300px/450px respectively. |
+| uk-utility-float | [Class] Floats an element left or right |
+| uk-utility-clearfix | [Class] Removes floats from this element and its children |
+| uk-utility-overflow | [Class] Modifies an element's overflow behaviour |
+| uk-utility-resize | [Class] Allows an element to be resized |
+| uk-utility-display | [Class] Changes the display properties of an element |
+| uk-utility-inline | [Class] Applies inline-block behaviour to an element, adds a max-width of 100% and creates a position context. Optionally clips overflowing child elements. |
+| uk-utility-height | [Class] Modifies the height of an element to 100%/150px/300px/450px respectively. |
+| uk-utility-max-height | [Class] Modifies the max-height of an element to 150px/300px/450px respectively. |
 | uk-utility-viewport-height | Modifies the height of an element to fill the entire viewport. Height behaviour can be changed with an option. |
 | uk-utility-match-height | Expands all children of a container to the same height. |
 | uk-utility-match-height-specific | Matches the height of specific child elements |
 | uk-utility-match-height-all | Matches the height of all child elements even in other rows |
-| uk-utility-responsive | Applies a responsive behaviour to any element |
-| uk-utility-preserve-width | Avoids responsive behaviour and preserves original dimensions |
-| uk-utility-border-radius | Modifies the border radius of an element |
-| uk-utility-box-shadow | Adds a box shadow to an element |
-| uk-utility-box-shadow-hover | Adds a box shadow to an element on hover |
+| uk-utility-responsive | [Class] Applies a responsive behaviour to any element |
+| uk-utility-preserve-width | [Class] Avoids responsive behaviour and preserves original dimensions |
+| uk-utility-border-radius | [Class] Modifies the border radius of an element |
+| uk-utility-box-shadow | [Class] Adds a box shadow to an element |
+| uk-utility-box-shadow-hover | [Class] Adds a box shadow to an element on hover |
 | uk-utility-dropcap | Applies a drop cap on a paragraph |
 | uk-utility-logo-text | Creates a text logo |
 | uk-utility-logo-image | Creates an image logo |
 | uk-utility-inline-svg | Adds an inline SVG |
 | uk-utility-gif | Adds a GIF that plays when it comes into view |
-| uk-utility-blend | Applies a modified blend mode to a background |
-| uk-utility-transform-origin | Modifies the origin of an animation |
-| uk-utility-disabled | Disables the click behaviour of any element |
-| uk-utility-drag | Applies a move cursor to an element |
-| uk-utility-dragover | Creates a box shadow used for upload areas when dragging a file over it |
+| uk-utility-blend | [Class] Applies a modified blend mode to a background |
+| uk-utility-transform-origin | [Class] Modifies the origin of an animation |
+| uk-utility-disabled | [Class] Disables the click behaviour of any element |
+| uk-utility-drag | [Class] Applies a move cursor to an element |
+| uk-utility-dragover | [Class] Creates a box shadow used for upload areas when dragging a file over it |
 
 ### Visibility
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-hidden | Legacy class used for hiding an element. Recommended: Use 'hidden' attribute instead. |
-| uk-hidden-responsive | Hides an element from screens larger than the specified width (640/960/1200/1600 px respectively) |
+| uk-hidden | [Class] Legacy class used for hiding an element. Recommended: Use 'hidden' attribute instead. |
+| uk-hidden-responsive | [Class] Hides an element from screens larger than the specified width (640/960/1200/1600 px respectively) |
 | uk-hidden-hover | Hides the content until the parent container is hovered |
-| uk-visible | Shows an element on screens larger than the specified width (640/960/1200/1600 px respectively) |
-| uk-invisible | Hides the element without removing it from the document flow. |
+| uk-visible | [Class] Shows an element on screens larger than the specified width (640/960/1200/1600 px respectively) |
+| uk-invisible | [Class] Hides the element without removing it from the document flow. |
 | uk-invisible-hover | Hides the content (without removing it from the document flow) until the parent container is hovered |
 
 ### Width
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-width | Modifies the width of an element to take up a portion of its parent container, or the entire width. Usually used with 'uk-grid'. |
-| uk-width-responsive | Modifies the width of an element to take up a portion of its parent container on specified device widths and higher. Columns stack on smaller sizes. |
-| uk-width-auto | The item expands to the width of its own content. Usually used with 'uk-grid'. |
-| uk-width-expand | The item expands to fill up the remaining space of the grid container. Usually used with 'uk-grid'. |
-| uk-child-width | Evenly divides the width of all child elements in a 'uk-grid' |
-| uk-child-width-responsive | Evenly divides the width of all child elements in a 'uk-grid' on specified device widths and higher. Columns stack on smaller sizes. |
-| uk-fixed-width | Applies a fixed width to an element of 150/300/450/600/750 px respectively. | 
+| uk-width | [Class] Modifies the width of an element to take up a portion of its parent container, or the entire width. Usually used with 'uk-grid'. |
+| uk-width-responsive | [Class] Modifies the width of an element to take up a portion of its parent container on specified device widths and higher. Columns stack on smaller sizes. |
+| uk-width-auto | [Class] The item expands to the width of its own content. Usually used with 'uk-grid'. |
+| uk-width-expand | [Class] The item expands to fill up the remaining space of the grid container. Usually used with 'uk-grid'. |
+| uk-child-width | [Class] Evenly divides the width of all child elements in a 'uk-grid' |
+| uk-child-width-responsive | [Class] Evenly divides the width of all child elements in a 'uk-grid' on specified device widths and higher. Columns stack on smaller sizes. |
+| uk-fixed-width | [Class] Applies a fixed width to an element of 150/300/450/600/750 px respectively. | 
