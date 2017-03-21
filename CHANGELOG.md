@@ -3,6 +3,9 @@
 * Possible indication of attributes/classes/example in each description
 * Javascript snippets where applicable
 
+# Version 1.0.9 (March 21, 2017)
+* Updated jquery snippets to version 3.2.1
+
 # Version 1.0.8 (March 19, 2017)
 * Updated the descriptions of class-only snippets to include `[Class]` at the start for clarity
 * Fixed a few tab errors/inconsistensies
