@@ -1,7 +1,10 @@
-# Planned changes for Version 1.1.0
-* Snippets will have a simple/class-only version as well as an extended/example version to choose from. <br /> E.g. `uk-container` for the class only, while `uk-container-sample` would give a `<div class="uk-container">` based on the examples from the official documentation.
-* Possible indication of attributes/classes/example in each description
-* Javascript snippets where applicable
+# Version 1.0.10 (April 4, 2017)
+* Added Utility Leader snippet (`uk-utility-leader`)
+* Modified off-canvas snippets to match new format (Off-Canvas now requires wrapping the page into an extra div)
+* Updated to UIKit 3.0.0 beta 19
+* Updated slidenav snippet's button order
+* Updated the margin-auto snippet
+* Updated padding-remove snippet
 
 # Version 1.0.9 (March 21, 2017)
 * Updated jquery snippets to version 3.2.1
@@ -42,3 +45,8 @@
 
 # Version 1.0.0 (March 1, 2017)
 * Initial support for UIKit beta 3.0
+
+# Planned changes for Version 1.1.0
+* Snippets will have a simple/class-only version as well as an extended/example version to choose from. <br /> E.g. `uk-container` for the class only, while `uk-container-sample` would give a `<div class="uk-container">` based on the examples from the official documentation.
+* Possible indication of attributes/classes/example in each description
+* Javascript snippets where applicable

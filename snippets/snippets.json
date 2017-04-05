@@ -8,14 +8,14 @@
             "\t\t<title>$2</title>",
             "\t\t<meta charset=\"UTF-8\">",
             "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/css/uikit.min.css\" />",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.19/css/uikit.min.css\" />",
             "\t\t<link href=\"${3:css/style.css}\" rel=\"stylesheet\">",
             "\t</head>",
             "\t<body>",
             "\t\t$0",
             "\r\t\t<script src=\"https://code.jquery.com/jquery-3.2.1.min.js\" \r\t\t\t\tintegrity=\"sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-LUEy7nYsrDZzEXVbDyFBiGH7w/7Jmy21CEB9Oha8hvc=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-14DawicAGydmUlgILWilIY+jh281m4dnI9dPPUrW8rw=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-tMn4QGID+/jiNvic9h36XOSErG9gcR9REq/Iin0G6Rk=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.19/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-qbp9g8Xaozn/Hr4WGtbry3ZVu+wov7qwwL1x0Xj5CPE=\" crossorigin=\"anonymous\"></script>",
             "\t</body>",
             "</html>"
         ],
@@ -30,14 +30,14 @@
             "\t\t<title>$1</title>",
             "\t\t<meta charset=\"UTF-8\">",
             "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/css/uikit-rtl.min.css\" />",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.19/css/uikit-rtl.min.css\" />",
             "\t\t<link href=\"${2:css/style.css}\" rel=\"stylesheet\">",
             "\t</head>",
             "\t<body>",
             "\t\t$0",
             "\r\t\t<script src=\"https://code.jquery.com/jquery-3.2.1.min.js\" \r\t\t\t\tintegrity=\"sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-LUEy7nYsrDZzEXVbDyFBiGH7w/7Jmy21CEB9Oha8hvc=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-14DawicAGydmUlgILWilIY+jh281m4dnI9dPPUrW8rw=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.19/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-tMn4QGID+/jiNvic9h36XOSErG9gcR9REq/Iin0G6Rk=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.19/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-qbp9g8Xaozn/Hr4WGtbry3ZVu+wov7qwwL1x0Xj5CPE=\" crossorigin=\"anonymous\"></script>",
             "\t</body>",
             "</html>"
         ],
@@ -46,14 +46,14 @@
     "snippet-uk-$-css-import": {
         "prefix": "uk-$-css-import",
         "body": [
-            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/css/uikit.min.css\" />"
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.19/css/uikit.min.css\" />"
         ],
         "description": "Imports the default minified css file for UIKit"
     },
     "snippet-uk-$-css-rtl-import": {
         "prefix": "uk-$-css-rtl-import",
         "body": [
-            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/css/uikit-rtl.min.css\" />"
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.19/css/uikit-rtl.min.css\" />"
         ],
         "description": "Imports the RTL minified css file for UIKit"
     },
@@ -61,8 +61,8 @@
         "prefix": "uk-$-js-import",
         "body": [
             "<script src=\"https://code.jquery.com/jquery-3.2.1.min.js\" \r\tintegrity=\"sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=\" crossorigin=\"anonymous\"></script>",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/js/uikit.min.js\" \r\tintegrity=\"sha256-LUEy7nYsrDZzEXVbDyFBiGH7w/7Jmy21CEB9Oha8hvc=\" crossorigin=\"anonymous\"></script>",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/js/uikit-icons.min.js\" \r\tintegrity=\"sha256-14DawicAGydmUlgILWilIY+jh281m4dnI9dPPUrW8rw=\" crossorigin=\"anonymous\"></script>"
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.19/js/uikit.min.js\" \r\tintegrity=\"sha256-tMn4QGID+/jiNvic9h36XOSErG9gcR9REq/Iin0G6Rk=\" crossorigin=\"anonymous\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.19/js/uikit-icons.min.js\" \r\tintegrity=\"sha256-qbp9g8Xaozn/Hr4WGtbry3ZVu+wov7qwwL1x0Xj5CPE=\" crossorigin=\"anonymous\"></script>"
         ],
         "description": "Imports the minified scripts for UIKit"
     },
@@ -1634,7 +1634,7 @@
     "snippet-uk-margin-auto-position": {
         "prefix": "uk-margin-auto-position",
         "body": [
-            " class=\"uk-margin-auto-${1:[left|right|vertical]}\"> "
+            " class=\"uk-margin-auto-${1:[top|bottom|left|right|vertical]}\"> "
         ],
         "description": "[Class] Sets the selected margin to auto, pushing block and flex elements to the opposite end"
     },
@@ -2051,13 +2051,17 @@
     "snippet-uk-offcanvas-sample": {
         "prefix": "uk-offcanvas-sample",
         "body": [
-            "<!-- This is a button toggling the off-canvas -->",
-            "<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
-            "<!-- This is an anchor toggling the off-canvas -->",
-            "<a href=\"#${2:my-id}\" uk-toggle></a>",
-            "<!-- This is the off-canvas -->",
-            "<div id=\"${3:my-id}\" uk-offcanvas>",
-            "\t<div class=\"uk-offcanvas-bar\"></div>",
+            "<div class=\"uk-offcanvas-content\">",
+            "\t<!-- The whole page content goes here -->",
+            "\r\t<!-- This is a button toggling the off-canvas -->",
+            "\t<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
+            "\t<!-- This is an anchor toggling the off-canvas -->",
+            "\t<a href=\"#${2:my-id}\" uk-toggle></a>",
+            "\t<!-- This is the off-canvas -->",
+            "\t<div id=\"${3:my-id}\" uk-offcanvas>",
+            "\t\t<div class=\"uk-offcanvas-bar\">",
+            "\t\t\t<button class=\"uk-offcanvas-close\" type=\"button\" uk-close></button>",
+            "\t\t</div>",
             "</div>"
         ],
         "description": "Creates a basic off-canvas"
@@ -2065,13 +2069,17 @@
     "snippet-uk-offcanvas-overlay": {
         "prefix": "uk-offcanvas-overlay",
         "body": [
-            "<!-- This is a button toggling the off-canvas -->",
-            "<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
-            "<!-- This is an anchor toggling the off-canvas -->",
-            "<a href=\"#${2:my-id}\" uk-toggle></a>",
-            "<!-- This is the off-canvas -->",
-            "<div id=\"${3:my-id}\" uk-offcanvas=\"overlay: true;\">",
-            "\t<div class=\"uk-offcanvas-bar\"></div>",
+            "<div class=\"uk-offcanvas-content\">",
+            "\t<!-- The whole page content goes here -->",
+            "\r\t<!-- This is a button toggling the off-canvas -->",
+            "\t<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
+            "\t<!-- This is an anchor toggling the off-canvas -->",
+            "\t<a href=\"#${2:my-id}\" uk-toggle></a>",
+            "\t<!-- This is the off-canvas -->",
+            "\t<div id=\"${3:my-id}\" uk-offcanvas=\"overlay: true;\">",
+            "\t\t<div class=\"uk-offcanvas-bar\">",
+            "\t\t\t<button class=\"uk-offcanvas-close\" type=\"button\" uk-close></button>",
+            "\t\t</div>",
             "</div>"
         ],
         "description": "Creates an off-canvas that adds an overlay to the page"
@@ -2079,13 +2087,17 @@
     "snippet-uk-offcanvas-flip-modifier": {
         "prefix": "uk-offcanvas-flip-modifier",
         "body": [
-            "<!-- This is a button toggling the off-canvas -->",
-            "<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
-            "<!-- This is an anchor toggling the off-canvas -->",
-            "<a href=\"#${2:my-id}\" uk-toggle></a>",
-            "<!-- This is the off-canvas -->",
-            "<div id=\"${3:my-id}\" uk-offcanvas=\"flip: true;\">",
-            "\t<div class=\"uk-offcanvas-bar\"></div>",
+            "<div class=\"uk-offcanvas-content\">",
+            "\t<!-- The whole page content goes here -->",
+            "\r\t<!-- This is a button toggling the off-canvas -->",
+            "\t<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
+            "\t<!-- This is an anchor toggling the off-canvas -->",
+            "\t<a href=\"#${2:my-id}\" uk-toggle></a>",
+            "\t<!-- This is the off-canvas -->",
+            "\t<div id=\"${3:my-id}\" uk-offcanvas=\"flip: true;\">",
+            "\t\t<div class=\"uk-offcanvas-bar\">",
+            "\t\t\t<button class=\"uk-offcanvas-close\" type=\"button\" uk-close></button>",
+            "\t\t</div>",
             "</div>"
         ],
         "description": "Creates an off-canvas that slides in from the right"
@@ -2093,13 +2105,17 @@
     "snippet-uk-offcanvas-animation-mode": {
         "prefix": "uk-offcanvas-animation-mode",
         "body": [
-            "<!-- This is a button toggling the off-canvas -->",
-            "<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
-            "<!-- This is an anchor toggling the off-canvas -->",
-            "<a href=\"#${2:my-id}\" uk-toggle></a>",
-            "<!-- This is the off-canvas -->",
-            "<div id=\"${3:my-id}\" uk-offcanvas=\"mode: ${4:[slide|push|reveal|none]};\">",
-            "\t<div class=\"uk-offcanvas-bar\"></div>",
+            "<div class=\"uk-offcanvas-content\">",
+            "\t<!-- The whole page content goes here -->",
+            "\r\t<!-- This is a button toggling the off-canvas -->",
+            "\t<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
+            "\t<!-- This is an anchor toggling the off-canvas -->",
+            "\t<a href=\"#${2:my-id}\" uk-toggle></a>",
+            "\t<!-- This is the off-canvas -->",
+            "\t<div id=\"${3:my-id}\" uk-offcanvas=\"mode: ${4:[slide|push|reveal|none]};\">",
+            "\t\t<div class=\"uk-offcanvas-bar\">",
+            "\t\t\t<button class=\"uk-offcanvas-close\" type=\"button\" uk-close></button>",
+            "\t\t</div>",
             "</div>"
         ],
         "description": "Creates an off-canvas with a modified animation mode for its entrance"
@@ -2107,15 +2123,17 @@
     "snippet-uk-offcanvas-nav": {
         "prefix": "uk-offcanvas-nav",
         "body": [
-            "<!-- This is a button toggling the off-canvas -->",
-            "<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
-            "<!-- This is an anchor toggling the off-canvas -->",
-            "<a href=\"#${2:my-id}\" uk-toggle></a>",
-            "<!-- This is the off-canvas -->",
-            "<div id=\"${3:my-id}\" uk-offcanvas=\"mode: ${4:[slide|push|reveal|none]};\">",
-            "\t<div class=\"uk-offcanvas-bar\">",
-            "\t\t<ul class=\"uk-nav uk-nav-default\">$0</ul>",
-            "\t</div>",
+            "<div class=\"uk-offcanvas-content\">",
+            "\t<!-- The whole page content goes here -->",
+            "\r\t<!-- This is a button toggling the off-canvas -->",
+            "\t<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
+            "\t<!-- This is an anchor toggling the off-canvas -->",
+            "\t<a href=\"#${2:my-id}\" uk-toggle></a>",
+            "\t<!-- This is the off-canvas -->",
+            "\t<div id=\"${3:my-id}\" uk-offcanvas=\"mode: ${4:[slide|push|reveal|none]};\">",
+            "\t\t<div class=\"uk-offcanvas-bar\">",
+            "\t\t\t<ul class=\"uk-nav uk-nav-default\">$0</ul>",
+            "\t\t</div>",
             "</div>"
         ],
         "description": "Creates an off-canvas containing a nav component"
@@ -2183,7 +2201,7 @@
     "snippet-uk-padding-remove-position": {
         "prefix": "uk-padding-remove-position",
         "body": [
-            " class=\"uk-padding-remove-${0:[top|bottom|vertical|horizontal]}\" "
+            " class=\"uk-padding-remove-${0:[top|bottom|left|right|vertical|horizontal]}\" "
         ],
         "description": "[Class] Removes padding from the chosen side(s) of an element"
     },
@@ -2467,16 +2485,16 @@
     "snippet-uk-slidenav": {
         "prefix": "uk-slidenav",
         "body": [
-            "<a href=\"\" uk-slidenav-next></a>",
-            "<a href=\"\" uk-slidenav-previous></a>"
+            "<a href=\"\" uk-slidenav-previous></a>",
+            "<a href=\"\" uk-slidenav-next></a>"
         ],
         "description": "Creates a previous and next button for flipping through slideshows"
     },
     "snippet-uk-slidenav-large": {
         "prefix": "uk-slidenav-large",
         "body": [
-            "<a href=\"\" class=\"uk-slidenav-large\" uk-slidenav-next></a>",
-            "<a href=\"\" class=\"uk-slidenav-large\" uk-slidenav-previous></a>"
+            "<a href=\"\" class=\"uk-slidenav-large\" uk-slidenav-previous></a>",
+            "<a href=\"\" class=\"uk-slidenav-large\" uk-slidenav-next></a>"
         ],
         "description": "Creates a larger slidenav"
     },
@@ -3435,6 +3453,13 @@
             "<p class=\"uk-dropcap\"></p>"
         ],
         "description": "Applies a drop cap on a paragraph"
+    },
+    "snippet-uk-utility-leader": {
+        "prefix": "uk-utility-leader",
+        "body": [
+            "<div uk-leader></div>"
+        ],
+        "description": "Visually connects horizontal items with a line of dots"
     },
     "snippet-uk-utility-logo-text": {
         "prefix": "uk-utility-logo-text",
