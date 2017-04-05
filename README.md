@@ -837,6 +837,7 @@ List of Commands
 | uk-utility-box-shadow | [Class] Adds a box shadow to an element |
 | uk-utility-box-shadow-hover | [Class] Adds a box shadow to an element on hover |
 | uk-utility-dropcap | Applies a drop cap on a paragraph |
+| uk-utility-leader | Visually connects horizontal items with a line of dots |
 | uk-utility-logo-text | Creates a text logo |
 | uk-utility-logo-image | Creates an image logo |
 | uk-utility-inline-svg | Adds an inline SVG |
