@@ -430,6 +430,7 @@ List of Commands
 | uk-flex-block | Creates a flex container and behaves like a block element |
 | uk-flex-inline | Creates a flex container and behaves like an inline element |
 | uk-flex-horizontal-alignment | Defines the horizontal alignment of flex items and distributes space between them |
+| uk-flex-horizontal-alignment-responsive | Defines the horizontal alignment of flex items on specific device widths |
 | uk-flex-vertical-alignment | Defines the vertical alignment of flex items and distributes space between them |
 | uk-flex-direction | Defines the axis that flex items are placed on and their direction |
 | uk-flex-wrap-modifier | Defines the axis that flex items are placed on and their direction |

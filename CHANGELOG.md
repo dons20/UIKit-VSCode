@@ -1,7 +1,11 @@
+# Version 1.0.11 (April 7, 2017)
+* Added breakpoint snippet for flex horizontal alignment (`uk-flex-horizontal-alignment-responsive`)
+* Updated relevant snippets to UIKit 3.0.0 beta 20
+
 # Version 1.0.10 (April 4, 2017)
 * Added Utility Leader snippet (`uk-utility-leader`)
 * Modified off-canvas snippets to match new format (Off-Canvas now requires wrapping the page into an extra div)
-* Updated to UIKit 3.0.0 beta 19
+* Updated relevant snippets to UIKit 3.0.0 beta 19
 * Updated slidenav snippet's button order
 * Updated the margin-auto snippet
 * Updated padding-remove snippet
@@ -21,7 +25,7 @@
 * Updated a few descriptions to specify that they are class-only snippets (WIP for version 1.1.0)
 
 # Version 1.0.6 (March 10, 2017)
-* Updated to UIKit 3.0.0-beta.18
+* Updated relevant snippets to UIKit 3.0.0-beta.18
 * Added the `tile` component (`uk-tile-`)
 * Fixed a few tab positions in some elements
 * Modified changlog style (again)
@@ -32,10 +36,10 @@
 * Updated many existing snippets (such as `uk-container` & `uk-section`) to be better formatted when inserted
 
 # Version 1.0.4 (March 2, 2017)
-* Updated to UIKit 3.0.0-beta.16
+* Updated relevant snippets to UIKit 3.0.0-beta.16
 
 # Version 1.0.3 (March 1, 2017)
-* Updated to UIKit 3.0.0-beta.13
+* Updated relevant snippets to UIKit 3.0.0-beta.13
 
 # Version 1.0.2 (March 1, 2017)
 * Added support for `php` files (Must be between `<?php ?>` tags for snippets to show up)
