@@ -1,3 +1,6 @@
+# Version 1.0.12 (April, 11, 2017)
+* Updated relevant snippets to UIKit 3.0.0 beta 21
+
 # Version 1.0.11 (April 7, 2017)
 * Added breakpoint snippet for flex horizontal alignment (`uk-flex-horizontal-alignment-responsive`)
 * Updated relevant snippets to UIKit 3.0.0 beta 20
