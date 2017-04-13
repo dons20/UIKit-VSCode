@@ -2,15 +2,16 @@
     "snippet-uk-accordion": {
         "prefix": "uk-accordion",
         "body": [
-            "UIKit.accordion(${1:element}, ${0:options});",
+            "UIkit.accordion(${1:element}, ${0:options});",
             "/* Option: [Required Value] ",
+            "-----------------------",
             "targets: [CSS Selector]",
             "active: [Number]",
             "collapsible: [Boolean]",
             "multiple: [Boolean]",
             "transition: [String]",
             "animation: [String]",
-            "duration: [Number]*/"
+            "duration: [Number] */"
         ],
         "description": "Initializes an accordion element with various options"
     },
@@ -20,5 +21,359 @@
             "$('${1:selector}').on('${2:[beforeshow|show|shown|beforehide|hide|hidden]}', function() { $3 });"
         ],
         "description": "Triggers a function when a specified accordion event is triggered"
+    },
+    "snippet-uk-alert": {
+        "prefix": "uk-alert",
+        "body": [
+            "UIkit.alert(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "animation: [Boolean|String]",
+            "duration: [Number]",
+            "close: [CSS Selector] */"
+        ],
+        "description": "Initializes an alert element with various options"
+    },
+    "snippet-uk-alert-events": {
+        "prefix": "uk-alert-events",
+        "body": [
+            "$('${1:selector}').on('${2:[beforehide|hide]}', function() { $3 });"
+        ],
+        "description": "Triggers a function when a specified alert event is triggered"
+    },
+    "snippet-uk-cover": {
+        "prefix": "uk-cover",
+        "body": [
+            "UIkit.cover(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "automute: [Boolean]",
+            "width: [Number]",
+            "height: [Number] */"
+        ],
+        "description": "Initializes a cover element with various options"
+    },
+    "snippet-uk-drop": {
+        "prefix": "uk-drop",
+        "body": [
+            "UIkit.drop(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "toggle: [Boolean|String]",
+            "pos: [String]",
+            "mode: [String]",
+            "delay-show: [Number]",
+            "delay-hide: [Number]",
+            "boundary: [String]",
+            "boundary-align: [Boolean]",
+            "flip: [Boolean|String]",
+            "offset: [Number]",
+            "animation: [String]",
+            "duration: [Number] */"
+        ],
+        "description": "Initializes a drop element with various options"
+    },
+    "snippet-uk-drop-events": {
+        "prefix": "uk-drop-events",
+        "body": [
+            "$('${1:selector}').on('${2:[toggle|beforeshow|show|shown|beforehide|hide|hidden|stack]}', function() { $3 });"
+        ],
+        "description": "Triggers a function when a specified drop event is triggered"
+    },
+    "snippet-uk-dropdown": {
+        "prefix": "uk-dropdown",
+        "body": [
+            "UIkit.dropdown(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "toggle: [Boolean|String]",
+            "pos: [String]",
+            "mode: [String]",
+            "delay-show: [Number]",
+            "delay-hide: [Number]",
+            "boundary: [String]",
+            "boundary-align: [Boolean]",
+            "flip: [Boolean|String]",
+            "offset: [Number]",
+            "animation: [String]",
+            "duration: [Number] */"
+        ],
+        "description": "Initializes a dropdown element with various options"
+    },
+    "snippet-uk-dropdown-events": {
+        "prefix": "uk-dropdown-events",
+        "body": [
+            "$('${1:selector}').on('${2:[toggle|beforeshow|show|shown|beforehide|hide|hidden|stack]}', function() { $3 });"
+        ],
+        "description": "Triggers a function when a specified dropdown event is triggered"
+    },
+    "snippet-uk-form": {
+        "prefix": "uk-form",
+        "body": [
+            "UIkit.formCustom(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "target: [CSS Selector|Boolean] */"
+        ],
+        "description": "Initializes a form element with various options"
+    },
+    "snippet-uk-grid": {
+        "prefix": "uk-grid",
+        "body": [
+            "UIkit.grid(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "margin: [String]",
+            "first-column: [String] */"
+        ],
+        "description": "Initializes a grid element with various options"
+    },
+    "snippet-uk-icon": {
+        "prefix": "uk-icon",
+        "body": [
+            "UIkit.icon(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "icon: [String]",
+            "ratio: [Number] */"
+        ],
+        "description": "Initializes an icon element with various options"
+    },
+    "snippet-uk-margin": {
+        "prefix": "uk-margin",
+        "body": [
+            "UIkit.margin(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "margin: [String]",
+            "first-column: [String] */"
+        ],
+        "description": "Initializes a margin element with various options"
+    },
+    "snippet-uk-modal": {
+        "prefix": "uk-modal",
+        "body": [
+            "UIkit.modal(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "center: [Boolean]",
+            "esc-close: [Boolean]",
+            "bg-close: [Boolean]",
+            "stack: [Boolean]",
+            "container: [String] */"
+        ],
+        "description": "Initializes a modal element with various options"
+    },
+    "snippet-uk-modal-events": {
+        "prefix": "uk-modal-events",
+        "body": [
+            "$('${1:selector}').on('${2:[beforeshow|show|shown|beforehide|hide|hidden]}', function() { $3 });"
+        ],
+        "description": "Triggers a function when a specified modal event is triggered"
+    },
+    "snippet-uk-modal-alert": {
+        "prefix": "uk-modal-alert",
+        "body": [
+            "UIkit.modal.alert('${0:UIkit alert!}');"
+        ],
+        "description": "Creates an alert box with one button"
+    },
+    "snippet-uk-modal-confirm": {
+        "prefix": "uk-modal-confirm",
+        "body": [
+            "UIkit.modal.confirm('${0:UIkit confirm!}');"
+        ],
+        "description": "Creates a confirm dialog with your message and two buttons"
+    },
+    "snippet-uk-modal-prompt": {
+        "prefix": "uk-modal-prompt",
+        "body": [
+            "UIkit.modal.prompt('${1:Name:}', '${0:Your name}');"
+        ],
+        "description": "Creates a dialog asking for a text input"
+    },
+    "snippet-uk-modal-dialog": {
+        "prefix": "uk-modal-dialog",
+        "body": [
+            "UIkit.modal.dialog('${0:<p>UIkit dialog!</p>}');"
+        ],
+        "description": "Creates a dialog with any HTML content"
+    },
+    "snippet-uk-modal-dialog-sample": {
+        "prefix": "uk-modal-dialog-sample",
+        "body": [
+            "UIkit.modal.confirm('UIkit confirm!').then(function() {",
+                "\tconsole.log('Confirmed.')",
+            "}, function () {",
+                "\tconsole.log('Rejected.')",
+            "});"
+        ],
+        "description": "Creates a sample dialog which processes user input"
+    },
+    "snippet-uk-nav": {
+        "prefix": "uk-nav",
+        "body": [
+            "UIkit.nav(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "targets: [CSS Selector]",
+            "toggle: [CSS Selector]",
+            "content: [CSS Selector]",
+            "collapsible: [Boolean]",
+            "multiple: [Boolean]",
+            "transition: [String]",
+            "animation: [String]",
+            "duration: [Number] */"
+        ],
+        "description": "Initializes a nav element with various options"
+    },
+    "snippet-uk-navbar": {
+        "prefix": "uk-navbar",
+        "body": [
+            "UIkit.navbar(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "align: [String]",
+            "mode: [String]",
+            "delay-show: [Number]",
+            "delay-hide: [Number]",
+            "boundary: [CSS Selector]",
+            "boundary-align: [Boolean]",
+            "offset: [Number]",
+            "dropbar: [Boolean]",
+            "dropbar-mode: [String]",
+            "duration: [Number] */"
+        ],
+        "description": "Initializes a navbar element with various options"
+    },
+    "snippet-uk-navbar-events": {
+        "prefix": "uk-navbar-events",
+        "body": [
+            "$('${1:selector}').on('${2:[beforeshow|show|shown|beforehide|hide|hidden]}', function() { $3 });"
+        ],
+        "description": "Triggers a function when a specified navbar event is triggered"
+    },
+    "snippet-uk-notification": {
+        "prefix": "uk-notification",
+        "body": [
+            "UIkit.notification(${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "message: [String]",
+            "status: [String]",
+            "timeout: [Integer]",
+            "group: [String]",
+            "pos: [String] */"
+        ],
+        "description": "Creates a notification with various options"
+    },
+    "snippet-uk-notification-events": {
+        "prefix": "uk-notification-events",
+        "body": [
+            "$('${1:selector}').on('${2:[close]}', function() { $3 });"
+        ],
+        "description": "Triggers a function when a specified notification event is triggered"
+    },
+    "snippet-uk-offcanvas": {
+        "prefix": "uk-offcanvas",
+        "body": [
+            "UIkit.offcanvas(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "mode: [String]",
+            "flip: [Boolean]",
+            "overlay: [Boolean] */"
+        ],
+        "description": "Initializes a offcanvas element with various options"
+    },
+    "snippet-uk-offcanvas-events": {
+        "prefix": "uk-offcanvas-events",
+        "body": [
+            "$('${1:selector}').on('${2:[beforeshow|show|shown|beforehide|hide|hidden]}', function() { $3 });"
+        ],
+        "description": "Triggers a function when a specified offcanvas event is triggered"
+    },
+    "snippet-uk-scroll": {
+        "prefix": "uk-scroll",
+        "body": [
+            "UIkit.scroll(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "duration: [Number]",
+            "transition: [String]",
+            "offset: [Number] */"
+        ],
+        "description": "Initializes a scroll element with various options"
+    },
+    "snippet-uk-scrollspy": {
+        "prefix": "uk-scrollspy",
+        "body": [
+            "UIkit.scrollspy(${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "cls: [String]",
+            "hidden: [Boolean]",
+            "offset-top: [Number]",
+            "offset-left: [Number]",
+            "repeat: [Boolean]",
+            "delay: [Number] */"
+        ],
+        "description": "Initializes a scrollspy with various options"
+    },
+    "snippet-uk-scrollspy-events": {
+        "prefix": "uk-scrollspy-events",
+        "body": [
+            "$('${1:selector}').on('${2:[inview|outview]}', function() { $3 });"
+        ],
+        "description": "Triggers a function when a specified scrollspy event is triggered"
+    },
+    "snippet-uk-scrollspy-nav": {
+        "prefix": "uk-scrollspy-nav",
+        "body": [
+            "UIkit.scrollspyNav(${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "cls: [String]",
+            "closest: [String]",
+            "scroll: [Boolean]",
+            "overflow: [Boolean]",
+            "offset: [Number] */"
+        ],
+        "description": "Initializes a scrollspy nav with various options"
+    },
+    "snippet-uk-scrollspy-nav-events": {
+        "prefix": "uk-scrollspy-nav-events",
+        "body": [
+            "$('${1:selector}').on('${2:[active]}', function() { $3 });"
+        ],
+        "description": "Triggers a function when a specified scrollspy nav event is triggered"
+    },
+    "snippet-uk-sortable": {
+        "prefix": "uk-sortable",
+        "body": [
+            "UIkit.sortable(${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "group: [String]",
+            "animation: [Number]",
+            "threshold: [Number]",
+            "cls-item: [String]",
+            "cls-placeholder: [String]",
+            "cls-drag: [String]",
+            "clsDrag-state: [String]",
+            "cls-base: [String]",
+            "clsNo-drag: [String]",
+            "cls-empty: [String]",
+            "cls-custom: [String]",
+            "handle: [String] */",
+        ],
+        "description": "Initializes a sortable with various options"
+    },
+    "snippet-uk-sortable-events": {
+        "prefix": "uk-sortable-events",
+        "body": [
+            "$('${1:selector}').on('${2:[start|stop|change]}', function() { $3 });"
+        ],
+        "description": "Triggers a function when a specified sortable event is triggered"
     }
 }
