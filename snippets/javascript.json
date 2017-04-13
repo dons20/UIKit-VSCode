@@ -1,0 +1,24 @@
+{
+    "snippet-uk-accordion": {
+        "prefix": "uk-accordion",
+        "body": [
+            "UIKit.accordion(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "targets: [CSS Selector]",
+            "active: [Number]",
+            "collapsible: [Boolean]",
+            "multiple: [Boolean]",
+            "transition: [String]",
+            "animation: [String]",
+            "duration: [Number]*/"
+        ],
+        "description": "Initializes an accordion element with various options"
+    },
+    "snippet-uk-accordion-events": {
+        "prefix": "uk-accordion-events",
+        "body": [
+            "$('${1:selector}').on('${2:[beforeshow|show|shown|beforehide|hide|hidden]}', function() { $3 });"
+        ],
+        "description": "Triggers a function when a specified accordion event is triggered"
+    }
+}

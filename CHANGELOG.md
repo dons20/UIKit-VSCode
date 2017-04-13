@@ -1,3 +1,6 @@
+# WIP Version 1.1.0 (TBA)
+
+
 # Version 1.0.12 (April, 11, 2017)
 * Updated relevant snippets to UIKit 3.0.0 beta 21
 
