@@ -1,9 +1,9 @@
 {
   "name": "uikit-3-snippets",
-  "displayName": "UIKit 3.0 Snippets",
+  "displayName": "UIkit 3.0 Snippets",
   "publisher": "Keno",
-  "description": "UIKit 3.0 Snippets based on documentation",
-  "version": "1.0.12",
+  "description": "UIkit 3.0 Snippets based on documentation",
+  "version": "1.0.13",
   "license": "SEE LICENSE IN LICENSE.md",
   "icon": "images/icon.svg",
   "galleryBanner": {

@@ -66,8 +66,15 @@
         ],
         "description": "Imports the minified scripts for UIKit"
     },
-    "snippet-uk-accordion-default": {
-        "prefix": "uk-accordion-default",
+    "snippet-uk-accordion": {
+        "prefix": "uk-accordion",
+        "body": [
+            "uk-accordion"
+        ],
+        "description": "[Attribute] Used to create an accordion element in a parent container"
+    },
+    "snippet-uk-accordion-sample": {
+        "prefix": "uk-accordion-sample",
         "body": [
             "<ul uk-accordion>",
             "\t<li>",
@@ -78,7 +85,7 @@
             "\t</li>",
             "</ul>"
         ],
-        "description": "Creates a default UIKit Accordion"
+        "description": "Creates a sample Accordion component"
     },
     "snippet-uk-accordion-no-collapse": {
         "prefix": "uk-accordion-no-collapse",
@@ -121,6 +128,13 @@
             "</ul>"
         ],
         "description": "Accordion that opens an item by default"
+    },
+    "snippet-uk-alert": {
+        "prefix": "uk-alert",
+        "body": [
+            "uk-alert"
+        ],
+        "description": "[Attribute] Used to create an alert element in a block element"
     },
     "snippet-uk-alert-default": {
         "prefix": "uk-alert-default",

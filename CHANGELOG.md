@@ -1,7 +1,8 @@
-# WIP Version 1.1.0 (TBA)
-* Added Javascript-only snippets for multiple components
+# Version 1.0.13 (April 13, 2017)
+* Added Javascript-only snippets for multiple components (check the readme for a detailed list)
+* Started adding attribute/class-only versions for many snippets (will be finished by 1.1.0)
 
-# Version 1.0.12 (April, 11, 2017)
+# Version 1.0.12 (April 11, 2017)
 * Updated relevant snippets to UIKit 3.0.0 beta 21
 
 # Version 1.0.11 (April 7, 2017)
@@ -55,8 +56,3 @@
 
 # Version 1.0.0 (March 1, 2017)
 * Initial support for UIKit beta 3.0
-
-# Planned changes for Version 1.1.0
-* Snippets will have a simple/class-only version as well as an extended/example version to choose from. <br /> E.g. `uk-container` for the class only, while `uk-container-sample` would give a `<div class="uk-container">` based on the examples from the official documentation.
-* Possible indication of attributes/classes/example in each description
-* Javascript snippets where applicable

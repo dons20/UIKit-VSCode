@@ -43,7 +43,7 @@ Table of Contents
   * [Changelog](#changelog)
   * [License](#license)
   * [Disclaimer](#disclaimer)
-  * [List of Commands](#list-of-commands)
+  * [List of Commands (HTML/PHP)](#list-of-commands-htmlphp)
     * [UIKit Master Template](#uikit-master-template)
     * [Accordion](#accordion)
     * [Alert](#alert)
@@ -108,6 +108,30 @@ Table of Contents
     * [Utility](#utility)
     * [Visibility](#visibility)
     * [Width](#width)
+  * [List of Commands (Javascript)](#list-of-commands-javascript)
+    * [Accordion JS](#accordion-js)
+    * [Alert JS](#alert-js)
+    * [Cover JS](#cover-js)
+    * [Drop JS](#drop-js)
+    * [Dropdown JS](#dropdown-js)
+    * [Form JS](#form-js)
+    * [Grid JS](#grid-js)
+    * [Icon JS](#icon-js)
+    * [Margin JS](#margin-js)
+    * [Modal JS](#modal-js)
+    * [Nav JS](#nav-js)
+    * [Navbar JS](#navbar-js)
+    * [Notification JS](#notification-js)
+    * [Offcanvas JS](#offcanvas-js)
+    * [Scroll JS](#scroll-js)
+    * [Scrollspy JS](#scrollspy-js)
+    * [Sortable JS](#sortable-js)
+    * [Sticky JS](#sticky-js)
+    * [Switcher JS](#switcher-js)
+    * [Tab JS](#tab-js)
+    * [Toggle JS](#toggle-js)
+    * [Tooltip JS](#tooltip-js)
+    * [Upload JS](#upload-js)
 
 Usage
 ---
@@ -223,7 +247,7 @@ Disclaimer
 
 [UIKit Snippets Original Source](https://getuikit.com/docs/introduction)
 
-List of Commands
+List of Commands (HTML/PHP)
 ---
 
 ### UIKit Master Template
@@ -238,7 +262,8 @@ List of Commands
 ### Accordion
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-accordion-default | Creates a default UIKit Accordion |
+| uk-accordion | [Attribute] Used to create an accordion element in a parent container |
+| uk-accordion-sample | Creates a sample Accordion component |
 | uk-accordion-no-collapse | Accordion that always keeps one item open |
 | uk-accordion-multiple-open | Accordion that allows multiple items to be opened at once |
 | uk-accordion-open-index | Accordion that opens an item by default |
@@ -246,6 +271,7 @@ List of Commands
 ### Alert
 | Trigger | Description |
 | :-------: | :-----------: |
+| uk-alert | [Attribute] Used to create an alert element in a block element |
 | uk-alert-default | A default alert applied to a div |
 | uk-alert-close | An alert with a close button |
 | uk-alert-primary | An alert with a primary style applied |
@@ -869,3 +895,145 @@ List of Commands
 | uk-child-width | [Class] Evenly divides the width of all child elements in a 'uk-grid' |
 | uk-child-width-responsive | [Class] Evenly divides the width of all child elements in a 'uk-grid' on specified device widths and higher. Columns stack on smaller sizes. |
 | uk-fixed-width | [Class] Applies a fixed width to an element of 150/300/450/600/750 px respectively. | 
+
+List of Commands (Javascript)
+---
+
+### Accordion JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-accordion | Initializes an accordion element with various options |
+| uk-accordion-events | Triggers a function when a specified accordion event is triggered |
+
+### Alert JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-alert | Initializes an alert element with various options |
+| uk-alert-events | Triggers a function when a specified alert event is triggered |
+
+### Cover JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-cover | Initializes a cover element with various options |
+
+### Drop JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-drop | Initializes a drop element with various options |
+| uk-drop-events | Triggers a function when a specified drop event is triggered |
+
+### Dropdown JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-dropdown | Initializes a dropdown element with various options |
+| uk-dropdown-events | Triggers a function when a specified dropdown event is triggered |
+
+### Form JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-form | Initializes a form element with various options |
+
+### Grid JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-grid | Initializes a grid element with various options |
+
+### Icon JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-icon | Initializes an icon element with various options |
+
+### Margin JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-margin | Initializes a margin element with various options |
+
+### Modal JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-modal | Initializes a modal element with various options |
+| uk-modal-events | Triggers a function when a specified modal event is triggered |
+| uk-modal-alert | Creates an alert box with one button |
+| uk-modal-confirm | Creates a confirm dialog with your message and two buttons |
+| uk-modal-prompt | Creates a dialog asking for a text input |
+| uk-modal-dialog | Creates a dialog with any HTML content |
+| uk-modal-dialog-sample | Creates a sample dialog which processes user input |
+
+### Nav JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-nav | Initializes a nav element with various options |
+
+### Navbar JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-navbar | Initializes a navbar element with various options |
+| uk-navbar-events | Triggers a function when a specified navbar event is triggered |
+
+### Notification JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-notification | Creates a notification with various options |
+| uk-notification-events | Triggers a function when a specified notification event is triggered |
+
+### Offcanvas JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-offcanvas | Initializes a offcanvas element with various options |
+| uk-offcanvas-events | Triggers a function when a specified offcanvas event is triggered |
+
+### Scroll JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-scroll | Initializes a scroll element with various options |
+
+### Scrollspy JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-scrollspy | Initializes a scrollspy with various options |
+| uk-scrollspy-events | Triggers a function when a specified scrollspy event is triggered |
+| uk-scrollspy-nav | Initializes a scrollspy nav with various options |
+| uk-scrollspy-nav-events | Triggers a function when a specified scrollspy nav event is triggered |
+
+### Sortable JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-sortable | Initializes a sortable with various options |
+| uk-sortable-events | Triggers a function when a specified sortable event is triggered |
+
+### Sticky JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-sticky | Initializes a sticky with various options |
+| uk-sticky-events | Triggers a function when a specified sticky event is triggered |
+
+### Switcher JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-switcher | Initializes a switcher with various options |
+| uk-switcher-events | Triggers a function when a specified switcher event is triggered |
+
+### Tab JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-tab | Initializes a tab with various options |
+| uk-tab-events | Triggers a function when a specified tab event is triggered |
+
+### Toggle JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-toggle | Initializes a toggle with various options |
+| uk-toggle-events | Triggers a function when a specified toggle event is triggered |
+
+### Tooltip JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-tooltip | Initializes a tooltip with various options |
+| uk-tooltip-events | Triggers a function when a specified tooltip event is triggered |
+
+### Upload JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-upload | Initializes a upload with various options |
+| uk-upload-events | Triggers a function when a specified upload event is triggered |
+| uk-upload-sample | Creates a sample upload script based on official docs |

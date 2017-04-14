@@ -308,7 +308,7 @@
     "snippet-uk-scrollspy": {
         "prefix": "uk-scrollspy",
         "body": [
-            "UIkit.scrollspy(${0:options});",
+            "UIkit.scrollspy(${1:element}, ${0:options});",
             "/* Option: [Required Value] ",
             "-----------------------",
             "cls: [String]",
@@ -330,7 +330,7 @@
     "snippet-uk-scrollspy-nav": {
         "prefix": "uk-scrollspy-nav",
         "body": [
-            "UIkit.scrollspyNav(${0:options});",
+            "UIkit.scrollspyNav(${1:element}, ${0:options});",
             "/* Option: [Required Value] ",
             "-----------------------",
             "cls: [String]",
@@ -351,7 +351,7 @@
     "snippet-uk-sortable": {
         "prefix": "uk-sortable",
         "body": [
-            "UIkit.sortable(${0:options});",
+            "UIkit.sortable(${1:element}, ${0:options});",
             "/* Option: [Required Value] ",
             "-----------------------",
             "group: [String]",
@@ -365,7 +365,7 @@
             "clsNo-drag: [String]",
             "cls-empty: [String]",
             "cls-custom: [String]",
-            "handle: [String] */",
+            "handle: [String] */"
         ],
         "description": "Initializes a sortable with various options"
     },
@@ -375,5 +375,201 @@
             "$('${1:selector}').on('${2:[start|stop|change]}', function() { $3 });"
         ],
         "description": "Triggers a function when a specified sortable event is triggered"
+    },
+    "snippet-uk-sticky": {
+        "prefix": "uk-sticky",
+        "body": [
+            "UIkit.sticky(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "top: [Number|viewport height|CSS selector]",
+            "bottom: [Boolean|CSS selector]",
+            "offset: [Number]",
+            "animation: [String]",
+            "cls-active: [String]",
+            "cls-inactive: [String]",
+            "width-element: [CSS selector]",
+            "show-on-up: [Boolean]",
+            "media: [Integer|String]",
+            "target: [Boolean] */"
+        ],
+        "description": "Initializes a sticky with various options"
+    },
+    "snippet-uk-sticky-events": {
+        "prefix": "uk-sticky-events",
+        "body": [
+            "$('${1:selector}').on('${2:[active|inactive]}', function() { $3 });"
+        ],
+        "description": "Triggers a function when a specified sticky event is triggered"
+    },
+    "snippet-uk-switcher": {
+        "prefix": "uk-switcher",
+        "body": [
+            "UIkit.switcher(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "connect: [CSS selector]",
+            "toggle: [CSS selector]",
+            "active: [Number]",
+            "animation: [String]",
+            "duration: [Number]",
+            "swiping: [Boolean] */"
+        ],
+        "description": "Initializes a switcher with various options"
+    },
+    "snippet-uk-switcher-events": {
+        "prefix": "uk-switcher-events",
+        "body": [
+            "$('${1:selector}').on('${2:[beforeshow|show|shown|beforehide|hide|hidden]}', function() { $3 });"
+        ],
+        "description": "Triggers a function when a specified switcher event is triggered"
+    },
+    "snippet-uk-tab": {
+        "prefix": "uk-tab",
+        "body": [
+            "UIkit.tab(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "connect: [CSS selector]",
+            "toggle: [CSS selector]",
+            "active: [Number]",
+            "animation: [String]",
+            "duration: [Number]",
+            "swiping: [Boolean]",
+            "media: [Integer|String] */"
+        ],
+        "description": "Initializes a tab with various options"
+    },
+    "snippet-uk-tab-events": {
+        "prefix": "uk-tab-events",
+        "body": [
+            "$('${1:selector}').on('${2:[beforeshow|show|shown|beforehide|hide|hidden]}', function() { $3 });"
+        ],
+        "description": "Triggers a function when a specified tab event is triggered"
+    },
+    "snippet-uk-toggle": {
+        "prefix": "uk-toggle",
+        "body": [
+            "UIkit.toggle(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "target: [String]",
+            "mode: [String]",
+            "cls: [String]",
+            "animation: [String]",
+            "duration: [Number]",
+            "queued: [Boolean] */"
+        ],
+        "description": "Initializes a toggle with various options"
+    },
+    "snippet-uk-toggle-events": {
+        "prefix": "uk-toggle-events",
+        "body": [
+            "$('${1:selector}').on('${2:[beforeshow|show|shown|beforehide|hide|hidden]}', function() { $3 });"
+        ],
+        "description": "Triggers a function when a specified toggle event is triggered"
+    },
+    "snippet-uk-tooltip": {
+        "prefix": "uk-tooltip",
+        "body": [
+            "UIkit.tooltip(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "pos: [String]",
+            "offset: [Number]",
+            "animation: [String]",
+            "duration: [Number]",
+            "delay: [Number]",
+            "cls: [String] */"
+        ],
+        "description": "Initializes a tooltip with various options"
+    },
+    "snippet-uk-tooltip-events": {
+        "prefix": "uk-tooltip-events",
+        "body": [
+            "$('${1:selector}').on('${2:[beforeshow|show|shown|beforehide|hide|hidden]}', function() { $3 });"
+        ],
+        "description": "Triggers a function when a specified tooltip event is triggered"
+    },
+    "snippet-uk-upload": {
+        "prefix": "uk-upload",
+        "body": [
+            "UIkit.upload(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "url: [String]",
+            "multiple: [Boolean]",
+            "name: [String]",
+            "type: [String]",
+            "params: [Object]",
+            "allow: [String]",
+            "mime: [String]",
+            "concurrent: [Number]",
+            "data-type: [String]",
+            "msg-invalid-mime: [String]",
+            "msg-invalid-name: [String]",
+            "cls-dragover: [String]",
+            "abort: [Function]",
+            "before-all: [Function]",
+            "before-send: [Function]",
+            "complete: [Function]",
+            "complete-all: [Function]",
+            "error: [Function]",
+            "load: [Function]",
+            "load-end: [Function]",
+            "load-start: [Function]",
+            "progress: [Function]",
+            "fail: [Function] */"
+        ],
+        "description": "Initializes a upload with various options"
+    },
+    "snippet-uk-upload-events": {
+        "prefix": "uk-upload-events",
+        "body": [
+            "$('${1:selector}').on('${2:[upload]}', function() { $3 });"
+        ],
+        "description": "Triggers a function when a specified upload event is triggered"
+    },
+    "snippet-uk-upload-sample": {
+        "prefix": "uk-upload-sample",
+        "body": [
+            "(function ($) {",
+            "\tvar bar = $(\"#progressbar\")[0];",
+            "\tUIkit.upload('.test-upload', {",
+                "\r\t\turl: '',",
+                "\t\tmultiple: true,",
+                "\r\t\tbeforeSend: function() { console.log('beforeSend', arguments); },",
+                "\t\tbeforeAll: function() { console.log('beforeAll', arguments); },",
+                "\t\tload: function() { console.log('load', arguments); },",
+                "\t\terror: function() { console.log('error', arguments); },",
+                "\t\tcomplete: function() { console.log('complete', arguments); },",
+                "\r\t\tloadStart: function (e) {",
+                    "\t\t\tconsole.log('loadStart', arguments);",
+                    "\r\t\t\tbar.removeAttribute('hidden');",
+                    "\t\t\tbar.max =  e.total;",
+                    "\t\t\tbar.value =  e.loaded;",
+                "\t\t},",
+                "\r\t\tprogress: function (e) {",
+                    "\t\t\tconsole.log('progress', arguments);",
+                    "\r\t\t\tbar.max =  e.total;",
+                    "\t\t\tbar.value =  e.loaded;",
+                "\t\t},",
+                "\r\t\tloadEnd: function (e) {",
+                    "\t\t\tconsole.log('loadEnd', arguments);",
+                    "\r\t\t\tbar.max =  e.total;",
+                    "\t\t\tbar.value =  e.loaded;",
+                "\t\t},",
+                "\r\t\tcompleteAll: function () {",
+                    "\t\t\tconsole.log('completeAll', arguments);",
+                    "\r\t\t\tsetTimeout(function () {",
+                        "\t\t\t\tbar.setAttribute('hidden', 'hidden');",
+                    "\t\t\t}, 1000);",
+                    "\r\t\t\talert('Upload Completed');",
+                "\t\t}",
+            "\t});",
+
+        "})(jQuery);"
+        ],
+        "description": "Creates a sample upload script based on official docs"
     }
 }
