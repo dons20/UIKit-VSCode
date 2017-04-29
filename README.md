@@ -59,8 +59,10 @@ Table of Contents
     * [Column](#column)
     * [Comment](#comment)
     * [Container](#container)
+    * [Countdown](#countdown)
     * [Cover](#cover)
     * [Description List](#description-list)
+    * [Disabled](#disabled)
     * [Divider](#divider)
     * [Dotnav](#dotnav)
     * [Drop](#drop)
@@ -111,6 +113,7 @@ Table of Contents
   * [List of Commands (Javascript)](#list-of-commands-javascript)
     * [Accordion JS](#accordion-js)
     * [Alert JS](#alert-js)
+    * [Countdown JS](#countdown-js)
     * [Cover JS](#cover-js)
     * [Drop JS](#drop-js)
     * [Dropdown JS](#dropdown-js)
@@ -314,28 +317,30 @@ List of Commands (HTML/PHP)
 ### Background
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-background-default | Applies the default background color |
-| uk-background-muted | Applies a muted background color |
-| uk-background-primary | Applies the primary background color |
-| uk-background-secondary | Applies the secondary background color |
-| uk-background-cover | Scales the background image to cover the containing area |
-| uk-background-contain | Scales the background image to fit within the containing area |
-| uk-background-position | Alters the initial position of the background iamge |
-| uk-background-norepeat | Prevents the background image from being repeated |
-| uk-background-fixed | Locks the image in place while scrolling |
-| uk-background-image-responsive | Shows the background image on widths of chosen size upwards |
-| uk-background-blend | Applies a chosen blend mode to the background image |
+| uk-background-default | [Class] Applies the default background color |
+| uk-background-muted | [Class] Applies a muted background color |
+| uk-background-primary | [Class] Applies the primary background color |
+| uk-background-secondary | [Class] Applies the secondary background color |
+| uk-background-cover | [Class] Scales the background image to cover the containing area |
+| uk-background-contain | [Class] Scales the background image to fit within the containing area |
+| uk-background-position | [Class] Alters the initial position of the background iamge |
+| uk-background-norepeat | [Class] Prevents the background image from being repeated |
+| uk-background-fixed | [Class] Locks the image in place while scrolling |
+| uk-background-image-responsive | [Class] Shows the background image on widths of chosen size upwards |
+| uk-background-blend | [Class] Applies a chosen blend mode to the background image |
 
 ### Badge
 | Trigger | Description |
 | :-------: | :-----------: |
+| uk-badge | [Class] Used to create a notification badge in an inline element |
 | uk-badge-span | Creates a simple notification badge span |
 | uk-badge-link | Creates a simple notification badge link |
 
 ### Breadcrumb
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-breadcrumb | Creates a default breadcrumb list |
+| uk-breadcrumb | [Class] Used to create a breadcrumb list |
+| uk-breadcrumb-list | Creates a default breadcrumb list |
 
 ### Button
 | Trigger | Description |
@@ -371,8 +376,9 @@ List of Commands (HTML/PHP)
 ### Close
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-close | Creates a close icon |
-| uk-close-large | Creates a larger close icon |
+| uk-close | [Attribute] Used to create a close button |
+| uk-close-button | Creates a close button |
+| uk-close-button-large | Creates a larger close button |
 
 ### Column
 | Trigger | Description |
@@ -392,10 +398,19 @@ List of Commands (HTML/PHP)
 ### Container
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-container | Creates a centered container |
+| uk-container | [Class] Used to create a centered container |
+| uk-container-default | Creates a centered container |
 | uk-container-small | Creates a narrower, centered container | 
 | uk-container-large | Creates a wider, centered container |
 | uk-container-expand | Creates a max-width container |
+
+### Countdown
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-countdown | [Attribute] Used to create a countdown timer |
+| uk-countdown-sample | Creates a countdown timer. Date is in the format: YYYY-MM-DDThh:mm:ssTZD |
+| uk-countdown-separator | Creates a countdown timer with each number separated by a colon |
+| uk-countdown-label | Used to add a label to each number on the countdown timer |
 
 ### Cover
 | Trigger | Description |
@@ -408,8 +423,13 @@ List of Commands (HTML/PHP)
 ### Description List
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-description-list | Creates a list to display terms and descriptions below each other |
-| uk-description-list | Creates a divided description list |
+| uk-description-list | [Class] Used to create a description list |
+| uk-description-list-sample | Creates a sample list to display terms and descriptions below each other |
+| uk-description-list-divider | Creates a divided description list |
+
+### Disabled
+| Trigger | Description |
+| :-------: | :-----------: |
 | uk-disabled | [Class] Disables an item within a list |
 
 ### Divider
@@ -428,7 +448,8 @@ List of Commands (HTML/PHP)
 ### Drop
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-drop-basic | Creates a basic drop element |
+| uk-drop | [Attribute] Used to create a drop component |
+| uk-drop-basic | Creates a basic drop component |
 | uk-drop-example | Creates two example drops with different modes |
 | uk-drop-grid | Creates a drop with a grid inside |
 | uk-drop-position | Creates a drop with its alignment adjusted |
@@ -440,6 +461,7 @@ List of Commands (HTML/PHP)
 ### Dropdown
 | Trigger | Description |
 | :-------: | :-----------: |
+| uk-dropdown | [Attribute] Used to create a dropdown in a block element such as a div |
 | uk-dropdown-basic | Creates a basic dropdown underneath a button toggle |
 | uk-dropdown-basic-inline | Creates a basic dropdown grouped with its toggle |
 | uk-dropdown-nav | Creates a dropdown containing a nav element |
@@ -453,6 +475,7 @@ List of Commands (HTML/PHP)
 ### Flex
 | Trigger | Description |
 | :-------: | :-----------: |
+| uk-flex | [Class] Used to apply a flexbox layout model to an element |
 | uk-flex-block | Creates a flex container and behaves like a block element |
 | uk-flex-inline | Creates a flex container and behaves like an inline element |
 | uk-flex-horizontal-alignment | Defines the horizontal alignment of flex items and distributes space between them |
@@ -485,6 +508,7 @@ List of Commands (HTML/PHP)
 ### Grid
 | Trigger | Description |
 | :-------: | :-----------: |
+| uk-grid | [Attribute] Used to create a grid container inside a div |
 | uk-grid-stacked | Creates a basic stacked grid container |
 | uk-grid-expanded | Creates an expanded grid container with elements side by side |
 | uk-grid-gutter-modifier | Modifies the spacing between grid items |
@@ -498,10 +522,14 @@ List of Commands (HTML/PHP)
 ### Heading
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-heading-primary | Creates an emphasized heading |
-| uk-heading-divider | Creates a heading with a divider underneath |
-| uk-heading-bullet | Creates a heading as part of a list |
-| uk-heading-line | Creates a heading with a vertically centered line |
+| uk-heading-primary | [Class] Used to create an emphasized heading |
+| uk-heading-primary-sample | Creates an emphasized heading |
+| uk-heading-divider | [Class] Used to create a heading with a divider underneath |
+| uk-heading-divider-sample | Creates a heading with a divider underneath |
+| uk-heading-bullet | [Class] Used to create a heading used in a list |
+| uk-heading-bullet-sample | Creates a heading as part of a list |
+| uk-heading-line | [Class] Used to create a heading with a vertically centered line |
+| uk-heading-line-sample | Creates a heading with a vertically centered line |
 
 ### Icon
 | Trigger | Description |
@@ -516,18 +544,22 @@ List of Commands (HTML/PHP)
 ### Iconnav
 | Trigger | Description |
 | :-------: | :-----------: |
+| uk-iconnav | [Class] Used to create a navigation consisting of icons |
 | uk-iconnav-horizontal | Creates a navigation consisting of icons |
 | uk-iconnav-vertical | Creates a vertical navigation consisting of icons |
 
 ### Inverse
 | Trigger | Description |
 | :-------: | :-----------: |
+| uk-light | [Class] Used to improve the visibility of objects on light backgrounds in a light style |
 | uk-inverse-light | Improves the visibility of objects on dark backgrounds in a light style |
+| uk-dark | [Class] Used to improve the visibility of objects on light backgrounds in a dark style |
 | uk-inverse-dark | Improves the visibility of objects on light backgrounds in a dark style |
 
 ### Label
 | Trigger | Description |
 | :-------: | :-----------: |
+| uk-label | [Class] Used to create a label in a span element |
 | uk-label-default | Creates a label with a default style |
 | uk-label-success | Creates a label with a success style |
 | uk-label-warning | Creates a label with a warning style |
@@ -542,7 +574,8 @@ List of Commands (HTML/PHP)
 ### List
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-list-basic | Creates a basic unordered or ordered list |
+| uk-list | [Class] Used to create a basic ordered or unordered list |
+| uk-list-basic | Creates a basic ordered or unordered list |
 | uk-list-bullet-modifier | Creates a bulleted list |
 | uk-list-divider-modifier | Creates a divided list |
 | uk-list-striped-modifier | Creates a striped list |
@@ -564,6 +597,7 @@ List of Commands (HTML/PHP)
 ### Modal
 | Trigger | Description |
 | :-------: | :-----------: |
+| uk-modal | [Attribute] Used to create a modal |
 | uk-modal-sample | Creates a modal with a button toggle |
 | uk-modal-close-default | Creates a modal with close button inside |
 | uk-modal-close-outside | Creates a modal with close button outside |
@@ -576,6 +610,7 @@ List of Commands (HTML/PHP)
 ### Nav
 | Trigger | Description |
 | :-------: | :-----------: |
+| uk-nav | [Class] Used to create a nav with optional styling |
 | uk-nav-default | Creates a nav with default styling |
 | uk-nav-nested | Creates a nested nav with default styling |
 | uk-nav-accordion | Creates an accordion-styled nav with icons for parents |
@@ -590,7 +625,8 @@ List of Commands (HTML/PHP)
 ### Navbar
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-navbar | Creates a primary navigation bar |
+| uk-navbar | [Attribute] Used to create a navigation bar |
+| uk-navbar-sample | Creates a primary navigation bar |
 | uk-navbar-multiple | Creates multiple navigations inside the navbar container |
 | uk-navbar-click | Creates a primary navigation bar that is toggled with a click |
 | uk-navbar-transparent | Creates a transparent navigation bar |
@@ -617,6 +653,7 @@ List of Commands (HTML/PHP)
 ### Offcanvas
 | Trigger | Description |
 | :-------: | :-----------: |
+| uk-offcanvas | [Attribute] Used to create an off-canvas |
 | uk-offcanvas-sample | Creates a basic off-canvas |
 | uk-offcanvas-overlay | Creates an off-canvas that adds an overlay to the page |
 | uk-offcanvas-flip-modifier | Creates an off-canvas that slides in from the right |
@@ -626,6 +663,7 @@ List of Commands (HTML/PHP)
 ### Overlay
 | Trigger | Description |
 | :-------: | :-----------: |
+| uk-overlay | [Class] Used to create a basic image overlay |
 | uk-overlay-basic | Creates a basic image overlay at a modifiable position |
 | uk-overlay-style-default | Creates an image overlay with a default style |
 | uk-overlay-style-primary | Creates an image overlay with a primary style |
@@ -642,6 +680,7 @@ List of Commands (HTML/PHP)
 ### Pagination
 | Trigger | Description |
 | :-------: | :-----------: |
+| uk-pagination | [Class] Used to create a simple pagination for navigation through pages |
 | uk-pagination-basic | Creates a simple pagination for navigation through pages |
 | uk-pagination-alignment | Creates a simple pagination aligned with flex |
 | uk-pagination-previous-next | Creates a previous and next button inside of a pagination |
@@ -649,7 +688,8 @@ List of Commands (HTML/PHP)
 ### Placeholder
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-placeholder | Creates a placeholder space |
+| uk-placeholder | [Class] Used to create a placeholder space |
+| uk-placeholder-sample | Creates a placeholder space |
 
 ### Position
 | Trigger | Description |
@@ -667,22 +707,26 @@ List of Commands (HTML/PHP)
 ### Progress
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-progress | Creates a progress bar |
+| uk-progress | [Class] Used to create a progress bar |
+| uk-progress-sample | Creates a progress bar |
 
 ### Scroll
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-scroll | Creates a link that smooth scrolls to the targetted element with matching id |
+| uk-scroll | [Attribute] Used to create a link that smooth scrolls to the targeted element with a matching id |
+| uk-scroll-anchor | Creates a link that smooth scrolls to the targetted element with matching id |
 
 ### Scrollspy
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-scrollspy | Adds the scrollspy attribute to an element and animates it when in view |
+| uk-scrollspy | [Attribute] Used to add a scrollspy to an element |
+| uk-scrollspy-sample | Adds the scrollspy attribute to an element and animates it when in view |
 | uk-scrollspy-group | Adds the scrollspy attribute to an element and animates it when in view |
 
 ### Search
 | Trigger | Description |
 | :-------: | :-----------: |
+| uk-search | [Class] Used to create a search bar |
 | uk-search-default | Creates a search bar with default styling |
 | uk-search-icon | Creates a search bar with a search icon to the left |
 | uk-search-icon-flip | Creates a search bar with a search icon to the right |
@@ -695,6 +739,7 @@ List of Commands (HTML/PHP)
 ### Section
 | Trigger | Description |
 | :-------: | :-----------: |
+| uk-section | [Class] Used to create a section with optional styling |
 | uk-section-default | Creates a section with a default style |
 | uk-section-muted | Creates a section with a muted style |
 | uk-section-primary | Creates a section with a primary style |
@@ -715,7 +760,8 @@ List of Commands (HTML/PHP)
 ### Sortable
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-sortable | Creates a sortable, re-arrangable grid of elements |
+| uk-sortable | [Attribute] Used to create a sortable, re-arrangable grid of elements |
+| uk-sortable-sample | Creates a sortable, re-arrangable grid of elements |
 | uk-sortable-handle | Creates a sortable list using a special handle button instead of the entire element |
 | uk-sortable-group | Creates a sortable group that can interchange elements |
 | uk-sortable-custom-class | Creates sortable that can apply multiple classes to items while being dragged |
@@ -723,12 +769,14 @@ List of Commands (HTML/PHP)
 ### Spinner
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-spinner | Creates an animated loading spinner |
+| uk-spinner | [Attribute] Used to create an animated loading spinner |
+| uk-spinner-sample | Creates an animated loading spinner |
 
 ### Sticky
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-sticky | Creates an element that remains at the top of the viewport while scrolling down |
+| uk-sticky | [Attribute] Used to create an element that remains at the top of the viewport while scrolling down |
+| uk-sticky-sample | Creates an element that remains at the top of the viewport while scrolling down |
 | uk-sticky-offset | Creates a sticky element with a pixel offset from the top |
 | uk-sticky-top | Creates a sticky element with a delay |
 | uk-sticky-animation | Creates a sticky element with an animation when it reappears |
@@ -739,6 +787,7 @@ List of Commands (HTML/PHP)
 ### Subnav
 | Trigger | Description |
 | :-------: | :-----------: |
+| uk-subnav | [Class] Used to create a basic sub-navigation |
 | uk-subnav-basic | Creates a basic sub-navigation with items wrapping into the next line |
 | uk-subnav-divider | Creates a sub-navigation seperated with lines |
 | uk-subnav-pill | Creates a sub-navigation that highlights the active item with a background |
@@ -747,7 +796,8 @@ List of Commands (HTML/PHP)
 ### Switcher
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-switcher | Creates a switcher that dynamically transitions through different content panes |
+| uk-switcher | [Attribute] Used to create a switcher component |
+| uk-switcher-basic | Creates a switcher that dynamically transitions through different content panes |
 | uk-switcher-navigation | Creates a switcher with navigation controls within the content pane |
 | uk-switcher-connect-containers | Creates a switcher that connects multiple content containers |
 | uk-switcher-animation | Creates a switcher animates its transitions |
@@ -761,6 +811,7 @@ List of Commands (HTML/PHP)
 ### Tab
 | Trigger | Description |
 | :-------: | :-----------: |
+| uk-tab | [Attribute] Used to create a basic tabbed navigation |
 | uk-tab-basic | Creates a basic tabbed navigation |
 | uk-tab-bottom | Creates a tab with items flipped to the bottom |
 | uk-tab-vertical | Creates a tab with items aligned left or right |
@@ -770,11 +821,14 @@ List of Commands (HTML/PHP)
 ### Table
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-table | Creates a table with a default style |
+| uk-table | [Class] Used to create a table |
+| uk-table-sample | Creates a table without any styling |
+| uk-table-divider | Creates a table with each row seperated by a divider |
 | uk-table-hover | Creates a table with a hover state on table rows |
 | uk-table-striped | Creates a table with zebra-striping on table rows |
 | uk-table-small | Creates a smaller, more compact table |
-| uk-table-center | Creates a table with center aligned elements |
+| uk-table-justify | Creates a table with the outer padding of the first and last columns removed |
+| uk-table-middle | Creates a table with center aligned elements |
 | uk-table-responsive | Creates a table that provides a horizontal scrollbar on smaller device screens when needed |
 | uk-table-column-width | Modifies the width of a table column |
 
@@ -795,6 +849,7 @@ List of Commands (HTML/PHP)
 ### Tile
 | Trigger | Description |
 | :-------: | :-----------: |
+| uk-tile | [Class] Used to create a tile with optional styling |
 | uk-tile-default | Creates a tile with a default style |
 | uk-tile-muted | Creates a tile with a muted style |
 | uk-tile-primary | Creates a tile with a primary style |
@@ -804,6 +859,7 @@ List of Commands (HTML/PHP)
 ### Toggle
 | Trigger | Description |
 | :-------: | :-----------: |
+| uk-toggle | [Attribute] Used to create a toggle that shows/hides an element |
 | uk-toggle-example | Creates a toggle that shows/hides an element |
 | uk-toggle-multiple | Creates a toggle that shows/hides multiple elements |
 | uk-toggle-custom-class | Creates a toggle that applies a custom class to the target element |
@@ -816,14 +872,16 @@ List of Commands (HTML/PHP)
 ### Tooltip
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-tooltip | Creates an element with a tooltip |
+| uk-tooltip | [Attribute] Used to create an element with a tooltip |
+| uk-tooltip-sample | Creates an element with a tooltip |
 | uk-tooltip-alignment | Creates a tooltip with a modified alignment |
 | uk-tooltip-delay | Creates a tooltip with a specified delay in milliseconds |
 
 ### Totop
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-totop | Creates an icon used for scrolling to the top of the page |
+| uk-totop | [Attribute] Used to create an icon used for scrolling to the top of the page |
+| uk-totop-sample | Creates an icon used for scrolling to the top of the page |
 | uk-totop-smooth | Creates a totop component with smooth scrolling |
 
 ### Transition
@@ -862,6 +920,7 @@ List of Commands (HTML/PHP)
 | uk-utility-preserve-width | [Class] Avoids responsive behaviour and preserves original dimensions |
 | uk-utility-border-radius | [Class] Modifies the border radius of an element |
 | uk-utility-box-shadow | [Class] Adds a box shadow to an element |
+| uk-utility-box-shadow-bottom | [Class] Adds a box shadow to the bottom of an element |
 | uk-utility-box-shadow-hover | [Class] Adds a box shadow to an element on hover |
 | uk-utility-dropcap | Applies a drop cap on a paragraph |
 | uk-utility-leader | Visually connects horizontal items with a line of dots |
@@ -878,7 +937,8 @@ List of Commands (HTML/PHP)
 ### Visibility
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-hidden | [Class] Legacy class used for hiding an element. Recommended: Use 'hidden' attribute instead. |
+| uk-hidden | [Attribute] Used for hiding an element |
+| uk-hidden-class | [Class] Legacy class used for hiding an element. Recommended: Use 'hidden' attribute instead. |
 | uk-hidden-responsive | [Class] Hides an element from screens larger than the specified width (640/960/1200/1600 px respectively) |
 | uk-hidden-hover | Hides the content until the parent container is hovered |
 | uk-visible | [Class] Shows an element on screens larger than the specified width (640/960/1200/1600 px respectively) |
@@ -910,6 +970,11 @@ List of Commands (Javascript)
 | :-------: | :-----------: |
 | uk-alert | Initializes an alert element with various options |
 | uk-alert-events | Triggers a function when a specified alert event is triggered |
+
+### Countdown JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-countdown | Initializes a countdown element with various options |
 
 ### Cover JS
 | Trigger | Description |

@@ -8,14 +8,14 @@
             "\t\t<title>$2</title>",
             "\t\t<meta charset=\"UTF-8\">",
             "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.21/css/uikit.min.css\" />",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/css/uikit.min.css\" />",
             "\t\t<link href=\"${3:css/style.css}\" rel=\"stylesheet\">",
             "\t</head>",
             "\t<body>",
             "\t\t$0",
             "\r\t\t<script src=\"https://code.jquery.com/jquery-3.2.1.min.js\" \r\t\t\t\tintegrity=\"sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.21/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-vwtRoGE4E2kxfJX4j2kIo8SjdOvvSMhg1Rbl20iCguc=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.21/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-dcB3RqnuF4+TETccGg3TtO4CvzsE2fk2nIq/feKE+jE=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-ZfxNpEyIHFt0qMdwt/+cIhDnyZCykGkVd1uNz6TU/jY=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-BtKiVFqAoEVJYnSoG1tt98EQ11R3QjUCB9AtrW+66wo=\" crossorigin=\"anonymous\"></script>",
             "\t</body>",
             "</html>"
         ],
@@ -30,14 +30,14 @@
             "\t\t<title>$1</title>",
             "\t\t<meta charset=\"UTF-8\">",
             "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.21/css/uikit-rtl.min.css\" />",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/css/uikit-rtl.min.css\" />",
             "\t\t<link href=\"${2:css/style.css}\" rel=\"stylesheet\">",
             "\t</head>",
             "\t<body>",
             "\t\t$0",
             "\r\t\t<script src=\"https://code.jquery.com/jquery-3.2.1.min.js\" \r\t\t\t\tintegrity=\"sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.21/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-vwtRoGE4E2kxfJX4j2kIo8SjdOvvSMhg1Rbl20iCguc=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.21/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-dcB3RqnuF4+TETccGg3TtO4CvzsE2fk2nIq/feKE+jE=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-ZfxNpEyIHFt0qMdwt/+cIhDnyZCykGkVd1uNz6TU/jY=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-BtKiVFqAoEVJYnSoG1tt98EQ11R3QjUCB9AtrW+66wo=\" crossorigin=\"anonymous\"></script>",
             "\t</body>",
             "</html>"
         ],
@@ -46,14 +46,14 @@
     "snippet-uk-$-css-import": {
         "prefix": "uk-$-css-import",
         "body": [
-            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.21/css/uikit.min.css\" />"
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/css/uikit.min.css\" />"
         ],
         "description": "Imports the default minified css file for UIKit"
     },
     "snippet-uk-$-css-rtl-import": {
         "prefix": "uk-$-css-rtl-import",
         "body": [
-            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.21/css/uikit-rtl.min.css\" />"
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/css/uikit-rtl.min.css\" />"
         ],
         "description": "Imports the RTL minified css file for UIKit"
     },
@@ -61,8 +61,8 @@
         "prefix": "uk-$-js-import",
         "body": [
             "<script src=\"https://code.jquery.com/jquery-3.2.1.min.js\" \r\tintegrity=\"sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=\" crossorigin=\"anonymous\"></script>",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.21/js/uikit.min.js\" \r\tintegrity=\"sha256-vwtRoGE4E2kxfJX4j2kIo8SjdOvvSMhg1Rbl20iCguc=\" crossorigin=\"anonymous\"></script>",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.21/js/uikit-icons.min.js\" \r\tintegrity=\"sha256-dcB3RqnuF4+TETccGg3TtO4CvzsE2fk2nIq/feKE+jE=\" crossorigin=\"anonymous\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/js/uikit.min.js\" \r\tintegrity=\"sha256-ZfxNpEyIHFt0qMdwt/+cIhDnyZCykGkVd1uNz6TU/jY=\" crossorigin=\"anonymous\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/js/uikit-icons.min.js\" \r\tintegrity=\"sha256-BtKiVFqAoEVJYnSoG1tt98EQ11R3QjUCB9AtrW+66wo=\" crossorigin=\"anonymous\"></script>"
         ],
         "description": "Imports the minified scripts for UIKit"
     },
@@ -356,77 +356,84 @@
         "body": [
             "class=\"uk-background-default\" "
         ],
-        "description": "Applies the default background color"
+        "description": "[Class] Applies the default background color"
     },
     "snippet-uk-background-muted": {
         "prefix": "uk-background-muted",
         "body": [
             "class=\"uk-background-muted\" "
         ],
-        "description": "Applies a muted background color"
+        "description": "[Class] Applies a muted background color"
     },
     "snippet-uk-background-primary": {
         "prefix": "uk-background-primary",
         "body": [
             "class=\"uk-background-primary\" "
         ],
-        "description": "Applies the primary background color"
+        "description": "[Class] Applies the primary background color"
     },
     "snippet-uk-background-secondary": {
         "prefix": "uk-background-secondary",
         "body": [
             "class=\"uk-background-secondary\" "
         ],
-        "description": "Applies the secondary background color"
+        "description": "[Class] Applies the secondary background color"
     },
     "snippet-uk-background-cover": {
         "prefix": "uk-background-cover",
         "body": [
             "class=\"uk-background-cover\" "
         ],
-        "description": "Scales the background image to cover the containing area"
+        "description": "[Class] Scales the background image to cover the containing area"
     },
     "snippet-uk-background-contain": {
         "prefix": "uk-background-contain",
         "body": [
             "class=\"uk-background-contain\" "
         ],
-        "description": "Scales the background image to fit within the containing area"
+        "description": "[Class] Scales the background image to fit within the containing area"
     },
     "snippet-uk-background-position": {
         "prefix": "uk-background-position",
         "body": [
             "class=\"uk-background-${1:[top|center|bottom]}-{2:[left|center|right]}\" "
         ],
-        "description": "Alters the initial position of the background iamge"
+        "description": "[Class] Alters the initial position of the background iamge"
     },
     "snippet-uk-background-norepeat": {
         "prefix": "uk-background-norepeat",
         "body": [
             "class=\"uk-background-norepeat\" "
         ],
-        "description": "Prevents the background image from being repeated"
+        "description": "[Class] Prevents the background image from being repeated"
     },
     "snippet-uk-background-fixed": {
         "prefix": "uk-background-fixed",
         "body": [
             "class=\"uk-background-fixed\" "
         ],
-        "description": "Locks the image in place while scrolling"
+        "description": "[Class] Locks the image in place while scrolling"
     },
     "snippet-uk-background-image-responsive": {
         "prefix": "uk-background-image-responsive",
         "body": [
             "class=\"uk-background-image@${0:[s|m|l|xl]}\" "
         ],
-        "description": "Shows the background image on widths of chosen size upwards"
+        "description": "[Class] Shows the background image on widths of chosen size upwards"
     },
     "snippet-uk-background-blend": {
         "prefix": "uk-background-blend",
         "body": [
             "class=\"uk-background-blend-${1:[multiply|screen|overlay|darken|lighten|color-dodge|color-burn|hard-light|soft-light|difference|exclusion|hue|saturation|color|luminosity]} ${0:uk-background}\" "
         ],
-        "description": "Applies a chosen blend mode to the background image"
+        "description": "[Class] Applies a chosen blend mode to the background image"
+    },
+    "snippet-uk-badge": {
+        "prefix": "uk-badge",
+        "body": [
+            " class=\"uk-badge\" "
+        ],
+        "description": "[Class] Used to create a notification badge in an inline element"
     },
     "snippet-uk-badge-span": {
         "prefix": "uk-badge-span",
@@ -444,6 +451,13 @@
     },
     "snippet-uk-breadcrumb": {
         "prefix": "uk-breadcrumb",
+        "body": [
+            " class=\"uk-breadcrumb\" "
+        ],
+        "description": "[Class] Used to create a breadcrumb list"
+    },
+    "snippet-uk-breadcrumb-list": {
+        "prefix": "uk-breadcrumb-list",
         "body": [
             "<ul class=\"uk-breadcrumb\">",
             "\t<li><a href=\"\"></a></li>",
@@ -676,12 +690,19 @@
     "snippet-uk-close": {
         "prefix": "uk-close",
         "body": [
+            "uk-close"
+        ],
+        "description": "[Attribute] Used to create a close button"
+    },
+    "snippet-uk-close-button": {
+        "prefix": "uk-close-button",
+        "body": [
             "<${1:button} type=\"button\" uk-close></${2:button}>"
         ],
-        "description": "Creates a close icon"
+        "description": "Creates a close button"
     },
-    "snippet-uk-close-large": {
-        "prefix": "uk-close-large",
+    "snippet-uk-close-button-large": {
+        "prefix": "uk-close-button-large",
         "body": [
             "<${1:button} class=\"uk-close-large\" type=\"button\" uk-close></${2:button}>"
         ],
@@ -766,11 +787,18 @@
     "snippet-uk-container": {
         "prefix": "uk-container",
         "body": [
+            " class=\"uk-container$0\" "
+        ],
+        "description": "[Class] Used to create a centered container"
+    },
+    "snippet-uk-container-default": {
+        "prefix": "uk-container-default",
+        "body": [
             "<div class=\"uk-container\">",
             "\t$0",
             "</div>"
         ],
-        "description": "Creates a centered container"
+        "description": "Creates a default, centered container"
     },
     "snippet-uk-container-small": {
         "prefix": "uk-container-small",
@@ -798,6 +826,47 @@
             "</div>"
         ],
         "description": "Creates a max-width container"
+    },
+    "snippet-uk-countdown": {
+        "prefix": "uk-countdown",
+        "body": [
+            "uk-countdown"
+        ],
+        "description": "[Attribute] Used to create a countdown timer"
+    },
+    "snippet-uk-countdown-sample": {
+        "prefix": "uk-countdown-sample",
+        "body": [
+            "<div uk-countdown=\"date: ${1:YYYY}-${2:MM}-${3:DD}T${4:hh}:${5:mm}:${6:ss}+${7:00}:${0:00}\">",
+                "\t<span class=\"uk-countdown-number uk-countdown-days\"></span>",
+                "\t<span class=\"uk-countdown-number uk-countdown-hours\"></span>",
+                "\t<span class=\"uk-countdown-number uk-countdown-minutes\"></span>",
+                "\t<span class=\"uk-countdown-number uk-countdown-seconds\"></span>",
+            "</div>"
+        ],
+        "description": "Creates a countdown timer. Date is in the format: YYYY-MM-DDThh:mm:ssTZD"
+    },
+    "snippet-uk-countdown-separator": {
+        "prefix": "uk-countdown-separator",
+        "body": [
+            "<div uk-countdown=\"date: ${1:YYYY}-${2:MM}-${3:DD}T${4:hh}:${5:mm}:${6:ss}+${7:00}:${0:00}\">",
+                "\t<span class=\"uk-countdown-number uk-countdown-days\"></span>",
+                "\t<span class=\"uk-countdown-separator\">:</span>",
+                "\t<span class=\"uk-countdown-number uk-countdown-hours\"></span>",
+                "\t<span class=\"uk-countdown-separator\">:</span>",
+                "\t<span class=\"uk-countdown-number uk-countdown-minutes\"></span>",
+                "\t<span class=\"uk-countdown-separator\">:</span>",
+                "\t<span class=\"uk-countdown-number uk-countdown-seconds\"></span>",
+            "</div>"
+        ],
+        "description": "Creates a countdown timer with each number separated by a colon"
+    },
+    "snippet-uk-countdown-label": {
+        "prefix": "uk-countdown-label",
+        "body": [
+            "<div class=\"uk-countdown-label\">${0:Days}</div>"
+        ],
+        "description": "Used to add a label to each number on the countdown timer"
     },
     "snippet-uk-cover-container": {
         "prefix": "uk-cover-container",
@@ -839,15 +908,22 @@
     "snippet-uk-description-list": {
         "prefix": "uk-cover-description-list",
         "body": [
+            " class=\"uk-description-list\" "
+        ],
+        "description": "[Class] Used to create a description list"
+    },
+    "snippet-uk-description-list-sample": {
+        "prefix": "uk-cover-description-list-sample",
+        "body": [
             "<dl class=\"uk-description-list\">",
             "\t<dt></dt>",
             "\t<dd></dd>",
             "</dl>"
         ],
-        "description": "Creates a list to display terms and descriptions below each other"
+        "description": "Creates a sample list to display terms and descriptions below each other"
     },
     "snippet-uk-description-list-divider": {
-        "prefix": "uk-cover-description-list",
+        "prefix": "uk-cover-description-list-divider",
         "body": [
             "<dl class=\"uk-description-list uk-description-list-divider\">",
             "\t<dt></dt>",
@@ -906,13 +982,20 @@
         ],
         "description": "Creates a dotnav centered vertically and aligned right"
     },
+    "snippet-uk-drop": {
+        "prefix": "uk-drop",
+        "body": [
+            "uk-drop"
+        ],
+        "description": "[Attribute] Used to create a drop component"
+    },
     "snippet-uk-drop-basic": {
         "prefix": "uk-drop-basic",
         "body": [
             "<button type=\"button\"></button>",
             "<div uk-drop></div>"
         ],
-        "description": "Creates a basic drop element"
+        "description": "Creates a basic drop component"
     },
     "snippet-uk-drop-example": {
         "prefix": "uk-drop-example",
@@ -985,6 +1068,13 @@
             "<div uk-drop=\"animation: ${1:uk-animation-slide-top-small}; duration: ${2:1000}\">$0</div>"
         ],
         "description": "Creates a drop with an offset"
+    },
+    "snippet-uk-dropdown": {
+        "prefix": "uk-dropdown",
+        "body": [
+            "uk-dropdown"
+        ],
+        "description": "[Attribute] Used to create a dropdown in a block element such as a div"
     },
     "snippet-uk-dropdown-basic": {
         "prefix": "uk-dropdown-basic",
@@ -1063,6 +1153,13 @@
             "<div uk-dropdown=\"animation: ${1:uk-animation-slide-top-small}; duration: ${2:1000}\">$0</div>"
         ],
         "description": "Applies one or more animations to the dropdown"
+    },
+    "snippet-uk-flex": {
+        "prefix": "uk-flex",
+        "body": [
+            " class=\"uk-flex\" "
+        ],
+        "description": "[Class] Used to apply a flexbox layout model to an element"
     },
     "snippet-uk-flex-block": {
         "prefix": "uk-flex-block",
@@ -1311,6 +1408,13 @@
         ],
         "description": "Replaces a file input or select form with your own HTML content"
     },
+    "snippet-uk-grid": {
+        "prefix": "uk-grid",
+        "body": [
+            "uk-grid"
+        ],
+        "description": "[Attribute] Used to create a grid container inside a div"
+    },
     "snippet-uk-grid-stacked": {
         "prefix": "uk-grid-stacked",
         "body": [
@@ -1409,12 +1513,26 @@
     "snippet-uk-heading-primary": {
         "prefix": "uk-heading-primary",
         "body": [
+            " class=\"uk-heading-primary\" "
+        ],
+        "description": "[Class] Used to create an emphasized heading"
+    },
+    "snippet-uk-heading-primary-sample": {
+        "prefix": "uk-heading-primary-sample",
+        "body": [
             "<h1 class=\"uk-heading-primary\">$0</h1>"
         ],
         "description": "Creates an emphasized heading"
     },
     "snippet-uk-heading-divider": {
         "prefix": "uk-heading-divider",
+        "body": [
+            " class=\"uk-heading-divider\" "
+        ],
+        "description": "[Class] Used to create a heading with a divider underneath"
+    },
+    "snippet-uk-heading-divider-sample": {
+        "prefix": "uk-heading-divider-sample",
         "body": [
             "<h1 class=\"uk-heading-divider\">$0</h1>"
         ],
@@ -1423,12 +1541,26 @@
     "snippet-uk-heading-bullet": {
         "prefix": "uk-heading-bullet",
         "body": [
+            " class=\"uk-heading-bullet\" "
+        ],
+        "description": "[Class] Used to create a heading used in a list"
+    },
+    "snippet-uk-heading-bullet-sample": {
+        "prefix": "uk-heading-bullet-sample",
+        "body": [
             "<h1 class=\"uk-heading-bullet\">$0</h1>"
         ],
         "description": "Creates a heading as part of a list"
     },
     "snippet-uk-heading-line": {
         "prefix": "uk-heading-line",
+        "body": [
+            " class=\"uk-heading-line ${1:uk-text-center}\" "
+        ],
+        "description": "[Class] Used to create a heading with a vertically centered line"
+    },
+    "snippet-uk-heading-line-sample": {
+        "prefix": "uk-heading-line-sample",
         "body": [
             "<h1 class=\"uk-heading-line ${1:uk-text-center}\"><span>$0</span></h1>"
         ],
@@ -1476,6 +1608,13 @@
         ],
         "description": "Scales a background image to the size of an icon"
     },
+    "snippet-uk-iconnav": {
+        "prefix": "uk-iconnav",
+        "body": [
+            " class=\"uk-iconnav\" "
+        ],
+        "description": "[Class] Used to create a navigation consisting of icons"
+    },
     "snippet-uk-iconnav-horizontal": {
         "prefix": "uk-iconnav-horizontal",
         "body": [
@@ -1494,6 +1633,13 @@
         ],
         "description": "Creates a vertical navigation consisting of icons"
     },
+    "snippet-uk-light": {
+        "prefix": "uk-light",
+        "body": [
+            " class=\"uk-light\" "
+        ],
+        "description": "[Class] Used to improve the visibility of objects on dark backgrounds in a light style"
+    },
     "snippet-uk-inverse-light": {
         "prefix": "uk-inverse-light",
         "body": [
@@ -1501,12 +1647,26 @@
         ],
         "description": "Improves the visibility of objects on dark backgrounds in a light style"
     },
+    "snippet-uk-dark": {
+        "prefix": "uk-dark",
+        "body": [
+            " class=\"uk-light\" "
+        ],
+        "description": "[Class] Used to improve the visibility of objects on light backgrounds in a dark style"
+    },
     "snippet-uk-inverse-dark": {
         "prefix": "uk-inverse-dark",
         "body": [
             "<div class=\"uk-light\">$0</div> "
         ],
         "description": "Improves the visibility of objects on light backgrounds in a dark style"
+    },
+    "snippet-uk-label": {
+        "prefix": "uk-label",
+        "body": [
+            " class=\"uk-label\" "
+        ],
+        "description": "[Class] Used to create a label in a span element"
     },
     "snippet-uk-label-default": {
         "prefix": "uk-label-default",
@@ -1550,6 +1710,13 @@
         ],
         "description": "Creates a link that inherits its color from its parent"
     },
+    "snippet-uk-list": {
+        "prefix": "uk-list",
+        "body": [
+            " class=\"uk-list\" "
+        ],
+        "description": "[Class] Used to create a basic ordered or unordered list"
+    },
     "snippet-uk-list-basic": {
         "prefix": "uk-list-basic",
         "body": [
@@ -1559,7 +1726,7 @@
             "\t<li></li>",
             "</ul>"
         ],
-        "description": "Creates a basic unordered or ordered list"
+        "description": "Creates a basic ordered or unordered list"
     },
     "snippet-uk-list-bullet-modifier": {
         "prefix": "uk-list-bullet-modifier",
@@ -1671,6 +1838,13 @@
         ],
         "description": "Automatically adds spacing to stacking elements with the uk-margin attribute"
     },
+    "snippet-uk-modal": {
+        "prefix": "uk-modal",
+        "body": [
+            "uk-modal"
+        ],
+        "description": "[Attribute] Used to create a modal"
+    },
     "snippet-uk-modal-sample": {
         "prefix": "uk-modal-sample",
         "body": [
@@ -1764,6 +1938,13 @@
             "</div>"
         ],
         "description": "Creates a modal that fills the entire page"
+    },
+    "snippet-uk-nav": {
+        "prefix": "uk-nav",
+        "body": [
+            " class=\"uk-nav ${0:uk-nav-default}\"> "
+        ],
+        "description": "[Class] Used to create a nav with optional styling"
     },
     "snippet-uk-nav-default": {
         "prefix": "uk-nav-default",
@@ -1862,8 +2043,15 @@
     "snippet-uk-navbar": {
         "prefix": "uk-navbar",
         "body": [
+            "uk-navbar"
+        ],
+        "description": "[Attribute] Used to create a navigation bar"
+    },
+    "snippet-uk-navbar-sample": {
+        "prefix": "uk-navbar-sample",
+        "body": [
             "<nav class=\"uk-navbar-container\" uk-navbar>",
-            "\t<div class=\"uk-navbar-left\">",
+            "\t<div class=\"uk-navbar-${1:[left|center|right]}\">",
             "\t\t<ul class=\"uk-navbar-nav\">",
             "\t\t\t<li class=\"uk-active\"><a href=\"\"></a></li>",
             "\t\t\t<li class=\"uk-parent\"><a href=\"\"></a></li>",
@@ -1889,7 +2077,7 @@
         "prefix": "uk-navbar-click",
         "body": [
             "<nav class=\"uk-navbar-container\" uk-navbar=\"mode: click\">",
-            "\t<div class=\"uk-navbar-left\">",
+            "\t<div class=\"uk-navbar-${1:[left|center|right]}\">",
             "\t\t<ul class=\"uk-navbar-nav\">",
             "\t\t\t<li class=\"uk-active\"><a href=\"\"></a></li>",
             "\t\t\t<li class=\"uk-parent\"><a href=\"\"></a></li>",
@@ -1904,7 +2092,7 @@
         "prefix": "uk-navbar-transparent",
         "body": [
             "<nav class=\"uk-navbar-container uk-navbar-transparent\" uk-navbar>",
-            "\t<div class=\"uk-navbar-left\">",
+            "\t<div class=\"uk-navbar-${1:[left|center|right]}\">",
             "\t\t<ul class=\"uk-navbar-nav\">",
             "\t\t\t<li class=\"uk-active\"><a href=\"\"></a></li>",
             "\t\t\t<li class=\"uk-parent\"><a href=\"\"></a></li>",
@@ -2071,6 +2259,13 @@
         ],
         "description": "Closes all notifications"
     },
+    "snippet-uk-offcanvas": {
+        "prefix": "uk-offcanvas",
+        "body": [
+            "uk-offcanvas"
+        ],
+        "description": "[Attribute] Used to create an off-canvas"
+    },
     "snippet-uk-offcanvas-sample": {
         "prefix": "uk-offcanvas-sample",
         "body": [
@@ -2161,6 +2356,13 @@
         ],
         "description": "Creates an off-canvas containing a nav component"
     },
+    "snippet-uk-overlay": {
+        "prefix": "uk-overlay",
+        "body": [
+            " class=\"uk-overlay\" "
+        ],
+        "description": "[Class] Used to create a basic image overlay"
+    },
     "snippet-uk-overlay-basic": {
         "prefix": "uk-overlay-basic",
         "body": [
@@ -2228,6 +2430,13 @@
         ],
         "description": "[Class] Removes padding from the chosen side(s) of an element"
     },
+    "snippet-uk-pagination": {
+        "prefix": "uk-pagination",
+        "body": [
+            " class=\"uk-pagination\" "
+        ],
+        "description": "[Class] Used to create a simple pagination for navigation through pages"
+    },
     "snippet-uk-pagination-basic": {
         "prefix": "uk-pagination-basic",
         "body": [
@@ -2264,6 +2473,13 @@
     },
     "snippet-uk-placeholder": {
         "prefix": "uk-placeholder",
+        "body": [
+            " class=\"uk-placeholder\" "
+        ],
+        "description": "[Class] Used to create a placeholder space"
+    },
+    "snippet-uk-placeholder-sample": {
+        "prefix": "uk-placeholder-sample",
         "body": [
             "<div class=\"uk-placeholder\"></div>"
         ],
@@ -2335,6 +2551,13 @@
     "snippet-uk-progress": {
         "prefix": "uk-progress",
         "body": [
+            " class=\"uk-progress\" "
+        ],
+        "description": "[Class] Used to create a progress bar"
+    },
+    "snippet-uk-progress-sample": {
+        "prefix": "uk-progress-sample",
+        "body": [
             "<progress class=\"uk-progress\" value=\"$1\" max=\"$2\"></progress>"
         ],
         "description": "Creates a progress bar"
@@ -2342,12 +2565,26 @@
     "snippet-uk-scroll": {
         "prefix": "uk-scroll",
         "body": [
+            "uk-scroll"
+        ],
+        "description": "[Attribute] Used to create a link that smooth scrolls to the targeted element with a matching id"
+    },
+    "snippet-uk-scroll-anchor": {
+        "prefix": "uk-scroll-anchor",
+        "body": [
             "<a href=\"#${1:my-id}\" uk-scroll></a>"
         ],
-        "description": "Creates a link that smooth scrolls to the targetted element with matching id"
+        "description": "Creates an anchor that smooth scrolls to the targeted element with a matching id"
     },
     "snippet-uk-scrollspy": {
         "prefix": "uk-scrollspy",
+        "body": [
+            "uk-scrollspy"
+        ],
+        "description": "[Attribute] Used to add a scrollspy to an element"
+    },
+    "snippet-uk-scrollspy-sample": {
+        "prefix": "uk-scrollspy-sample",
         "body": [
             " uk-scrollspy=\"cls:${1:uk-animation-fade}\" "
         ],
@@ -2359,6 +2596,13 @@
             " uk-scrollspy=\"cls:${1:uk-animation-fade}; target: ${2:> div}; ${3:delay: 500}\" "
         ],
         "description": "Adds the scrollspy attribute to an element and animates it when in view"
+    },
+    "snippet-uk-search": {
+        "prefix": "uk-search",
+        "body": [
+            " class=\"uk-search ${1:uk-search-default}\" "
+        ],
+        "description": "[Class] Used to create a search bar"
     },
     "snippet-uk-search-default": {
         "prefix": "uk-search-default",
@@ -2432,6 +2676,13 @@
             "<a class=\"uk-navbar-toggle\" href=\"\" uk-search-icon uk-toggle></a>"
         ],
         "description": "Creates a search icon toggle inside of a navbar"
+    },
+    "snippet-uk-section": {
+        "prefix": "uk-section",
+        "body": [
+            " class=\"uk-section uk-section-${0:default}\" "
+        ],
+        "description": "[Class] Used to create a section with optional styling"
     },
     "snippet-uk-section-default": {
         "prefix": "uk-section-default",
@@ -2548,6 +2799,13 @@
     "snippet-uk-sortable": {
         "prefix": "uk-sortable",
         "body": [
+            "uk-sortable"
+        ],
+        "description": "[Attribute] Used to create a sortable, re-arrangable grid of elements"
+    },
+    "snippet-uk-sortable-sample": {
+        "prefix": "uk-sortable-sample",
+        "body": [
             "<div uk-sortable>",
             "\t<div></div>",
             "\t<div></div>",
@@ -2590,12 +2848,26 @@
     "snippet-uk-spinner": {
         "prefix": "uk-spinner",
         "body": [
+            "uk-spinner"
+        ],
+        "description": "[Attribute] Used to create an animated loading spinner"
+    },
+    "snippet-uk-spinner-sample": {
+        "prefix": "uk-spinner-sample",
+        "body": [
             "<div uk-spinner></div>"
         ],
         "description": "Creates an animated loading spinner"
     },
     "snippet-uk-sticky": {
         "prefix": "uk-sticky",
+        "body": [
+            "uk-sticky"
+        ],
+        "description": "[Attribute] Used to create an element that remains at the top of the viewport while scrolling down"
+    },
+    "snippet-uk-sticky-sample": {
+        "prefix": "uk-sticky-sample",
         "body": [
             "<div uk-sticky></div>"
         ],
@@ -2656,6 +2928,13 @@
         ],
         "description": "Creates a sticky element that is only enabled on specified device widths and above"
     },
+    "snippet-uk-subnav": {
+        "prefix": "uk-subnav",
+        "body": [
+            " class=\"uk-subnav\" "
+        ],
+        "description": "[Class] Used to create a basic sub-navigation"
+    },
     "snippet-uk-subnav-basic": {
         "prefix": "uk-subnav-basic",
         "body": [
@@ -2703,6 +2982,13 @@
     },
     "snippet-uk-switcher": {
         "prefix": "uk-switcher",
+        "body": [
+            "uk-switcher"
+        ],
+        "description": "[Attribute] Used to create a switcher component"
+    },
+    "snippet-uk-switcher-basic": {
+        "prefix": "uk-switcher-basic",
         "body": [
             "<!-- This is the nav containing the toggling elements -->",
             "<ul uk-switcher>",
@@ -2814,6 +3100,13 @@
         ],
         "description": "Creates a switcher combined with a vertical tab"
     },
+    "snippet-uk-tab": {
+        "prefix": "uk-tab",
+        "body": [
+            "uk-tab"
+        ],
+        "description": "[Attribute] Used to create a basic tabbed navigation"
+    },
     "snippet-uk-tab-basic": {
         "prefix": "uk-tab-basic",
         "body": [
@@ -2877,6 +3170,13 @@
     "snippet-uk-table": {
         "prefix": "uk-table",
         "body": [
+            " class=\"uk-table\" "
+        ],
+        "description": "[Class] Used to create a table"
+    },
+    "snippet-uk-table-sample": {
+        "prefix": "uk-table-sample",
+        "body": [
             "<table class=\"uk-table\">",
             "\t<caption></caption>",
             "\t<thead>",
@@ -2896,7 +3196,26 @@
             "\t</tbody>",
             "</table>"
         ],
-        "description": "Creates a table with a default style"
+        "description": "Creates a table without any styling"
+    },
+    "snippet-uk-table-divider": {
+        "prefix": "uk-table-divider",
+        "body": [
+            "<table class=\"uk-table uk-table-divider\">",
+            "\t<caption></caption>",
+            "\t<thead>",
+            "\t\t<tr>",
+            "\t\t\t<th></th>",
+            "\t\t</tr>",
+            "\t</thead>",
+            "\t<tbody>",
+            "\t\t<tr>",
+            "\t\t\t<td></td>",
+            "\t\t</tr>",
+            "\t</tbody>",
+            "</table>"
+        ],
+        "description": "Creates a table with each row seperated by a divider"
     },
     "snippet-uk-table-hover": {
         "prefix": "uk-table-hover",
@@ -2955,10 +3274,29 @@
         ],
         "description": "Creates a smaller, more compact table"
     },
-    "snippet-uk-table-center": {
-        "prefix": "uk-table-center",
+    "snippet-uk-table-justify": {
+        "prefix": "uk-table-justify",
         "body": [
-            "<table class=\"uk-table uk-table-center\">",
+            "<table class=\"uk-table uk-table-justify\">",
+            "\t<caption></caption>",
+            "\t<thead>",
+            "\t\t<tr>",
+            "\t\t\t<th></th>",
+            "\t\t</tr>",
+            "\t</thead>",
+            "\t<tbody>",
+            "\t\t<tr>",
+            "\t\t\t<td></td>",
+            "\t\t</tr>",
+            "\t</tbody>",
+            "</table>"
+        ],
+        "description": "Creates a table with the outer padding of the first and last columns removed"
+    },
+    "snippet-uk-table-middle": {
+        "prefix": "uk-table-middle",
+        "body": [
+            "<table class=\"uk-table uk-table-middle\">",
             "\t<caption></caption>",
             "\t<thead>",
             "\t\t<tr>",
@@ -2978,7 +3316,7 @@
         "prefix": "uk-table-responsive",
         "body": [
             "<div class=\"uk-overflow-auto\">",
-            "\t<table class=\"uk-table\">\r${0:...}</table>",
+            "\t<table class=\"uk-table uk-table-responsive\">\r${0:...}</table>",
             "</div>"
         ],
         "description": "Creates a table that provides a horizontal scrollbar on smaller device screens when needed"
@@ -3060,6 +3398,13 @@
         ],
         "description": "[Class] Wraps text according to your choice"
     },
+    "snippet-uk-tile": {
+        "prefix": "uk-tile",
+        "body": [
+            " class=\"uk-tile ${0:uk-tile-default}\" "
+        ],
+        "description": "[Class] Used to create a tile with optional styling"
+    },
     "snippet-uk-tile-default": {
         "prefix": "uk-tile-default",
         "body": [
@@ -3094,6 +3439,13 @@
             "<div class=\"uk-tile uk-tile-${1:default} uk-padding-${2:large}\">$0</div>"
         ],
         "description": "Creates a tile with modified padding from the padding component"
+    },
+    "snippet-uk-toggle": {
+        "prefix": "uk-toggle",
+        "body": [
+            "uk-toggle=\"target: #${1:my-id}\" "
+        ],
+        "description": "[Attribute] Used to create a toggle that shows/hides an element"
     },
     "snippet-uk-toggle-example": {
         "prefix": "uk-toggle-example",
@@ -3164,6 +3516,13 @@
     "snippet-uk-tooltip": {
         "prefix": "uk-tooltip",
         "body": [
+            " title=\"$0\" uk-tooltip "
+        ],
+        "description": "[Attribute] Used to create an element with a tooltip"
+    },
+    "snippet-uk-tooltip-sample": {
+        "prefix": "uk-tooltip-sample",
+        "body": [
             "<div title=\"$0\" uk-tooltip></div>"
         ],
         "description": "Creates an element with a tooltip"
@@ -3184,6 +3543,13 @@
     },
     "snippet-uk-totop": {
         "prefix": "uk-totop",
+        "body": [
+            "uk-totop"
+        ],
+        "description": "[Attribute] Used to create an icon used for scrolling to the top of the page"
+    },
+    "snippet-uk-totop-sample": {
+        "prefix": "uk-totop-sample",
         "body": [
             "<a href=\"\" uk-totop></a>"
         ],
@@ -3463,6 +3829,13 @@
         ],
         "description": "[Class] Adds a box shadow to an element"
     },
+    "snippet-uk-utility-box-shadow-bottom": {
+        "prefix": "uk-utility-box-shadow-bottom",
+        "body": [
+            " class=\"uk-box-shadow-bottom\" "
+        ],
+        "description": "[Class] Adds a box shadow to the bottom of an element"
+    },
     "snippet-uk-utility-box-shadow-hover": {
         "prefix": "uk-utility-box-shadow-hover",
         "body": [
@@ -3551,6 +3924,13 @@
     },
     "snippet-uk-hidden": {
         "prefix": "uk-hidden",
+        "body": [
+            "hidden"
+        ],
+        "description": "[Attribute] Used for hiding an element"
+    },
+    "snippet-uk-hidden-class": {
+        "prefix": "uk-hidden-class",
         "body": [
             " class=\"uk-hidden\" "
         ],

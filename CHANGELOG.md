@@ -1,3 +1,12 @@
+# Version 1.1.0 (April 28, 2017)
+* Updated relevant snippets to UIkit 3.0.0 beta 22
+* Added box-shadow bottom (`uk-utility-box-shadow-bottom`)
+* Added countdown component snippets (`uk-countdown` and more)
+* Added divider & justify modifier snippet for tables (`uk-table-divider` & `uk-table-justify`)
+* Added the remaining attribute/class-only snippets. Attribute/Class-only snippets are indicated by [Attribute] & [Class] respectively in their description.
+* Changed `uk-table-center` to `uk-table-middle`
+* Fixed a few inconsistensies in html snippets & readme descriptions
+
 # Version 1.0.13 (April 13, 2017)
 * Added Javascript-only snippets for multiple components (check the readme for a detailed list)
 * Started adding attribute/class-only versions for many snippets (will be finished by 1.1.0)

@@ -41,6 +41,16 @@
         ],
         "description": "Triggers a function when a specified alert event is triggered"
     },
+    "snippet-uk-countdown": {
+        "prefix": "uk-countdown",
+        "body": [
+            "UIkit.countdown(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "date: [String] */"
+        ],
+        "description": "Initializes an alert element with various options"
+    },
     "snippet-uk-cover": {
         "prefix": "uk-cover",
         "body": [
