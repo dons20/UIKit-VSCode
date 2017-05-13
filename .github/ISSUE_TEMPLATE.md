@@ -1,5 +1,5 @@
 <!-- BUG REPORT TEMPLATE -->
-Make sure these boxes are checked before submitting your issue. Thank you!
+Make sure these boxes are checked before (or after) submitting your issue. Thank you!
 
 - [ ] Check that you are running the latest version of Visual Studio Code
 - [ ] Check that you are running the latest version of the snippet plugin (UIkit 3.0 Snippets 1.1.0)
