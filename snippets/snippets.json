@@ -8,14 +8,14 @@
             "\t\t<title>$2</title>",
             "\t\t<meta charset=\"UTF-8\">",
             "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/css/uikit.min.css\" />",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.23/css/uikit.min.css\" />",
             "\t\t<link href=\"${3:css/style.css}\" rel=\"stylesheet\">",
             "\t</head>",
             "\t<body>",
             "\t\t$0",
             "\r\t\t<script src=\"https://code.jquery.com/jquery-3.2.1.min.js\" \r\t\t\t\tintegrity=\"sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-ZfxNpEyIHFt0qMdwt/+cIhDnyZCykGkVd1uNz6TU/jY=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-BtKiVFqAoEVJYnSoG1tt98EQ11R3QjUCB9AtrW+66wo=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.23/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-EvWi3X4FmDDsUPBN8IYoi3CzNyVN8cRj9n5CMKF/bok=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.23/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-BTKhbZ5uBp/pdefy0aUclWbMTtvjCCSolJfmm6SCTfQ=\" crossorigin=\"anonymous\"></script>",
             "\t</body>",
             "</html>"
         ],
@@ -30,14 +30,14 @@
             "\t\t<title>$1</title>",
             "\t\t<meta charset=\"UTF-8\">",
             "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/css/uikit-rtl.min.css\" />",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.23/css/uikit-rtl.min.css\" />",
             "\t\t<link href=\"${2:css/style.css}\" rel=\"stylesheet\">",
             "\t</head>",
             "\t<body>",
             "\t\t$0",
             "\r\t\t<script src=\"https://code.jquery.com/jquery-3.2.1.min.js\" \r\t\t\t\tintegrity=\"sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-ZfxNpEyIHFt0qMdwt/+cIhDnyZCykGkVd1uNz6TU/jY=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-BtKiVFqAoEVJYnSoG1tt98EQ11R3QjUCB9AtrW+66wo=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.23/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-EvWi3X4FmDDsUPBN8IYoi3CzNyVN8cRj9n5CMKF/bok=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.23/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-BTKhbZ5uBp/pdefy0aUclWbMTtvjCCSolJfmm6SCTfQ=\" crossorigin=\"anonymous\"></script>",
             "\t</body>",
             "</html>"
         ],
@@ -46,14 +46,14 @@
     "snippet-uk-$-css-import": {
         "prefix": "uk-$-css-import",
         "body": [
-            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/css/uikit.min.css\" />"
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.23/css/uikit.min.css\" />"
         ],
         "description": "Imports the default minified css file for UIKit"
     },
     "snippet-uk-$-css-rtl-import": {
         "prefix": "uk-$-css-rtl-import",
         "body": [
-            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/css/uikit-rtl.min.css\" />"
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.23/css/uikit-rtl.min.css\" />"
         ],
         "description": "Imports the RTL minified css file for UIKit"
     },
@@ -61,8 +61,8 @@
         "prefix": "uk-$-js-import",
         "body": [
             "<script src=\"https://code.jquery.com/jquery-3.2.1.min.js\" \r\tintegrity=\"sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=\" crossorigin=\"anonymous\"></script>",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/js/uikit.min.js\" \r\tintegrity=\"sha256-ZfxNpEyIHFt0qMdwt/+cIhDnyZCykGkVd1uNz6TU/jY=\" crossorigin=\"anonymous\"></script>",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/js/uikit-icons.min.js\" \r\tintegrity=\"sha256-BtKiVFqAoEVJYnSoG1tt98EQ11R3QjUCB9AtrW+66wo=\" crossorigin=\"anonymous\"></script>"
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.23/js/uikit.min.js\" \r\tintegrity=\"sha256-EvWi3X4FmDDsUPBN8IYoi3CzNyVN8cRj9n5CMKF/bok=\" crossorigin=\"anonymous\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.23/js/uikit-icons.min.js\" \r\tintegrity=\"sha256-BTKhbZ5uBp/pdefy0aUclWbMTtvjCCSolJfmm6SCTfQ=\" crossorigin=\"anonymous\"></script>"
         ],
         "description": "Imports the minified scripts for UIKit"
     },
@@ -2470,6 +2470,50 @@
             "</ul>"
         ],
         "description": "Creates a previous and next button inside of a pagination"
+    },
+    "snippet-uk-parallax": {
+        "prefix": "uk-parallax",
+        "body": [
+            "uk-parallax=\"${1:property}\""
+        ],
+        "description": "[Attribute] Used to animate CSS properties depending on the scroll position of the document"
+    },
+    "snippet-uk-parallax-properties": {
+        "prefix": "uk-parallax-properties",
+        "body": [
+            "uk-parallax=\"${1:[x|y|bgy|bgx|rotate|scale|color|backgroundColor|borderColor|opacity|blur|hue|grayscale|invert|saturate|sepia]}\""
+        ],
+        "description": "[Attribute] Inserts the parallax attribute with a list of animatable properties"
+    },
+    "snippet-uk-parallax-start-end": {
+        "prefix": "uk-parallax-start-end",
+        "body": [
+            "uk-parallax=\"${1:opacity: 0,1}\""
+        ],
+        "description": "[Attribute] Sets the start and end values of a property by seperating them with a comma"
+    },
+    "snippet-uk-parallax-viewport": {
+        "prefix": "uk-parallax-viewport",
+        "body": [
+            "uk-parallax=\"${1:viewport: 0.5}\""
+        ],
+        "description": "[Attribute] Defines how far inside the viewport the element is scrolled until the animation is completed"
+    },
+    "snippet-uk-parallax-sample": {
+        "prefix": "uk-parallax-sample",
+        "body": [
+            "<div uk-parallax=\"${1:x: -200}\">$2</div>"
+        ],
+        "description": "Creates a sample div with parallax enabled"
+    },
+    "snippet-uk-parallax-nested-sample": {
+        "prefix": "uk-parallax-nested-sample",
+        "body": [
+            "<div uk-parallax=\"${1:bgx: -50}\">",
+                "\t<div uk-parallax=\"${2:x: -100, 100}\">${0:...}</div>",
+            "</div>"
+        ],
+        "description": "Showcases nested parallax elements"
     },
     "snippet-uk-placeholder": {
         "prefix": "uk-placeholder",

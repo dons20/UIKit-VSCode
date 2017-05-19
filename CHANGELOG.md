@@ -1,3 +1,8 @@
+# WIP
+* Updated relevant snippets to UIkit 3.0.0 beta 23
+* Added support for `twig` files
+* Added Parallax component snippets (`uk-parallax` etc.)
+
 # Version 1.1.0 (April 28, 2017)
 * Updated relevant snippets to UIkit 3.0.0 beta 22
 * Added box-shadow bottom (`uk-utility-box-shadow-bottom`)
