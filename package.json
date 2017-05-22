@@ -24,6 +24,12 @@
   "categories": [
     "Snippets"
   ],
+  "keywords": [
+    "html",
+    "php",
+    "javascript",
+    "uikit"
+  ],
   "contributes": {
     "snippets": [
       {
