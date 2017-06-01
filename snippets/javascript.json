@@ -138,6 +138,17 @@
         ],
         "description": "Initializes a grid element with various options"
     },
+    "snippet-uk-grid-parallax": {
+        "prefix": "uk-grid-parallax",
+        "body": [
+            "UIkit.gridParallax(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "target: [String]",
+            "translate: [Number] */"
+        ],
+        "description": "Initializes a grid parallax element with various options"
+    },
     "snippet-uk-icon": {
         "prefix": "uk-icon",
         "body": [
@@ -303,6 +314,19 @@
         ],
         "description": "Triggers a function when a specified offcanvas event is triggered"
     },
+    "snippet-uk-parallax": {
+        "prefix": "uk-parallax",
+        "body": [
+            "UIkit.parallax(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "easing: [Number]",
+            "target: [String]",
+            "viewport: [Number]",
+            "media: [Mixed] */"
+        ],
+        "description": "Initializes a parallax element with various options"
+    },
     "snippet-uk-scroll": {
         "prefix": "uk-scroll",
         "body": [
@@ -398,6 +422,7 @@
             "animation: [String]",
             "cls-active: [String]",
             "cls-inactive: [String]",
+            "cls-below: [String]",
             "width-element: [CSS selector]",
             "show-on-up: [Boolean]",
             "media: [Integer|String]",

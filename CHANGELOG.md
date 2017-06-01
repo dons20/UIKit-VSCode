@@ -1,7 +1,12 @@
-# WIP
-* Updated relevant snippets to UIkit 3.0.0 beta 23
+# Version 1.1.1 (May 31, 2017)
+* Updated relevant snippets to UIkit 3.0.0 beta 24
+* Updated `uk-form-sample` to include the `uk-range` element
 * Added support for `twig` files
 * Added Parallax component snippets (`uk-parallax` etc.)
+* Added Grid Parallax component (`uk-grid-parallax`)
+* Added Marker component (`uk-marker`)
+* Added `uk-hidden-touch` and `uk-hidden-notouch`
+* Added `uk-transform-center`
 
 # Version 1.1.0 (April 28, 2017)
 * Updated relevant snippets to UIkit 3.0.0 beta 22

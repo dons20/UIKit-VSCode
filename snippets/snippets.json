@@ -8,14 +8,14 @@
             "\t\t<title>$2</title>",
             "\t\t<meta charset=\"UTF-8\">",
             "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.23/css/uikit.min.css\" />",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/css/uikit.min.css\" />",
             "\t\t<link href=\"${3:css/style.css}\" rel=\"stylesheet\">",
             "\t</head>",
             "\t<body>",
             "\t\t$0",
             "\r\t\t<script src=\"https://code.jquery.com/jquery-3.2.1.min.js\" \r\t\t\t\tintegrity=\"sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.23/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-EvWi3X4FmDDsUPBN8IYoi3CzNyVN8cRj9n5CMKF/bok=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.23/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-BTKhbZ5uBp/pdefy0aUclWbMTtvjCCSolJfmm6SCTfQ=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-PT4n5FiIF9mppyk9FGwaeNg0TwRc96EjefSmcSANU28=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-1EOFEY7B0b+T9QSi3k0GWAF4YT4lt1eWmtQRSDdqmQQ=\" crossorigin=\"anonymous\"></script>",
             "\t</body>",
             "</html>"
         ],
@@ -30,14 +30,14 @@
             "\t\t<title>$1</title>",
             "\t\t<meta charset=\"UTF-8\">",
             "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.23/css/uikit-rtl.min.css\" />",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/css/uikit-rtl.min.css\" />",
             "\t\t<link href=\"${2:css/style.css}\" rel=\"stylesheet\">",
             "\t</head>",
             "\t<body>",
             "\t\t$0",
             "\r\t\t<script src=\"https://code.jquery.com/jquery-3.2.1.min.js\" \r\t\t\t\tintegrity=\"sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.23/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-EvWi3X4FmDDsUPBN8IYoi3CzNyVN8cRj9n5CMKF/bok=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.23/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-BTKhbZ5uBp/pdefy0aUclWbMTtvjCCSolJfmm6SCTfQ=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-PT4n5FiIF9mppyk9FGwaeNg0TwRc96EjefSmcSANU28=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-1EOFEY7B0b+T9QSi3k0GWAF4YT4lt1eWmtQRSDdqmQQ=\" crossorigin=\"anonymous\"></script>",
             "\t</body>",
             "</html>"
         ],
@@ -46,14 +46,14 @@
     "snippet-uk-$-css-import": {
         "prefix": "uk-$-css-import",
         "body": [
-            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.23/css/uikit.min.css\" />"
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/css/uikit.min.css\" />"
         ],
         "description": "Imports the default minified css file for UIKit"
     },
     "snippet-uk-$-css-rtl-import": {
         "prefix": "uk-$-css-rtl-import",
         "body": [
-            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.23/css/uikit-rtl.min.css\" />"
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/css/uikit-rtl.min.css\" />"
         ],
         "description": "Imports the RTL minified css file for UIKit"
     },
@@ -61,8 +61,8 @@
         "prefix": "uk-$-js-import",
         "body": [
             "<script src=\"https://code.jquery.com/jquery-3.2.1.min.js\" \r\tintegrity=\"sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=\" crossorigin=\"anonymous\"></script>",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.23/js/uikit.min.js\" \r\tintegrity=\"sha256-EvWi3X4FmDDsUPBN8IYoi3CzNyVN8cRj9n5CMKF/bok=\" crossorigin=\"anonymous\"></script>",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.23/js/uikit-icons.min.js\" \r\tintegrity=\"sha256-BTKhbZ5uBp/pdefy0aUclWbMTtvjCCSolJfmm6SCTfQ=\" crossorigin=\"anonymous\"></script>"
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/js/uikit.min.js\" \r\tintegrity=\"sha256-PT4n5FiIF9mppyk9FGwaeNg0TwRc96EjefSmcSANU28=\" crossorigin=\"anonymous\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.23/js/uikit-icons.min.js\" \r\tintegrity=\"sha256-1EOFEY7B0b+T9QSi3k0GWAF4YT4lt1eWmtQRSDdqmQQ=\" crossorigin=\"anonymous\"></script>"
         ],
         "description": "Imports the minified scripts for UIKit"
     },
@@ -1260,6 +1260,7 @@
             "\t<input class=\"uk-input\"></input>",
             "\t<input class=\"uk-radio\" type=\"radio\">",
             "\t<input class=\"uk-checkbox\" type=\"checkbox\">",
+            "\t<input class=\"uk-range\" type=\"range\">",
             "</form>"
         ],
         "description": "Creates a sample form with all elements as reference"
@@ -1509,6 +1510,13 @@
             "</div>"
         ],
         "description": "Combines a grid element with flex"
+    },
+    "snippet-uk-grid-parallax": {
+        "prefix": "uk-grid-parallax",
+        "body": [
+            "uk-grid-parallax=\"${1:translate:200}\""
+        ],
+        "description": "[Attribute] Used to add a scrolling effect to columns within a grid"
     },
     "snippet-uk-heading-primary": {
         "prefix": "uk-heading-primary",
@@ -1837,6 +1845,13 @@
             "</div>"
         ],
         "description": "Automatically adds spacing to stacking elements with the uk-margin attribute"
+    },
+    "snippet-uk-marker": {
+        "prefix": "uk-marker",
+        "body": [
+            "uk-marker"
+        ],
+        "description": "[Attribute] Used to create a marker icon that can be displayed on top of images"
     },
     "snippet-uk-modal": {
         "prefix": "uk-modal",
@@ -2514,6 +2529,36 @@
             "</div>"
         ],
         "description": "Showcases nested parallax elements"
+    },
+    "snippet-uk-parallax-target-sample": {
+        "prefix": "uk-parallax-target-sample",
+        "body": [
+            "<div id=\"${1:target}\">",
+                "\t<div uk-parallax=\"${2:target: #target}\">${0:...}</div>",
+            "</div>"
+        ],
+        "description": "Creates a parallax animation based on the viewport visibility of another element"
+    },
+    "snippet-uk-parallax-easing-sample": {
+        "prefix": "uk-parallax-easing-sample",
+        "body": [
+            "<div uk-parallax=\"easing: ${1:0}\">$2</div>"
+        ],
+        "description": "Creates a parallax element with a modifiable easing value"
+    },
+    "snippet-uk-parallax-color-sample": {
+        "prefix": "uk-parallax-color-sample",
+        "body": [
+            "<div uk-parallax=\"${1:color: #333, #eee}\">$2</div>"
+        ],
+        "description": "Creates a parallax element with a color transition"
+    },
+    "snippet-uk-parallax-filter-sample": {
+        "prefix": "uk-parallax-filter-sample",
+        "body": [
+            "<div uk-parallax=\"${1:blur: 10; sepia: 100};\">$2</div>"
+        ],
+        "description": "Creates a parallax element with css filters"
     },
     "snippet-uk-placeholder": {
         "prefix": "uk-placeholder",
@@ -3938,6 +3983,13 @@
         ],
         "description": "[Class] Applies a modified blend mode to a background"
     },
+    "snippet-uk-utility-transform-center": {
+        "prefix": "uk-utility-transform-center",
+        "body": [
+            " class=\"uk-transform-center\" "
+        ],
+        "description": "[Class] Centers an element to itself"
+    },
     "snippet-uk-utility-transform-origin": {
         "prefix": "uk-utility-transform-origin",
         "body": [
@@ -4018,6 +4070,20 @@
             "</div>"
         ],
         "description": "Hides the content (without removing it from the document flow) until the parent container is hovered"
+    },
+    "snippet-uk-hidden-touch": {
+        "prefix": "uk-hidden-touch",
+        "body": [
+            "<div class=\"uk-hidden-touch\">"
+        ],
+        "description": "Hides the content on touch devices"
+    },
+    "snippet-uk-hidden-notouch": {
+        "prefix": "uk-hidden-notouch",
+        "body": [
+            "<div class=\"uk-hidden-notouch\">"
+        ],
+        "description": "Hides the content on devices without a touch screen"
     },
     "snippet-uk-width": {
         "prefix": "uk-width",

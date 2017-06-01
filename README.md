@@ -70,6 +70,7 @@ Table of Contents
     * [Flex](#flex)
     * [Form](#form)
     * [Grid](#grid)
+    * [Grid Parallax](#grid-parallax)
     * [Heading](#heading)
     * [Icon](#icon)
     * [Iconnav](#iconnav)
@@ -78,6 +79,7 @@ Table of Contents
     * [Link](#link)
     * [List](#list)
     * [Margin](#margin)
+    * [Marker](#marker)
     * [Modal](#modal)
     * [Nav](#nav)
     * [Navbar](#navbar)
@@ -86,6 +88,7 @@ Table of Contents
     * [Overlay](#overlay)
     * [Padding](#padding)
     * [Pagination](#pagination)
+    * [Parallax](#parallax)
     * [Placeholder](#placeholder)
     * [Position](#position)
     * [Progress](#progress)
@@ -119,6 +122,7 @@ Table of Contents
     * [Dropdown JS](#dropdown-js)
     * [Form JS](#form-js)
     * [Grid JS](#grid-js)
+    * [Grid Parallax JS](#grid-parallax-js)
     * [Icon JS](#icon-js)
     * [Margin JS](#margin-js)
     * [Modal JS](#modal-js)
@@ -126,6 +130,7 @@ Table of Contents
     * [Navbar JS](#navbar-js)
     * [Notification JS](#notification-js)
     * [Offcanvas JS](#offcanvas-js)
+    * [Parallax JS](#parallax-js)
     * [Scroll JS](#scroll-js)
     * [Scrollspy JS](#scrollspy-js)
     * [Sortable JS](#sortable-js)
@@ -519,6 +524,11 @@ List of Commands (HTML/PHP)
 | uk-grid-width | Manually determines the column widths |
 | uk-grid-flex | Combines a grid element with flex |
 
+### Grid Parallax
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-grid-parallax | [Attribute] Used to add a scrolling effect to columns within a grid |
+
 ### Heading
 | Trigger | Description |
 | :-------: | :-----------: |
@@ -593,6 +603,11 @@ List of Commands (HTML/PHP)
 | uk-margin-auto | [Class] Sets left and right margins to auto, centering block and flex elements |
 | uk-margin-auto-position | [Class] Sets the selected margin to auto, pushing block and flex elements to the opposite end |
 | uk-margin-dynamic-sample | Automatically adds spacing to stacking elements with the uk-margin attribute |
+
+### Marker
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-marker | [Attribute] Used to create a marker icon that can be displayed on top of images |
 
 ### Modal
 | Trigger | Description |
@@ -684,6 +699,20 @@ List of Commands (HTML/PHP)
 | uk-pagination-basic | Creates a simple pagination for navigation through pages |
 | uk-pagination-alignment | Creates a simple pagination aligned with flex |
 | uk-pagination-previous-next | Creates a previous and next button inside of a pagination |
+
+### Parallax
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-parallax | [Attribute] Used to animate CSS properties depending on the scroll position of the document |
+| uk-parallax-properties | [Attribute] Inserts the parallax attribute with a list of animatable properties |
+| uk-parallax-start-end | [Attribute] Sets the start and end values of a property by seperating them with a comma |
+| uk-parallax-viewport | [Attribute] Defines how far inside the viewport the element is scrolled until the animation is completed |
+| uk-parallax-sample | Creates a sample div with parallax enabled |
+| uk-parallax-nested-sample | Showcases nested parallax elements |
+| uk-parallax-target-sample | Creates a parallax animation based on the viewport visibility of another element |
+| uk-parallax-easing-sample | Creates a parallax element with a modifiable easing value |
+| uk-parallax-color-sample | Creates a parallax element with a color transition |
+| uk-parallax-filter-sample | Creates a parallax element with css filters |
 
 ### Placeholder
 | Trigger | Description |
@@ -929,6 +958,7 @@ List of Commands (HTML/PHP)
 | uk-utility-inline-svg | Adds an inline SVG |
 | uk-utility-gif | Adds a GIF that plays when it comes into view |
 | uk-utility-blend | [Class] Applies a modified blend mode to a background |
+| uk-utility-transform-center | [Class] Centers an element to itself |
 | uk-utility-transform-origin | [Class] Modifies the origin of an animation |
 | uk-utility-disabled | [Class] Disables the click behaviour of any element |
 | uk-utility-drag | [Class] Applies a move cursor to an element |
@@ -944,6 +974,8 @@ List of Commands (HTML/PHP)
 | uk-visible | [Class] Shows an element on screens larger than the specified width (640/960/1200/1600 px respectively) |
 | uk-invisible | [Class] Hides the element without removing it from the document flow. |
 | uk-invisible-hover | Hides the content (without removing it from the document flow) until the parent container is hovered |
+| uk-hidden-touch | Hides the content on touch devices |
+| uk-hidden-notouch | Hides the content on devices without a touch screen |
 
 ### Width
 | Trigger | Description |
@@ -1003,6 +1035,11 @@ List of Commands (Javascript)
 | :-------: | :-----------: |
 | uk-grid | Initializes a grid element with various options |
 
+### Grid Parallax JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-grid-parallax | Initializes a grid parallax element with various options |
+
 ### Icon JS
 | Trigger | Description |
 | :-------: | :-----------: |
@@ -1046,6 +1083,11 @@ List of Commands (Javascript)
 | :-------: | :-----------: |
 | uk-offcanvas | Initializes a offcanvas element with various options |
 | uk-offcanvas-events | Triggers a function when a specified offcanvas event is triggered |
+
+### Parallax JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-parallax | Initializes a parallax element with various options |
 
 ### Scroll JS
 | Trigger | Description |
