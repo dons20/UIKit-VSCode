@@ -1,54 +1,54 @@
 {
-  "name": "uikit-3-snippets",
-  "displayName": "UIkit 3.0 Snippets",
-  "publisher": "Keno",
-  "description": "UIkit 3.0 Snippets based on documentation",
-  "version": "1.1.1",
-  "license": "SEE LICENSE IN LICENSE.md",
-  "icon": "images/icon.svg",
-  "galleryBanner": {
-    "color": "#1E87F0",
-    "theme": "dark"
-  },
-  "homepage": "https://github.com/dons20/UIKit-VSCode",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dons20/UIKit-VSCode.git"
-  },
-  "bugs": {
-    "url": "https://github.com/dons20/UIKit-VSCode/issues"
-  },
-  "engines": {
-    "vscode": "^0.10.1"
-  },
-  "categories": [
-    "Snippets"
-  ],
-  "keywords": [
-    "html",
-    "php",
-    "twig",
-    "javascript",
-    "uikit"
-  ],
-  "contributes": {
-    "snippets": [
-      {
-        "language": "html",
-        "path": "./snippets/snippets.json"
-      },
-      {
-        "language": "php",
-        "path": "./snippets/snippets.json"
-      },
-      {
-        "language": "twig",
-        "path": "./snippets/snippets.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/javascript.json"
-      }
-    ]
-  }
+    "name": "uikit-3-snippets",
+    "displayName": "UIkit 3.0 Snippets",
+    "publisher": "Keno",
+    "description": "UIkit 3.0 Snippets based on documentation",
+    "version": "1.1.2",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "icon": "images/icon.svg",
+    "galleryBanner": {
+        "color": "#1E87F0",
+        "theme": "dark"
+    },
+    "homepage": "https://github.com/dons20/UIKit-VSCode",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dons20/UIKit-VSCode.git"
+    },
+    "bugs": {
+        "url": "https://github.com/dons20/UIKit-VSCode/issues"
+    },
+    "engines": {
+        "vscode": "^0.10.1"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+        "html",
+        "php",
+        "twig",
+        "javascript",
+        "uikit"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "twig",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/javascript.json"
+            }
+        ]
+    }
 }

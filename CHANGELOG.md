@@ -1,3 +1,8 @@
+# Version 1.1.2 (WIP June 14, 2017 WIP)
+* Updated relevant snippets to UIkit 3.0.0 beta 25
+* Added size modifier snippet to tile component (`uk-tile-size-modifier`)
+* Added body text modifier snippet to link component (`uk-link-text`)
+
 # Version 1.1.1 (May 31, 2017)
 * Updated relevant snippets to UIkit 3.0.0 beta 24
 * Updated `uk-form-sample` to include the `uk-range` element

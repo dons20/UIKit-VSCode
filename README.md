@@ -579,6 +579,7 @@ List of Commands (HTML/PHP)
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-link-muted | Creates a link with a muted style |
+| uk-link-text | Creates a link with a body text style |
 | uk-link-reset | Creates a link that inherits its color from its parent |
 
 ### List
@@ -879,6 +880,7 @@ List of Commands (HTML/PHP)
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-tile | [Class] Used to create a tile with optional styling |
+| uk-tile-size-modifier | [Class] Used to create a tile with modified sizing |
 | uk-tile-default | Creates a tile with a default style |
 | uk-tile-muted | Creates a tile with a muted style |
 | uk-tile-primary | Creates a tile with a primary style |
