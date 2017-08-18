@@ -28,6 +28,7 @@
         "html",
         "php",
         "twig",
+        "pug",
         "javascript",
         "uikit"
     ],
@@ -43,6 +44,14 @@
             },
             {
                 "language": "twig",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "pug",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "jade",
                 "path": "./snippets/snippets.json"
             },
             {

@@ -1,4 +1,8 @@
-# Version 1.1.2 (WIP June 14, 2017 WIP)
+# Version 1.1.3 (August 18, 2017) WIP
+* Updated relevant snippets to UIkit 3.0.0 beta 30
+* 
+
+# Version 1.1.2 (June 14, 2017)
 * Updated relevant snippets to UIkit 3.0.0 beta 25
 * Added size modifier snippet to tile component (`uk-tile-size-modifier`)
 * Added body text modifier snippet to link component (`uk-link-text`)
