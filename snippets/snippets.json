@@ -1704,6 +1704,51 @@
         ],
         "description": "Creates a label with a danger style"
     },
+    "snippet-uk-lightbox": {
+        "prefix": "uk-lightbox",
+        "body": [
+            "uk-lightbox"
+        ],
+        "description": "[Attribute] Turns all the anchors inside a container into lightbox links"
+    },
+    "snippet-uk-lightbox-basic": {
+        "prefix": "uk-lightbox-basic",
+        "body": [
+            "<div uk-lightbox>",
+                "\t<a href=\"${1:image.jpg}\"></a>",
+            "</div>"
+        ],
+        "description": "Creates a lightbox container with an anchor inside"
+    },
+    "snippet-uk-lightbox-caption": {
+        "prefix": "uk-lightbox-caption",
+        "body": [
+            "<div uk-lightbox>",
+                "\t<a href=\"${1:image.jpg}\" data-caption=\"${2:Caption}\"></a>",
+            "</div>"
+        ],
+        "description": "Creates a lightbox container with a caption at the bottom"
+    },
+    "snippet-uk-lightbox-animation": {
+        "prefix": "uk-lightbox-animation",
+        "body": [
+            "<div uk-lightbox=\"animation: ${1|slide,fade,scale|}\">",
+                "\t<a href=\"${0:image.jpg}\"></a>",
+            "</div>"
+        ],
+        "description": "Creates a lightbox container with a modified transition animation"
+    },
+    "snippet-uk-lightbox-alternate-content": {
+        "prefix": "uk-lightbox-alternate-content",
+        "body": [
+            "<div uk-lightbox=\"animation: ${1|slide,fade,scale|}\">",
+                "<a class=\"uk-button\" href=\"video.mp4\"></a>",
+                "<a class=\"uk-button\" href=\"https://www.youtube.com/watch?v=YE7VzlLtp-4\"></a>",
+                "<a class=\"uk-button\" href=\"https://vimeo.com/1084537\"></a>",
+            "</div>"
+        ],
+        "description": "Creates a lightbox container with multiple content types"
+    },
     "snippet-uk-link-muted": {
         "prefix": "uk-link-muted",
         "body": [
@@ -1865,7 +1910,7 @@
         "body": [
             "uk-modal"
         ],
-        "description": "[Attribute] Used to create a modal"
+        "description": "[Attribute] Used to create a modal inside a container"
     },
     "snippet-uk-modal-sample": {
         "prefix": "uk-modal-sample",
@@ -1907,11 +1952,11 @@
     "snippet-uk-modal-center": {
         "prefix": "uk-modal-center",
         "body": [
-            "<div id=\"${1:my-id}\" uk-modal=\"center: true\">",
+            "<div id=\"${1:my-id}\" class=\"uk-margin-auto-vertical\" uk-modal>",
             "\t$0",
             "</div>"
         ],
-        "description": "Creates a centered modal using the parameter 'center'"
+        "description": "Creates a centered modal"
     },
     "snippet-uk-modal-header-footer": {
         "prefix": "uk-modal-header-footer",
@@ -1928,18 +1973,6 @@
             "</div>"
         ],
         "description": "Creates a modal divided into different content sections"
-    },
-    "snippet-uk-modal-caption": {
-        "prefix": "uk-modal-caption",
-        "body": [
-            "<div uk-modal>",
-            "\t<div class=\"uk-modal-dialog\">",
-            "\t\t<div class=\"uk-modal-body\"></div>",
-            "\t\t<div class=\"uk-modal-caption\"></div>",
-            "\t</div>",
-            "</div>"
-        ],
-        "description": "Creates a modal with a caption outside of it"
     },
     "snippet-uk-modal-container-modifier": {
         "prefix": "uk-modal-container-modifier",
@@ -3989,6 +4022,13 @@
             "<img src=\"\" alt=\"\" uk-gif>"
         ],
         "description": "Adds a GIF that plays when it comes into view"
+    },
+    "snippet-uk-utility-video": {
+        "prefix": "uk-utility-video",
+        "body": [
+            "<video src=\"$1\" uk-video=\"${0|autoplay:true,automute:false|}\"></video>"
+        ],
+        "description": "Adds a video that can automatically play when it comes into view"
     },
     "snippet-uk-utility-blend": {
         "prefix": "uk-utility-blend",

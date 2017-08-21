@@ -30,9 +30,17 @@
             "-----------------------",
             "animation: [Boolean|String]",
             "duration: [Number]",
-            "close: [CSS Selector] */"
+            "selClose: [CSS Selector] */"
         ],
         "description": "Initializes an alert element with various options"
+    },
+    "snippet-uk-alert-methods": {
+        "prefix": "uk-alert-methods",
+        "body": [
+            "//Close",
+            "UIkit.alert(${1:element}).close();"
+        ],
+        "description": "Showcases the methods available to the alert component"
     },
     "snippet-uk-alert-events": {
         "prefix": "uk-alert-events",
@@ -159,6 +167,60 @@
             "ratio: [Number] */"
         ],
         "description": "Initializes an icon element with various options"
+    },
+    "snippet-uk-lightbox": {
+        "prefix": "uk-lightbox",
+        "body": [
+            "UIkit.lightbox(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "animation: [String]",
+            "toggle: [CSS Selector] */"
+        ],
+        "description": "Initializes a lightbox element with various options"
+    },
+    "snippet-uk-lightbox-events": {
+        "prefix": "uk-lightbox-events",
+        "body": [
+            "$('${1:selector}').on('${2|beforeshow,show,shown,beforehide,hide,hidden,itemload,itemshow,itemshown,itemhide,itemhidden|}', function() { $3 });"
+        ],
+        "description": "Triggers a function when a specified lightbox event is triggered"
+    },
+    "snippet-uk-lightbox-methods": {
+        "prefix": "uk-lightbox-methods",
+        "body": [
+            "//Show",
+            "UIkit.lightbox(${1:element}).show(${2:index});",
+            "//Hide",
+            "UIkit.lightbox(${0:element}).hide();"
+        ],
+        "description": "Showcases the methods available to the lightbox component"
+    },
+    "snippet-uk-lightbox-panel": {
+        "prefix": "uk-lightbox-panel",
+        "body": [
+            "UIkit.lightboxPanel(${0:panelOptions});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "animation: [String]",
+            "duration: [Number]",
+            "index: [Number]",
+            "preload: [Number]",
+            "items: [Array]",
+            "template: [String]",
+            "delay-controls: [Number] */"
+        ],
+        "description": "Initializes a lightbox panel element with various options"
+    },
+    "snippet-uk-lightbox-panel-methods": {
+        "prefix": "uk-lightbox-panel-methods",
+        "body": [
+            "//Show",
+            "UIkit.lightboxPanel(${1:element}).show(${2:index});",
+            "//Hide",
+            "UIkit.lightboxPanel(${0:element}).hide();"
+        ],
+        "description": "Showcases the methods available to the lightbox panel component"
     },
     "snippet-uk-margin": {
         "prefix": "uk-margin",

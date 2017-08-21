@@ -76,6 +76,7 @@ Table of Contents
     * [Iconnav](#iconnav)
     * [Inverse](#inverse)
     * [Label](#label)
+    * [Lightbox](#lightbox)
     * [Link](#link)
     * [List](#list)
     * [Margin](#margin)
@@ -124,6 +125,7 @@ Table of Contents
     * [Grid JS](#grid-js)
     * [Grid Parallax JS](#grid-parallax-js)
     * [Icon JS](#icon-js)
+    * [Lightbox JS](#lightbox-js)
     * [Margin JS](#margin-js)
     * [Modal JS](#modal-js)
     * [Nav JS](#nav-js)
@@ -143,7 +145,7 @@ Table of Contents
 
 Usage
 ---
-To use the snippets, open a HTML file, and start typing `uk-`, followed by pressing `Ctrl+Space`. A list of UIKit snippets will show up.
+To use the snippets, open a HTML file, and start typing `uk-` (optionally followed by `Ctrl+Space` depending on user settings). A list of UIKit snippets will show up.
 Each snippet has a short and simple description to aid with understanding its use. 
 For more details and eve better examples and possible options, [head to the UIKit Documentation](https://getuikit.com/docs/introduction)
 
@@ -151,95 +153,7 @@ A detailed list of supported commands are listed below in the **List of Commands
 
 Contribution Guidelines
 ---
-1. Clone this repo
-2. All the snippets are located inside of `/snippets/snippets.json`.
-3. a. For new entries, copy the snippet syntax below (or an existing one for simplicity)
-
-   b. For existing entries, simply search the list `Ctrl+F`, and modify as you like.
-
-4. Send me a Pull Request
-
-#### Snippet Template
-
-```json
-"snippet-uk-PREFIX": {
-    "prefix": "uk-PREFIX",
-    "body": [ 	"HTML HERE",
-                "Multiple Lines Seperated with double quotes and a comma",
-                "Last Line does not have a comma"
-            ],
-    "description": "Enter your description here"
-}, 
-```
-Be sure to modify the list of commands in `README.md` with your changes as well!
-
-Snippet Modification Tips
----
-
-Getting the hang of modifying snippets can be tricky at first, so here are some useful tips to get you started.
-
-#### Official Documentation
-
-First, [check out Microsoft's offical documentation on snippets](https://code.visualstudio.com/Docs/customization/userdefinedsnippets)
-
-#### Keeping snippets well formatted
-
-HTML code needs to have proper indentation to be human readable, so use the `\t` modifier in front of a string in the `"body"` to tab it in. You can combine multiple `\t` characters to properly indent the code as you like.
-
-Take this example below:
-
-```json
-    ...
-    "body": [   "<html>",
-                    "\t<body>",
-                    "\t</body>",
-                "</html>"
-    ],
-    ...
-```
-
-When inserted into a document, it would be displayed as:
-
-```html
-<html>
-    <body>
-    </body>
-</html>
-```
-
-#### Testing Changes:
-
-1. Press `F1` in Visual Studio Code
-2. Click on "Preferences: Open User Snippets"
-3. Click on HTML
-4. Copy the contents of `html.json` from the existing project, to your user snippets.
-5. Create a local `.html` file to test it in.
-6. Start typing in the command you wish to test.
-
-#### Tab Locations
-
-When a user enters a snippet, you may want to add some placeholder content for them to modify with ease, simply by pressing tab to cycle through them. The official documentation covers this more, but here are two simple examples.
-
-You can have a user tab through locations in order from 1-anything, but 0 is the final stop for the tab.
-```json
-    ...
-    "body": [   "<h1>$1</h1>",
-                "<p>$2</p>",
-                "<p>$0</p>"
-    ],
-    ...
-```
-
-You can also have placeholder content that is automatically highlighted when the user tabs to it.
-
-```json
-    ...
-    "body": [   "<h1>${1:Sample header}</h1>",
-                "<p>${2:Paragraph 1}</p>",
-                "<p>${0:Final Stop}</p>"
-    ],
-    ...
-```
+[Read the contribution guidelines](./CONTRIBUTION.md)
 
 Changelog
 ---
@@ -574,6 +488,15 @@ List of Commands (HTML/PHP)
 | uk-label-success | Creates a label with a success style |
 | uk-label-warning | Creates a label with a warning style |
 | uk-label-danger | Creates a label with a danger style |
+
+### Lightbox
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-lightbox | [Attribute] Turns all the anchors inside a container into lightbox links |
+| uk-lightbox-basic | Creates a lightbox container with an anchor inside |
+| uk-lightbox-caption | Creates a lightbox container with a caption at the bottom |
+| uk-lightbox-animation | Creates a lightbox container with a modified transition animation |
+| uk-lightbox-alternate-content | Creates a lightbox container with multiple content types |
 
 ### Link
 | Trigger | Description |
@@ -959,6 +882,7 @@ List of Commands (HTML/PHP)
 | uk-utility-logo-image | Creates an image logo |
 | uk-utility-inline-svg | Adds an inline SVG |
 | uk-utility-gif | Adds a GIF that plays when it comes into view |
+| uk-utility-video | Adds a video that can automatically play when it comes into view |
 | uk-utility-blend | [Class] Applies a modified blend mode to a background |
 | uk-utility-transform-center | [Class] Centers an element to itself |
 | uk-utility-transform-origin | [Class] Modifies the origin of an animation |
@@ -1004,6 +928,7 @@ List of Commands (Javascript)
 | :-------: | :-----------: |
 | uk-alert | Initializes an alert element with various options |
 | uk-alert-events | Triggers a function when a specified alert event is triggered |
+| uk-alert-methods | Showcases the methods available to the alert component |
 
 ### Countdown JS
 | Trigger | Description |
@@ -1046,6 +971,15 @@ List of Commands (Javascript)
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-icon | Initializes an icon element with various options |
+
+### Lightbox JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-lightbox | Initializes a lightbox element with various options |
+| uk-lightbox-events | Triggers a function when a specified lightbox event is triggered |
+| uk-lightbox-methods | Showcases the methods available to the lightbox component |
+| uk-lightbox-panel | Initializes a lightbox panel element with various options |
+| uk-lightbox-panel-methods | Showcases the methods available to the lightbox panel component |
 
 ### Margin JS
 | Trigger | Description |
