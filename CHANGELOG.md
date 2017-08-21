@@ -6,7 +6,7 @@
 * Added `uk-alert-methods` snippet for JS files
 * Modified `uk-modal-center` to use `uk-margin-auto-vertical` class due to deprecated *center* parameter
 * Removed `uk-modal-caption` snippet (functionality now in `uk-lightbox` instead)
-* Moved contribution guidelines to a seperate file to remove initial clutter from `README` file. [CONTRIBUTION](./CONTRIBUTION.md)
+* Moved contribution guidelines to a seperate file to remove initial clutter from `README` file. View here: [How to contribute](./CONTRIBUTION.md)
 
 # Version 1.1.2 (June 14, 2017)
 * Updated relevant snippets to UIkit 3.0.0 beta 25
