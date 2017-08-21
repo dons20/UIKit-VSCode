@@ -1,3 +1,6 @@
+# Version 1.1.4 (August 21, 2017)
+* Fixed invalid icon display in marketplace
+
 # Version 1.1.3 (August 21, 2017)
 * Updated relevant snippets to UIkit 3.0.0 beta 30
 * Added lightbox component snippets (`uk-lightbox` and more)
