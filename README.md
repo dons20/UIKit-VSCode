@@ -153,7 +153,7 @@ A detailed list of supported commands are listed below in the **List of Commands
 
 Contribution Guidelines
 ---
-[Read the contribution guidelines](./CONTRIBUTION.md)
+[Read the contribution guidelines](./CONTRIBUTING.md)
 
 Changelog
 ---
