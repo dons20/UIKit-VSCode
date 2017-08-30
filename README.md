@@ -43,7 +43,7 @@ Table of Contents
   * [Changelog](#changelog)
   * [License](#license)
   * [Disclaimer](#disclaimer)
-  * [List of Commands (HTML/PHP)](#list-of-commands-htmlphp)
+  * [List of Commands (HTML/PHP/HTML Eex)](#list-of-commands-htmlphp)
     * [UIKit Master Template](#uikit-master-template)
     * [Accordion](#accordion)
     * [Alert](#alert)

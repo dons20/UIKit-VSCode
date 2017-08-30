@@ -29,6 +29,7 @@
         "php",
         "twig",
         "javascript",
+        "elixir",
         "uikit"
     ],
     "contributes": {
@@ -51,6 +52,10 @@
             },
             {
                 "language": "jade",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "HTML (Eex)",
                 "path": "./snippets/snippets.json"
             },
             {
