@@ -25,12 +25,11 @@
         "Snippets"
     ],
     "keywords": [
+        "uikit",
         "html",
         "php",
         "twig",
-        "javascript",
-        "elixir",
-        "uikit"
+        "javascript"
     ],
     "contributes": {
         "snippets": [
