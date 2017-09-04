@@ -1,3 +1,11 @@
+# Version 1.2.0 (September 4, 2017)
+* Updated a large number of HTML snippets to now use snippet choices in VSCode 1.15+. This allows more variety within a single snippet, and so many redundancies have been removed. 
+  * Please note that a few of the snippet choices will be inactive/slightly bugged until the next VSCode update [due to a bug which has been fixed](https://github.com/Microsoft/vscode/issues/31599) for the next build.
+  * A large number of snippets have recieved changes or minor tweaks. There are too many to list in this changelog, but any snippets which include multiple options will now utilize this new system.
+* Fixed a few broken snippets
+## Contributions
+  * [Ramzi Akremi (@rakr)](https://github.com/rakr): Added support for embedded elixir [PR #9](https://github.com/dons20/UIKit-VSCode/pull/9)
+
 # Version 1.1.4 (August 21, 2017)
 * Fixed invalid icon display in marketplace
 

@@ -191,30 +191,20 @@ List of Commands (HTML/PHP)
 | uk-alert | [Attribute] Used to create an alert element in a block element |
 | uk-alert-default | A default alert applied to a div |
 | uk-alert-close | An alert with a close button |
-| uk-alert-primary | An alert with a primary style applied |
-| uk-alert-success | An alert with a success style applied |
-| uk-alert-warning | An alert with a warning style applied |
-| uk-alert-danger | An alert with a danger style applied |
+| uk-alert-styled | An alert with a chosen style applied |
 
 ### Alignment
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-align-default | [Class] Floats the element to a selected position |
-| uk-align-left | [Class] Floats the element to the left |
-| uk-align-center | [Class] Floats the element to the center |
-| uk-align-right | [Class] Floats the element to the right |
+| uk-align | [Class] Floats the element to a selected position |
 | uk-align-responsive | [Class] Floats the element on specific widths |
 
 ### Animation
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-animation-fade | [Class] The element fades in |
-| uk-animation-scale-up | [Class] The element fades in and scales up |
-| uk-animation-scale-down | [Class] The element fades in and scales down |
-| uk-animation-slide-top | [Class] The element fades in and slides in from the top |
-| uk-animation-slide-bottom | [Class] The element fades in and slides in from the bottom |
-| uk-animation-slide-left | [Class] The element fades in and slides in from the left |
-| uk-animation-slide-right | [Class] The element fades in and slides in from the right |
+| uk-animation-scale | [Class] The element fades in and scales up or down |
+| uk-animation-slide | [Class] The element fades in and slides in from a chosen direction |
 | uk-animation-slide-custom | [Class] The element slides in with a specific distance |
 | uk-animation-kenburns | [Class] The element scales slowly up without fading in |
 | uk-animation-shake | [Class] The element shakes |
@@ -231,12 +221,8 @@ List of Commands (HTML/PHP)
 ### Background
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-background-default | [Class] Applies the default background color |
-| uk-background-muted | [Class] Applies a muted background color |
-| uk-background-primary | [Class] Applies the primary background color |
-| uk-background-secondary | [Class] Applies the secondary background color |
-| uk-background-cover | [Class] Scales the background image to cover the containing area |
-| uk-background-contain | [Class] Scales the background image to fit within the containing area |
+| uk-background-color | [Class] Applies the selected background color |
+| uk-background-size | [Class] Scales the background image to a selected size |
 | uk-background-position | [Class] Alters the initial position of the background iamge |
 | uk-background-norepeat | [Class] Prevents the background image from being repeated |
 | uk-background-fixed | [Class] Locks the image in place while scrolling |
@@ -248,7 +234,7 @@ List of Commands (HTML/PHP)
 | :-------: | :-----------: |
 | uk-badge | [Class] Used to create a notification badge in an inline element |
 | uk-badge-span | Creates a simple notification badge span |
-| uk-badge-link | Creates a simple notification badge link |
+| uk-badge-anchor | Creates a simple notification badge anchor |
 
 ### Breadcrumb
 | Trigger | Description |
@@ -259,16 +245,10 @@ List of Commands (HTML/PHP)
 ### Button
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-button-default | Creates a button with a default style |
-| uk-button-primary | Creates a button with a primary style |
-| uk-button-secondary | Creates a button with a secondary style |
-| uk-button-danger | Creates a button with a danger style |
-| uk-button-text | Creates a button with a alternative, typographic style |
-| uk-button-link | Creates a button that looks like a link |
+| uk-button-anchor | Creates an anchor with a button style |
+| uk-button-styled | Creates a button with a chosen style |
 | uk-button-disabled | Creates a disabled button |
-| uk-button-small | Creates a small button |
-| uk-button-large | Creates a large button |
-| uk-button-full-width | Creates a button that takes up the full width of its container |
+| uk-button-size | Creates a button with a selected size |
 | uk-button-dropdown | Creates a button that toggles a dropdown menu |
 | uk-button-group | Creates a group of buttons |
 | uk-button-group-dropdown | Creates a button group with a dropdown toggle on the right |
@@ -276,8 +256,7 @@ List of Commands (HTML/PHP)
 ### Card
 | Trigger | Description |
 | :-------: | :-----------: |
-| uk-card-default | Creates a card with a default style |
-| uk-card-primary | Creates a card with a primary style |
+| uk-card-styled | Creates a card with a chosen style |
 | uk-card-secondary | Creates a card with a secondary style |
 | uk-card-hover | Creates a card with a hover effect |
 | uk-card-small | Creates a card with reduced padding |
@@ -314,9 +293,7 @@ List of Commands (HTML/PHP)
 | :-------: | :-----------: |
 | uk-container | [Class] Used to create a centered container |
 | uk-container-default | Creates a centered container |
-| uk-container-small | Creates a narrower, centered container | 
-| uk-container-large | Creates a wider, centered container |
-| uk-container-expand | Creates a max-width container |
+| uk-container-size | Creates a container with varying size | 
 
 ### Countdown
 | Trigger | Description |
