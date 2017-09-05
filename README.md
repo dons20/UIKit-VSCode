@@ -24,6 +24,10 @@ Setup
 1. With Visual Studio Code opened, press `Ctrl+P`.
 2. Type in `ext install uikit-3-snippets` and press `Enter`.
 
+Other Information
+---
+* Please remember to direct your questions/issues to the [issues page](https://github.com/dons20/UIKit-VSCode/issues) of the repository.
+* If you find the plugin helpful, please leave a [positive review](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets#review-details) so that others will be more likely to see the plugin as well! Thank you!
 
 Table of Contents
 ---
@@ -31,6 +35,7 @@ Table of Contents
   * [Setup](#setup)
     * [Method 1](#method-1)
     * [Method 2](#method-2)
+  * [Other Information](#other-information)
   * [Table of Contents](#table-of-contents)
   * [Usage](#usage)
   * [Contribution Guidelines](#contribution-guidelines)
@@ -894,6 +899,7 @@ List of Commands (Javascript)
 | :-------: | :-----------: |
 | uk-accordion | Initializes an accordion element with various options |
 | uk-accordion-events | Triggers a function when a specified accordion event is triggered |
+| uk-accordion-methods | Showcases the methods available to the accordion component |
 
 ### Alert JS
 | Trigger | Description |
@@ -906,6 +912,7 @@ List of Commands (Javascript)
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-countdown | Initializes a countdown element with various options |
+| uk-countdown-methods | Showcases the methods available to the countdown component |
 
 ### Cover JS
 | Trigger | Description |
@@ -917,12 +924,14 @@ List of Commands (Javascript)
 | :-------: | :-----------: |
 | uk-drop | Initializes a drop element with various options |
 | uk-drop-events | Triggers a function when a specified drop event is triggered |
+| uk-drop-methods | Showcases the methods available to the drop component |
 
 ### Dropdown JS
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-dropdown | Initializes a dropdown element with various options |
 | uk-dropdown-events | Triggers a function when a specified dropdown event is triggered |
+| uk-dropdown-methods | Showcases the methods available to the dropdown component |
 
 ### Form JS
 | Trigger | Description |
@@ -963,6 +972,7 @@ List of Commands (Javascript)
 | :-------: | :-----------: |
 | uk-modal | Initializes a modal element with various options |
 | uk-modal-events | Triggers a function when a specified modal event is triggered |
+| uk-modal-methods | Showcases the methods available to the modal component |
 | uk-modal-alert | Creates an alert box with one button |
 | uk-modal-confirm | Creates a confirm dialog with your message and two buttons |
 | uk-modal-prompt | Creates a dialog asking for a text input |
@@ -973,6 +983,7 @@ List of Commands (Javascript)
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-nav | Initializes a nav element with various options |
+| uk-nav-methods | Showcases the methods available to the nav component |
 
 ### Navbar JS
 | Trigger | Description |
@@ -985,12 +996,14 @@ List of Commands (Javascript)
 | :-------: | :-----------: |
 | uk-notification | Creates a notification with various options |
 | uk-notification-events | Triggers a function when a specified notification event is triggered |
+| uk-notification-methods | Showcases the methods available to the notification component |
 
 ### Offcanvas JS
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-offcanvas | Initializes a offcanvas element with various options |
 | uk-offcanvas-events | Triggers a function when a specified offcanvas event is triggered |
+| uk-offcanvas-methods | Showcases the methods available to the offcanvas component |
 
 ### Parallax JS
 | Trigger | Description |
@@ -1027,24 +1040,28 @@ List of Commands (Javascript)
 | :-------: | :-----------: |
 | uk-switcher | Initializes a switcher with various options |
 | uk-switcher-events | Triggers a function when a specified switcher event is triggered |
+| uk-switcher-methods | Showcases the methods available to the switcher component |
 
 ### Tab JS
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-tab | Initializes a tab with various options |
 | uk-tab-events | Triggers a function when a specified tab event is triggered |
+| uk-tab-methods | Showcases the methods available to the tab component |
 
 ### Toggle JS
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-toggle | Initializes a toggle with various options |
 | uk-toggle-events | Triggers a function when a specified toggle event is triggered |
+| uk-toggle-methods | Showcases the methods available to the toggle component |
 
 ### Tooltip JS
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-tooltip | Initializes a tooltip with various options |
 | uk-tooltip-events | Triggers a function when a specified tooltip event is triggered |
+| uk-tooltip-methods | Showcases the methods available to the tooltip component |
 
 ### Upload JS
 | Trigger | Description |

@@ -656,6 +656,14 @@
         ],
         "description": "Triggers a function when a specified toggle event is triggered"
     },
+    "snippet-uk-toggle-methods": {
+        "prefix": "uk-toggle-methods",
+        "body": [
+            "//Toggles the Toggle's target",
+            "UIkit.toggle(${0:element}).toggle();"
+        ],
+        "description": "Showcases the methods available to the toggle component"
+    },
     "snippet-uk-tooltip": {
         "prefix": "uk-tooltip",
         "body": [
@@ -677,6 +685,16 @@
             "$('${1:selector}').on('${2|beforeshow,show,shown,beforehide,hide,hidden|}', function() { $3 });"
         ],
         "description": "Triggers a function when a specified tooltip event is triggered"
+    },
+    "snippet-uk-tooltip-methods": {
+        "prefix": "uk-tooltip-methods",
+        "body": [
+            "//Shows the Tooltip",
+            "UIkit.tooltip(${1:element}).show();",
+            "//Hides the Tooltip",
+            "UIkit.tooltip(${0:element}).hide();"
+        ],
+        "description": "Showcases the methods available to the tooltip component"
     },
     "snippet-uk-upload": {
         "prefix": "uk-upload",
