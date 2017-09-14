@@ -1,3 +1,6 @@
+# Version 1.2.1 (September 14, 2017)
+* Updated the default icon's background for extra visibility
+
 # Version 1.2.0 (September 5, 2017)
 * Updated a large number of HTML & JS snippets to now use snippet choices in VSCode 1.15+. This allows more variety within a single snippet, and so many redundancies have been removed. 
   * Please note that a few of the snippet choices will be inactive/slightly bugged until the August VSCode update [due to a bug which has been fixed](https://github.com/Microsoft/vscode/issues/31599) for the next build.
