@@ -8,14 +8,13 @@
             "\t\t<title>$2</title>",
             "\t\t<meta charset=\"UTF-8\">",
             "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/css/uikit.min.css\" />",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit.min.css\" />",
             "\t\t<link href=\"${3:css/style.css}\" rel=\"stylesheet\">",
             "\t</head>",
             "\t<body>",
             "\t\t$0",
-            "\r\t\t<script src=\"https://code.jquery.com/jquery-3.2.1.min.js\" \r\t\t\t\tintegrity=\"sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-WWsZ0EtbPvXtysROWUzwev0o2FlcDlgDFp4TV/4tpdA=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-SFHIQR85UNDqiWTkD7eriiRxvySu+5Cqnak9lq57CBM=\" crossorigin=\"anonymous\"></script>",
+            "\r\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-yl7w0KuhRsVzOpDk7EoWE2EVwwOFXPlfQDQDtwsg5ds=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-pelC1MOe8KcWCQWSbkMF83x3Hb+K3xn3Fua5IUMexkU=\" crossorigin=\"anonymous\"></script>",
             "\t</body>",
             "</html>"
         ],
@@ -30,14 +29,13 @@
             "\t\t<title>$1</title>",
             "\t\t<meta charset=\"UTF-8\">",
             "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/css/uikit-rtl.min.css\" />",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit-rtl.min.css\" />",
             "\t\t<link href=\"${2:css/style.css}\" rel=\"stylesheet\">",
             "\t</head>",
             "\t<body>",
             "\t\t$0",
-            "\r\t\t<script src=\"https://code.jquery.com/jquery-3.2.1.min.js\" \r\t\t\t\tintegrity=\"sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-WWsZ0EtbPvXtysROWUzwev0o2FlcDlgDFp4TV/4tpdA=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-SFHIQR85UNDqiWTkD7eriiRxvySu+5Cqnak9lq57CBM=\" crossorigin=\"anonymous\"></script>",
+            "\r\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-yl7w0KuhRsVzOpDk7EoWE2EVwwOFXPlfQDQDtwsg5ds=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-pelC1MOe8KcWCQWSbkMF83x3Hb+K3xn3Fua5IUMexkU=\" crossorigin=\"anonymous\"></script>",
             "\t</body>",
             "</html>"
         ],
@@ -46,23 +44,22 @@
     "snippet-uk-$-css-import": {
         "prefix": "uk-$-css-import",
         "body": [
-            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/css/uikit.min.css\" />"
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit.min.css\" />"
         ],
         "description": "Imports the default minified css file for UIKit"
     },
     "snippet-uk-$-css-rtl-import": {
         "prefix": "uk-$-css-rtl-import",
         "body": [
-            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/css/uikit-rtl.min.css\" />"
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit-rtl.min.css\" />"
         ],
         "description": "Imports the RTL minified css file for UIKit"
     },
     "snippet-uk-$-js-import": {
         "prefix": "uk-$-js-import",
         "body": [
-            "<script src=\"https://code.jquery.com/jquery-3.2.1.min.js\" \r\tintegrity=\"sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=\" crossorigin=\"anonymous\"></script>",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/js/uikit.min.js\" \r\tintegrity=\"sha256-WWsZ0EtbPvXtysROWUzwev0o2FlcDlgDFp4TV/4tpdA=\" crossorigin=\"anonymous\"></script>",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/js/uikit-icons.min.js\" \r\tintegrity=\"sha256-SFHIQR85UNDqiWTkD7eriiRxvySu+5Cqnak9lq57CBM=\" crossorigin=\"anonymous\"></script>"
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit.min.js\" \r\tintegrity=\"sha256-yl7w0KuhRsVzOpDk7EoWE2EVwwOFXPlfQDQDtwsg5ds=\" crossorigin=\"anonymous\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js\" \r\tintegrity=\"sha256-pelC1MOe8KcWCQWSbkMF83x3Hb+K3xn3Fua5IUMexkU=\" crossorigin=\"anonymous\"></script>"
         ],
         "description": "Imports the minified scripts for UIKit"
     },
@@ -781,6 +778,18 @@
         ],
         "description": "Creates a vertical navigation list with dots"
     },
+    "snippet-uk-dotnav-overlay": {
+        "prefix": "uk-dotnav-overlay",
+        "body": [
+            "<div class=\"uk-position-relative\">",
+                "\r\t<!-- The element which is wrapped goes here -->",
+                "\r\t<div class=\"uk-position-bottom-center uk-position-small\">",
+                    "\t\t<ul class=\"uk-dotnav\">$0</ul>",
+                "\t</div>",
+            "\r</div>"
+        ],
+        "description": "Creates a dotnav as an overlay for an element"
+    },
     "snippet-uk-dotnav-centered-viewport": {
         "prefix": "uk-dotnav-centered-viewport",
         "body": [
@@ -1090,7 +1099,7 @@
     "snippet-uk-form-states": {
         "prefix": "uk-form-states",
         "body": [
-            " class=\"uk-form-${0:[danger|success]}\" "
+            " class=\"uk-form-${0|danger,success|}\" "
         ],
         "description": "[Class] Applies a custom state to a form control"
     },
@@ -1111,7 +1120,7 @@
     "snippet-uk-form-width-modifiers": {
         "prefix": "uk-form-width-modifiers",
         "body": [
-            "<input class=\"${0:uk-input} uk-form-width-${1|large,medium,small,x-small|}\">"
+            "<input class=\"${0:uk-input} uk-form-width-${1|large,medium,small,xsmall|}\">"
         ],
         "description": "Modifies the width of an input, select or textarea"
     },
@@ -1550,9 +1559,10 @@
         "prefix": "uk-lightbox-alternate-content",
         "body": [
             "<div uk-lightbox=\"animation: ${1|slide,fade,scale|}\">",
-                "<a class=\"uk-button\" href=\"video.mp4\"></a>",
+                "<a class=\"uk-button\" href=\"video.mp4\" data-poster=\"image.jpg\"></a>",
                 "<a class=\"uk-button\" href=\"https://www.youtube.com/watch?v=YE7VzlLtp-4\"></a>",
                 "<a class=\"uk-button\" href=\"https://vimeo.com/1084537\"></a>",
+                "<a class=\"uk-button\" href=\"https://www.google.com/maps\"></a>",
             "</div>"
         ],
         "description": "Creates a lightbox container with multiple content types"
@@ -2457,6 +2467,13 @@
         ],
         "description": "[Class] Positions the element at specific locations with a medium margin"
     },
+    "snippet-uk-position-large": {
+        "prefix": "uk-position-large",
+        "body": [
+            " class=\"uk-position-${1|top,center,bottom|}-${2|left,center,right|} uk-position-large\" "
+        ],
+        "description": "[Class] Positions the element at specific locations with a large margin"
+    },
     "snippet-uk-position-relative": {
         "prefix": "uk-position-relative",
         "body": [
@@ -2657,15 +2674,6 @@
         ],
         "description": "Creates a section with a secondary style"
     },
-    "snippet-uk-section-media": {
-        "prefix": "uk-section-media",
-        "body": [
-            "<div class=\"uk-section uk-section-media\">",
-            "\t$0",
-            "</div>"
-        ],
-        "description": "Creates a section used for custom background images"
-    },
     "snippet-uk-section-preserve-color": {
         "prefix": "uk-section-preserve-color",
         "body": [
@@ -2709,16 +2717,16 @@
         ],
         "description": "Creates a larger slidenav"
     },
-    "snippet-uk-slidenav-position-image": {
-        "prefix": "uk-slidenav-position-image",
+    "snippet-uk-slidenav-position-overlay": {
+        "prefix": "uk-slidenav-position-overlay",
         "body": [
-            "<div class=\"uk-inline uk-light\">",
-            "\t<img src=\"\" alt=\"\">",
-            "\t<a class=\"uk-position-center-left\" href=\"\" uk-slidenav-previous></a>",
+            "<div class=\"uk-position-relative uk-light\">",
+            "\r\t<!-- The element which is wrapped goes here -->",
+            "\r\t<a class=\"uk-position-center-left\" href=\"\" uk-slidenav-previous></a>",
             "\t<a class=\"uk-position-center-right\" href=\"\" uk-slidenav-next></a>",
-            "</div>"
+            "\r</div>"
         ],
-        "description": "Creates a slidenav appropriately positioned to the sides of an image"
+        "description": "Creates a slidenav positioned on top of an element"
     },
     "snippet-uk-slidenav-container": {
         "prefix": "uk-slidenav-container",
@@ -2732,6 +2740,124 @@
             "</div>"
         ],
         "description": "Displays a cojoint slidenav"
+    },
+    "snippet-uk-slider": {
+        "prefix": "uk-slider",
+        "body": [
+            "uk-slider"
+        ],
+        "description": "[Attribute] Used to create a responsive carousel"
+    },
+    "snippet-uk-slider-sample": {
+        "prefix": "uk-slider-sample",
+        "body": [
+            "<div uk-slider>",
+                "\t<ul class=\"uk-slider-items uk-child-width-1-3@s uk-child-width-1-4@\">",
+                    "\t\t<li>",
+                        "\t\t\t<img src=\"\" alt=\"\">",
+                    "\t\t</li>",
+                "\t</ul>",
+            "</div>"
+        ],
+        "description": "Creates a responsive carousel slider"
+    },
+    "snippet-uk-slider-container": {
+        "prefix": "uk-slider-container",
+        "body": [
+            " class=\"uk-slider-container\"> "
+        ],
+        "description": "[Class] Creates a responsive carousel slider"
+    },
+    "snippet-uk-slider-gutter": {
+        "prefix": "uk-slider-gutter",
+        "body": [
+            "<div uk-slider>",
+                "\t<ul class=\"uk-slider-items uk-child-width-1-3@s uk-child-width-1-4@ uk-grid\">",
+                    "\t\t<li>",
+                        "\t\t\t<img src=\"\" alt=\"\">",
+                    "\t\t</li>",
+                "\t</ul>",
+            "</div>"
+        ],
+        "description": "Creates a carousel slider with a gutter between items"
+    },
+    "snippet-uk-slider-center": {
+        "prefix": "uk-slider-center",
+        "body": [
+            "<div uk-slider=\"center: true\">",
+                "\t<ul class=\"uk-slider-items uk-child-width-1-3@s uk-child-width-1-4@ uk-grid\">",
+                    "\t\t<li>",
+                        "\t\t\t<img src=\"\" alt=\"\">",
+                    "\t\t</li>",
+                "\t</ul>",
+            "</div>"
+        ],
+        "description": "Creates a carousel slider with a gutter between items"
+    },
+    "snippet-uk-slideshow": {
+        "prefix": "uk-slideshow",
+        "body": [
+            "uk-slideshow"
+        ],
+        "description": "[Attribute] Used to create a responsive slideshow with images and videos"
+    },
+    "snippet-uk-slideshow-sample": {
+        "prefix": "uk-slideshow-sample",
+        "body": [
+            "<div uk-slideshow>",
+                "\t<ul class=\"uk-slideshow-items\">",
+                    "\t\t<li>",
+                        "\t\t\t<img src=\"\" alt=\"\" uk-cover>",
+                    "\t\t</li>",
+                "\t</ul>",
+            "</div>"
+        ],
+        "description": "Creates a responsive slideshow with images and videos"
+    },
+    "snippet-uk-slideshow-animations": {
+        "prefix": "uk-slideshow-animations",
+        "body": [
+            "<div uk-slideshow=\"animation: ${1|slide,fade,scale,pull,push|}\">",
+            "\t$0",
+            "</div>"
+        ],
+        "description": "Creates a responsive slideshow with a modified transition animation"
+    },
+    "snippet-uk-slideshow-autoplay": {
+        "prefix": "uk-slideshow-autoplay",
+        "body": [
+            "<div uk-slideshow=\"autoplay: true; autoplay-interval: ${1:6000}; pause-on-hover: ${2:false}\">",
+            "\t$0",
+            "</div>"
+        ],
+        "description": "Creates a responsive slideshow with autoplay enabled"
+    },
+    "snippet-uk-slideshow-infinite-scrolling": {
+        "prefix": "uk-slideshow-infinite-scrolling",
+        "body": [
+            "<div uk-slideshow=\"finite: ${1:true}\">",
+            "\t$0",
+            "</div>"
+        ],
+        "description": "Creates a responsive slideshow with endless scrolling enabled (default) or disabled"
+    },
+    "snippet-uk-slideshow-ratio": {
+        "prefix": "uk-slideshow-ratio",
+        "body": [
+            "<div uk-slideshow=\"ratio: ${1:1600:1200}\">",
+            "\t$0",
+            "</div>"
+        ],
+        "description": "Creates a responsive slideshow with a modified ratio"
+    },
+    "snippet-uk-slideshow-min-max-height": {
+        "prefix": "uk-slideshow-min-max-height",
+        "body": [
+            "<div uk-slideshow=\"min-height: ${1:300}; max-height: ${2:600}\">",
+            "\t$0",
+            "</div>"
+        ],
+        "description": "Creates a responsive slideshow with a minimum and/or maximum height"
     },
     "snippet-uk-sortable": {
         "prefix": "uk-sortable",
@@ -3335,6 +3461,42 @@
         ],
         "description": "[Class] Wraps text according to your choice"
     },
+    "snippet-uk-thumbnav": {
+        "prefix": "uk-thumbnav",
+        "body": [
+            " class=\"uk-thumbnav\" "
+        ],
+        "description": "[Class] Used to create a thumbnail navigation"
+    },
+    "snippet-uk-thumbnav-sample": {
+        "prefix": "uk-thumbnav-sample",
+        "body": [
+            "<ul class=\"uk-thumbnav\">",
+                "\t<li class=\"uk-active\"><a href=\"\"><img src=\"\" alt=\"\"></a></li>",
+                "\t<li><a href=\"\"><img src=\"\" alt=\"\"></a></li>",
+            "</ul>"
+        ],
+        "description": "Creates a flexible thumbnail navigation"
+    },
+    "snippet-uk-thumbnav-vertical": {
+        "prefix": "uk-thumbnav-vertical",
+        "body": [
+            "<ul class=\"uk-thumbnav uk-thumbnav-vertical\">$0</ul>"
+        ],
+        "description": "Creates a vertical thumbnav"
+    },
+    "snippet-uk-thumbnav-overlay": {
+        "prefix": "uk-thumbnav-overlay",
+        "body": [
+            "<div class=\"uk-position-relative\">",
+                "\r\t<!-- The element which is wrapped goes here -->",
+                "\r\t<div class=\"uk-position-bottom-center uk-position-small\">",
+                    "\t\t<ul class=\"uk-thumbnav\">$0</ul>",
+                "\t</div>",
+            "\r</div>"
+        ],
+        "description": "Creates a thumbnav as an overlay for an element"
+    },
     "snippet-uk-tile": {
         "prefix": "uk-tile",
         "body": [
@@ -3720,7 +3882,7 @@
     "snippet-uk-utility-viewport-height": {
         "prefix": "uk-utility-viewport-height",
         "body": [
-            " uk-height-viewport=\"${1|offset-top: true,offset-bottom: 20,expand: true|}\" "
+            " uk-height-viewport=\"${1|offset-top: true,offset-bottom: 20,expand: true,min-height: 0|}\" "
         ],
         "description": "Modifies the height of an element to fill the entire viewport. Height behaviour can be changed with an option."
     },
@@ -3823,13 +3985,6 @@
             "<img src=\"\" uk-svg>"
         ],
         "description": "Adds an inline SVG"
-    },
-    "snippet-uk-utility-gif": {
-        "prefix": "uk-utility-gif",
-        "body": [
-            "<img src=\"\" alt=\"\" uk-gif>"
-        ],
-        "description": "Adds a GIF that plays when it comes into view"
     },
     "snippet-uk-utility-video": {
         "prefix": "uk-utility-video",

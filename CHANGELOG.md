@@ -1,5 +1,10 @@
-# Version 1.2.1 (September 14, 2017)
-* Updated the default icon's background for extra visibility
+# Version 1.2.1 (TBA)
+* Updated to UIkit 3.0.0 beta 42
+* Updated and cleaned up many snippets
+* Added slideshow component snippets (`uk-slideshow` and more)
+* Added thumbnav component snippets (`uk-thumbnav` and more)
+* Removed a number of snippets based on changes from beta 31
+* Removed JQuery import from snippets
 
 # Version 1.2.0 (September 5, 2017)
 * Updated a large number of HTML & JS snippets to now use snippet choices in VSCode 1.15+. This allows more variety within a single snippet, and so many redundancies have been removed. 

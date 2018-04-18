@@ -240,6 +240,7 @@
             "UIkit.lightboxPanel(${0:panelOptions});",
             "/* Option: [Required Value] ",
             "-----------------------",
+            "autoplay: [Number]",
             "animation: [String]",
             "duration: [Number]",
             "index: [Number]",
@@ -518,6 +519,44 @@
         ],
         "description": "Triggers a function when a specified scrollspy nav event is triggered"
     },
+    "snippet-uk-slideshow": {
+        "prefix": "uk-slideshow",
+        "body": [
+            "UIkit.slideshow(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "animation: [String]",
+            "autoplay: [Boolean]",
+            "autoplay-interval: [Number]",
+            "finite: [Boolean]",
+            "pause-on-hover: [Boolean]",
+            "index: [Number]",
+            "velocity: [Number]",
+            "ratio: [Boolean/String]",
+            "min-height: [Boolean/Number]",
+            "max-height: [Boolean/Number] */"
+        ],
+        "description": "Initializes a slideshow with various options"
+    },
+    "snippet-uk-slideshow-events": {
+        "prefix": "uk-slideshow-events",
+        "body": [
+            "$('${1:selector}').on('${2|beforeitemshow,itemshow,itemshown,beforeitemhide,itemhide,itemhidden|}', function() { $3 });"
+        ],
+        "description": "Triggers a function when a specified slideshow event is triggered"
+    },
+    "snippet-uk-slideshow-methods": {
+        "prefix": "uk-slideshow-methods",
+        "body": [
+            "//Shows the slideshow item",
+            "UIkit.slideshow(${1:element}).show(${2:index});",
+            "//Starts the slideshow autoplay",
+            "UIkit.slideshow(${3:element}).startAutoplay();",
+            "//Stops the slideshow autoplay",
+            "UIkit.slideshow(${0:element}).stopAutoplay();"
+        ],
+        "description": "Showcases the methods available to the slideshow component"
+    },
     "snippet-uk-sortable": {
         "prefix": "uk-sortable",
         "body": [
@@ -542,7 +581,7 @@
     "snippet-uk-sortable-events": {
         "prefix": "uk-sortable-events",
         "body": [
-            "$('${1:selector}').on('${2|start,stop,change|}', function() { $3 });"
+            "$('${1:selector}').on('${2|start,stop,moved,added,removed|}', function() { $3 });"
         ],
         "description": "Triggers a function when a specified sortable event is triggered"
     },

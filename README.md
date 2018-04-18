@@ -339,6 +339,7 @@ List of Commands (HTML/PHP)
 | :-------: | :-----------: |
 | uk-dotnav | Creates a navigation list with dots |
 | uk-dotnav-vertical | Creates a vertical navigation list with dots |
+| uk-dotnav-overlay | Creates a dotnav as an overlay for an element |
 | uk-dotnav-centered-viewport | Creates a dotnav centered vertically and aligned right |
 
 ### Drop
@@ -629,6 +630,7 @@ List of Commands (HTML/PHP)
 | uk-position-cover | [Class] Positions the element to cover its container |
 | uk-position-small | [Class] Positions the element at specific locations with a small margin |
 | uk-position-medium | [Class] Positions the element at specific locations with a medium margin |
+| uk-position-large | [Class] Positions the element at specific locations with a large margin |
 | uk-position-relative | [Class] Positions the element at a relative position |
 | uk-position-absolute | [Class] Positions the element at an absolute position |
 | uk-position-fixed | [Class] Positions the element at a fixed position |
@@ -674,7 +676,6 @@ List of Commands (HTML/PHP)
 | uk-section-muted | Creates a section with a muted style |
 | uk-section-primary | Creates a section with a primary style |
 | uk-section-secondary | Creates a section with a secondary style |
-| uk-section-media | Creates a section used for custom background images |
 | uk-section-preserve-color | Creates a section that preserves the font colours of child elements |
 | uk-section-size-modifier | Creates a section with modified padding applied |
 | uk-section-overlap-modifier | Creates a section that applies a border image and a negative offset |
@@ -684,8 +685,28 @@ List of Commands (HTML/PHP)
 | :-------: | :-----------: |
 | uk-slidenav | Creates a previous and next button for flipping through slideshows |
 | uk-slidenav-large | Creates a larger slidenav |
-| uk-slidenav-position-image | Creates a slidenav appropriately positioned to the sides of an image |
+| uk-slidenav-position-overlay | Creates a slidenav positioned on top of an element |
 | uk-slidenav-container | Displays a cojoint slidenav |
+
+### Slider
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-slider | [Attribute] Used to create a responsive carousel |
+| uk-slider-sample | Creates a responsive carousel slider |
+| uk-slider-container | [Class] Creates a responsive carousel slider |
+| uk-slider-gutter | Creates a carousel slider with a gutter between items |
+| uk-slider | [Attribute] Used to create a responsive carousel |
+
+### Slideshow
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-slideshow | [Attribute] Used to create a responsive slideshow with images and videos |
+| uk-slideshow-sample | Creates a responsive slideshow with images and videos |
+| uk-slideshow-animations | Creates a responsive slideshow with a modified transition animation |
+| uk-slideshow-autoplay | Creates a responsive slideshow with autoplay enabled |
+| uk-slideshow-infinite-scrolling | Creates a responsive slideshow with endless scrolling enabled (default) or disabled |
+| uk-slideshow-ratio | Creates a responsive slideshow with a modified ratio |
+| uk-slideshow-min-max-height | Creates a responsive slideshow with a minimum and/or maximum height |
 
 ### Sortable
 | Trigger | Description |
@@ -776,6 +797,14 @@ List of Commands (HTML/PHP)
 | uk-text-vertical-alignment | [Class] Aligns text vertically |
 | uk-text-wrapping | [Class] Wraps text according to your choice |
 
+### Thumbnav
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-thumbnav | [Class] Used to create a thumbnail navigation |
+| uk-thumbnav-sample | Creates a flexible thumbnail navigation |
+| uk-thumbnav-vertical | Creates a vertical thumbnav |
+| uk-thumbnav-overlay | Creates a thumbnav as an overlay for an element |
+
 ### Tile
 | Trigger | Description |
 | :-------: | :-----------: |
@@ -858,7 +887,6 @@ List of Commands (HTML/PHP)
 | uk-utility-logo-text | Creates a text logo |
 | uk-utility-logo-image | Creates an image logo |
 | uk-utility-inline-svg | Adds an inline SVG |
-| uk-utility-gif | Adds a GIF that plays when it comes into view |
 | uk-utility-video | Adds a video that can automatically play when it comes into view |
 | uk-utility-blend | [Class] Applies a modified blend mode to a background |
 | uk-utility-transform-center | [Class] Centers an element to itself |
@@ -1022,6 +1050,17 @@ List of Commands (Javascript)
 | uk-scrollspy-events | Triggers a function when a specified scrollspy event is triggered |
 | uk-scrollspy-nav | Initializes a scrollspy nav with various options |
 | uk-scrollspy-nav-events | Triggers a function when a specified scrollspy nav event is triggered |
+
+### Sortable JS
+| Trigger | Description |
+| :-------: | :-----------: |
+
+### Slideshow JS
+| Trigger | Description |
+| :-------: | :-----------: |
+| uk-slideshow | Initializes a slideshow with various options |
+| uk-slideshow-events | Triggers a function when a specified slideshow event is triggered |
+| uk-slideshow-methods | Showcases the methods available to the slideshow component |
 
 ### Sortable JS
 | Trigger | Description |
