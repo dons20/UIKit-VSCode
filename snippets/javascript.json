@@ -519,6 +519,42 @@
         ],
         "description": "Triggers a function when a specified scrollspy nav event is triggered"
     },
+    "snippet-uk-slider": {
+        "prefix": "uk-slider",
+        "body": [
+            "UIkit.slider(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "autoplay: [Boolean]",
+            "autoplay-interval: [Number]",
+            "center: [Boolean]",
+            "finite: [Boolean]",
+            "index: [Number]",
+            "pause-on-hover: [Boolean]",
+            "sets: [Boolean]",
+            "velocity: [Number] */"
+        ],
+        "description": "Initializes a slider with various options"
+    },
+    "snippet-uk-slider-events": {
+        "prefix": "uk-slider-events",
+        "body": [
+            "$('${1:selector}').on('${2|beforeitemshow,itemshow,itemshown,beforeitemhide,itemhide,itemhidden|}', function() { $3 });"
+        ],
+        "description": "Triggers a function when a specified slider event is triggered"
+    },
+    "snippet-uk-slider-methods": {
+        "prefix": "uk-slider-methods",
+        "body": [
+            "//Shows the slider item",
+            "UIkit.slider(${1:element}).show(${2:index});",
+            "//Starts the slider autoplay",
+            "UIkit.slider(${3:element}).startAutoplay();",
+            "//Stops the slider autoplay",
+            "UIkit.slider(${0:element}).stopAutoplay();"
+        ],
+        "description": "Showcases the methods available to the slider component"
+    },
     "snippet-uk-slideshow": {
         "prefix": "uk-slideshow",
         "body": [

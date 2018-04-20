@@ -481,6 +481,7 @@ List of Commands (HTML/PHP)
 | :-------: | :-----------: |
 | uk-link-muted | Creates a link with a muted style |
 | uk-link-text | Creates a link with a body text style |
+| uk-link-heading | Creates a link with a heading style |
 | uk-link-reset | Creates a link that inherits its color from its parent |
 
 ### List
@@ -695,7 +696,17 @@ List of Commands (HTML/PHP)
 | uk-slider-sample | Creates a responsive carousel slider |
 | uk-slider-container | [Class] Creates a responsive carousel slider |
 | uk-slider-gutter | Creates a carousel slider with a gutter between items |
-| uk-slider | [Attribute] Used to create a responsive carousel |
+| uk-slider-center | Creates a carousel slider with centered items |
+| uk-slider-autoplay | Creates a carousel slider with autoplay activated |
+| uk-slider-finite | Creates a carousel slider with infinite scrolling disabled |
+| uk-slider-sets | Creates a carousel slider which loops through a set of slides |
+| uk-slider-navigation | Creates a carousel slider with navigation controls |
+| uk-slider-navigation-outside | Creates a carousel slider with outer navigation controls |
+| uk-slider-viewport-height | Creates a carousel slider which expands to fill the height of its container |
+| uk-slider-content-overlay | Creates a carousel slider with content overlays added |
+| uk-slider-content-parallax | Creates a carousel slider with a parallax effect on the content |
+| uk-slider-content-transitions | Creates a carousel slider with transition effects added |
+| uk-slider-content-transitions-hover | Creates a carousel slider with transition effects on mouse hover |
 
 ### Slideshow
 | Trigger | Description |
@@ -776,8 +787,8 @@ List of Commands (HTML/PHP)
 | uk-table-sample | Creates a table without any styling |
 | uk-table-divider | Creates a table with each row seperated by a divider |
 | uk-table-hover | Creates a table with a hover state on table rows |
+| uk-table-sizing | Creates a table of a selected size |
 | uk-table-striped | Creates a table with zebra-striping on table rows |
-| uk-table-small | Creates a smaller, more compact table |
 | uk-table-justify | Creates a table with the outer padding of the first and last columns removed |
 | uk-table-middle | Creates a table with center aligned elements |
 | uk-table-responsive | Creates a table that provides a horizontal scrollbar on smaller device screens when needed |
@@ -1051,9 +1062,12 @@ List of Commands (Javascript)
 | uk-scrollspy-nav | Initializes a scrollspy nav with various options |
 | uk-scrollspy-nav-events | Triggers a function when a specified scrollspy nav event is triggered |
 
-### Sortable JS
+### Slider JS
 | Trigger | Description |
 | :-------: | :-----------: |
+| uk-slider | Initializes a slider with various options |
+| uk-slider-events | Triggers a function when a specified slider event is triggered |
+| uk-slider-methods | Showcases the methods available to the slider component |
 
 ### Slideshow JS
 | Trigger | Description |

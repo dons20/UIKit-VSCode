@@ -1,6 +1,7 @@
-# Version 1.2.1 (TBA)
+# Version 1.2.1 (April 20, 2018)
 * Updated to UIkit 3.0.0 beta 42
 * Updated and cleaned up many snippets
+* Added slider component snippets (`uk-slider` and more)
 * Added slideshow component snippets (`uk-slideshow` and more)
 * Added thumbnav component snippets (`uk-thumbnav` and more)
 * Removed a number of snippets based on changes from beta 31

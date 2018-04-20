@@ -75,7 +75,7 @@
         "body": [
             "<ul uk-accordion>",
             "\t<li>",
-            "\t\t<h3 class=\"uk-accordion-title\">$1</h3>",
+            "\t\t<a class=\"uk-accordion-title\">$1</a>",
             "\t\t<div class=\"uk-accordion-content\">",
             "\t\t\t$0",
             "\t\t</div>",
@@ -89,7 +89,7 @@
         "body": [
             "<ul uk-accordion=\"collapsible: false\">",
             "\t<li>",
-            "\t\t<h3 class=\"uk-accordion-title\">$1</h3>",
+            "\t\t<a class=\"uk-accordion-title\">$1</a>",
             "\t\t<div class=\"uk-accordion-content\">",
             "\t\t\t$0",
             "\t\t</div>",
@@ -103,7 +103,7 @@
         "body": [
             "<ul uk-accordion=\"collapsible: false\">",
             "\t<li>",
-            "\t\t<h3 class=\"uk-accordion-title\">$1</h3>",
+            "\t\t<a class=\"uk-accordion-title\">$1</a>",
             "\t\t<div class=\"uk-accordion-content\">",
             "\t\t\t$0",
             "\t\t</div>",
@@ -117,7 +117,7 @@
         "body": [
             "<ul uk-accordion=\"active: ${1:0}\">",
             "\t<li>",
-            "\t\t<h3 class=\"uk-accordion-title\">$2</h3>",
+            "\t\t<a class=\"uk-accordion-title\">$2</a>",
             "\t\t<div class=\"uk-accordion-content\">",
             "\t\t\t$0",
             "\t\t</div>",
@@ -1581,6 +1581,13 @@
         ],
         "description": "Creates a link with a body text style"
     },
+    "snippet-uk-link-heading": {
+        "prefix": "uk-link-heading",
+        "body": [
+            "<h3><a class=\"uk-link-heading\" href=\"$0\"></a></h3>"
+        ],
+        "description": "Creates a link with a heading style"
+    },
     "snippet-uk-link-reset": {
         "prefix": "uk-link-reset",
         "body": [
@@ -2792,7 +2799,163 @@
                 "\t</ul>",
             "</div>"
         ],
-        "description": "Creates a carousel slider with a gutter between items"
+        "description": "Creates a carousel slider with centered items"
+    },
+    "snippet-uk-slider-autoplay": {
+        "prefix": "uk-slider-autoplay",
+        "body": [
+            "<div uk-slider=\"autoplay: true\">",
+                "\t<ul class=\"uk-slider-items uk-child-width-1-3@s uk-child-width-1-4@ uk-grid\">",
+                    "\t\t<li>",
+                        "\t\t\t<img src=\"\" alt=\"\">",
+                    "\t\t</li>",
+                "\t</ul>",
+            "</div>"
+        ],
+        "description": "Creates a carousel slider with autoplay activated"
+    },
+    "snippet-uk-slider-finite": {
+        "prefix": "uk-slider-finite",
+        "body": [
+            "<div uk-slider=\"finite: true\">",
+                "\t<ul class=\"uk-slider-items uk-child-width-1-3@s uk-child-width-1-4@ uk-grid\">",
+                    "\t\t<li>",
+                        "\t\t\t<img src=\"\" alt=\"\">",
+                    "\t\t</li>",
+                "\t</ul>",
+            "</div>"
+        ],
+        "description": "Creates a carousel slider with infinite scrolling disabled"
+    },
+    "snippet-uk-slider-sets": {
+        "prefix": "uk-slider-sets",
+        "body": [
+            "<div uk-slider=\"sets: true\">",
+                "\t<ul class=\"uk-slider-items uk-child-width-1-3@s uk-child-width-1-4@ uk-grid\">",
+                    "\t\t<li>",
+                        "\t\t\t<img src=\"\" alt=\"\">",
+                    "\t\t</li>",
+                "\t</ul>",
+            "</div>"
+        ],
+        "description": "Creates a carousel slider which loops through a set of slides"
+    },
+    "snippet-uk-slider-navigation": {
+        "prefix": "uk-slider-navigation",
+        "body": [
+            "<div uk-slider>",
+                "\r\t<ul class=\"uk-slider-items\">...</ul>",
+                "\r\t<a href=\"#\" uk-slider-item=\"previous\">...</a>",
+                "\t<a href=\"#\" uk-slider-item=\"next\">...</a>",
+                "\r\t<ul>",
+                    "\t\t<li uk-slider-item=\"0\"><a href=\"#\">...</a></li>",
+                    "\t\t<li uk-slider-item=\"1\"><a href=\"#\">...</a></li>",
+                    "\t\t<li uk-slider-item=\"2\"><a href=\"#\">...</a></li>",
+                "\t</ul>",            
+            "\r\t</div>"
+        ],
+        "description": "Creates a carousel slider with navigation controls"
+    },
+    "snippet-uk-slider-navigation-outside": {
+        "prefix": "uk-slider-navigation-outside",
+        "body": [
+            "<div uk-slider>",
+                "\r\t<div class=\"uk-position-relative\">",
+                    "\r\t\t<div class=\"uk-slider-container\">",
+                        "\t\t\t<ul class=\"uk-slider-items\">...</ul>",
+                    "\t\t</div>",
+                    "\r\t\t<a class=\"uk-position-center-left-out\" href=\"#\" uk-slider-item=\"previous\">...</a>",
+                    "\t\t<a class=\"uk-position-center-right-out\" href=\"#\" uk-slider-item=\"next\">...</a>",
+                "\r\t</div>",
+                "\r\t<ul class=\"uk-slider-nav uk-dotnav\"></ul>",
+            "\r</div>"
+        ],
+        "description": "Creates a carousel slider with outer navigation controls"
+    },
+    "snippet-uk-slider-viewport-height": {
+        "prefix": "uk-slider-viewport-height",
+        "body": [
+            "<div uk-slider>",
+                "\t<ul class=\"uk-slider-items uk-child-width-1-3@m uk-grid-match\" uk-height-viewport=\"min-height: 300\">",
+                    "\t\t<li>",
+                        "\t\t\t<div class=\"uk-cover-container\">",
+                            "\t\t\t\t<img src=\"\" alt=\"\" uk-cover>",
+                        "\t\t\t</div>",
+                    "\t\t</li>",
+                "\t</ul>",
+            "</div>"
+        ],
+        "description": "Creates a carousel slider which expands to fill the height of its container"
+    },
+    "snippet-uk-slider-content-overlay": {
+        "prefix": "uk-slider-content-overlay",
+        "body": [
+            "<div uk-slider>",
+                "\t<ul class=\"uk-slider-items\">",
+                    "\t\t<li>",
+                        "\t\t\t<img src=\"\" alt=\"\">",
+                        "\t\t\t<div class=\"uk-position-center\">",
+                            "\r\t\t\t\t<!-- The content goes here -->",
+                        "\r\t\t\t</div>",
+                    "\t\t</li>",
+                "\t</ul>",
+            "</div>"
+        ],
+        "description": "Creates a carousel slider with content overlays added"
+    },
+    "snippet-uk-slider-content-parallax": {
+        "prefix": "uk-slider-content-parallax",
+        "body": [
+            "<div uk-slider>",
+                "\t<ul class=\"uk-slider-items\">",
+                    "\t\t<li>",
+                        "\t\t\t<img src=\"\" alt=\"\">",
+                        "\t\t\t<div class=\"uk-position-center\">",
+                            "\r\t\t\t\t<div uk-slider-parallax=\"x: 100,-100\">",
+                            "\r\t\t\t\t\t<!-- The content goes here -->",
+                            "\r\t\t\t\t</div>",
+                        "\r\t\t\t</div>",
+                    "\t\t</li>",
+                "\t</ul>",
+            "</div>"
+        ],
+        "description": "Creates a carousel slider with a parallax effect on the content"
+    },
+    "snippet-uk-slider-content-transitions": {
+        "prefix": "uk-slider-content-transitions",
+        "body": [
+            "<div uk-slider=\"clsActivated: uk-transition-active\">",
+                "\t<ul class=\"uk-slider-items\">",
+                    "\t\t<li>",
+                        "\t\t\t<img src=\"\" alt=\"\">",
+                        "\t\t\t<div class=\"uk-position-bottom\">",
+                            "\r\t\t\t\t<div class=\"uk-transition-slide-bottom\">",
+                                "\r\t\t\t\t\t<!-- The content goes here -->",
+                            "\r\t\t\t\t</div>",
+                        "\r\t\t\t</div>",
+                    "\t\t</li>",
+                "\t</ul>",
+            "</div>"
+        ],
+        "description": "Creates a carousel slider with transition effects added"
+    },
+    "snippet-uk-slider-content-transitions-hover": {
+        "prefix": "uk-slider-content-transitions-hover",
+        "body": [
+            "<div uk-slider>",
+                "\t<ul class=\"uk-slider-items\">",
+                    "\t\t<li class=\"uk-transition-toggle\">",
+                        "\t\t\t<img src=\"\" alt=\"\">",
+                        "\t\t\t<div class=\"uk-position-bottom\">",
+                            "\r\t\t\t\t<div class=\"uk-transition-slide-bottom\">",
+                                "\r\t\t\t\t\t<!-- The content goes here -->",
+                            "\r\t\t\t\t</div>",
+                        "\r\t\t\t</div>",
+                    "\t\t</li>",
+                "\t</ul>",
+            "</div>"
+        ],
+        "description": "Creates a carousel slider with transition effects on mouse hover"
     },
     "snippet-uk-slideshow": {
         "prefix": "uk-slideshow",
@@ -3299,6 +3462,25 @@
         ],
         "description": "Creates a table with a hover state on table rows"
     },
+    "snippet-uk-table-sizing": {
+        "prefix": "uk-table-sizing",
+        "body": [
+            "<table class=\"uk-table uk-table-${0|small,large|}\">",
+            "\t<caption></caption>",
+            "\t<thead>",
+            "\t\t<tr>",
+            "\t\t\t<th></th>",
+            "\t\t</tr>",
+            "\t</thead>",
+            "\t<tbody>",
+            "\t\t<tr>",
+            "\t\t\t<td></td>",
+            "\t\t</tr>",
+            "\t</tbody>",
+            "</table>"
+        ],
+        "description": "Creates a table of a selected size"
+    },
     "snippet-uk-table-striped": {
         "prefix": "uk-table-striped",
         "body": [
@@ -3317,25 +3499,6 @@
             "</table>"
         ],
         "description": "Creates a table with zebra-striping on table rows"
-    },
-    "snippet-uk-table-small": {
-        "prefix": "uk-table-small",
-        "body": [
-            "<table class=\"uk-table uk-table-small\">",
-            "\t<caption></caption>",
-            "\t<thead>",
-            "\t\t<tr>",
-            "\t\t\t<th></th>",
-            "\t\t</tr>",
-            "\t</thead>",
-            "\t<tbody>",
-            "\t\t<tr>",
-            "\t\t\t<td></td>",
-            "\t\t</tr>",
-            "\t</tbody>",
-            "</table>"
-        ],
-        "description": "Creates a smaller, more compact table"
     },
     "snippet-uk-table-justify": {
         "prefix": "uk-table-justify",
