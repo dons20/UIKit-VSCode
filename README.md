@@ -176,9 +176,7 @@ List of Commands (HTML/PHP)
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-$ | Creates a basic UIKit template |
-| uk-$-rtl | Creates a basic UIKit template with RTL support |
 | uk-$-css-import | Imports the default minified css file for UIKit |
-| uk-$-css-rtl-import | Imports the RTL minified css file for UIKit |
 | uk-$-js-import | Imports the minified scripts for UIKit |
 
 ### Accordion

@@ -1,3 +1,7 @@
+# Version 1.2.2 (TBA)
+* Updated to UIkit 3.0.0 RC 11
+* Added snippet choices to clear up redundant ones (e.g. `uk-$-css-import`)
+
 # Version 1.2.1 (April 20, 2018)
 * Updated to UIkit 3.0.0 beta 42
 * Updated and cleaned up many snippets

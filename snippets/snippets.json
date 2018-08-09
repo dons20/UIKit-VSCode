@@ -8,52 +8,24 @@
             "\t\t<title>$2</title>",
             "\t\t<meta charset=\"UTF-8\">",
             "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit.min.css\" />",
-            "\t\t<link href=\"${3:css/style.css}\" rel=\"stylesheet\">",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.11/css/${3|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>",
+            "\t\t<link href=\"${3:css/styles.css}\" rel=\"stylesheet\">",
             "\t</head>",
             "\t<body>",
             "\t\t$0",
-            "\r\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-yl7w0KuhRsVzOpDk7EoWE2EVwwOFXPlfQDQDtwsg5ds=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-pelC1MOe8KcWCQWSbkMF83x3Hb+K3xn3Fua5IUMexkU=\" crossorigin=\"anonymous\"></script>",
+            "\r\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.11/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-uIoU015jY2XsmbFtIjpet+eU+0GM/Y+zaGlNngZTKuw=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.11/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-92V223qt9YYY7xHag8ctb7dvCKnK5sv/psCFHnAtZoU=\" crossorigin=\"anonymous\"></script>",
             "\t</body>",
             "</html>"
         ],
         "description": "Creates a basic UIKit template"
     },
-    "snippet-uk-$-rtl": {
-        "prefix": "uk-$-rtl",
-        "body": [
-            "<!DOCTYPE html>",
-            "<html dir=\"rtl\">",
-            "\t<head>",
-            "\t\t<title>$1</title>",
-            "\t\t<meta charset=\"UTF-8\">",
-            "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit-rtl.min.css\" />",
-            "\t\t<link href=\"${2:css/style.css}\" rel=\"stylesheet\">",
-            "\t</head>",
-            "\t<body>",
-            "\t\t$0",
-            "\r\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-yl7w0KuhRsVzOpDk7EoWE2EVwwOFXPlfQDQDtwsg5ds=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-pelC1MOe8KcWCQWSbkMF83x3Hb+K3xn3Fua5IUMexkU=\" crossorigin=\"anonymous\"></script>",
-            "\t</body>",
-            "</html>"
-        ],
-        "description": "Creates a basic UIKit template with RTL support"
-    },
     "snippet-uk-$-css-import": {
         "prefix": "uk-$-css-import",
         "body": [
-            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit.min.css\" />"
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/${1|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>"
         ],
         "description": "Imports the default minified css file for UIKit"
-    },
-    "snippet-uk-$-css-rtl-import": {
-        "prefix": "uk-$-css-rtl-import",
-        "body": [
-            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit-rtl.min.css\" />"
-        ],
-        "description": "Imports the RTL minified css file for UIKit"
     },
     "snippet-uk-$-js-import": {
         "prefix": "uk-$-js-import",
