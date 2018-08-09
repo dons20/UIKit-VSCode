@@ -1,9 +1,11 @@
 UIKit 3.0 Snippets for Visual Studio Code
 ===
 
-![Demo Image](https://zippy.gfycat.com/AmusingGiftedJumpingbean.gif)
+[![Version](https://vsmarketplacebadge.apphb.com/version/Keno.uikit-3-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/Keno.uikit-3-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
+[![Rating](https://vsmarketplacebadge.apphb.com/rating/Keno.uikit-3-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
 
-[Gfycat Link](https://gfycat.com/AmusingGiftedJumpingbean)
+[![Demo Image](https://zippy.gfycat.com/AmusingGiftedJumpingbean.gif)](https://gfycat.com/AmusingGiftedJumpingbean)
 
 This extension adds all the snippets from [UIKit 3.0](https://getuikit.com/docs/introduction) into Visual Studio Code for easy access and usage.
 
