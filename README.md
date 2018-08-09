@@ -12,6 +12,16 @@ This extension adds all the snippets from [UIKit 3.0](https://getuikit.com/docs/
 Suggestions are welcome in order to improve the quality of the snippets, as well as keeping it up to date.
 Head over to the [issues](https://github.com/dons20/UIKit-VSCode/issues) page to submit those.
 
+To show support for the project, you can do any of the following:
+
+- [Star the repository.](https://github.com/dons20/UIKit-VSCode)
+- [Rate the extension on the marketplace.](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
+- [Follow me on Twitter](https://twitter.com/KCInnovations)
+
+> Please remember to direct your questions/issues to the [issues page](https://github.com/dons20/UIKit-VSCode/issues) of the repository.
+
+Thank You!
+
 Setup
 ---
 #### Method 1
@@ -26,18 +36,17 @@ Setup
 1. With Visual Studio Code opened, press `Ctrl+P`.
 2. Type in `ext install uikit-3-snippets` and press `Enter`.
 
-Other Information
----
-* Please remember to direct your questions/issues to the [issues page](https://github.com/dons20/UIKit-VSCode/issues) of the repository.
-* If you find the plugin helpful, please leave a [positive review](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets#review-details) so that others will be more likely to see the plugin as well! Thank you!
-
 Table of Contents
 ---
-* [UIKit 3.0 Snippets](#uikit-30-snippets-for-visual-studio-code)
+<details>
+  <summary><strong>Reveal Table of Contents</strong>
+  </summary>
+  <p>
+
+  * [UIKit 3.0 Snippets](#uikit-30-snippets-for-visual-studio-code)
   * [Setup](#setup)
     * [Method 1](#method-1)
     * [Method 2](#method-2)
-  * [Other Information](#other-information)
   * [Table of Contents](#table-of-contents)
   * [Usage](#usage)
   * [Contribution Guidelines](#contribution-guidelines)
@@ -144,6 +153,8 @@ Table of Contents
     * [Toggle JS](#toggle-js)
     * [Tooltip JS](#tooltip-js)
     * [Upload JS](#upload-js)
+    </p>
+</details>
 
 Usage
 ---
@@ -151,7 +162,7 @@ To use the snippets, open a HTML file, and start typing `uk-` (optionally follow
 Each snippet has a short and simple description to aid with understanding its use. 
 For more details and eve better examples and possible options, [head to the UIKit Documentation](https://getuikit.com/docs/introduction)
 
-A detailed list of supported commands are listed below in the **List of Commands** section.
+A detailed list of supported commands are listed below in the [**List of Commands**](#list-of-commands-htmlphp) section.
 
 Contribution Guidelines
 ---
@@ -174,14 +185,22 @@ Disclaimer
 List of Commands (HTML/PHP)
 ---
 
-### UIKit Master Template
+## Click each heading to see detailed snippets
+
+<details><summary><h3 style='display: inline'>UIKit Master Template</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-$ | Creates a basic UIKit template |
 | uk-$-css-import | Imports the default minified css file for UIKit |
 | uk-$-js-import | Imports the minified scripts for UIKit |
+</p>
+</details>
 
-### Accordion
+<details><summary><h3 style='display: inline'>Accordion</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-accordion | [Attribute] Used to create an accordion element in a parent container |
@@ -189,22 +208,34 @@ List of Commands (HTML/PHP)
 | uk-accordion-no-collapse | Accordion that always keeps one item open |
 | uk-accordion-multiple-open | Accordion that allows multiple items to be opened at once |
 | uk-accordion-open-index | Accordion that opens an item by default |
+</p>
+</details>
 
-### Alert
+<details><summary><h3 style='display: inline'>Alert</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-alert | [Attribute] Used to create an alert element in a block element |
 | uk-alert-default | A default alert applied to a div |
 | uk-alert-close | An alert with a close button |
 | uk-alert-styled | An alert with a chosen style applied |
+</p>
+</details>
 
-### Alignment
+<details><summary><h3 style='display: inline'>Alignment</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-align | [Class] Floats the element to a selected position |
 | uk-align-responsive | [Class] Floats the element on specific widths |
+</p>
+</details>
 
-### Animation
+<details><summary><h3 style='display: inline'>Animation</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-animation-fade | [Class] The element fades in |
@@ -216,14 +247,22 @@ List of Commands (HTML/PHP)
 | uk-animation-reverse | [Class] The element's animation plays in reverse |
 | uk-animation-fast | [Class] The element's animation plays at a faster speed |
 | uk-animation-transform-origin | [Class] The element scales in from a different direction |
+</p>
+</details>
 
-### Article
+<details><summary><h3 style='display: inline'>Article</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-article-basic | A basic article layout |
 | uk-article-sample | A complete sample article with placeholders |
+</p>
+</details>
 
-### Background
+<details><summary><h3 style='display: inline'>Background</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-background-color | [Class] Applies the selected background color |
@@ -233,21 +272,33 @@ List of Commands (HTML/PHP)
 | uk-background-fixed | [Class] Locks the image in place while scrolling |
 | uk-background-image-responsive | [Class] Shows the background image on widths of chosen size upwards |
 | uk-background-blend | [Class] Applies a chosen blend mode to the background image |
+</p>
+</details>
 
-### Badge
+<details><summary><h3 style='display: inline'>Badge</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-badge | [Class] Used to create a notification badge in an inline element |
 | uk-badge-span | Creates a simple notification badge span |
 | uk-badge-anchor | Creates a simple notification badge anchor |
+</p>
+</details>
 
-### Breadcrumb
+<details><summary><h3 style='display: inline'>Breadcrumb</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-breadcrumb | [Class] Used to create a breadcrumb list |
 | uk-breadcrumb-list | Creates a default breadcrumb list |
+</p>
+</details>
 
-### Button
+<details><summary><h3 style='display: inline'>Button</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-button-anchor | Creates an anchor with a button style |
@@ -257,8 +308,12 @@ List of Commands (HTML/PHP)
 | uk-button-dropdown | Creates a button that toggles a dropdown menu |
 | uk-button-group | Creates a group of buttons |
 | uk-button-group-dropdown | Creates a button group with a dropdown toggle on the right |
+</p>
+</details>
 
-### Card
+<details><summary><h3 style='display: inline'>Card</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-card-styled | Creates a card with a chosen style |
@@ -270,79 +325,123 @@ List of Commands (HTML/PHP)
 | uk-card-media | Displays an image inside a card without any spacing |
 | uk-card-horizontal | Creates a card with a horizontal layout (Ideal for media-left & media-right) |
 | uk-card-badge | Creates a card with a styled badge inside |
+</p>
+</details>
 
-### Close
+<details><summary><h3 style='display: inline'>Close</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-close | [Attribute] Used to create a close button |
 | uk-close-button | Creates a close button |
 | uk-close-button-large | Creates a larger close button |
+</p>
+</details>
 
-### Column
+<details><summary><h3 style='display: inline'>Column</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-column | [Class] Displays the inline content in multiple columns |
 | uk-column-responsive | [Class] Displays the inline content in multiple columns on specific width breakpoints |
 | uk-column-divider | [Class] Displays the inline content in multiple columns seperated by dividers |
 | uk-column-span | Creates a column with an inline element that spans each column |
+</p>
+</details>
 
-### Comment
+<details><summary><h3 style='display: inline'>Comment</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-comment-default | Creates a standard comment layout |
 | uk-comment-primary | Creates a highlighted comment with a standard layout |
-| uk-comment-list | Creates a nestable list of comments | 
+| uk-comment-list | Creates a nestable list of comments |
+</p> 
+</details>
 
-### Container
+<details><summary><h3 style='display: inline'>Container</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-container | [Class] Used to create a centered container |
 | uk-container-default | Creates a centered container |
 | uk-container-size | Creates a container with varying size | 
+</p>
+</details>
 
-### Countdown
+<details><summary><h3 style='display: inline'>Countdown</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-countdown | [Attribute] Used to create a countdown timer |
 | uk-countdown-sample | Creates a countdown timer. Date is in the format: YYYY-MM-DDThh:mm:ssTZD |
 | uk-countdown-separator | Creates a countdown timer with each number separated by a colon |
 | uk-countdown-label | Used to add a label to each number on the countdown timer |
+</p>
+</details>
 
-### Cover
+<details><summary><h3 style='display: inline'>Cover</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-cover-container | Creates an image that covers its parent element |
 | uk-cover-container-video | Creates a video that covers its parent element |
 | uk-cover-container-iframe | Creates an iframe that covers its parent element |
 | uk-cover-container-responsive | Creates an element that scales responsively with its parent |
+</p>
+</details>
 
-### Description List
+<details><summary><h3 style='display: inline'>Description</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-description-list | [Class] Used to create a description list |
 | uk-description-list-sample | Creates a sample list to display terms and descriptions below each other |
 | uk-description-list-divider | Creates a divided description list |
+</p>
+</details>
 
-### Disabled
+<details><summary><h3 style='display: inline'>Disabled</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-disabled | [Class] Disables an item within a list |
+</p>
+</details>
 
-### Divider
+<details><summary><h3 style='display: inline'>Divider</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-divider-icon | Creates a divider with a decoration |
 | uk-divider-small | Creates a smaller divider |
+</p>
+</details>
 
-### Dotnav
+<details><summary><h3 style='display: inline'>Dotnav</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-dotnav | Creates a navigation list with dots |
 | uk-dotnav-vertical | Creates a vertical navigation list with dots |
 | uk-dotnav-overlay | Creates a dotnav as an overlay for an element |
 | uk-dotnav-centered-viewport | Creates a dotnav centered vertically and aligned right |
+</p>
+</details>
 
-### Drop
+<details><summary><h3 style='display: inline'>Drop</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-drop | [Attribute] Used to create a drop component |
@@ -354,8 +453,12 @@ List of Commands (HTML/PHP)
 | uk-drop-boundary-aligned | Creates a drop aligned to its boundary |
 | uk-drop-offset | Creates a drop with an offset |
 | uk-drop-animated | Creates a drop with an offset |
+</p>
+</details>
 
-### Dropdown
+<details><summary><h3 style='display: inline'>Dropdown</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-dropdown | [Attribute] Used to create a dropdown in a block element such as a div |
@@ -368,8 +471,12 @@ List of Commands (HTML/PHP)
 | uk-dropdown-boundary-aligned | Aligns the dropdown to the parent's boundary |
 | uk-dropdown-offset | Defines a custom offset for the dropdown |
 | uk-dropdown-animated | Applies one or more animations to the dropdown |
+</p>
+</details>
 
-### Flex
+<details><summary><h3 style='display: inline'>Flex</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-flex | [Class] Used to apply a flexbox layout model to an element |
@@ -383,8 +490,12 @@ List of Commands (HTML/PHP)
 | uk-flex-item-order | [Class] Displays an item as the first or last one (Add to item) |
 | uk-flex-item-dimensions | [Class] Determines how much space a flex item should take up (Add to item) |
 | uk-flex-grid-example | Creates a sample flex with a grid inside |
+</p>
+</details>
 
-### Form
+<details><summary><h3 style='display: inline'>Form</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-form-sample | Creates a sample form with all elements as reference |
@@ -401,8 +512,12 @@ List of Commands (HTML/PHP)
 | uk-form-icon-click | Creates a form icon that can be clicked |
 | uk-form-grid-example | Creates a form defined by a grid layout |
 | uk-form-custom-control | Replaces a file input or select form with your own HTML content |
+</p>
+</details>
 
-### Grid
+<details><summary><h3 style='display: inline'>Grid</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-grid | [Attribute] Used to create a grid container inside a div |
@@ -415,13 +530,21 @@ List of Commands (HTML/PHP)
 | uk-grid-match-cell | [Class] Matches the height of a grid cell |
 | uk-grid-width | Manually determines the column widths |
 | uk-grid-flex | Combines a grid element with flex |
+</p>
+</details>
 
-### Grid Parallax
+<details><summary><h3 style='display: inline'>Grid Parallax</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-grid-parallax | [Attribute] Used to add a scrolling effect to columns within a grid |
+</p>
+</details>
 
-### Heading
+<details><summary><h3 style='display: inline'>Heading</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-heading-primary | [Class] Used to create an emphasized heading |
@@ -432,8 +555,12 @@ List of Commands (HTML/PHP)
 | uk-heading-bullet-sample | Creates a heading as part of a list |
 | uk-heading-line | [Class] Used to create a heading with a vertically centered line |
 | uk-heading-line-sample | Creates a heading with a vertically centered line |
+</p>
+</details>
 
-### Icon
+<details><summary><h3 style='display: inline'>Icon</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-icon-span | Creates an icon within a span. (List of Icons Here: https://getuikit.com/docs/icon) |
@@ -442,23 +569,35 @@ List of Commands (HTML/PHP)
 | uk-icon-link-modifier | Resets the default link styling to a more muted color when using an icon inside an anchor |
 | uk-icon-button-modifier | Creates an icon button |
 | uk-icon-image-modifier | Scales a background image to the size of an icon |
+</p>
+</details>
 
-### Iconnav
+<details><summary><h3 style='display: inline'>Iconnav</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-iconnav | [Class] Used to create a navigation consisting of icons |
 | uk-iconnav-horizontal | Creates a navigation consisting of icons |
 | uk-iconnav-vertical | Creates a vertical navigation consisting of icons |
+</p>
+</details>
 
-### Inverse
+<details><summary><h3 style='display: inline'>Inverse</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-light | [Class] Used to improve the visibility of objects on light backgrounds in a light style |
 | uk-inverse-light | Improves the visibility of objects on dark backgrounds in a light style |
 | uk-dark | [Class] Used to improve the visibility of objects on light backgrounds in a dark style |
 | uk-inverse-dark | Improves the visibility of objects on light backgrounds in a dark style |
+</p>
+</details>
 
-### Label
+<details><summary><h3 style='display: inline'>Label</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-label | [Class] Used to create a label in a span element |
@@ -466,8 +605,12 @@ List of Commands (HTML/PHP)
 | uk-label-success | Creates a label with a success style |
 | uk-label-warning | Creates a label with a warning style |
 | uk-label-danger | Creates a label with a danger style |
+</p>
+</details>
 
-### Lightbox
+<details><summary><h3 style='display: inline'>Lightbox</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-lightbox | [Attribute] Turns all the anchors inside a container into lightbox links |
@@ -475,16 +618,24 @@ List of Commands (HTML/PHP)
 | uk-lightbox-caption | Creates a lightbox container with a caption at the bottom |
 | uk-lightbox-animation | Creates a lightbox container with a modified transition animation |
 | uk-lightbox-alternate-content | Creates a lightbox container with multiple content types |
+</p>
+</details>
 
-### Link
+<details><summary><h3 style='display: inline'>Link</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-link-muted | Creates a link with a muted style |
 | uk-link-text | Creates a link with a body text style |
 | uk-link-heading | Creates a link with a heading style |
 | uk-link-reset | Creates a link that inherits its color from its parent |
+</p>
+</details>
 
-### List
+<details><summary><h3 style='display: inline'>List</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-list | [Class] Used to create a basic ordered or unordered list |
@@ -493,8 +644,12 @@ List of Commands (HTML/PHP)
 | uk-list-divider-modifier | Creates a divided list |
 | uk-list-striped-modifier | Creates a striped list |
 | uk-list-large-modifier | Creates a list with increased spacing between items. Can be combined with other list styles |
+</p>
+</details>
 
-### Margin
+<details><summary><h3 style='display: inline'>Margin</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-margin | [Class] Adds top margin, if it is preceded by another element, and always bottom margin |
@@ -506,13 +661,21 @@ List of Commands (HTML/PHP)
 | uk-margin-auto | [Class] Sets left and right margins to auto, centering block and flex elements |
 | uk-margin-auto-position | [Class] Sets the selected margin to auto, pushing block and flex elements to the opposite end |
 | uk-margin-dynamic-sample | Automatically adds spacing to stacking elements with the uk-margin attribute |
+</p>
+</details>
 
-### Marker
+<details><summary><h3 style='display: inline'>Marker</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-marker | [Attribute] Used to create a marker icon that can be displayed on top of images |
+</p>
+</details>
 
-### Modal
+<details><summary><h3 style='display: inline'>Modal</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-modal | [Attribute] Used to create a modal |
@@ -524,8 +687,12 @@ List of Commands (HTML/PHP)
 | uk-modal-caption | Creates a modal with a caption outside of it |
 | uk-modal-container-modifier | Creates a modal that expands to the default container width |
 | uk-modal-full-modifier | Creates a modal that fills the entire page |
+</p>
+</details>
 
-### Nav
+<details><summary><h3 style='display: inline'>Nav</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-nav | [Class] Used to create a nav with optional styling |
@@ -539,8 +706,12 @@ List of Commands (HTML/PHP)
 | uk-nav-center | Creates a centered nav |
 | uk-nav-dropdown | Creates a nav in a dropdown |
 | uk-nav-navbar | Creates a nav in a navbar |
+</p>
+</details>
 
-### Navbar
+<details><summary><h3 style='display: inline'>Navbar</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-navbar | [Attribute] Used to create a navigation bar |
@@ -558,8 +729,12 @@ List of Commands (HTML/PHP)
 | uk-navbar-dropdown-justify | Creates a navbar with dropdowns justified |
 | uk-navbar-dropbar | Creates a navbar with dropdowns justified |
 | uk-navbar-dropbar-push | Creates a navbar with a dropdown that pushes page content down to fit the space |
+</p>
+</details>
 
-### Notification
+<details><summary><h3 style='display: inline'>Notification</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-notification-example | Creates a notification example using javascript |
@@ -567,8 +742,12 @@ List of Commands (HTML/PHP)
 | uk-notification-position | Creates a notification with an adjusted position |
 | uk-notification-style | Creates a styled notification |
 | uk-notification-close-all | Closes all notifications |
+</p>
+</details>
 
-### Offcanvas
+<details><summary><h3 style='display: inline'>Offcanvas</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-offcanvas | [Attribute] Used to create an off-canvas |
@@ -577,8 +756,12 @@ List of Commands (HTML/PHP)
 | uk-offcanvas-flip-modifier | Creates an off-canvas that slides in from the right |
 | uk-offcanvas-animation-mode | Creates an off-canvas with a modified animation mode for its entrance |
 | uk-offcanvas-nav | Creates an off-canvas containing a nav component |
+</p>
+</details>
 
-### Overlay
+<details><summary><h3 style='display: inline'>Overlay</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-overlay | [Class] Used to create a basic image overlay |
@@ -586,24 +769,36 @@ List of Commands (HTML/PHP)
 | uk-overlay-style-default | Creates an image overlay with a default style |
 | uk-overlay-style-primary | Creates an image overlay with a primary style |
 | uk-overlay-icon | Creates an image overlay icon |
+</p>
+</details>
 
-### Padding
+<details><summary><h3 style='display: inline'>Padding</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-padding | [Class] Adds default padding to the element |
 | uk-padding-size | [Class] Adds a smaller or larger padding to the element |
 | uk-padding-remove | [Class] Removes all padding from an element |
 | uk-padding-remove-position | [Class] Removes padding from the chosen side(s) of an element |
+</p>
+</details>
 
-### Pagination
+<details><summary><h3 style='display: inline'>Pagination</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-pagination | [Class] Used to create a simple pagination for navigation through pages |
 | uk-pagination-basic | Creates a simple pagination for navigation through pages |
 | uk-pagination-alignment | Creates a simple pagination aligned with flex |
 | uk-pagination-previous-next | Creates a previous and next button inside of a pagination |
+</p>
+</details>
 
-### Parallax
+<details><summary><h3 style='display: inline'>Parallax</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-parallax | [Attribute] Used to animate CSS properties depending on the scroll position of the document |
@@ -616,14 +811,22 @@ List of Commands (HTML/PHP)
 | uk-parallax-easing-sample | Creates a parallax element with a modifiable easing value |
 | uk-parallax-color-sample | Creates a parallax element with a color transition |
 | uk-parallax-filter-sample | Creates a parallax element with css filters |
+</p>
+</details>
 
-### Placeholder
+<details><summary><h3 style='display: inline'>Placeholder</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-placeholder | [Class] Used to create a placeholder space |
 | uk-placeholder-sample | Creates a placeholder space |
+</p>
+</details>
 
-### Position
+<details><summary><h3 style='display: inline'>Position</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-position | [Class] Positions the element at the chosen location |
@@ -636,27 +839,43 @@ List of Commands (HTML/PHP)
 | uk-position-absolute | [Class] Positions the element at an absolute position |
 | uk-position-fixed | [Class] Positions the element at a fixed position |
 | uk-position-z-index | [Class] Positions the element at a z-index position of 1 |
+</p>
+</details>
 
-### Progress
+<details><summary><h3 style='display: inline'>Progress</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-progress | [Class] Used to create a progress bar |
 | uk-progress-sample | Creates a progress bar |
+</p>
+</details>
 
-### Scroll
+<details><summary><h3 style='display: inline'>Scroll</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-scroll | [Attribute] Used to create a link that smooth scrolls to the targeted element with a matching id |
 | uk-scroll-anchor | Creates a link that smooth scrolls to the targetted element with matching id |
+</p>
+</details>
 
-### Scrollspy
+<details><summary><h3 style='display: inline'>Scrollspy</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-scrollspy | [Attribute] Used to add a scrollspy to an element |
 | uk-scrollspy-sample | Adds the scrollspy attribute to an element and animates it when in view |
 | uk-scrollspy-group | Adds the scrollspy attribute to an element and animates it when in view |
+</p>
+</details>
 
-### Search
+<details><summary><h3 style='display: inline'>Search</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-search | [Class] Used to create a search bar |
@@ -668,8 +887,12 @@ List of Commands (HTML/PHP)
 | uk-search-navbar | Creates a search bar that can be used within a navbar |
 | uk-search-toggle | Creates a toggle using a search icon |
 | uk-search-navbar-toggle | Creates a search icon toggle inside of a navbar |
+</p>
+</details>
 
-### Section
+<details><summary><h3 style='display: inline'>Section</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-section | [Class] Used to create a section with optional styling |
@@ -680,16 +903,24 @@ List of Commands (HTML/PHP)
 | uk-section-preserve-color | Creates a section that preserves the font colours of child elements |
 | uk-section-size-modifier | Creates a section with modified padding applied |
 | uk-section-overlap-modifier | Creates a section that applies a border image and a negative offset |
+</p>
+</details>
 
-### Slidenav
+<details><summary><h3 style='display: inline'>Slidenav</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-slidenav | Creates a previous and next button for flipping through slideshows |
 | uk-slidenav-large | Creates a larger slidenav |
 | uk-slidenav-position-overlay | Creates a slidenav positioned on top of an element |
 | uk-slidenav-container | Displays a cojoint slidenav |
+</p>
+</details>
 
-### Slider
+<details><summary><h3 style='display: inline'>Slider</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-slider | [Attribute] Used to create a responsive carousel |
@@ -707,8 +938,12 @@ List of Commands (HTML/PHP)
 | uk-slider-content-parallax | Creates a carousel slider with a parallax effect on the content |
 | uk-slider-content-transitions | Creates a carousel slider with transition effects added |
 | uk-slider-content-transitions-hover | Creates a carousel slider with transition effects on mouse hover |
+</p>
+</details>
 
-### Slideshow
+<details><summary><h3 style='display: inline'>Slideshow</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-slideshow | [Attribute] Used to create a responsive slideshow with images and videos |
@@ -718,8 +953,12 @@ List of Commands (HTML/PHP)
 | uk-slideshow-infinite-scrolling | Creates a responsive slideshow with endless scrolling enabled (default) or disabled |
 | uk-slideshow-ratio | Creates a responsive slideshow with a modified ratio |
 | uk-slideshow-min-max-height | Creates a responsive slideshow with a minimum and/or maximum height |
+</p>
+</details>
 
-### Sortable
+<details><summary><h3 style='display: inline'>Sortable</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-sortable | [Attribute] Used to create a sortable, re-arrangable grid of elements |
@@ -727,14 +966,22 @@ List of Commands (HTML/PHP)
 | uk-sortable-handle | Creates a sortable list using a special handle button instead of the entire element |
 | uk-sortable-group | Creates a sortable group that can interchange elements |
 | uk-sortable-custom-class | Creates sortable that can apply multiple classes to items while being dragged |
+</p>
+</details>
 
-### Spinner
+<details><summary><h3 style='display: inline'>Spinner</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-spinner | [Attribute] Used to create an animated loading spinner |
 | uk-spinner-sample | Creates an animated loading spinner |
+</p>
+</details>
 
-### Sticky
+<details><summary><h3 style='display: inline'>Sticky</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-sticky | [Attribute] Used to create an element that remains at the top of the viewport while scrolling down |
@@ -745,8 +992,12 @@ List of Commands (HTML/PHP)
 | uk-sticky-scroll-up | Creates a sticky element that shows only when scrolling up |
 | uk-sticky-bottom | Creates a sticky element that is bound to a specific element |
 | uk-sticky-responsive | Creates a sticky element that is only enabled on specified device widths and above |
+</p>
+</details>
 
-### Subnav
+<details><summary><h3 style='display: inline'>Subnav</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-subnav | [Class] Used to create a basic sub-navigation |
@@ -754,8 +1005,12 @@ List of Commands (HTML/PHP)
 | uk-subnav-divider | Creates a sub-navigation seperated with lines |
 | uk-subnav-pill | Creates a sub-navigation that highlights the active item with a background |
 | uk-subnav-dropdown | Creates a sub-navigation that contains a dropdown |
+</p>
+</details>
 
-### Switcher
+<details><summary><h3 style='display: inline'>Switcher</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-switcher | [Attribute] Used to create a switcher component |
@@ -769,8 +1024,12 @@ List of Commands (HTML/PHP)
 | uk-switcher-tab-vertical | Creates a switcher combined with a vertical tab |
 | uk-switcher-button | Creates a switcher combined with a vertical tab |
 | uk-switcher-nav | Creates a switcher combined with a vertical tab |
+</p>
+</details>
 
-### Tab
+<details><summary><h3 style='display: inline'>Tab</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-tab | [Attribute] Used to create a basic tabbed navigation |
@@ -779,8 +1038,12 @@ List of Commands (HTML/PHP)
 | uk-tab-vertical | Creates a tab with items aligned left or right |
 | uk-tab-alignment | Creates a tab with items aligned left or right |
 | uk-tab-dropdown | Creates a tab with a dropdown |
+</p>
+</details>
 
-### Table
+<details><summary><h3 style='display: inline'>Table</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-table | [Class] Used to create a table |
@@ -793,8 +1056,12 @@ List of Commands (HTML/PHP)
 | uk-table-middle | Creates a table with center aligned elements |
 | uk-table-responsive | Creates a table that provides a horizontal scrollbar on smaller device screens when needed |
 | uk-table-column-width | Modifies the width of a table column |
+</p>
+</details>
 
-### Text
+<details><summary><h3 style='display: inline'>Text</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-text-lead | [Class] Highlights text for subheadings and article subtitles |
@@ -807,16 +1074,24 @@ List of Commands (HTML/PHP)
 | uk-text-alignment-responsive | [Class] Aligns text to a chosen position on specific screen widths |
 | uk-text-vertical-alignment | [Class] Aligns text vertically |
 | uk-text-wrapping | [Class] Wraps text according to your choice |
+</p>
+</details>
 
-### Thumbnav
+<details><summary><h3 style='display: inline'>Thumbnav</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-thumbnav | [Class] Used to create a thumbnail navigation |
 | uk-thumbnav-sample | Creates a flexible thumbnail navigation |
 | uk-thumbnav-vertical | Creates a vertical thumbnav |
 | uk-thumbnav-overlay | Creates a thumbnav as an overlay for an element |
+</p>
+</details>
 
-### Tile
+<details><summary><h3 style='display: inline'>Tile</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-tile | [Class] Used to create a tile with optional styling |
@@ -826,8 +1101,12 @@ List of Commands (HTML/PHP)
 | uk-tile-primary | Creates a tile with a primary style |
 | uk-tile-secondary | Creates a tile with a secondary style |
 | uk-tile-padding | Creates a tile with modified padding from the padding component |
+</p>
+</details>
 
-### Toggle
+<details><summary><h3 style='display: inline'>Toggle</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-toggle | [Attribute] Used to create a toggle that shows/hides an element |
@@ -839,38 +1118,58 @@ List of Commands (HTML/PHP)
 | uk-toggle-queued-animation | Creates a toggle with queued animations |
 | uk-toggle-modes | Changes the trigger mode for the toggle |
 | uk-toggle-media | Toggles an element based on the screen width |
+</p>
+</details>
 
-### Tooltip
+<details><summary><h3 style='display: inline'>Tooltip</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-tooltip | [Attribute] Used to create an element with a tooltip |
 | uk-tooltip-sample | Creates an element with a tooltip |
 | uk-tooltip-alignment | Creates a tooltip with a modified alignment |
 | uk-tooltip-delay | Creates a tooltip with a specified delay in milliseconds |
+</p>
+</details>
 
-### Totop
+<details><summary><h3 style='display: inline'>Totop</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-totop | [Attribute] Used to create an icon used for scrolling to the top of the page |
 | uk-totop-sample | Creates an icon used for scrolling to the top of the page |
 | uk-totop-smooth | Creates a totop component with smooth scrolling |
+</p>
+</details>
 
-### Transition
+<details><summary><h3 style='display: inline'>Transition</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-transition-fade | Creates a smooth transition between two states when hovering an element |
 | uk-transition-scale | Creates a smooth transition between two states when hovering an element |
 | uk-transition-slide | Creates a smooth transition between two states when hovering an element |
 | uk-transition-slide-size | Creates a smooth transition between two states when hovering an element |
+</p>
+</details>
 
-### Upload
+<details><summary><h3 style='display: inline'>Upload</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-upload-select | Creates a button which opens a file select window |
 | uk-upload-drop-area | Creates an area for files to be dropped and uploaded |
 | uk-upload-script | Creates the upload script |
+</p>
+</details>
 
-### Utility
+<details><summary><h3 style='display: inline'>Utility</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-utility-panel | Creates a panel used to outline a section of content |
@@ -905,8 +1204,12 @@ List of Commands (HTML/PHP)
 | uk-utility-disabled | [Class] Disables the click behaviour of any element |
 | uk-utility-drag | [Class] Applies a move cursor to an element |
 | uk-utility-dragover | [Class] Creates a box shadow used for upload areas when dragging a file over it |
+</p>
+</details>
 
-### Visibility
+<details><summary><h3 style='display: inline'>Visibility</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-hidden | [Attribute] Used for hiding an element |
@@ -918,8 +1221,12 @@ List of Commands (HTML/PHP)
 | uk-invisible-hover | Hides the content (without removing it from the document flow) until the parent container is hovered |
 | uk-hidden-touch | Hides the content on touch devices |
 | uk-hidden-notouch | Hides the content on devices without a touch screen |
+</p>
+</details>
 
-### Width
+<details><summary><h3 style='display: inline'>Width</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-width | [Class] Modifies the width of an element to take up a portion of its parent container, or the entire width. Usually used with 'uk-grid'. |
@@ -928,71 +1235,115 @@ List of Commands (HTML/PHP)
 | uk-width-expand | [Class] The item expands to fill up the remaining space of the grid container. Usually used with 'uk-grid'. |
 | uk-child-width | [Class] Evenly divides the width of all child elements in a 'uk-grid' |
 | uk-child-width-responsive | [Class] Evenly divides the width of all child elements in a 'uk-grid' on specified device widths and higher. Columns stack on smaller sizes. |
-| uk-fixed-width | [Class] Applies a fixed width to an element of 150/300/450/600/750 px respectively. | 
+| uk-fixed-width | [Class] Applies a fixed width to an element of 150/300/450/600/750 px respectively. |
+</p> 
+</details>
 
 List of Commands (Javascript)
 ---
 
-### Accordion JS
+<details><summary><h3 style='display: inline'>Accordion JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-accordion | Initializes an accordion element with various options |
 | uk-accordion-events | Triggers a function when a specified accordion event is triggered |
 | uk-accordion-methods | Showcases the methods available to the accordion component |
+</p>
+</details>
 
-### Alert JS
+<details><summary><h3 style='display: inline'>Alert JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-alert | Initializes an alert element with various options |
 | uk-alert-events | Triggers a function when a specified alert event is triggered |
 | uk-alert-methods | Showcases the methods available to the alert component |
+</p>
+</details>
 
-### Countdown JS
+<details><summary><h3 style='display: inline'>Countdown JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-countdown | Initializes a countdown element with various options |
 | uk-countdown-methods | Showcases the methods available to the countdown component |
+</p>
+</details>
 
-### Cover JS
+<details><summary><h3 style='display: inline'>Cover JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-cover | Initializes a cover element with various options |
+</p>
+</details>
 
-### Drop JS
+<details><summary><h3 style='display: inline'>Drop JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-drop | Initializes a drop element with various options |
 | uk-drop-events | Triggers a function when a specified drop event is triggered |
 | uk-drop-methods | Showcases the methods available to the drop component |
+</p>
+</details>
 
-### Dropdown JS
+<details><summary><h3 style='display: inline'>Dropdown JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-dropdown | Initializes a dropdown element with various options |
 | uk-dropdown-events | Triggers a function when a specified dropdown event is triggered |
 | uk-dropdown-methods | Showcases the methods available to the dropdown component |
+</p>
+</details>
 
-### Form JS
+<details><summary><h3 style='display: inline'>Form JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-form | Initializes a form element with various options |
+</p>
+</details>
 
-### Grid JS
+<details><summary><h3 style='display: inline'>Grid JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-grid | Initializes a grid element with various options |
+</p>
+</details>
 
-### Grid Parallax JS
+<details><summary><h3 style='display: inline'>Grid Parallax JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-grid-parallax | Initializes a grid parallax element with various options |
+</p>
+</details>
 
-### Icon JS
+<details><summary><h3 style='display: inline'>Icon JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-icon | Initializes an icon element with various options |
+</p>
+</details>
 
-### Lightbox JS
+<details><summary><h3 style='display: inline'>Lightbox JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-lightbox | Initializes a lightbox element with various options |
@@ -1000,13 +1351,21 @@ List of Commands (Javascript)
 | uk-lightbox-methods | Showcases the methods available to the lightbox component |
 | uk-lightbox-panel | Initializes a lightbox panel element with various options |
 | uk-lightbox-panel-methods | Showcases the methods available to the lightbox panel component |
+</p>
+</details>
 
-### Margin JS
+<details><summary><h3 style='display: inline'>Margin JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-margin | Initializes a margin element with various options |
+</p>
+</details>
 
-### Modal JS
+<details><summary><h3 style='display: inline'>Modal JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-modal | Initializes a modal element with various options |
@@ -1017,108 +1376,174 @@ List of Commands (Javascript)
 | uk-modal-prompt | Creates a dialog asking for a text input |
 | uk-modal-dialog | Creates a dialog with any HTML content |
 | uk-modal-dialog-sample | Creates a sample dialog which processes user input |
+</p>
+</details>
 
-### Nav JS
+<details><summary><h3 style='display: inline'>Nav JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-nav | Initializes a nav element with various options |
 | uk-nav-methods | Showcases the methods available to the nav component |
+</p>
+</details>
 
-### Navbar JS
+<details><summary><h3 style='display: inline'>Navbar JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-navbar | Initializes a navbar element with various options |
 | uk-navbar-events | Triggers a function when a specified navbar event is triggered |
+</p>
+</details>
 
-### Notification JS
+<details><summary><h3 style='display: inline'>Notification JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-notification | Creates a notification with various options |
 | uk-notification-events | Triggers a function when a specified notification event is triggered |
 | uk-notification-methods | Showcases the methods available to the notification component |
+</p>
+</details>
 
-### Offcanvas JS
+<details><summary><h3 style='display: inline'>Offcanvas JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-offcanvas | Initializes a offcanvas element with various options |
 | uk-offcanvas-events | Triggers a function when a specified offcanvas event is triggered |
 | uk-offcanvas-methods | Showcases the methods available to the offcanvas component |
+</p>
+</details>
 
-### Parallax JS
+<details><summary><h3 style='display: inline'>Parallax JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-parallax | Initializes a parallax element with various options |
+</p>
+</details>
 
-### Scroll JS
+<details><summary><h3 style='display: inline'>Scroll JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-scroll | Initializes a scroll element with various options |
+</p>
+</details>
 
-### Scrollspy JS
+<details><summary><h3 style='display: inline'>Scrollspy JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-scrollspy | Initializes a scrollspy with various options |
 | uk-scrollspy-events | Triggers a function when a specified scrollspy event is triggered |
 | uk-scrollspy-nav | Initializes a scrollspy nav with various options |
 | uk-scrollspy-nav-events | Triggers a function when a specified scrollspy nav event is triggered |
+</p>
+</details>
 
-### Slider JS
+<details><summary><h3 style='display: inline'>Slider JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-slider | Initializes a slider with various options |
 | uk-slider-events | Triggers a function when a specified slider event is triggered |
 | uk-slider-methods | Showcases the methods available to the slider component |
+</p>
+</details>
 
-### Slideshow JS
+<details><summary><h3 style='display: inline'>Slideshow JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-slideshow | Initializes a slideshow with various options |
 | uk-slideshow-events | Triggers a function when a specified slideshow event is triggered |
 | uk-slideshow-methods | Showcases the methods available to the slideshow component |
+</p>
+</details>
 
-### Sortable JS
+<details><summary><h3 style='display: inline'>Sortable JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-sortable | Initializes a sortable with various options |
 | uk-sortable-events | Triggers a function when a specified sortable event is triggered |
+</p>
+</details>
 
-### Sticky JS
+<details><summary><h3 style='display: inline'>Sticky JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-sticky | Initializes a sticky with various options |
 | uk-sticky-events | Triggers a function when a specified sticky event is triggered |
+</p>
+</details>
 
-### Switcher JS
+<details><summary><h3 style='display: inline'>Switcher JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-switcher | Initializes a switcher with various options |
 | uk-switcher-events | Triggers a function when a specified switcher event is triggered |
 | uk-switcher-methods | Showcases the methods available to the switcher component |
+</p>
+</details>
 
-### Tab JS
+<details><summary><h3 style='display: inline'>Tab JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-tab | Initializes a tab with various options |
 | uk-tab-events | Triggers a function when a specified tab event is triggered |
 | uk-tab-methods | Showcases the methods available to the tab component |
+</p>
+</details>
 
-### Toggle JS
+<details><summary><h3 style='display: inline'>Toggle JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-toggle | Initializes a toggle with various options |
 | uk-toggle-events | Triggers a function when a specified toggle event is triggered |
 | uk-toggle-methods | Showcases the methods available to the toggle component |
+</p>
+</details>
 
-### Tooltip JS
+<details><summary><h3 style='display: inline'>Tooltip JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-tooltip | Initializes a tooltip with various options |
 | uk-tooltip-events | Triggers a function when a specified tooltip event is triggered |
 | uk-tooltip-methods | Showcases the methods available to the tooltip component |
+</p>
+</details>
 
-### Upload JS
+<details><summary><h3 style='display: inline'>Upload JS</h3></summary>
+<p>
+
 | Trigger | Description |
 | :-------: | :-----------: |
 | uk-upload | Initializes a upload with various options |
 | uk-upload-events | Triggers a function when a specified upload event is triggered |
 | uk-upload-sample | Creates a sample upload script based on official docs |
+</p>
+</details>
