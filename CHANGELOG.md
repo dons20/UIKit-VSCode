@@ -1,9 +1,11 @@
-# Version 1.2.2 (TBA)
+# Version 1.2.3 (TBA)
 * Updated to UIkit 3.0.0 RC 11
-* Updated formatting of the README to have collapsible sections by default! Now it will be easier to get through the complete list of snippets and the table of contents as needed.
+* Updated formatting of the README to have collapsible sections by default! 
+  * Now it will be easier to get through the complete list of snippets and the table of contents as needed.
+* Added missing links to documentation in README
 * Added snippet choices to clear up redundant ones (e.g. `uk-$-css-import`)
 
-# Version 1.2.1 (April 20, 2018)
+# Version 1.2.2 (April 20, 2018)
 * Updated to UIkit 3.0.0 beta 42
 * Updated and cleaned up many snippets
 * Added slider component snippets (`uk-slider` and more)
