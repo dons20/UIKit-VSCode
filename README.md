@@ -185,9 +185,9 @@ Disclaimer
 List of Commands (HTML/PHP)
 ---
 
-## Click each heading to see detailed snippets
+**Click each heading to see detailed snippets**
 
-<details><summary><h3 style='display: inline'>UIKit Master Template</h3></summary>
+<details><summary><h3>UIKit Master Template</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -198,7 +198,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Accordion</h3></summary>
+<details><summary><h3>Accordion</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -211,7 +211,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Alert</h3></summary>
+<details><summary><h3>Alert</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -223,7 +223,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Alignment</h3></summary>
+<details><summary><h3>Alignment</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -233,7 +233,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Animation</h3></summary>
+<details><summary><h3>Animation</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -250,7 +250,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Article</h3></summary>
+<details><summary><h3>Article</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -260,7 +260,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Background</h3></summary>
+<details><summary><h3>Background</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -275,7 +275,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Badge</h3></summary>
+<details><summary><h3>Badge</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -286,7 +286,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Breadcrumb</h3></summary>
+<details><summary><h3>Breadcrumb</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -296,7 +296,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Button</h3></summary>
+<details><summary><h3>Button</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -311,7 +311,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Card</h3></summary>
+<details><summary><h3>Card</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -328,7 +328,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Close</h3></summary>
+<details><summary><h3>Close</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -339,7 +339,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Column</h3></summary>
+<details><summary><h3>Column</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -351,7 +351,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Comment</h3></summary>
+<details><summary><h3>Comment</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -362,7 +362,7 @@ List of Commands (HTML/PHP)
 </p> 
 </details>
 
-<details><summary><h3 style='display: inline'>Container</h3></summary>
+<details><summary><h3>Container</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -373,7 +373,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Countdown</h3></summary>
+<details><summary><h3>Countdown</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -385,7 +385,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Cover</h3></summary>
+<details><summary><h3>Cover</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -397,7 +397,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Description</h3></summary>
+<details><summary><h3>Description</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -408,7 +408,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Disabled</h3></summary>
+<details><summary><h3>Disabled</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -417,7 +417,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Divider</h3></summary>
+<details><summary><h3>Divider</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -427,7 +427,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Dotnav</h3></summary>
+<details><summary><h3>Dotnav</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -439,7 +439,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Drop</h3></summary>
+<details><summary><h3>Drop</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -456,7 +456,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Dropdown</h3></summary>
+<details><summary><h3>Dropdown</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -474,7 +474,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Flex</h3></summary>
+<details><summary><h3>Flex</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -493,7 +493,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Form</h3></summary>
+<details><summary><h3>Form</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -515,7 +515,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Grid</h3></summary>
+<details><summary><h3>Grid</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -533,7 +533,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Grid Parallax</h3></summary>
+<details><summary><h3>Grid Parallax</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -542,7 +542,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Heading</h3></summary>
+<details><summary><h3>Heading</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -558,7 +558,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Icon</h3></summary>
+<details><summary><h3>Icon</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -572,7 +572,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Iconnav</h3></summary>
+<details><summary><h3>Iconnav</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -583,7 +583,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Inverse</h3></summary>
+<details><summary><h3>Inverse</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -595,7 +595,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Label</h3></summary>
+<details><summary><h3>Label</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -608,7 +608,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Lightbox</h3></summary>
+<details><summary><h3>Lightbox</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -621,7 +621,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Link</h3></summary>
+<details><summary><h3>Link</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -633,7 +633,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>List</h3></summary>
+<details><summary><h3>List</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -647,7 +647,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Margin</h3></summary>
+<details><summary><h3>Margin</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -664,7 +664,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Marker</h3></summary>
+<details><summary><h3>Marker</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -673,7 +673,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Modal</h3></summary>
+<details><summary><h3>Modal</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -690,7 +690,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Nav</h3></summary>
+<details><summary><h3>Nav</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -709,7 +709,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Navbar</h3></summary>
+<details><summary><h3>Navbar</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -732,7 +732,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Notification</h3></summary>
+<details><summary><h3>Notification</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -745,7 +745,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Offcanvas</h3></summary>
+<details><summary><h3>Offcanvas</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -759,7 +759,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Overlay</h3></summary>
+<details><summary><h3>Overlay</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -772,7 +772,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Padding</h3></summary>
+<details><summary><h3>Padding</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -784,7 +784,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Pagination</h3></summary>
+<details><summary><h3>Pagination</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -796,7 +796,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Parallax</h3></summary>
+<details><summary><h3>Parallax</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -814,7 +814,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Placeholder</h3></summary>
+<details><summary><h3>Placeholder</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -824,7 +824,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Position</h3></summary>
+<details><summary><h3>Position</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -842,7 +842,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Progress</h3></summary>
+<details><summary><h3>Progress</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -852,7 +852,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Scroll</h3></summary>
+<details><summary><h3>Scroll</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -862,7 +862,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Scrollspy</h3></summary>
+<details><summary><h3>Scrollspy</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -873,7 +873,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Search</h3></summary>
+<details><summary><h3>Search</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -890,7 +890,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Section</h3></summary>
+<details><summary><h3>Section</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -906,7 +906,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Slidenav</h3></summary>
+<details><summary><h3>Slidenav</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -918,7 +918,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Slider</h3></summary>
+<details><summary><h3>Slider</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -941,7 +941,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Slideshow</h3></summary>
+<details><summary><h3>Slideshow</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -956,7 +956,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Sortable</h3></summary>
+<details><summary><h3>Sortable</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -969,7 +969,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Spinner</h3></summary>
+<details><summary><h3>Spinner</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -979,7 +979,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Sticky</h3></summary>
+<details><summary><h3>Sticky</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -995,7 +995,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Subnav</h3></summary>
+<details><summary><h3>Subnav</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1008,7 +1008,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Switcher</h3></summary>
+<details><summary><h3>Switcher</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1027,7 +1027,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Tab</h3></summary>
+<details><summary><h3>Tab</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1041,7 +1041,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Table</h3></summary>
+<details><summary><h3>Table</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1059,7 +1059,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Text</h3></summary>
+<details><summary><h3>Text</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1077,7 +1077,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Thumbnav</h3></summary>
+<details><summary><h3>Thumbnav</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1089,7 +1089,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Tile</h3></summary>
+<details><summary><h3>Tile</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1104,7 +1104,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Toggle</h3></summary>
+<details><summary><h3>Toggle</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1121,7 +1121,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Tooltip</h3></summary>
+<details><summary><h3>Tooltip</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1133,7 +1133,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Totop</h3></summary>
+<details><summary><h3>Totop</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1144,7 +1144,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Transition</h3></summary>
+<details><summary><h3>Transition</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1156,7 +1156,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Upload</h3></summary>
+<details><summary><h3>Upload</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1167,7 +1167,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Utility</h3></summary>
+<details><summary><h3>Utility</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1207,7 +1207,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Visibility</h3></summary>
+<details><summary><h3>Visibility</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1224,7 +1224,7 @@ List of Commands (HTML/PHP)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Width</h3></summary>
+<details><summary><h3>Width</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1242,7 +1242,7 @@ List of Commands (HTML/PHP)
 List of Commands (Javascript)
 ---
 
-<details><summary><h3 style='display: inline'>Accordion JS</h3></summary>
+<details><summary><h3>Accordion JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1253,7 +1253,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Alert JS</h3></summary>
+<details><summary><h3>Alert JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1264,7 +1264,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Countdown JS</h3></summary>
+<details><summary><h3>Countdown JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1274,7 +1274,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Cover JS</h3></summary>
+<details><summary><h3>Cover JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1283,7 +1283,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Drop JS</h3></summary>
+<details><summary><h3>Drop JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1294,7 +1294,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Dropdown JS</h3></summary>
+<details><summary><h3>Dropdown JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1305,7 +1305,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Form JS</h3></summary>
+<details><summary><h3>Form JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1314,7 +1314,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Grid JS</h3></summary>
+<details><summary><h3>Grid JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1323,7 +1323,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Grid Parallax JS</h3></summary>
+<details><summary><h3>Grid Parallax JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1332,7 +1332,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Icon JS</h3></summary>
+<details><summary><h3>Icon JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1341,7 +1341,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Lightbox JS</h3></summary>
+<details><summary><h3>Lightbox JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1354,7 +1354,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Margin JS</h3></summary>
+<details><summary><h3>Margin JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1363,7 +1363,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Modal JS</h3></summary>
+<details><summary><h3>Modal JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1379,7 +1379,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Nav JS</h3></summary>
+<details><summary><h3>Nav JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1389,7 +1389,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Navbar JS</h3></summary>
+<details><summary><h3>Navbar JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1399,7 +1399,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Notification JS</h3></summary>
+<details><summary><h3>Notification JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1410,7 +1410,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Offcanvas JS</h3></summary>
+<details><summary><h3>Offcanvas JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1421,7 +1421,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Parallax JS</h3></summary>
+<details><summary><h3>Parallax JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1430,7 +1430,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Scroll JS</h3></summary>
+<details><summary><h3>Scroll JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1439,7 +1439,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Scrollspy JS</h3></summary>
+<details><summary><h3>Scrollspy JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1451,7 +1451,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Slider JS</h3></summary>
+<details><summary><h3>Slider JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1462,7 +1462,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Slideshow JS</h3></summary>
+<details><summary><h3>Slideshow JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1473,7 +1473,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Sortable JS</h3></summary>
+<details><summary><h3>Sortable JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1483,7 +1483,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Sticky JS</h3></summary>
+<details><summary><h3>Sticky JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1493,7 +1493,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Switcher JS</h3></summary>
+<details><summary><h3>Switcher JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1504,7 +1504,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Tab JS</h3></summary>
+<details><summary><h3>Tab JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1515,7 +1515,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Toggle JS</h3></summary>
+<details><summary><h3>Toggle JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1526,7 +1526,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Tooltip JS</h3></summary>
+<details><summary><h3>Tooltip JS</h3></summary>
 <p>
 
 | Trigger | Description |
@@ -1537,7 +1537,7 @@ List of Commands (Javascript)
 </p>
 </details>
 
-<details><summary><h3 style='display: inline'>Upload JS</h3></summary>
+<details><summary><h3>Upload JS</h3></summary>
 <p>
 
 | Trigger | Description |
