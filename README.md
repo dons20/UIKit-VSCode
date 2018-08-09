@@ -177,7 +177,7 @@ Thank You!
 
 To use the snippets, open a HTML file, and start typing `uk-` (optionally followed by `Ctrl+Space` depending on user settings). A list of UIKit snippets will show up.
 Each snippet has a short and simple description to aid with understanding its use.
-For more details and eve better examples and possible options, [head to the UIKit Documentation](https://getuikit.com/docs/introduction)
+For more details and even better examples and possible options, [head to the UIKit Documentation](https://getuikit.com/docs/introduction)
 
 A detailed list of supported commands are listed below in the [**List of Commands**](#list-of-commands-htmlphp) section.
 
