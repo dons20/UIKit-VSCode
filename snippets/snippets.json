@@ -606,7 +606,7 @@
     "snippet-uk-container-size": {
         "prefix": "uk-container-size",
         "body": [
-            "<div class=\"uk-container uk-container-${1|small,large,expand|}\">",
+            "<div class=\"uk-container uk-container-${1|xsmall,small,large,expand|}\">",
             "\t$0",
             "</div>"
         ],

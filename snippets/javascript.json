@@ -13,7 +13,7 @@
             "animation: [String]",
             "duration: [Number] */"
         ],
-        "description": "Initializes an accordion element with various options"
+        "description": "Initializes an accordion component with various options"
     },
     "snippet-uk-accordion-events": {
         "prefix": "uk-accordion-events",
@@ -65,7 +65,7 @@
             "-----------------------",
             "date: [String] */"
         ],
-        "description": "Initializes an alert element with various options"
+        "description": "Initializes a countdown component with various options"
     },
     "snippet-uk-countdown-methods": {
         "prefix": "uk-countdown-methods",
@@ -87,7 +87,7 @@
             "width: [Number]",
             "height: [Number] */"
         ],
-        "description": "Initializes a cover element with various options"
+        "description": "Initializes a cover component with various options"
     },
     "snippet-uk-drop": {
         "prefix": "uk-drop",
@@ -107,7 +107,7 @@
             "animation: [String]",
             "duration: [Number] */"
         ],
-        "description": "Initializes a drop element with various options"
+        "description": "Initializes a drop component with various options"
     },
     "snippet-uk-drop-events": {
         "prefix": "uk-drop-events",
@@ -144,7 +144,7 @@
             "animation: [String]",
             "duration: [Number] */"
         ],
-        "description": "Initializes a dropdown element with various options"
+        "description": "Initializes a dropdown component with various options"
     },
     "snippet-uk-dropdown-events": {
         "prefix": "uk-dropdown-events",
@@ -172,7 +172,7 @@
             "target: [String]",
             "selActive: [String|Boolean] */"
         ],
-        "description": "Initializes a filter element with various options"
+        "description": "Initializes a filter component with various options"
     },
     "snippet-uk-filter-events": {
         "prefix": "uk-filter-events",
@@ -189,7 +189,7 @@
             "-----------------------",
             "target: [CSS Selector|Boolean] */"
         ],
-        "description": "Initializes a form element with various options"
+        "description": "Initializes a form component with various options"
     },
     "snippet-uk-grid": {
         "prefix": "uk-grid",
@@ -202,7 +202,7 @@
             "masonry: [Boolean]",
             "parallax: [Number] */"
         ],
-        "description": "Initializes a grid element with various options"
+        "description": "Initializes a grid component with various options"
     },
     "snippet-uk-grid-parallax": {
         "prefix": "uk-grid-parallax",
@@ -213,7 +213,7 @@
             "target: [String]",
             "translate: [Number] */"
         ],
-        "description": "Initializes a grid parallax element with various options"
+        "description": "Initializes a grid parallax component with various options"
     },
     "snippet-uk-height-match": {
         "prefix": "uk-height-match",
@@ -224,7 +224,7 @@
             "target: [CSS Selector]",
             "row: [Boolean] */"
         ],
-        "description": "Initializes a height match element with various options"
+        "description": "Initializes a height match component with various options"
     },
     "snippet-uk-icon": {
         "prefix": "uk-icon",
@@ -235,7 +235,7 @@
             "icon: [String]",
             "ratio: [Number] */"
         ],
-        "description": "Initializes an icon element with various options"
+        "description": "Initializes an icon component with various options"
     },
     "snippet-uk-img": {
         "prefix": "uk-img",
@@ -252,7 +252,18 @@
             "offsetLeft: [String]",
             "target: [String] */"
         ],
-        "description": "Initializes an image element with various options"
+        "description": "Initializes an image component with various options"
+    },
+    "snippet-uk-leader": {
+        "prefix": "uk-leader",
+        "body": [
+            "UIkit.leader(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "fill: [String]",
+            "media: [Integer|String] */"
+        ],
+        "description": "Initializes a leader component with various options"
     },
     "snippet-uk-lightbox": {
         "prefix": "uk-lightbox",
@@ -263,7 +274,7 @@
             "animation: [String]",
             "toggle: [CSS Selector] */"
         ],
-        "description": "Initializes a lightbox element with various options"
+        "description": "Initializes a lightbox component with various options"
     },
     "snippet-uk-lightbox-events": {
         "prefix": "uk-lightbox-events",
@@ -297,7 +308,7 @@
             "template: [String]",
             "delay-controls: [Number] */"
         ],
-        "description": "Initializes a lightbox panel element with various options"
+        "description": "Initializes a lightbox panel component with various options"
     },
     "snippet-uk-lightbox-panel-methods": {
         "prefix": "uk-lightbox-panel-methods",
@@ -318,7 +329,7 @@
             "margin: [String]",
             "first-column: [String] */"
         ],
-        "description": "Initializes a margin element with various options"
+        "description": "Initializes a margin component with various options"
     },
     "snippet-uk-modal": {
         "prefix": "uk-modal",
@@ -332,7 +343,7 @@
             "stack: [Boolean]",
             "container: [String] */"
         ],
-        "description": "Initializes a modal element with various options"
+        "description": "Initializes a modal component with various options"
     },
     "snippet-uk-modal-events": {
         "prefix": "uk-modal-events",
@@ -405,7 +416,7 @@
             "animation: [String]",
             "duration: [Number] */"
         ],
-        "description": "Initializes a nav element with various options"
+        "description": "Initializes a nav component with various options"
     },
     "snippet-uk-nav-methods": {
         "prefix": "uk-nav-methods",
@@ -432,7 +443,7 @@
             "dropbar-mode: [String]",
             "duration: [Number] */"
         ],
-        "description": "Initializes a navbar element with various options"
+        "description": "Initializes a navbar component with various options"
     },
     "snippet-uk-navbar-events": {
         "prefix": "uk-navbar-events",
@@ -480,7 +491,7 @@
             "flip: [Boolean]",
             "overlay: [Boolean] */"
         ],
-        "description": "Initializes a offcanvas element with various options"
+        "description": "Initializes a offcanvas component with various options"
     },
     "snippet-uk-offcanvas-events": {
         "prefix": "uk-offcanvas-events",
@@ -510,7 +521,7 @@
             "viewport: [Number]",
             "media: [Mixed] */"
         ],
-        "description": "Initializes a parallax element with various options"
+        "description": "Initializes a parallax component with various options"
     },
     "snippet-uk-scroll": {
         "prefix": "uk-scroll",
@@ -522,7 +533,7 @@
             "transition: [String]",
             "offset: [Number] */"
         ],
-        "description": "Initializes a scroll element with various options"
+        "description": "Initializes a scroll component with various options"
     },
     "snippet-uk-scrollspy": {
         "prefix": "uk-scrollspy",
@@ -537,7 +548,7 @@
             "repeat: [Boolean]",
             "delay: [Number] */"
         ],
-        "description": "Initializes a scrollspy with various options"
+        "description": "Initializes a scrollspy component with various options"
     },
     "snippet-uk-scrollspy-events": {
         "prefix": "uk-scrollspy-events",
@@ -563,7 +574,7 @@
     "snippet-uk-scrollspy-nav-events": {
         "prefix": "uk-scrollspy-nav-events",
         "body": [
-            "$('${1:selector}').on('${2:active]}', function() { $3 });"
+            "$('${1:selector}').on('${2:active}', function() { $3 });"
         ],
         "description": "Triggers a function when a specified scrollspy nav event is triggered"
     },
@@ -582,7 +593,7 @@
             "sets: [Boolean]",
             "velocity: [Number] */"
         ],
-        "description": "Initializes a slider with various options"
+        "description": "Initializes a slider component with various options"
     },
     "snippet-uk-slider-events": {
         "prefix": "uk-slider-events",
@@ -685,9 +696,9 @@
             "width-element: [CSS selector]",
             "show-on-up: [Boolean]",
             "media: [Integer|String]",
-            "target: [Boolean] */"
+            "target-offset: [Boolean|Number] */"
         ],
-        "description": "Initializes a sticky with various options"
+        "description": "Initializes a sticky component with various options"
     },
     "snippet-uk-sticky-events": {
         "prefix": "uk-sticky-events",
@@ -704,7 +715,7 @@
             "-----------------------",
             "src: [String] */"
         ],
-        "description": "Initializes a svg with various options"
+        "description": "Initializes a svg component with various options"
     },
     "snippet-uk-svg-properties": {
         "prefix": "uk-svg-properties",
@@ -726,7 +737,7 @@
             "duration: [Number]",
             "swiping: [Boolean] */"
         ],
-        "description": "Initializes a switcher with various options"
+        "description": "Initializes a switcher component with various options"
     },
     "snippet-uk-switcher-events": {
         "prefix": "uk-switcher-events",
@@ -757,7 +768,7 @@
             "swiping: [Boolean]",
             "media: [Integer|String] */"
         ],
-        "description": "Initializes a tab with various options"
+        "description": "Initializes a tab component with various options"
     },
     "snippet-uk-tab-events": {
         "prefix": "uk-tab-events",
@@ -787,7 +798,7 @@
             "duration: [Number]",
             "queued: [Boolean] */"
         ],
-        "description": "Initializes a toggle with various options"
+        "description": "Initializes a toggle component with various options"
     },
     "snippet-uk-toggle-events": {
         "prefix": "uk-toggle-events",
@@ -817,7 +828,7 @@
             "delay: [Number]",
             "cls: [String] */"
         ],
-        "description": "Initializes a tooltip with various options"
+        "description": "Initializes a tooltip component with various options"
     },
     "snippet-uk-tooltip-events": {
         "prefix": "uk-tooltip-events",
@@ -871,7 +882,7 @@
     "snippet-uk-upload-events": {
         "prefix": "uk-upload-events",
         "body": [
-            "$('${1:selector}').on('${2:upload]}', function() { $3 });"
+            "$('${1:selector}').on('${2:upload}', function() { $3 });"
         ],
         "description": "Triggers a function when a specified upload event is triggered"
     },
