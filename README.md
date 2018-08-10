@@ -16,7 +16,7 @@ To show support for the project, you can do any of the following:
 
 > Please remember to direct your issues, queries and suggestions to the [issues page](https://github.com/dons20/UIKit-VSCode/issues) of the repository.
 
-_Disclaimer: While effort is made to make the snippets easy to use without documentation, some components are too complex to provide comprehensive descriptions/snippets so be sure to check the [official documentation](https://getuikit.com/docs/)!_
+_Please note: While effort is made to make the snippets easy to use without documentation, some components are too complex to provide comprehensive descriptions/snippets so be sure to check the [official documentation](https://getuikit.com/docs/)!_
 
 Thank You!
 
@@ -50,7 +50,7 @@ Thank You!
   - [Snippet Template](#snippet-template)
 - [Changelog](#changelog)
 - [License](#license)
-- [Disclaimer](#disclaimer)
+- [References](#references)
 - [List of Commands (HTML5/PHP)](#list-of-commands-htmlphp)
 
   <details>
@@ -172,11 +172,13 @@ Thank You!
       * [Slideshow JS](#slideshow-js)
       * [Sortable JS](#sortable-js)
       * [Sticky JS](#sticky-js)
+      * [SVG JS](#svg-js)
       * [Switcher JS](#switcher-js)
       * [Tab JS](#tab-js)
       * [Toggle JS](#toggle-js)
       * [Tooltip JS](#tooltip-js)
       * [Upload JS](#upload-js)
+      * [Video JS](#video-js)
       </p>
       </details>
 
@@ -203,7 +205,7 @@ A detailed list of supported commands are listed below in the [**List of Command
 
 UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT License](http://opensource.org/licenses/MIT)
 
-## Disclaimer
+## References
 
 [Readme layout inspiration](https://github.com/thekalinga/bootstrap4-vscode)
 
@@ -1573,7 +1575,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |       Trigger        |                            Description                            |
 | :------------------: | :---------------------------------------------------------------: |
-|     uk-accordion     |       Initializes an accordion element with various options       |
+|     uk-accordion     |       Initializes an accordion component with various options       |
 | uk-accordion-events  | Triggers a function when a specified accordion event is triggered |
 | uk-accordion-methods |    Showcases the methods available to the accordion component     |
 
@@ -1587,7 +1589,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |     Trigger      |                          Description                          |
 | :--------------: | :-----------------------------------------------------------: |
-|     uk-alert     |       Initializes an alert element with various options       |
+|     uk-alert     |       Initializes an alert component with various options       |
 | uk-alert-events  | Triggers a function when a specified alert event is triggered |
 | uk-alert-methods |    Showcases the methods available to the alert component     |
 
@@ -1601,7 +1603,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |       Trigger        |                        Description                         |
 | :------------------: | :--------------------------------------------------------: |
-|     uk-countdown     |    Initializes a countdown element with various options    |
+|     uk-countdown     |    Initializes a countdown component with various options    |
 | uk-countdown-methods | Showcases the methods available to the countdown component |
 
 </p>
@@ -1614,7 +1616,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 | Trigger  |                   Description                    |
 | :------: | :----------------------------------------------: |
-| uk-cover | Initializes a cover element with various options |
+| uk-cover | Initializes a cover component with various options |
 
 </p>
 </details>
@@ -1626,7 +1628,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |     Trigger     |                         Description                          |
 | :-------------: | :----------------------------------------------------------: |
-|     uk-drop     |       Initializes a drop element with various options        |
+|     uk-drop     |       Initializes a drop component with various options        |
 | uk-drop-events  | Triggers a function when a specified drop event is triggered |
 | uk-drop-methods |    Showcases the methods available to the drop component     |
 
@@ -1640,7 +1642,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |       Trigger       |                           Description                            |
 | :-----------------: | :--------------------------------------------------------------: |
-|     uk-dropdown     |       Initializes a dropdown element with various options        |
+|     uk-dropdown     |       Initializes a dropdown component with various options        |
 | uk-dropdown-events  | Triggers a function when a specified dropdown event is triggered |
 | uk-dropdown-methods |    Showcases the methods available to the dropdown component     |
 
@@ -1654,7 +1656,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |     Trigger      |                          Description                           |
 | :--------------: | :------------------------------------------------------------: |
-|    uk-filter     |       Initializes a filter element with various options        |
+|    uk-filter     |       Initializes a filter component with various options        |
 | uk-filter-events | Triggers a function when a specified filter event is triggered |
 
 </p>
@@ -1667,7 +1669,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 | Trigger |                   Description                   |
 | :-----: | :---------------------------------------------: |
-| uk-form | Initializes a form element with various options |
+| uk-form | Initializes a form component with various options |
 
 </p>
 </details>
@@ -1679,7 +1681,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 | Trigger |                   Description                   |
 | :-----: | :---------------------------------------------: |
-| uk-grid | Initializes a grid element with various options |
+| uk-grid | Initializes a grid component with various options |
 
 </p>
 </details>
@@ -1691,7 +1693,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |     Trigger     |                       Description                       |
 | :-------------: | :-----------------------------------------------------: |
-| uk-height-match | Initializes a height match element with various options |
+| uk-height-match | Initializes a height match component with various options |
 
 </p>
 </details>
@@ -1703,7 +1705,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 | Trigger |                   Description                    |
 | :-----: | :----------------------------------------------: |
-| uk-icon | Initializes an icon element with various options |
+| uk-icon | Initializes an icon component with various options |
 
 </p>
 </details>
@@ -1715,7 +1717,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 | Trigger |                    Description                    |
 | :-----: | :-----------------------------------------------: |
-| uk-img  | Initializes an image element with various options |
+| uk-img  | Initializes an image component with various options |
 
 </p>
 </details>
@@ -1727,10 +1729,10 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |          Trigger          |                           Description                            |
 | :-----------------------: | :--------------------------------------------------------------: |
-|        uk-lightbox        |       Initializes a lightbox element with various options        |
+|        uk-lightbox        |       Initializes a lightbox component with various options        |
 |    uk-lightbox-events     | Triggers a function when a specified lightbox event is triggered |
 |    uk-lightbox-methods    |    Showcases the methods available to the lightbox component     |
-|     uk-lightbox-panel     |    Initializes a lightbox panel element with various options     |
+|     uk-lightbox-panel     |    Initializes a lightbox panel component with various options     |
 | uk-lightbox-panel-methods | Showcases the methods available to the lightbox panel component  |
 
 </p>
@@ -1743,7 +1745,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |  Trigger  |                    Description                    |
 | :-------: | :-----------------------------------------------: |
-| uk-margin | Initializes a margin element with various options |
+| uk-margin | Initializes a margin component with various options |
 
 </p>
 </details>
@@ -1755,7 +1757,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |        Trigger         |                          Description                          |
 | :--------------------: | :-----------------------------------------------------------: |
-|        uk-modal        |       Initializes a modal element with various options        |
+|        uk-modal        |       Initializes a modal component with various options        |
 |    uk-modal-events     | Triggers a function when a specified modal event is triggered |
 |    uk-modal-methods    |    Showcases the methods available to the modal component     |
 |     uk-modal-alert     |             Creates an alert box with one button              |
@@ -1774,7 +1776,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |    Trigger     |                     Description                      |
 | :------------: | :--------------------------------------------------: |
-|     uk-nav     |    Initializes a nav element with various options    |
+|     uk-nav     |    Initializes a nav component with various options    |
 | uk-nav-methods | Showcases the methods available to the nav component |
 
 </p>
@@ -1787,7 +1789,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |     Trigger      |                          Description                           |
 | :--------------: | :------------------------------------------------------------: |
-|    uk-navbar     |       Initializes a navbar element with various options        |
+|    uk-navbar     |       Initializes a navbar component with various options        |
 | uk-navbar-events | Triggers a function when a specified navbar event is triggered |
 
 </p>
@@ -1814,7 +1816,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |       Trigger        |                            Description                            |
 | :------------------: | :---------------------------------------------------------------: |
-|     uk-offcanvas     |       Initializes a offcanvas element with various options        |
+|     uk-offcanvas     |       Initializes a offcanvas component with various options        |
 | uk-offcanvas-events  | Triggers a function when a specified offcanvas event is triggered |
 | uk-offcanvas-methods |    Showcases the methods available to the offcanvas component     |
 
@@ -1828,7 +1830,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |   Trigger   |                     Description                     |
 | :---------: | :-------------------------------------------------: |
-| uk-parallax | Initializes a parallax element with various options |
+| uk-parallax | Initializes a parallax component with various options |
 
 </p>
 </details>
@@ -1840,7 +1842,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |  Trigger  |                    Description                    |
 | :-------: | :-----------------------------------------------: |
-| uk-scroll | Initializes a scroll element with various options |
+| uk-scroll | Initializes a scroll component with various options |
 
 </p>
 </details>
@@ -1852,9 +1854,9 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |         Trigger         |                              Description                              |
 | :---------------------: | :-------------------------------------------------------------------: |
-|      uk-scrollspy       |             Initializes a scrollspy with various options              |
+|      uk-scrollspy       |             Initializes a scrollspy component with various options              |
 |   uk-scrollspy-events   |   Triggers a function when a specified scrollspy event is triggered   |
-|    uk-scrollspy-nav     |           Initializes a scrollspy nav with various options            |
+|    uk-scrollspy-nav     |           Initializes a scrollspy nav component with various options            |
 | uk-scrollspy-nav-events | Triggers a function when a specified scrollspy nav event is triggered |
 
 </p>
@@ -1867,7 +1869,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |      Trigger      |                          Description                           |
 | :---------------: | :------------------------------------------------------------: |
-|     uk-slider     |           Initializes a slider with various options            |
+|     uk-slider     |           Initializes a slider component with various options            |
 | uk-slider-events  | Triggers a function when a specified slider event is triggered |
 | uk-slider-methods |    Showcases the methods available to the slider component     |
 
@@ -1881,7 +1883,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |       Trigger        |                            Description                            |
 | :------------------: | :---------------------------------------------------------------: |
-|     uk-slideshow     |           Initializes a slideshow with various options            |
+|     uk-slideshow     |           Initializes a slideshow component with various options            |
 | uk-slideshow-events  | Triggers a function when a specified slideshow event is triggered |
 | uk-slideshow-methods |    Showcases the methods available to the slideshow component     |
 
@@ -1895,7 +1897,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |      Trigger       |                           Description                            |
 | :----------------: | :--------------------------------------------------------------: |
-|    uk-sortable     |           Initializes a sortable with various options            |
+|    uk-sortable     |           Initializes a sortable component with various options            |
 | uk-sortable-events | Triggers a function when a specified sortable event is triggered |
 
 </p>
@@ -1908,7 +1910,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |     Trigger      |                          Description                           |
 | :--------------: | :------------------------------------------------------------: |
-|    uk-sticky     |           Initializes a sticky with various options            |
+|    uk-sticky     |           Initializes a sticky component with various options            |
 | uk-sticky-events | Triggers a function when a specified sticky event is triggered |
 
 </p>
@@ -1921,7 +1923,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |      Trigger      |                          Description                           |
 | :---------------: | :------------------------------------------------------------: |
-|      uk-svg       |           Initializes a sticky with various options            |
+|      uk-svg       |           Initializes a svg component with various options            |
 | uk-svg-properties | A JavaScript Promise that will resolve with the added SVG Node |
 
 </p>
@@ -1976,7 +1978,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |      Trigger       |                           Description                           |
 | :----------------: | :-------------------------------------------------------------: |
-|     uk-tooltip     |           Initializes a tooltip with various options            |
+|     uk-tooltip     |           Initializes a tooltip component with various options            |
 | uk-tooltip-events  | Triggers a function when a specified tooltip event is triggered |
 | uk-tooltip-methods |    Showcases the methods available to the tooltip component     |
 
@@ -2004,7 +2006,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |     Trigger      |                          Description                           |
 | :--------------: | :------------------------------------------------------------: |
-|    uk-upload     |           Initializes a video component with various options            |
+|    uk-video     |           Initializes a video component with various options            |
 
 </p>
 </details>
