@@ -33,3 +33,5 @@ Thank You!
 
 1. With Visual Studio Code opened, press `Ctrl+P`.
 2. Type in `ext install uikit-3-snippets` and press `Enter`.
+
+Due to different formatting, [the extended **README** file can be found on Github](https://github.com/dons20/UIKit-VSCode)

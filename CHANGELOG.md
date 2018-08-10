@@ -1,3 +1,6 @@
+# Version 1.3.1 (August 10, 2018)
+* 🔧 Fixed **README** formatting issues on marketplace
+
 # Version 1.3.0 (August 10, 2018)
 * 💡 Updated to UIkit 3.0.0 RC 11
 

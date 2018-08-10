@@ -10,6 +10,24 @@
         "color": "#1E87F0",
         "theme": "dark"
     },
+    "markdown": "github",
+    "badges": [
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/version/Keno.uikit-3-snippets.svg",
+            "href": "https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets",
+            "description": "Version"
+        },
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/installs/Keno.uikit-3-snippets.svg",
+            "href": "https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets",
+            "description": "Installs"
+        },
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/rating/Keno.uikit-3-snippets.svg",
+            "href": "https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets",
+            "description": "Rating"
+        }
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/dons20/UIKit-VSCode.git"
