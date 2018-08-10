@@ -866,7 +866,7 @@
             "progress: [Function]",
             "fail: [Function] */"
         ],
-        "description": "Initializes a upload with various options"
+        "description": "Initializes an upload component with various options"
     },
     "snippet-uk-upload-events": {
         "prefix": "uk-upload-events",
@@ -916,5 +916,16 @@
         "})(jQuery);"
         ],
         "description": "Creates a sample upload script based on official docs"
+    },
+    "snippet-uk-video": {
+        "prefix": "uk-video",
+        "body": [
+            "UIkit.video(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "autoplay: [Boolean|String]",
+            "automute: [Boolean] */"
+        ],
+        "description": "Initializes a video component with various options"
     }
 }

@@ -2,10 +2,12 @@
 * Updated to UIkit 3.0.0 RC 11
 * Updated formatting of the README to have collapsible sections by default! 
   * Now it will be easier to get through the complete list of snippets and the table of contents as needed.
+* Updated descriptions for various snippets
 * Added missing links to documentation in README
 * Added snippet choices to clear up redundant ones (e.g. `uk-$-css-import`)
 * Added image component snippets for both HTML and JS (e.g. `uk-img`)
 * Added filter component snippets (e.g. `uk-filter`)
+* Fixed minor errors in a couple snippets
 
 # Version 1.2.2 (April 20, 2018)
 * Updated to UIkit 3.0.0 beta 42
