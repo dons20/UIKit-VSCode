@@ -16,6 +16,8 @@ To show support for the project, you can do any of the following:
 
 > Please remember to direct your issues, queries and suggestions to the [issues page](https://github.com/dons20/UIKit-VSCode/issues) of the repository.
 
+_Disclaimer: While effort is made to make the snippets easy to use without documentation, some components are too complex to provide comprehensive descriptions/snippets so be sure to check the [official documentation](https://getuikit.com/docs/)!_
+
 Thank You!
 
 ## Setup
@@ -78,15 +80,19 @@ Thank You!
   - [Dotnav](#dotnav)
   - [Drop](#drop)
   - [Dropdown](#dropdown)
+  - [Filter](#filter)
   - [Flex](#flex)
   - [Form](#form)
   - [Grid](#grid)
   - [Grid Parallax](#grid-parallax)
   - [Heading](#heading)
+  - [Height](#height)
   - [Icon](#icon)
   - [Iconnav](#iconnav)
+  - [Image](#image)
   - [Inverse](#inverse)
   - [Label](#label)
+  - [Leader](#leader)
   - [Lightbox](#lightbox)
   - [Link](#link)
   - [List](#list)
@@ -115,6 +121,7 @@ Thank You!
   - [Spinner](#spinner)
   - [Sticky](#sticky)
   - [Subnav](#subnav)
+  - [SVG](#svg)
   - [Switcher](#switcher)
   - [Tab](#tab)
   - [Table](#table)
@@ -127,6 +134,7 @@ Thank You!
   - [Transition](#transition)
   - [Upload](#upload)
   - [Utility](#utility)
+  - [Video](#video)
   - [Visibility](#visibility)
   - [Width](#width)
     </p>
@@ -138,35 +146,37 @@ Thank You!
       <summary><strong>Reveal List of Commands (Javascript)</strong></summary>
       <p>
 
-        * [Accordion JS](#accordion-js)
-        * [Alert JS](#alert-js)
-        * [Countdown JS](#countdown-js)
-        * [Cover JS](#cover-js)
-        * [Drop JS](#drop-js)
-        * [Dropdown JS](#dropdown-js)
-        * [Form JS](#form-js)
-        * [Grid JS](#grid-js)
-        * [Grid Parallax JS](#grid-parallax-js)
-        * [Icon JS](#icon-js)
-        * [Lightbox JS](#lightbox-js)
-        * [Margin JS](#margin-js)
-        * [Modal JS](#modal-js)
-        * [Nav JS](#nav-js)
-        * [Navbar JS](#navbar-js)
-        * [Notification JS](#notification-js)
-        * [Offcanvas JS](#offcanvas-js)
-        * [Parallax JS](#parallax-js)
-        * [Scroll JS](#scroll-js)
-        * [Scrollspy JS](#scrollspy-js)
-        * [Slider JS](#slider-js)
-        * [Slideshow JS](#slideshow-js)
-        * [Sortable JS](#sortable-js)
-        * [Sticky JS](#sticky-js)
-        * [Switcher JS](#switcher-js)
-        * [Tab JS](#tab-js)
-        * [Toggle JS](#toggle-js)
-        * [Tooltip JS](#tooltip-js)
-        * [Upload JS](#upload-js)
+      * [Accordion JS](#accordion-js)
+      * [Alert JS](#alert-js)
+      * [Countdown JS](#countdown-js)
+      * [Cover JS](#cover-js)
+      * [Drop JS](#drop-js)
+      * [Dropdown JS](#dropdown-js)
+      * [Filter JS](#filter-js)
+      * [Form JS](#form-js)
+      * [Grid JS](#grid-js)
+      * [Grid Parallax JS](#grid-parallax-js)
+      * [Icon JS](#icon-js)
+      * [Image JS](#image-js)
+      * [Lightbox JS](#lightbox-js)
+      * [Margin JS](#margin-js)
+      * [Modal JS](#modal-js)
+      * [Nav JS](#nav-js)
+      * [Navbar JS](#navbar-js)
+      * [Notification JS](#notification-js)
+      * [Offcanvas JS](#offcanvas-js)
+      * [Parallax JS](#parallax-js)
+      * [Scroll JS](#scroll-js)
+      * [Scrollspy JS](#scrollspy-js)
+      * [Slider JS](#slider-js)
+      * [Slideshow JS](#slideshow-js)
+      * [Sortable JS](#sortable-js)
+      * [Sticky JS](#sticky-js)
+      * [Switcher JS](#switcher-js)
+      * [Tab JS](#tab-js)
+      * [Toggle JS](#toggle-js)
+      * [Tooltip JS](#tooltip-js)
+      * [Upload JS](#upload-js)
       </p>
       </details>
 
@@ -209,11 +219,12 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 <details><summary>Reveal Content</summary>
 <p>
 
-|     Trigger     |                   Description                   |
-| :-------------: | :---------------------------------------------: |
-|      uk-$       |         Creates a basic UIKit template          |
-| uk-$-css-import | Imports the default minified css file for UIKit |
-| uk-$-js-import  |     Imports the minified scripts for UIKit      |
+|         Trigger          |                  Description                   |
+| :----------------------: | :--------------------------------------------: |
+|           uk-$           |         Creates a basic UIKit template         |
+|     uk-$-css-import      |  Imports a chosen minified css file for UIKit  |
+|      uk-$-js-import      | Imports the default minified scripts for UIKit |
+| uk-$-js-component-import | Imports a selected js component file for UIKit |
 
 </p>
 </details>
@@ -560,6 +571,19 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 </p>
 </details>
 
+### Filter
+
+<details><summary>Reveal Content</summary>
+<p>
+
+|     Trigger      |                   Description                    |
+| :--------------: | :----------------------------------------------: |
+|    uk-filter     |  [Attribute] Used to create a filter component   |
+| uk-filter-sample | Used to filter or sort items in any given layout |
+
+</p>
+</details>
+
 ### Flex
 
 <details><summary>Reveal Content</summary>
@@ -624,18 +648,8 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 |   uk-grid-match-cell    |           [Class] Matches the height of a grid cell           |
 |      uk-grid-width      |             Manually determines the column widths             |
 |      uk-grid-flex       |               Combines a grid element with flex               |
-
-</p>
-</details>
-
-### Grid Parallax
-
-<details><summary>Reveal Content</summary>
-<p>
-
-|     Trigger      |                             Description                             |
-| :--------------: | :-----------------------------------------------------------------: |
-| uk-grid-parallax | [Attribute] Used to add a scrolling effect to columns within a grid |
+|     uk-grid-masonry     |   Allows grid items of different heights to fit seamlessly    |
+|    uk-grid-parallax     |    Used to add a scrolling effect to columns within a grid    |
 
 </p>
 </details>
@@ -655,6 +669,23 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 | uk-heading-bullet-sample  |               Creates a heading as part of a list                |
 |      uk-heading-line      | [Class] Used to create a heading with a vertically centered line |
 |  uk-heading-line-sample   |        Creates a heading with a vertically centered line         |
+
+</p>
+</details>
+
+### Height
+
+<details><summary>Reveal Content</summary>
+<p>
+
+|         Trigger          |                                    Description                                    |
+| :----------------------: | :-------------------------------------------------------------------------------: |
+|        uk-height         | [Class] Modifies the height of an element to 100%/150px/300px/450px respectively. |
+|      uk-max-height       | [Class] Modifies the max-height of an element to 150px/300px/450px respectively.  |
+|    uk-viewport-height    |    [Attribute] Modifies the height of an element to fill the entire viewport.     |
+|     uk-match-height      |        [Attribute] Expands all children of a container to the same height.        |
+| uk-match-height-specific |             [Attribute] Matches the height of specific child elements             |
+|   uk-match-height-all    |      [Attribute] Matches the height of all child elements even in other rows      |
 
 </p>
 </details>
@@ -690,6 +721,21 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 </p>
 </details>
 
+### Image
+
+<details><summary>Reveal Content</summary>
+<p>
+
+|    Trigger    |                                Description                                |
+| :-----------: | :-----------------------------------------------------------------------: |
+|    uk-img     |           [Attribute] Lazy-load images on any element with ease           |
+| uk-img-sample |                Creates a basic lazy-loaded image component                |
+| uk-img-custom |                 Creates an element with lazy-load applied                 |
+| uk-img-target | Creates an image component which triggers on another element's visibility |
+
+</p>
+</details>
+
 ### Inverse
 
 <details><summary>Reveal Content</summary>
@@ -717,6 +763,19 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 | uk-label-success |       Creates a label with a success style       |
 | uk-label-warning |       Creates a label with a warning style       |
 | uk-label-danger  |       Creates a label with a danger style        |
+
+</p>
+</details>
+
+### Leader
+
+<details><summary>Reveal Content</summary>
+<p>
+
+|     Trigger      |                            Description                             |
+| :--------------: | :----------------------------------------------------------------: |
+|    uk-leader     | [Attribute] Visually connects horizontal items with a line of dots |
+| uk-leader-sample |                 Creates a sample leader component                  |
 
 </p>
 </details>
@@ -1205,6 +1264,19 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 </p>
 </details>
 
+### SVG
+
+<details><summary>Reveal Content</summary>
+<p>
+
+|    Trigger    |                    Description                     |
+| :-----------: | :------------------------------------------------: |
+|    uk-svg     | [Attribute] Used to apply svg formatting to images |
+| uk-svg-sample |             Adds an inline SVG element             |
+
+</p>
+</details>
+
 ### Switcher
 
 <details><summary>Reveal Content</summary>
@@ -1402,40 +1474,34 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 <details><summary>Reveal Content</summary>
 <p>
 
-|             Trigger              |                                                                         Description                                                                         |
-| :------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|         uk-utility-panel         |                                                    Creates a panel used to outline a section of content                                                     |
-|   uk-utility-panel-scrollable    |                                                                 Creates a scrollable panel                                                                  |
-|         uk-utility-float         |                                                           [Class] Floats an element left or right                                                           |
-|       uk-utility-clearfix        |                                                  [Class] Removes floats from this element and its children                                                  |
-|       uk-utility-overflow        |                                                      [Class] Modifies an element's overflow behaviour                                                       |
-|        uk-utility-resize         |                                                           [Class] Allows an element to be resized                                                           |
-|        uk-utility-display        |                                                    [Class] Changes the display properties of an element                                                     |
-|        uk-utility-inline         | [Class] Applies inline-block behaviour to an element, adds a max-width of 100% and creates a position context. Optionally clips overflowing child elements. |
-|        uk-utility-height         |                                      [Class] Modifies the height of an element to 100%/150px/300px/450px respectively.                                      |
-|      uk-utility-max-height       |                                      [Class] Modifies the max-height of an element to 150px/300px/450px respectively.                                       |
-|    uk-utility-viewport-height    |                       Modifies the height of an element to fill the entire viewport. Height behaviour can be changed with an option.                        |
-|     uk-utility-match-height      |                                                   Expands all children of a container to the same height.                                                   |
-| uk-utility-match-height-specific |                                                        Matches the height of specific child elements                                                        |
-|   uk-utility-match-height-all    |                                                 Matches the height of all child elements even in other rows                                                 |
-|      uk-utility-responsive       |                                                    [Class] Applies a responsive behaviour to any element                                                    |
-|    uk-utility-preserve-width     |                                            [Class] Avoids responsive behaviour and preserves original dimensions                                            |
-|     uk-utility-border-radius     |                                                      [Class] Modifies the border radius of an element                                                       |
-|      uk-utility-box-shadow       |                                                           [Class] Adds a box shadow to an element                                                           |
-|   uk-utility-box-shadow-bottom   |                                                    [Class] Adds a box shadow to the bottom of an element                                                    |
-|   uk-utility-box-shadow-hover    |                                                      [Class] Adds a box shadow to an element on hover                                                       |
-|        uk-utility-dropcap        |                                                              Applies a drop cap on a paragraph                                                              |
-|        uk-utility-leader         |                                                   Visually connects horizontal items with a line of dots                                                    |
-|       uk-utility-logo-text       |                                                                     Creates a text logo                                                                     |
-|      uk-utility-logo-image       |                                                                    Creates an image logo                                                                    |
-|      uk-utility-inline-svg       |                                                                     Adds an inline SVG                                                                      |
-|         uk-utility-video         |                                              Adds a video that can automatically play when it comes into view                                               |
-|         uk-utility-blend         |                                                    [Class] Applies a modified blend mode to a background                                                    |
-|   uk-utility-transform-center    |                                                            [Class] Centers an element to itself                                                             |
-|   uk-utility-transform-origin    |                                                         [Class] Modifies the origin of an animation                                                         |
-|       uk-utility-disabled        |                                                     [Class] Disables the click behaviour of any element                                                     |
-|         uk-utility-drag          |                                                         [Class] Applies a move cursor to an element                                                         |
-|       uk-utility-dragover        |                                       [Class] Creates a box shadow used for upload areas when dragging a file over it                                       |
+|           Trigger            |                                                                         Description                                                                         |
+| :--------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|       uk-utility-panel       |                                                    Creates a panel used to outline a section of content                                                     |
+| uk-utility-panel-scrollable  |                                                                 Creates a scrollable panel                                                                  |
+|       uk-utility-float       |                                                           [Class] Floats an element left or right                                                           |
+|     uk-utility-clearfix      |                                                  [Class] Removes floats from this element and its children                                                  |
+|     uk-utility-overflow      |                                                      [Class] Modifies an element's overflow behaviour                                                       |
+|      uk-utility-resize       |                                                           [Class] Allows an element to be resized                                                           |
+|      uk-utility-display      |                                                    [Class] Changes the display properties of an element                                                     |
+|      uk-utility-inline       | [Class] Applies inline-block behaviour to an element, adds a max-width of 100% and creates a position context. Optionally clips overflowing child elements. |
+|    uk-utility-responsive     |                                                    [Class] Applies a responsive behaviour to any element                                                    |
+|  uk-utility-preserve-width   |                                            [Class] Avoids responsive behaviour and preserves original dimensions                                            |
+|   uk-utility-border-radius   |                                                      [Class] Modifies the border radius of an element                                                       |
+|    uk-utility-box-shadow     |                                                           [Class] Adds a box shadow to an element                                                           |
+| uk-utility-box-shadow-bottom |                                                    [Class] Adds a box shadow to the bottom of an element                                                    |
+| uk-utility-box-shadow-hover  |                                                      [Class] Adds a box shadow to an element on hover                                                       |
+|      uk-utility-dropcap      |                                                              Applies a drop cap on a paragraph                                                              |
+|      uk-utility-leader       |                                                   Visually connects horizontal items with a line of dots                                                    |
+|     uk-utility-logo-text     |                                                                     Creates a text logo                                                                     |
+|    uk-utility-logo-image     |                                                                    Creates an image logo                                                                    |
+|    uk-utility-inline-svg     |                                                                     Adds an inline SVG                                                                      |
+|       uk-utility-video       |                                              Adds a video that can automatically play when it comes into view                                               |
+|       uk-utility-blend       |                                                    [Class] Applies a modified blend mode to a background                                                    |
+| uk-utility-transform-center  |                                                            [Class] Centers an element to itself                                                             |
+| uk-utility-transform-origin  |                                                         [Class] Modifies the origin of an animation                                                         |
+|     uk-utility-disabled      |                                                     [Class] Disables the click behaviour of any element                                                     |
+|       uk-utility-drag        |                                                         [Class] Applies a move cursor to an element                                                         |
+|     uk-utility-dragover      |                                       [Class] Creates a box shadow used for upload areas when dragging a file over it                                       |
 
 </p>
 </details>
@@ -1568,6 +1634,19 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 </p>
 </details>
 
+### Filter JS
+
+<details><summary>Reveal Content</summary>
+<p>
+
+|     Trigger      |                          Description                           |
+| :--------------: | :------------------------------------------------------------: |
+|    uk-filter     |       Initializes a filter element with various options        |
+| uk-filter-events | Triggers a function when a specified filter event is triggered |
+
+</p>
+</details>
+
 ### Form JS
 
 <details><summary>Reveal Content</summary>
@@ -1592,14 +1671,14 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 </p>
 </details>
 
-### Grid Parallax JS
+### Height Match JS
 
 <details><summary>Reveal Content</summary>
 <p>
 
-|     Trigger      |                       Description                        |
-| :--------------: | :------------------------------------------------------: |
-| uk-grid-parallax | Initializes a grid parallax element with various options |
+|     Trigger     |                       Description                       |
+| :-------------: | :-----------------------------------------------------: |
+| uk-height-match | Initializes a height match element with various options |
 
 </p>
 </details>
@@ -1612,6 +1691,18 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 | Trigger |                   Description                    |
 | :-----: | :----------------------------------------------: |
 | uk-icon | Initializes an icon element with various options |
+
+</p>
+</details>
+
+### Image JS
+
+<details><summary>Reveal Content</summary>
+<p>
+
+| Trigger |                    Description                    |
+| :-----: | :-----------------------------------------------: |
+| uk-img  | Initializes an image element with various options |
 
 </p>
 </details>
@@ -1806,6 +1897,19 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 | :--------------: | :------------------------------------------------------------: |
 |    uk-sticky     |           Initializes a sticky with various options            |
 | uk-sticky-events | Triggers a function when a specified sticky event is triggered |
+
+</p>
+</details>
+
+### SVG JS
+
+<details><summary>Reveal Content</summary>
+<p>
+
+|      Trigger      |                          Description                           |
+| :---------------: | :------------------------------------------------------------: |
+|      uk-svg       |           Initializes a sticky with various options            |
+| uk-svg-properties | A JavaScript Promise that will resolve with the added SVG Node |
 
 </p>
 </details>

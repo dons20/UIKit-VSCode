@@ -23,17 +23,25 @@
     "snippet-uk-$-css-import": {
         "prefix": "uk-$-css-import",
         "body": [
-            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/${1|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>"
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.11/css/${1|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>"
         ],
-        "description": "Imports the default minified css file for UIKit"
+        "description": "Imports a chosen minified css file for UIKit"
     },
     "snippet-uk-$-js-import": {
         "prefix": "uk-$-js-import",
         "body": [
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit.min.js\" \r\tintegrity=\"sha256-yl7w0KuhRsVzOpDk7EoWE2EVwwOFXPlfQDQDtwsg5ds=\" crossorigin=\"anonymous\"></script>",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js\" \r\tintegrity=\"sha256-pelC1MOe8KcWCQWSbkMF83x3Hb+K3xn3Fua5IUMexkU=\" crossorigin=\"anonymous\"></script>"
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.11/js/uikit.min.js\" \r\tintegrity=\"sha256-uIoU015jY2XsmbFtIjpet+eU+0GM/Y+zaGlNngZTKuw=\" crossorigin=\"anonymous\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.11/js/uikit-icons.min.js\" \r\tintegrity=\"sha256-92V223qt9YYY7xHag8ctb7dvCKnK5sv/psCFHnAtZoU=\" crossorigin=\"anonymous\"></script>"
         ],
-        "description": "Imports the minified scripts for UIKit"
+        "description": "Imports the default minified scripts for UIKit"
+    },
+    "snippet-uk-$-js-component-import": {
+        "prefix": "uk-$-js-component-import",
+        "body": [
+            "<!-- Manually add SRI by visiting https://cdnjs.com/libraries/uikit/3.0.0-rc.11 -->",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.11/js/components/${1|countdown,filter,lightbox,lightbox-panel,notification,parallax,slider,slider-parallax,slideshow,sortable,tooltip,upload|}.min.js\"></script>"
+        ],
+        "description": "Imports a selected js component file for UIKit"
     },
     "snippet-uk-accordion": {
         "prefix": "uk-accordion",
@@ -943,6 +951,29 @@
         ],
         "description": "Applies one or more animations to the dropdown"
     },
+    "snippet-uk-filter": {
+        "prefix": "uk-filter",
+        "body": [
+            "uk-filter"
+        ],
+        "description": "[Attribute] Used to create a filter component"
+    },
+    "snippet-uk-filter-sample": {
+        "prefix": "uk-filter-sample",
+        "body": [
+            "<div uk-filter=\"target: ${1:SELECTOR}\">",
+                "\r\t<!-- Filter controls -->",
+                "\t<ul>",
+                    "\t\t<li uk-filter-control=\"filter: ${2:SELECTOR}\"><a href=\"#\"></a></li>",
+                "\t</ul>",
+                "\r\t<!-- Layout items -->",
+                "\t<ul class=\"js-filter\">",
+                    "\t\t<li></li>",
+                "\t</ul>",
+            "\r\t</div>"
+        ],
+        "description": "Used to filter or sort items in any given layout"
+    },
     "snippet-uk-flex": {
         "prefix": "uk-flex",
         "body": [
@@ -1300,12 +1331,19 @@
         ],
         "description": "Combines a grid element with flex"
     },
+    "snippet-uk-grid-masonry": {
+        "prefix": "uk-grid-masonry",
+        "body": [
+            "<div uk-grid=\"masonry: true\">$0</div>"
+        ],
+        "description": "Allows grid items of different heights to fit seamlessly"
+    },
     "snippet-uk-grid-parallax": {
         "prefix": "uk-grid-parallax",
         "body": [
-            "uk-grid-parallax=\"${1:translate:200}\""
+            "<div uk-grid=\"parallax: ${1:150}\">$0</div>"
         ],
-        "description": "[Attribute] Used to add a scrolling effect to columns within a grid"
+        "description": "Used to add a scrolling effect to columns within a grid"
     },
     "snippet-uk-heading-primary": {
         "prefix": "uk-heading-primary",
@@ -1362,6 +1400,48 @@
             "<h1 class=\"uk-heading-line ${1:uk-text-center}\"><span>$0</span></h1>"
         ],
         "description": "Creates a heading with a vertically centered line"
+    },
+    "snippet-uk-height": {
+        "prefix": "uk-height",
+        "body": [
+            " class=\"uk-height-${0|1-1,small,medium,large|}\" "
+        ],
+        "description": "[Class] Modifies the height of an element to 100%|150px|300px|450px respectively."
+    },
+    "snippet-uk-max-height": {
+        "prefix": "uk-max-height",
+        "body": [
+            " class=\"uk-max-height-${0|small,medium,large|}\" "
+        ],
+        "description": "[Class] Modifies the max-height of an element to 150px|300px|450px respectively."
+    },
+    "snippet-uk-viewport-height": {
+        "prefix": "uk-viewport-height",
+        "body": [
+            " uk-height-viewport=\"${1|offset-top: true,offset-bottom: 20,expand: true,min-height: 0|}\" "
+        ],
+        "description": "[Attribute] Modifies the height of an element to fill the entire viewport. Height behaviour can be changed with an option."
+    },
+    "snippet-uk-match-height": {
+        "prefix": "uk-match-height",
+        "body": [
+            " uk-height-match "
+        ],
+        "description": "[Attribute] Expands all children of a container to the same height."
+    },
+    "snippet-uk-match-height-specific": {
+        "prefix": "uk-match-height-specific",
+        "body": [
+            " uk-height-match=\"target: ${0:SELECTOR}\" "
+        ],
+        "description": "[Attribute] Matches the height of specific child elements"
+    },
+    "snippet-uk-match-height-all": {
+        "prefix": "uk-match-height-all",
+        "body": [
+            " uk-height-match=\"row: false\" "
+        ],
+        "description": "[Attribute] Matches the height of all child elements even in other rows"
     },
     "snippet-uk-icon-span": {
         "prefix": "uk-icon-span",
@@ -1430,6 +1510,34 @@
         ],
         "description": "Creates a vertical navigation consisting of icons"
     },
+    "snippet-uk-img": {
+        "prefix": "uk-img",
+        "body": [
+            "uk-img"
+        ],
+        "description": "[Attribute] Lazy-load images on any element with ease"
+    },
+    "snippet-uk-img-sample": {
+        "prefix": "uk-img-sample",
+        "body": [
+            "<img data-src=\"\"${1| , data-srcset=\"\" |}width=\"\" height=\"\" alt=\"\" uk-img>"
+        ],
+        "description": "Creates a basic lazy-loaded image component"
+    },
+    "snippet-uk-img-custom": {
+        "prefix": "uk-img-custom",
+        "body": [
+            "<${1:div} data-src=\"\"${2| , data-srcset=\"\" |}width=\"\" height=\"\" alt=\"\" uk-img></${1:div}>"
+        ],
+        "description": "Creates an element with lazy-load applied"
+    },
+    "snippet-uk-img-target": {
+        "prefix": "uk-img-target",
+        "body": [
+            "<${1:div} data-src=\"\"${2| , data-srcset=\"\" |}width=\"\" height=\"\" alt=\"\" uk-img=\"target: ${3:.my-class}\"></${1:div}>"
+        ],
+        "description": "Creates an image component which triggers on another element's visibility"
+    },
     "snippet-uk-light": {
         "prefix": "uk-light",
         "body": [
@@ -1492,6 +1600,20 @@
             "<span class=\"uk-label uk-label-danger\"></span>"
         ],
         "description": "Creates a label with a danger style"
+    },
+    "snippet-uk-leader": {
+        "prefix": "uk-leader",
+        "body": [
+            "uk-leader"
+        ],
+        "description": "[Attribute] Visually connects horizontal items with a line of dots"
+    },
+    "snippet-uk-leader-sample": {
+        "prefix": "uk-leader-sample",
+        "body": [
+            "<div uk-leader></div>"
+        ],
+        "description": "Creates a sample leader component"
     },
     "snippet-uk-lightbox": {
         "prefix": "uk-lightbox",
@@ -3178,6 +3300,20 @@
         ],
         "description": "Creates a sub-navigation that contains a dropdown"
     },
+    "snippet-uk-svg": {
+        "prefix": "uk-svg",
+        "body": [
+            "uk-svg"
+        ],
+        "description": "[Attribute] Used to apply svg formatting to images"
+    },
+    "snippet-uk-svg-sample": {
+        "prefix": "uk-svg-sample",
+        "body": [
+            "<img src=\"$0\" uk-svg>"
+        ],
+        "description": "Adds an inline SVG element"
+    },
     "snippet-uk-switcher": {
         "prefix": "uk-switcher",
         "body": [
@@ -4000,48 +4136,6 @@
         ],
         "description": "[Class] Applies inline-block behaviour to an element, adds a max-width of 100% and creates a position context. Optionally clips overflowing child elements."
     },
-    "snippet-uk-utility-height": {
-        "prefix": "uk-utility-height",
-        "body": [
-            " class=\"uk-height-${0|1-1,small,medium,large|}\" "
-        ],
-        "description": "[Class] Modifies the height of an element to 100%|150px|300px|450px respectively."
-    },
-    "snippet-uk-utility-max-height": {
-        "prefix": "uk-utility-max-height",
-        "body": [
-            " class=\"uk-max-height-${0|small,medium,large|}\" "
-        ],
-        "description": "[Class] Modifies the max-height of an element to 150px|300px|450px respectively."
-    },
-    "snippet-uk-utility-viewport-height": {
-        "prefix": "uk-utility-viewport-height",
-        "body": [
-            " uk-height-viewport=\"${1|offset-top: true,offset-bottom: 20,expand: true,min-height: 0|}\" "
-        ],
-        "description": "Modifies the height of an element to fill the entire viewport. Height behaviour can be changed with an option."
-    },
-    "snippet-uk-utility-match-height": {
-        "prefix": "uk-utility-match-height",
-        "body": [
-            " uk-height-match "
-        ],
-        "description": "Expands all children of a container to the same height."
-    },
-    "snippet-uk-utility-match-height-specific": {
-        "prefix": "uk-utility-match-height-specific",
-        "body": [
-            " uk-height-match=\"target: ${0:SELECTOR}\" "
-        ],
-        "description": "Matches the height of specific child elements"
-    },
-    "snippet-uk-utility-match-height-all": {
-        "prefix": "uk-utility-match-height-all",
-        "body": [
-            " uk-height-match=\"row: false\" "
-        ],
-        "description": "Matches the height of all child elements even in other rows"
-    },
     "snippet-uk-utility-responsive": {
         "prefix": "uk-utility-responsive",
         "body": [
@@ -4091,13 +4185,6 @@
         ],
         "description": "Applies a drop cap on a paragraph"
     },
-    "snippet-uk-utility-leader": {
-        "prefix": "uk-utility-leader",
-        "body": [
-            "<div uk-leader></div>"
-        ],
-        "description": "Visually connects horizontal items with a line of dots"
-    },
     "snippet-uk-utility-logo-text": {
         "prefix": "uk-utility-logo-text",
         "body": [
@@ -4113,13 +4200,6 @@
             "</a>"
         ],
         "description": "Creates an image logo"
-    },
-    "snippet-uk-utility-inline-svg": {
-        "prefix": "uk-utility-inline-svg",
-        "body": [
-            "<img src=\"\" uk-svg>"
-        ],
-        "description": "Adds an inline SVG"
     },
     "snippet-uk-utility-video": {
         "prefix": "uk-utility-video",
@@ -4240,7 +4320,7 @@
     "snippet-uk-width": {
         "prefix": "uk-width",
         "body": [
-            " class=\"uk-width-${1|1,2,3,4,5|}-${0|1,2,3,4,5,6]}\" "
+            " class=\"uk-width-${1|1,2,3,4,5|}-${0|1,2,3,4,5,6|}\" "
         ],
         "description": "[Class] Modifies the width of an element to take up a portion of its parent container, or the entire width. Usually used with 'uk-grid'."
     },

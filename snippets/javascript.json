@@ -163,6 +163,24 @@
         ],
         "description": "Showcases the methods available to the dropdown component"
     },
+    "snippet-uk-filter": {
+        "prefix": "uk-filter",
+        "body": [
+            "UIkit.filter(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "target: [String]",
+            "selActive: [String|Boolean] */"
+        ],
+        "description": "Initializes a filter element with various options"
+    },
+    "snippet-uk-filter-events": {
+        "prefix": "uk-filter-events",
+        "body": [
+            "$('${1:selector}').on('${2|beforeFilter,afterFilter|}', function() { $3 });"
+        ],
+        "description": "Triggers a function when a specified filter event is triggered"
+    },
     "snippet-uk-form": {
         "prefix": "uk-form",
         "body": [
@@ -180,7 +198,9 @@
             "/* Option: [Required Value] ",
             "-----------------------",
             "margin: [String]",
-            "first-column: [String] */"
+            "first-column: [String]",
+            "masonry: [Boolean]",
+            "parallax: [Number] */"
         ],
         "description": "Initializes a grid element with various options"
     },
@@ -195,6 +215,17 @@
         ],
         "description": "Initializes a grid parallax element with various options"
     },
+    "snippet-uk-height-match": {
+        "prefix": "uk-height-match",
+        "body": [
+            "UIkit.heightMatch(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "target: [CSS Selector]",
+            "row: [Boolean] */"
+        ],
+        "description": "Initializes a height match element with various options"
+    },
     "snippet-uk-icon": {
         "prefix": "uk-icon",
         "body": [
@@ -205,6 +236,23 @@
             "ratio: [Number] */"
         ],
         "description": "Initializes an icon element with various options"
+    },
+    "snippet-uk-img": {
+        "prefix": "uk-img",
+        "body": [
+            "UIkit.img(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "dataSrc: [String]",
+            "dataSrcset: [String]",
+            "sizes: [String]",
+            "width: [String]",
+            "height: [String]",
+            "offsetTop: [String]",
+            "offsetLeft: [String]",
+            "target: [String] */"
+        ],
+        "description": "Initializes an image element with various options"
     },
     "snippet-uk-lightbox": {
         "prefix": "uk-lightbox",
@@ -647,6 +695,23 @@
             "$('${1:selector}').on('${2|active,inactive|}', function() { $3 });"
         ],
         "description": "Triggers a function when a specified sticky event is triggered"
+    },
+    "snippet-uk-svg": {
+        "prefix": "uk-svg",
+        "body": [
+            "UIkit.svg(${1:element}, ${0:options});",
+            "/* Option: [Required Value] ",
+            "-----------------------",
+            "src: [String] */"
+        ],
+        "description": "Initializes a svg with various options"
+    },
+    "snippet-uk-svg-properties": {
+        "prefix": "uk-svg-properties",
+        "body": [
+            "UIkit.svg(element).svg.then(function(svg) { ${1:svg.querySelector('path').style.stroke} = 'red'; })"
+        ],
+        "description": "A JavaScript Promise that will resolve with the added SVG Node"
     },
     "snippet-uk-switcher": {
         "prefix": "uk-switcher",

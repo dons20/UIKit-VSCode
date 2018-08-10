@@ -4,6 +4,8 @@
   * Now it will be easier to get through the complete list of snippets and the table of contents as needed.
 * Added missing links to documentation in README
 * Added snippet choices to clear up redundant ones (e.g. `uk-$-css-import`)
+* Added image component snippets for both HTML and JS (e.g. `uk-img`)
+* Added filter component snippets (e.g. `uk-filter`)
 
 # Version 1.2.2 (April 20, 2018)
 * Updated to UIkit 3.0.0 beta 42
@@ -18,7 +20,7 @@
 * Updated a large number of HTML & JS snippets to now use snippet choices in VSCode 1.15+. This allows more variety within a single snippet, and so many redundancies have been removed. 
   * Please note that a few of the snippet choices will be inactive/slightly bugged until the August VSCode update [due to a bug which has been fixed](https://github.com/Microsoft/vscode/issues/31599) for the next build.
   * A large number of snippets have recieved changes or minor tweaks. There are too many to list in this changelog, but any snippets which include multiple options will now utilize this new system.
-* Added new method snippets to JS snippets. (E.g. `uk-modal-methods`, `uk-drop-methods`, etc.)
+* Added new method snippets to JS snippets. (e.g. `uk-modal-methods`, `uk-drop-methods`, etc.)
 * Fixed a few broken snippets
 ## Contributions
   * [Ramzi Akremi (@rakr)](https://github.com/rakr): Added support for embedded elixir [PR #9](https://github.com/dons20/UIKit-VSCode/pull/9)
