@@ -4201,13 +4201,6 @@
         ],
         "description": "Creates an image logo"
     },
-    "snippet-uk-utility-video": {
-        "prefix": "uk-utility-video",
-        "body": [
-            "<video src=\"$1\" uk-video=\"${0|autoplay:true,automute:false|}\"></video>"
-        ],
-        "description": "Adds a video that can automatically play when it comes into view"
-    },
     "snippet-uk-utility-blend": {
         "prefix": "uk-utility-blend",
         "body": [
@@ -4249,6 +4242,20 @@
             " class=\"uk-dragover\" "
         ],
         "description": "[Class] Creates a box shadow used for upload areas when dragging a file over it"
+    },
+    "snippet-uk-video": {
+        "prefix": "uk-video",
+        "body": [
+            "uk-video"
+        ],
+        "description": "[Attribute] Used to add lazy-load to a video element"
+    },
+    "snippet-uk-video-sample": {
+        "prefix": "uk-video-sample",
+        "body": [
+            "<video src=\"$1\" uk-video=\"${0|autoplay:true,automute:false|}\"></video>"
+        ],
+        "description": "Creates a video element that loads once in view"
     },
     "snippet-uk-hidden": {
         "prefix": "uk-hidden",

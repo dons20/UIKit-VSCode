@@ -1506,6 +1506,19 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 </p>
 </details>
 
+### Video
+
+<details><summary>Reveal Content</summary>
+<p>
+
+|     Trigger     |                     Description                      |
+| :-------------: | :--------------------------------------------------: |
+|    uk-video     | [Attribute] Used to add lazy-load to a video element |
+| uk-video-sample |   Creates a video element that loads once in view    |
+
+</p>
+</details>
+
 ### Visibility
 
 <details><summary>Reveal Content</summary>
@@ -1977,9 +1990,21 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |     Trigger      |                          Description                           |
 | :--------------: | :------------------------------------------------------------: |
-|    uk-upload     |           Initializes a upload with various options            |
+|    uk-upload     |           Initializes an upload component with various options            |
 | uk-upload-events | Triggers a function when a specified upload event is triggered |
 | uk-upload-sample |     Creates a sample upload script based on official docs      |
+
+</p>
+</details>
+
+### Video JS
+
+<details><summary>Reveal Content</summary>
+<p>
+
+|     Trigger      |                          Description                           |
+| :--------------: | :------------------------------------------------------------: |
+|    uk-upload     |           Initializes a video component with various options            |
 
 </p>
 </details>
