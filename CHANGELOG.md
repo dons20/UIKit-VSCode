@@ -2,6 +2,7 @@
 * 💡 Updated to UIkit 3.0.0 RC 11
 
 * 💡 Updated formatting of the **README** to have collapsible sections by default
+  * Collapsed sections aren't able to be jumped to by hyperlink until they are revealed in their respective categories. (e.g. Clicking `Container` in the Table of Contents won't jump to that section until you expand `List of Commands (HTML/PHP)` further below)
 
 * 💡 Updated **CHANGELOG** formatting to be more spaced and have easily identifiable emojis 🌟
 
