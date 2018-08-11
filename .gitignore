@@ -3,4 +3,4 @@
 *.php
 *.js
 *.log
-.vscode/
+/.vscode
