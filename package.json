@@ -75,6 +75,10 @@
                 "path": "./snippets/snippets.json"
             },
             {
+                "language": "vue",
+                "path": "./snippets/snippets.json"
+            },
+            {
                 "language": "javascript",
                 "path": "./snippets/javascript.json"
             }
