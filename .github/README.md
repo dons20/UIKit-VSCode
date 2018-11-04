@@ -6,6 +6,10 @@
 
 [![Demo Image](https://zippy.gfycat.com/AmusingGiftedJumpingbean.gif)](https://gfycat.com/AmusingGiftedJumpingbean)
 
+## [🌞 View the Changelog](https://github.com/dons20/UIKit-VSCode/blob/master/CHANGELOG.md) to see what's new!
+
+---
+
 This extension adds all the snippets from [UIKit 3.0](https://getuikit.com/docs/introduction) into Visual Studio Code for easy access and usage.
 
 To show support for the project, you can do any of the following:
@@ -137,53 +141,54 @@ Thank You!
   - [Video](#video)
   - [Visibility](#visibility)
   - [Width](#width)
+
     </p>
     </details>
 
   - [List of Commands (Javascript)](#list-of-commands-javascript)
 
-      <details>
-      <summary><strong>Reveal List of Commands (Javascript)</strong></summary>
-      <p>
+        <details>
+        <summary><strong>Reveal List of Commands (Javascript)</strong></summary>
+        <p>
 
-      * [Accordion JS](#accordion-js)
-      * [Alert JS](#alert-js)
-      * [Countdown JS](#countdown-js)
-      * [Cover JS](#cover-js)
-      * [Drop JS](#drop-js)
-      * [Dropdown JS](#dropdown-js)
-      * [Filter JS](#filter-js)
-      * [Form JS](#form-js)
-      * [Grid JS](#grid-js)
-      * [Grid Parallax JS](#grid-parallax-js)
-      * [Icon JS](#icon-js)
-      * [Image JS](#image-js)
-      * [Lightbox JS](#lightbox-js)
-      * [Margin JS](#margin-js)
-      * [Modal JS](#modal-js)
-      * [Nav JS](#nav-js)
-      * [Navbar JS](#navbar-js)
-      * [Notification JS](#notification-js)
-      * [Offcanvas JS](#offcanvas-js)
-      * [Parallax JS](#parallax-js)
-      * [Scroll JS](#scroll-js)
-      * [Scrollspy JS](#scrollspy-js)
-      * [Slider JS](#slider-js)
-      * [Slideshow JS](#slideshow-js)
-      * [Sortable JS](#sortable-js)
-      * [Sticky JS](#sticky-js)
-      * [SVG JS](#svg-js)
-      * [Switcher JS](#switcher-js)
-      * [Tab JS](#tab-js)
-      * [Toggle JS](#toggle-js)
-      * [Tooltip JS](#tooltip-js)
-      * [Upload JS](#upload-js)
-      * [Video JS](#video-js)
+        * [Accordion JS](#accordion-js)
+        * [Alert JS](#alert-js)
+        * [Countdown JS](#countdown-js)
+        * [Cover JS](#cover-js)
+        * [Drop JS](#drop-js)
+        * [Dropdown JS](#dropdown-js)
+        * [Filter JS](#filter-js)
+        * [Form JS](#form-js)
+        * [Grid JS](#grid-js)
+        * [Grid Parallax JS](#grid-parallax-js)
+        * [Icon JS](#icon-js)
+        * [Image JS](#image-js)
+        * [Lightbox JS](#lightbox-js)
+        * [Margin JS](#margin-js)
+        * [Modal JS](#modal-js)
+        * [Nav JS](#nav-js)
+        * [Navbar JS](#navbar-js)
+        * [Notification JS](#notification-js)
+        * [Offcanvas JS](#offcanvas-js)
+        * [Parallax JS](#parallax-js)
+        * [Scroll JS](#scroll-js)
+        * [Scrollspy JS](#scrollspy-js)
+        * [Slider JS](#slider-js)
+        * [Slideshow JS](#slideshow-js)
+        * [Sortable JS](#sortable-js)
+        * [Sticky JS](#sticky-js)
+        * [SVG JS](#svg-js)
+        * [Switcher JS](#switcher-js)
+        * [Tab JS](#tab-js)
+        * [Toggle JS](#toggle-js)
+        * [Tooltip JS](#tooltip-js)
+        * [Upload JS](#upload-js)
+        * [Video JS](#video-js)
+        </p>
+        </details>
+
       </p>
-      </details>
-
-    </p>
-  </details>
+    </details>
 
 ## Usage
 
@@ -509,10 +514,11 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 <details><summary>Reveal Content</summary>
 <p>
 
-|     Trigger      |             Description             |
-| :--------------: | :---------------------------------: |
-| uk-divider-icon  | Creates a divider with a decoration |
-| uk-divider-small |      Creates a smaller divider      |
+|       Trigger       |             Description             |
+| :-----------------: | :---------------------------------: |
+|   uk-divider-icon   | Creates a divider with a decoration |
+|  uk-divider-small   |      Creates a smaller divider      |
+| uk-divider-vertical |     Creates a vertical divider      |
 
 </p>
 </details>

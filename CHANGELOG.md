@@ -1,3 +1,13 @@
+# Version 1.4.0 (November 3, 2018)
+* ⚙️️️ Modified main snippets to be global by default
+  * There are many languages and associated files that the snippets wouldn't trigger in, and so this change will now allow `uk-` snippets to work in any file.
+  * This change does not apply to the javascript-only snippets. Those will retain their original functionality within `javascript` files to avoid clutter.
+  * To prevent this from occurring, simply disable the extension for that workspace, or until you need to re-activate it.
+  * If this change comes with any issues or inconveniences, let me know on the [issues](https://github.com/dons20/UIKit-VSCode/issues) page!
+* 💡 Updated to UIkit 3.0.0 RC 20
+* ✅ Added `uk-divider-vertical` to snippets
+* ⚙️️️️️ Small modifications to `uk-text-color` and other snippets
+
 # Version 1.3.1 (August 10, 2018)
 * 🔧 Fixed **README** formatting issues on marketplace
 
@@ -65,11 +75,11 @@
 
 * ✅ Added `uk-alert-methods` snippet for JS files
 
-* Modified `uk-modal-center` to use `uk-margin-auto-vertical` class due to deprecated *center* parameter
+* ⚙️ Modified `uk-modal-center` to use `uk-margin-auto-vertical` class due to deprecated *center* parameter
 
 * ❗️ Removed `uk-modal-caption` snippet (functionality now in `uk-lightbox` instead)
 
-* Moved contribution guidelines to a seperate file to remove initial clutter from `README` file. View here: 
+* ⚠️ Moved contribution guidelines to a seperate file to remove initial clutter from `README` file. View here: 
 [How to contribute](./CONTRIBUTION.md)
 
 # Version 1.1.2 (June 14, 2017)
@@ -107,14 +117,14 @@
 
 * ✅ Added the remaining attribute/class-only snippets. Attribute/Class-only snippets are indicated by [Attribute] & [Class] respectively in their description.
 
-* Changed `uk-table-center` to `uk-table-middle`
+* ⚙️ Changed `uk-table-center` to `uk-table-middle`
 
 * 🔧 Fixed a few inconsistensies in html snippets & readme descriptions
 
 # Version 1.0.13 (April 13, 2017)
 * ✅ Added Javascript-only snippets for multiple components (check the readme for a detailed list)
 
-* Started adding attribute/class-only versions for many snippets (will be finished by 1.1.0)
+* ⚙️ Started adding attribute/class-only versions for many snippets (will be finished by 1.1.0)
 
 # Version 1.0.12 (April 11, 2017)
 * 💡 Updated relevant snippets to UIKit 3.0.0 beta 21
@@ -127,7 +137,7 @@
 # Version 1.0.10 (April 4, 2017)
 * ✅ Added Utility Leader snippet (`uk-utility-leader`)
 
-* Modified off-canvas snippets to match new format (Off-Canvas now requires wrapping the page into an extra div)
+* ⚙️ Modified off-canvas snippets to match new format (Off-Canvas now requires wrapping the page into an extra div)
 
 * 💡 Updated relevant snippets to UIKit 3.0.0 beta 19
 
@@ -163,7 +173,7 @@
 
 * 🔧 Fixed a few tab positions in some elements
 
-* Modified changlog style (again)
+* ⚙️ Modified changlog style (again)
 
 # Version 1.0.5 (March 3, 2017)
 * ✅ Added RTL snippet (Triggered with `uk-$-rtl`)
@@ -182,7 +192,7 @@
 * ✅ Added support for `php` files (Must be between `<?php ?>` tags for snippets to show up)
 
 # Version 1.0.1 (March 1, 2017)
-* Minor tweaks to readme for consistency
+* ⚙️ Minor tweaks to readme for consistency
 
 # Version 1.0.0 (March 1, 2017)
-* Initial support for UIKit beta 3.0
+* ✅ Initial support for UIKit beta 3.0

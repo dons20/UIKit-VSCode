@@ -8,13 +8,13 @@
             "\t\t<title>$2</title>",
             "\t\t<meta charset=\"UTF-8\">",
             "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.11/css/${3|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>",
-            "\t\t<link href=\"${3:css/styles.css}\" rel=\"stylesheet\">",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.20/css/${3|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>",
+            "\t\t<link href=\"${4:css/styles.css}\" rel=\"stylesheet\">",
             "\t</head>",
             "\t<body>",
             "\t\t$0",
-            "\r\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.11/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-uIoU015jY2XsmbFtIjpet+eU+0GM/Y+zaGlNngZTKuw=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.11/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-92V223qt9YYY7xHag8ctb7dvCKnK5sv/psCFHnAtZoU=\" crossorigin=\"anonymous\"></script>",
+            "\r\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.20/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-2vL3vDc2j7XdT1qgHvWPSCmULPhJ6q0bLlPIgPXFQPI=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.20/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-eQPdtNjxSg+WO2RwUfv5Jb/ZSlCIfsH6umy+Q9Fpuk0=\" crossorigin=\"anonymous\"></script>",
             "\t</body>",
             "</html>"
         ],
@@ -23,23 +23,23 @@
     "snippet-uk-$-css-import": {
         "prefix": "uk-$-css-import",
         "body": [
-            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.11/css/${1|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>"
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.20/css/${0|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>"
         ],
         "description": "Imports a chosen minified css file for UIKit"
     },
     "snippet-uk-$-js-import": {
         "prefix": "uk-$-js-import",
         "body": [
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.11/js/uikit.min.js\" \r\tintegrity=\"sha256-uIoU015jY2XsmbFtIjpet+eU+0GM/Y+zaGlNngZTKuw=\" crossorigin=\"anonymous\"></script>",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.11/js/uikit-icons.min.js\" \r\tintegrity=\"sha256-92V223qt9YYY7xHag8ctb7dvCKnK5sv/psCFHnAtZoU=\" crossorigin=\"anonymous\"></script>"
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.20/js/uikit.min.js\" \r\tintegrity=\"sha256-2vL3vDc2j7XdT1qgHvWPSCmULPhJ6q0bLlPIgPXFQPI=\" crossorigin=\"anonymous\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.20/js/uikit-icons.min.js\" \r\tintegrity=\"sha256-eQPdtNjxSg+WO2RwUfv5Jb/ZSlCIfsH6umy+Q9Fpuk0=\" crossorigin=\"anonymous\"></script>"
         ],
         "description": "Imports the default minified scripts for UIKit"
     },
     "snippet-uk-$-js-component-import": {
         "prefix": "uk-$-js-component-import",
         "body": [
-            "<!-- Manually add SRI by visiting https://cdnjs.com/libraries/uikit/3.0.0-rc.11 -->",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.11/js/components/${1|countdown,filter,lightbox,lightbox-panel,notification,parallax,slider,slider-parallax,slideshow,sortable,tooltip,upload|}.min.js\"></script>"
+            "<!-- Manually add SRI by visiting https://cdnjs.com/libraries/uikit/3.0.0-rc.20 -->",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.20/js/components/${1|countdown,filter,lightbox,lightbox-panel,notification,parallax,slider,slider-parallax,slideshow,sortable,tooltip,upload|}.min.js\"></script>"
         ],
         "description": "Imports a selected js component file for UIKit"
     },
@@ -737,6 +737,13 @@
             "<hr class=\"uk-divider-small\">"
         ],
         "description": "Creates a smaller divider"
+    },
+    "snippet-uk-divider-vertical": {
+        "prefix": "uk-divider-vertical",
+        "body": [
+            "<hr class=\"uk-divider-vertical\">"
+        ],
+        "description": "Creates a vertical divider"
     },
     "snippet-uk-dotnav": {
         "prefix": "uk-dotnav",
@@ -3700,7 +3707,7 @@
     "snippet-uk-text-color": {
         "prefix": "uk-text-color",
         "body": [
-            " class=\"uk-text-${0|muted,primary,success,warning,danger|}\" "
+            " class=\"uk-text-${0|muted,emphasis,primary,success,warning,danger|}\" "
         ],
         "description": "[Class] Modifies the color of text into the chosen color scheme"
     },
@@ -4153,7 +4160,7 @@
     "snippet-uk-utility-border-radius": {
         "prefix": "uk-utility-border-radius",
         "body": [
-            " class=\"uk-border-${0|rounded,circle|}\" "
+            " class=\"uk-border-${0|rounded,circle,pill|}\" "
         ],
         "description": "[Class] Modifies the border radius of an element"
     },

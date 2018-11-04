@@ -6,6 +6,9 @@
 
 [![Demo Image](https://zippy.gfycat.com/AmusingGiftedJumpingbean.gif)](https://gfycat.com/AmusingGiftedJumpingbean)
 
+## [🌞 View the Changelog](https://marketplace.visualstudio.com/items/Keno.uikit-3-snippets/changelog) to see what's new!
+---
+
 This extension adds all the snippets from [UIKit 3.0](https://getuikit.com/docs/introduction) into Visual Studio Code for easy access and usage.
 
 To show support for the project, you can do any of the following:
@@ -34,4 +37,4 @@ Thank You!
 1. With Visual Studio Code opened, press `Ctrl+P`.
 2. Type in `ext install uikit-3-snippets` and press `Enter`.
 
-Due to different formatting, [the extended **README** file can be found on Github](https://github.com/dons20/UIKit-VSCode)
+Due to a difference in text formatting, [the extended **README** file can be found on Github](https://github.com/dons20/UIKit-VSCode)
