@@ -3,7 +3,7 @@
     "displayName": "UIkit 3.0 Snippets",
     "publisher": "Keno",
     "description": "UIkit 3.0 Snippets based on official documentation",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "license": "SEE LICENSE IN LICENSE.md",
     "icon": "images/icon.png",
     "galleryBanner": {
@@ -36,7 +36,7 @@
         "url": "https://github.com/dons20/UIKit-VSCode/issues"
     },
     "engines": {
-        "vscode": "^1.16.0"
+        "vscode": "^1.31.1"
     },
     "categories": [
         "Snippets"
