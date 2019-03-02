@@ -219,7 +219,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 ## List of Commands (HTML/PHP)
 
 <details>
-  <summary><strong>Reveal List of Commands (HTML/PHP)</strong></summary>
+  <summary><strong>Click to Reveal List of Commands (HTML/PHP)</strong></summary>
   <p>
   
 ### UIKit Master Template
@@ -1571,7 +1571,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 ## List of Commands (Javascript)
 
 <details>
-  <summary><strong>Reveal List of Commands (Javascript)</strong></summary>
+  <summary><strong>Click to Reveal List of Commands (Javascript)</strong></summary>
   <p>
 
 ### Accordion JS

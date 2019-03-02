@@ -1,3 +1,12 @@
+# Version 1.4.1 (March 1, 2019)
+
+* ⚙️️️ JS Snippet Option comments have been moved from the body into the descriptions
+  * With [VSCode 1.31](https://code.visualstudio.com/updates/v1_31#_snippets-descriptions), support for multiline descriptions was added, so this is a more appropriate place to add them.
+* Minor tweaks and fixes
+
+## Contributions
+* [Jakob Pless @pless84](https://github.com/pless84): 💡 Updated to UIkit 3.0.3 [PR #18](https://github.com/dons20/UIKit-VSCode/pull/18)
+
 # Version 1.4.0 (November 3, 2018)
 * ⚙️️️ Modified main snippets to be global by default
   * There are many languages and associated files that the snippets wouldn't trigger in, and so this change will now allow `uk-` snippets to work in any file.
