@@ -14,9 +14,9 @@ This extension adds all the snippets from [UIKit 3.0](https://getuikit.com/docs/
 
 To show support for the project, you can do any of the following:
 
-- [Rate the extension on the marketplace](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
-- [Star the repository](https://github.com/dons20/UIKit-VSCode)
-- [Follow me on Twitter](https://twitter.com/KCInnovations)
+-   [Rate the extension on the marketplace](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
+-   [Star the repository](https://github.com/dons20/UIKit-VSCode)
+-   [Follow me on Twitter](https://twitter.com/KCInnovations)
 
 > Please remember to direct your issues, queries and suggestions to the [issues page](https://github.com/dons20/UIKit-VSCode/issues) of the repository.
 
@@ -44,151 +44,151 @@ Thank You!
   <summary><strong>Reveal Table of Contents</strong></summary>
   <p>
 
-- [UIKit 3.0 Snippets](#uikit-30-snippets-for-visual-studio-code)
-- [Setup](#setup)
-  - [Method 1](#method-1)
-  - [Method 2](#method-2)
-- [Table of Contents](#table-of-contents)
-- [Usage](#usage)
-- [Contribution Guidelines](#contribution-guidelines)
-  - [Snippet Template](#snippet-template)
-- [Changelog](#changelog)
-- [License](#license)
-- [References](#references)
-- [List of Commands (HTML5/PHP)](#list-of-commands-htmlphp)
+-   [UIKit 3.0 Snippets](#uikit-30-snippets-for-visual-studio-code)
+-   [Setup](#setup)
+    -   [Method 1](#method-1)
+    -   [Method 2](#method-2)
+-   [Table of Contents](#table-of-contents)
+-   [Usage](#usage)
+-   [Contribution Guidelines](#contribution-guidelines)
+    -   [Snippet Template](#snippet-template)
+-   [Changelog](#changelog)
+-   [License](#license)
+-   [References](#references)
+-   [List of Commands (HTML5/PHP)](#list-of-commands-htmlphp)
 
-  <details>
-  <summary><strong>Reveal List of Commands (HTML5/PHP)</strong></summary>
-  <p>
+    <details>
+    <summary><strong>Reveal List of Commands (HTML5/PHP)</strong></summary>
+    <p>
 
-  - [UIKit Master Template](#uikit-master-template)
-  - [Accordion](#accordion)
-  - [Alert](#alert)
-  - [Alignment](#alignment)
-  - [Animation](#animation)
-  - [Article](#article)
-  - [Background](#background)
-  - [Badge](#badge)
-  - [Breadcrumb](#breadcrumb)
-  - [Button](#button)
-  - [Card](#card)
-  - [Close](#close)
-  - [Column](#column)
-  - [Comment](#comment)
-  - [Container](#container)
-  - [Countdown](#countdown)
-  - [Cover](#cover)
-  - [Description List](#description-list)
-  - [Disabled](#disabled)
-  - [Divider](#divider)
-  - [Dotnav](#dotnav)
-  - [Drop](#drop)
-  - [Dropdown](#dropdown)
-  - [Filter](#filter)
-  - [Flex](#flex)
-  - [Form](#form)
-  - [Grid](#grid)
-  - [Grid Parallax](#grid-parallax)
-  - [Heading](#heading)
-  - [Height](#height)
-  - [Icon](#icon)
-  - [Iconnav](#iconnav)
-  - [Image](#image)
-  - [Inverse](#inverse)
-  - [Label](#label)
-  - [Leader](#leader)
-  - [Lightbox](#lightbox)
-  - [Link](#link)
-  - [List](#list)
-  - [Margin](#margin)
-  - [Marker](#marker)
-  - [Modal](#modal)
-  - [Nav](#nav)
-  - [Navbar](#navbar)
-  - [Notification](#notification)
-  - [Offcanvas](#offcanvas)
-  - [Overlay](#overlay)
-  - [Padding](#padding)
-  - [Pagination](#pagination)
-  - [Parallax](#parallax)
-  - [Placeholder](#placeholder)
-  - [Position](#position)
-  - [Progress](#progress)
-  - [Scroll](#scroll)
-  - [Scrollspy](#scrollspy)
-  - [Search](#search)
-  - [Section](#section)
-  - [Slidenav](#slidenav)
-  - [Slider](#slider)
-  - [Slideshow](#slideshow)
-  - [Sortable](#sortable)
-  - [Spinner](#spinner)
-  - [Sticky](#sticky)
-  - [Subnav](#subnav)
-  - [SVG](#svg)
-  - [Switcher](#switcher)
-  - [Tab](#tab)
-  - [Table](#table)
-  - [Text](#text)
-  - [Thumbnav](#thumbnav)
-  - [Tile](#tile)
-  - [Toggle](#toggle)
-  - [Tooltip](#tooltip)
-  - [Totop](#totop)
-  - [Transition](#transition)
-  - [Upload](#upload)
-  - [Utility](#utility)
-  - [Video](#video)
-  - [Visibility](#visibility)
-  - [Width](#width)
+    -   [UIKit Master Template](#uikit-master-template)
+    -   [Accordion](#accordion)
+    -   [Alert](#alert)
+    -   [Alignment](#alignment)
+    -   [Animation](#animation)
+    -   [Article](#article)
+    -   [Background](#background)
+    -   [Badge](#badge)
+    -   [Breadcrumb](#breadcrumb)
+    -   [Button](#button)
+    -   [Card](#card)
+    -   [Close](#close)
+    -   [Column](#column)
+    -   [Comment](#comment)
+    -   [Container](#container)
+    -   [Countdown](#countdown)
+    -   [Cover](#cover)
+    -   [Description List](#description-list)
+    -   [Disabled](#disabled)
+    -   [Divider](#divider)
+    -   [Dotnav](#dotnav)
+    -   [Drop](#drop)
+    -   [Dropdown](#dropdown)
+    -   [Filter](#filter)
+    -   [Flex](#flex)
+    -   [Form](#form)
+    -   [Grid](#grid)
+    -   [Grid Parallax](#grid-parallax)
+    -   [Heading](#heading)
+    -   [Height](#height)
+    -   [Icon](#icon)
+    -   [Iconnav](#iconnav)
+    -   [Image](#image)
+    -   [Inverse](#inverse)
+    -   [Label](#label)
+    -   [Leader](#leader)
+    -   [Lightbox](#lightbox)
+    -   [Link](#link)
+    -   [List](#list)
+    -   [Margin](#margin)
+    -   [Marker](#marker)
+    -   [Modal](#modal)
+    -   [Nav](#nav)
+    -   [Navbar](#navbar)
+    -   [Notification](#notification)
+    -   [Offcanvas](#offcanvas)
+    -   [Overlay](#overlay)
+    -   [Padding](#padding)
+    -   [Pagination](#pagination)
+    -   [Parallax](#parallax)
+    -   [Placeholder](#placeholder)
+    -   [Position](#position)
+    -   [Progress](#progress)
+    -   [Scroll](#scroll)
+    -   [Scrollspy](#scrollspy)
+    -   [Search](#search)
+    -   [Section](#section)
+    -   [Slidenav](#slidenav)
+    -   [Slider](#slider)
+    -   [Slideshow](#slideshow)
+    -   [Sortable](#sortable)
+    -   [Spinner](#spinner)
+    -   [Sticky](#sticky)
+    -   [Subnav](#subnav)
+    -   [SVG](#svg)
+    -   [Switcher](#switcher)
+    -   [Tab](#tab)
+    -   [Table](#table)
+    -   [Text](#text)
+    -   [Thumbnav](#thumbnav)
+    -   [Tile](#tile)
+    -   [Toggle](#toggle)
+    -   [Tooltip](#tooltip)
+    -   [Totop](#totop)
+    -   [Transition](#transition)
+    -   [Upload](#upload)
+    -   [Utility](#utility)
+    -   [Video](#video)
+    -   [Visibility](#visibility)
+    -   [Width](#width)
 
-    </p>
-    </details>
-
-  - [List of Commands (Javascript)](#list-of-commands-javascript)
-
-        <details>
-        <summary><strong>Reveal List of Commands (Javascript)</strong></summary>
-        <p>
-
-        * [Accordion JS](#accordion-js)
-        * [Alert JS](#alert-js)
-        * [Countdown JS](#countdown-js)
-        * [Cover JS](#cover-js)
-        * [Drop JS](#drop-js)
-        * [Dropdown JS](#dropdown-js)
-        * [Filter JS](#filter-js)
-        * [Form JS](#form-js)
-        * [Grid JS](#grid-js)
-        * [Grid Parallax JS](#grid-parallax-js)
-        * [Icon JS](#icon-js)
-        * [Image JS](#image-js)
-        * [Lightbox JS](#lightbox-js)
-        * [Margin JS](#margin-js)
-        * [Modal JS](#modal-js)
-        * [Nav JS](#nav-js)
-        * [Navbar JS](#navbar-js)
-        * [Notification JS](#notification-js)
-        * [Offcanvas JS](#offcanvas-js)
-        * [Parallax JS](#parallax-js)
-        * [Scroll JS](#scroll-js)
-        * [Scrollspy JS](#scrollspy-js)
-        * [Slider JS](#slider-js)
-        * [Slideshow JS](#slideshow-js)
-        * [Sortable JS](#sortable-js)
-        * [Sticky JS](#sticky-js)
-        * [SVG JS](#svg-js)
-        * [Switcher JS](#switcher-js)
-        * [Tab JS](#tab-js)
-        * [Toggle JS](#toggle-js)
-        * [Tooltip JS](#tooltip-js)
-        * [Upload JS](#upload-js)
-        * [Video JS](#video-js)
         </p>
         </details>
 
-      </p>
-    </details>
+    -   [List of Commands (Javascript)](#list-of-commands-javascript)
+
+            <details>
+            <summary><strong>Reveal List of Commands (Javascript)</strong></summary>
+            <p>
+
+            * [Accordion JS](#accordion-js)
+            * [Alert JS](#alert-js)
+            * [Countdown JS](#countdown-js)
+            * [Cover JS](#cover-js)
+            * [Drop JS](#drop-js)
+            * [Dropdown JS](#dropdown-js)
+            * [Filter JS](#filter-js)
+            * [Form JS](#form-js)
+            * [Grid JS](#grid-js)
+            * [Grid Parallax JS](#grid-parallax-js)
+            * [Icon JS](#icon-js)
+            * [Image JS](#image-js)
+            * [Lightbox JS](#lightbox-js)
+            * [Margin JS](#margin-js)
+            * [Modal JS](#modal-js)
+            * [Nav JS](#nav-js)
+            * [Navbar JS](#navbar-js)
+            * [Notification JS](#notification-js)
+            * [Offcanvas JS](#offcanvas-js)
+            * [Parallax JS](#parallax-js)
+            * [Scroll JS](#scroll-js)
+            * [Scrollspy JS](#scrollspy-js)
+            * [Slider JS](#slider-js)
+            * [Slideshow JS](#slideshow-js)
+            * [Sortable JS](#sortable-js)
+            * [Sticky JS](#sticky-js)
+            * [SVG JS](#svg-js)
+            * [Switcher JS](#switcher-js)
+            * [Tab JS](#tab-js)
+            * [Toggle JS](#toggle-js)
+            * [Tooltip JS](#tooltip-js)
+            * [Upload JS](#upload-js)
+            * [Video JS](#video-js)
+            </p>
+            </details>
+
+          </p>
+        </details>
 
 ## Usage
 
@@ -226,12 +226,12 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 <details><summary>Reveal Content</summary>
 <p>
 
-|         Trigger          |                  Description                   |
-| :----------------------: | :--------------------------------------------: |
-|           uk-$           |         Creates a basic UIKit template         |
-|     uk-$-css-import      |  Imports a chosen minified css file for UIKit  |
-|      uk-$-js-import      | Imports the default minified scripts for UIKit |
-| uk-$-js-component-import | Imports a selected js component file for UIKit |
+|          Trigger          |                  Description                   |
+| :-----------------------: | :--------------------------------------------: |
+|           uk-\$           |         Creates a basic UIKit template         |
+|     uk-\$-css-import      |  Imports a chosen minified css file for UIKit  |
+|      uk-\$-js-import      | Imports the default minified scripts for UIKit |
+| uk-\$-js-component-import | Imports a selected js component file for UIKit |
 
 </p>
 </details>
@@ -285,17 +285,20 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 <details><summary>Reveal Content</summary>
 <p>
 
-|            Trigger            |                            Description                             |
-| :---------------------------: | :----------------------------------------------------------------: |
-|       uk-animation-fade       |                    [Class] The element fades in                    |
-|      uk-animation-scale       |         [Class] The element fades in and scales up or down         |
-|      uk-animation-slide       | [Class] The element fades in and slides in from a chosen direction |
-|   uk-animation-slide-custom   |       [Class] The element slides in with a specific distance       |
-|     uk-animation-kenburns     |       [Class] The element scales slowly up without fading in       |
-|      uk-animation-shake       |                     [Class] The element shakes                     |
-|     uk-animation-reverse      |          [Class] The element's animation plays in reverse          |
-|       uk-animation-fast       |      [Class] The element's animation plays at a faster speed       |
-| uk-animation-transform-origin |      [Class] The element scales in from a different direction      |
+|            Trigger            |                               Description                                |
+| :---------------------------: | :----------------------------------------------------------------------: |
+|       uk-animation-fade       |                       [Class] The element fades in                       |
+|      uk-animation-scale       |            [Class] The element fades in and scales up or down            |
+|      uk-animation-slide       |    [Class] The element fades in and slides in from a chosen direction    |
+|   uk-animation-slide-custom   |          [Class] The element slides in with a specific distance          |
+|     uk-animation-kenburns     |          [Class] The element scales slowly up without fading in          |
+|      uk-animation-shake       |                        [Class] The element shakes                        |
+|      uk-animation-stroke      |                [Class] The SVG element strokes are drawn                 |
+|    uk-animation-stroke-svg    |                  Easier usage of svg stroke animations                   |
+|     uk-animation-reverse      |             [Class] The element's animation plays in reverse             |
+|       uk-animation-fast       |         [Class] The element's animation plays at a faster speed          |
+| uk-animation-transform-origin |         [Class] The element scales in from a different direction         |
+|      uk-animation-toggle      | [Class] Added to a parent element to toggle animations on hover or focus |
 
 </p>
 </details>
@@ -669,8 +672,8 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 |          Trigger          |                           Description                            |
 | :-----------------------: | :--------------------------------------------------------------: |
-|    uk-heading-primary     |           [Class] Used to create an emphasized heading           |
-| uk-heading-primary-sample |                  Creates an emphasized heading                   |
+|    uk-heading-primary     |      [Class] Used to create a heading with a specified size      |
+| uk-heading-primary-sample |             Creates a heading with a specified size              |
 |    uk-heading-divider     |    [Class] Used to create a heading with a divider underneath    |
 | uk-heading-divider-sample |           Creates a heading with a divider underneath            |
 |     uk-heading-bullet     |         [Class] Used to create a heading used in a list          |
@@ -809,12 +812,13 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 <details><summary>Reveal Content</summary>
 <p>
 
-|     Trigger     |                      Description                       |
-| :-------------: | :----------------------------------------------------: |
-|  uk-link-muted  |           Creates a link with a muted style            |
-|  uk-link-text   |         Creates a link with a body text style          |
-| uk-link-heading |          Creates a link with a heading style           |
-|  uk-link-reset  | Creates a link that inherits its color from its parent |
+|     Trigger     |                                       Description                                       |
+| :-------------: | :-------------------------------------------------------------------------------------: |
+|  uk-link-muted  |                            Creates a link with a muted style                            |
+|  uk-link-text   |                          Creates a link with a body text style                          |
+| uk-link-heading |                           Creates a link with a heading style                           |
+|  uk-link-reset  |                 Creates a link that inherits its color from its parent                  |
+| uk-link-toggle  | Creates a link on the parent element and applies a link style to one of its child nodes |
 
 </p>
 </details>

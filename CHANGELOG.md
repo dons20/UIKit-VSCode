@@ -1,3 +1,16 @@
+# Version 1.4.2 (July 29, 2019)
+
+* 💡 Updated to UIkit 3.1.6
+
+* ✅ Added `uk-heading` with size selectors from small - 2x large
+
+* ✅ Added multiple new `uk-animation` snippets
+
+* ✅ Added `uk-link-toggle`
+
+* ❗️ Removed `uk-heading-primary`
+
+
 # Version 1.4.1 (March 1, 2019)
 
 * ⚙️️️ JS Snippet Option comments have been moved from the body into the descriptions
