@@ -8,13 +8,13 @@
             "\t\t<title>$2</title>",
             "\t\t<meta charset=\"UTF-8\">",
             "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/${3|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/css/${3|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>",
             "\t\t<link href=\"${4:css/styles.css}\" rel=\"stylesheet\">",
             "\t</head>",
             "\t<body>",
             "\t\t$0",
-            "\r\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-v789mr/zBbgR53mfydCI78CSAF+9+nRqu+JRfs1UPg0=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-l+AmZGiFz41J+gms80qC7faslJDberZDhjEsmDmQy8s=\" crossorigin=\"anonymous\"></script>",
+            "\r\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-8QekXFS5Mxv+c4TrPQY01b+3GUCDKMEtUT4hwe79u+U=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-ePbnCL/UfOwc7bXqeMgyTNf6wM1HoqaY1ZeDQWYSJ9Y=\" crossorigin=\"anonymous\"></script>",
             "\t</body>",
             "</html>"
         ],
@@ -23,23 +23,23 @@
     "snippet-uk-$-css-import": {
         "prefix": "uk-$-css-import",
         "body": [
-            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/css/${0|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>"
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/css/${0|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>"
         ],
         "description": "Imports a chosen minified css file for UIKit"
     },
     "snippet-uk-$-js-import": {
         "prefix": "uk-$-js-import",
         "body": [
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit.min.js\" \r\tintegrity=\"sha256-v789mr/zBbgR53mfydCI78CSAF+9+nRqu+JRfs1UPg0=\" crossorigin=\"anonymous\"></script>",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit-icons.min.js\" \r\tintegrity=\"sha256-l+AmZGiFz41J+gms80qC7faslJDberZDhjEsmDmQy8s=\" crossorigin=\"anonymous\"></script>"
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit.min.js\" \r\tintegrity=\"sha256-8QekXFS5Mxv+c4TrPQY01b+3GUCDKMEtUT4hwe79u+U=\" crossorigin=\"anonymous\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit-icons.min.js\" \r\tintegrity=\"sha256-ePbnCL/UfOwc7bXqeMgyTNf6wM1HoqaY1ZeDQWYSJ9Y=\" crossorigin=\"anonymous\"></script>"
         ],
         "description": "Imports the default minified scripts for UIKit"
     },
     "snippet-uk-$-js-component-import": {
         "prefix": "uk-$-js-component-import",
         "body": [
-            "<!-- Manually add SRI by visiting https://cdnjs.com/libraries/uikit/3.1.6 -->",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/components/${1|countdown,filter,lightbox,lightbox-panel,notification,parallax,slider,slider-parallax,slideshow,sortable,tooltip,upload|}.min.js\"></script>"
+            "<!-- Manually add SRI by visiting https://cdnjs.com/libraries/uikit/3.5.4 -->",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/components/${1|countdown,filter,lightbox,lightbox-panel,notification,parallax,slider,slider-parallax,slideshow,sortable,tooltip,upload|}.min.js\"></script>"
         ],
         "description": "Imports a selected js component file for UIKit"
     },
@@ -3135,6 +3135,11 @@
         "body": ["<th class=\"uk-table-${0|shrink,expand|}\"></th>"],
         "description": "Modifies the width of a table column"
     },
+    "snippet-uk-font-weight": {
+        "prefix": "uk-font-weight",
+        "body": ["class=\"uk-text-${0|light,lighter,normal,bold,bolder|}\""],
+        "description": "Modifies font weight"
+    },
     "snippet-uk-text-lead": {
         "prefix": "uk-text-lead",
         "body": [" class=\"uk-text-lead\" "],
@@ -3145,15 +3150,15 @@
         "body": [" class=\"uk-text-meta\" "],
         "description": "[Class] Text class for paragraphs with meta data about an article or similar"
     },
+    "snippet-uk-text-italic": {
+        "prefix": "uk-text-italic",
+        "body": [" class=\"uk-text-italic\" "],
+        "description": "[Class] Creates italic text"
+    },
     "snippet-uk-text-size": {
         "prefix": "uk-text-size",
         "body": [" class=\"uk-text-${0|small,large|}\" "],
         "description": "[Class] Modifies the font size of text"
-    },
-    "snippet-uk-text-bold": {
-        "prefix": "uk-text-bold",
-        "body": [" class=\"uk-text-bold}\" "],
-        "description": "[Class] Creates bold text"
     },
     "snippet-uk-text-transform": {
         "prefix": "uk-text-transform",
