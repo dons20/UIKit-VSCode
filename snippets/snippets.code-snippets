@@ -13,8 +13,8 @@
             "\t</head>",
             "\t<body>",
             "\t\t$0",
-            "\r\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-v789mr/zBbgR53mfydCI78CSAF+9+nRqu+JRfs1UPg0=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-l+AmZGiFz41J+gms80qC7faslJDberZDhjEsmDmQy8s=\" crossorigin=\"anonymous\"></script>",
+            "\r\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-v789mr/zBbgR53mfydCI78CSAF+9+nRqu+JRfs1UPg0=\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-l+AmZGiFz41J+gms80qC7faslJDberZDhjEsmDmQy8s=\" crossorigin=\"anonymous\"></script>",
             "\t</body>",
             "</html>"
         ],
@@ -23,23 +23,23 @@
     "snippet-uk-$-css-import": {
         "prefix": "uk-$-css-import",
         "body": [
-            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/css/${0|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>"
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/css/${0|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>"
         ],
         "description": "Imports a chosen minified css file for UIKit"
     },
     "snippet-uk-$-js-import": {
         "prefix": "uk-$-js-import",
         "body": [
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit.min.js\" \r\tintegrity=\"sha256-v789mr/zBbgR53mfydCI78CSAF+9+nRqu+JRfs1UPg0=\" crossorigin=\"anonymous\"></script>",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit-icons.min.js\" \r\tintegrity=\"sha256-l+AmZGiFz41J+gms80qC7faslJDberZDhjEsmDmQy8s=\" crossorigin=\"anonymous\"></script>"
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit.min.js\" \r\tintegrity=\"sha256-v789mr/zBbgR53mfydCI78CSAF+9+nRqu+JRfs1UPg0=\" crossorigin=\"anonymous\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit-icons.min.js\" \r\tintegrity=\"sha256-l+AmZGiFz41J+gms80qC7faslJDberZDhjEsmDmQy8s=\" crossorigin=\"anonymous\"></script>"
         ],
         "description": "Imports the default minified scripts for UIKit"
     },
     "snippet-uk-$-js-component-import": {
         "prefix": "uk-$-js-component-import",
         "body": [
-            "<!-- Manually add SRI by visiting https://cdnjs.com/libraries/uikit/3.1.6 -->",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/components/${1|countdown,filter,lightbox,lightbox-panel,notification,parallax,slider,slider-parallax,slideshow,sortable,tooltip,upload|}.min.js\"></script>"
+            "<!-- Manually add SRI by visiting https://cdnjs.com/libraries/uikit/3.5.4 -->",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/components/${1|countdown,filter,lightbox,lightbox-panel,notification,parallax,slider,slider-parallax,slideshow,sortable,tooltip,upload|}.min.js\"></script>"
         ],
         "description": "Imports a selected js component file for UIKit"
     },
