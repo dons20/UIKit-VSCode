@@ -8,7 +8,7 @@
             "\t\t<title>$2</title>",
             "\t\t<meta charset=\"UTF-8\">",
             "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/${3|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/css/${3|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>",
             "\t\t<link href=\"${4:css/styles.css}\" rel=\"stylesheet\">",
             "\t</head>",
             "\t<body>",
@@ -3135,6 +3135,11 @@
         "body": ["<th class=\"uk-table-${0|shrink,expand|}\"></th>"],
         "description": "Modifies the width of a table column"
     },
+    "snippet-uk-font-weight": {
+        "prefix": "uk-font-weight",
+        "body": ["class=\"uk-text-${0|light,lighter,normal,bold,bolder|}\""],
+        "description": "Modifies font weight"
+    },
     "snippet-uk-text-lead": {
         "prefix": "uk-text-lead",
         "body": [" class=\"uk-text-lead\" "],
@@ -3145,15 +3150,15 @@
         "body": [" class=\"uk-text-meta\" "],
         "description": "[Class] Text class for paragraphs with meta data about an article or similar"
     },
+    "snippet-uk-text-italic": {
+        "prefix": "uk-text-italic",
+        "body": [" class=\"uk-text-italic\" "],
+        "description": "[Class] Creates italic text"
+    },
     "snippet-uk-text-size": {
         "prefix": "uk-text-size",
         "body": [" class=\"uk-text-${0|small,large|}\" "],
         "description": "[Class] Modifies the font size of text"
-    },
-    "snippet-uk-text-bold": {
-        "prefix": "uk-text-bold",
-        "body": [" class=\"uk-text-bold}\" "],
-        "description": "[Class] Creates bold text"
     },
     "snippet-uk-text-transform": {
         "prefix": "uk-text-transform",
