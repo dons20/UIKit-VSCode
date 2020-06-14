@@ -1,3 +1,9 @@
+# Version 1.4.3 (June 14, 2020)
+
+## Contributions
+
+* [Yusuf Bıyık @yussufjpg](https://github.com/yussufjpg): 💡 Updated to UIkit 3.5.4 - [PR #21](https://github.com/dons20/UIKit-VSCode/pull/21)
+
 # Version 1.4.2 (July 29, 2019)
 
 * 💡 Updated to UIkit 3.1.6
@@ -18,7 +24,7 @@
 * Minor tweaks and fixes
 
 ## Contributions
-* [Jakob Pless @pless84](https://github.com/pless84): 💡 Updated to UIkit 3.0.3 [PR #18](https://github.com/dons20/UIKit-VSCode/pull/18)
+* [Jakob Pless @pless84](https://github.com/pless84): 💡 Updated to UIkit 3.0.3 - [PR #18](https://github.com/dons20/UIKit-VSCode/pull/18)
 
 # Version 1.4.0 (November 3, 2018)
 * ⚙️️️ Modified main snippets to be global by default
