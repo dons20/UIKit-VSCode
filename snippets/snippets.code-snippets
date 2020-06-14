@@ -13,8 +13,8 @@
             "\t</head>",
             "\t<body>",
             "\t\t$0",
-            "\r\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-v789mr/zBbgR53mfydCI78CSAF+9+nRqu+JRfs1UPg0=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-l+AmZGiFz41J+gms80qC7faslJDberZDhjEsmDmQy8s=\" crossorigin=\"anonymous\"></script>",
+            "\r\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit.min.js\" \r\t\t\t\tcrossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit-icons.min.js\" \r\t\t\t\tcrossorigin=\"anonymous\"></script>",
             "\t</body>",
             "</html>"
         ],
@@ -30,8 +30,8 @@
     "snippet-uk-$-js-import": {
         "prefix": "uk-$-js-import",
         "body": [
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit.min.js\" \r\tintegrity=\"sha256-v789mr/zBbgR53mfydCI78CSAF+9+nRqu+JRfs1UPg0=\" crossorigin=\"anonymous\"></script>",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit-icons.min.js\" \r\tintegrity=\"sha256-l+AmZGiFz41J+gms80qC7faslJDberZDhjEsmDmQy8s=\" crossorigin=\"anonymous\"></script>"
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit.min.js\" \r\tcrossorigin=\"anonymous\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit-icons.min.js\" \r\tcrossorigin=\"anonymous\"></script>"
         ],
         "description": "Imports the default minified scripts for UIKit"
     },
