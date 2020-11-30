@@ -8,13 +8,13 @@
             "\t\t<title>$2</title>",
             "\t\t<meta charset=\"UTF-8\">",
             "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/css/${3|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/css/${3|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>",
             "\t\t<link href=\"${4:css/styles.css}\" rel=\"stylesheet\">",
             "\t</head>",
             "\t<body>",
             "\t\t$0",
-            "\r\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha256-8QekXFS5Mxv+c4TrPQY01b+3GUCDKMEtUT4hwe79u+U=\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha256-ePbnCL/UfOwc7bXqeMgyTNf6wM1HoqaY1ZeDQWYSJ9Y=\" crossorigin=\"anonymous\"></script>",
+            "\r\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha512-OZ9Sq7ecGckkqgxa8t/415BRNoz2GIInOsu8Qjj99r9IlBCq2XJlm9T9z//D4W1lrl+xCdXzq0EYfMo8DZJ+KA==\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha512-hcz3GoZLfjU/z1OyArGvM1dVgrzpWcU3jnYaC6klc2gdy9HxrFkmoWmcUYbraeS+V/GWSgfv6upr9ff4RVyQPw==\" crossorigin=\"anonymous\"></script>",
             "\t</body>",
             "</html>"
         ],
@@ -23,23 +23,23 @@
     "snippet-uk-$-css-import": {
         "prefix": "uk-$-css-import",
         "body": [
-            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/css/${0|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>"
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/css/${0|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>"
         ],
         "description": "Imports a chosen minified css file for UIKit"
     },
     "snippet-uk-$-js-import": {
         "prefix": "uk-$-js-import",
         "body": [
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit.min.js\" \r\tintegrity=\"sha256-8QekXFS5Mxv+c4TrPQY01b+3GUCDKMEtUT4hwe79u+U=\" crossorigin=\"anonymous\"></script>",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit-icons.min.js\" \r\tintegrity=\"sha256-ePbnCL/UfOwc7bXqeMgyTNf6wM1HoqaY1ZeDQWYSJ9Y=\" crossorigin=\"anonymous\"></script>"
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/js/uikit.min.js\" \r\tintegrity=\"sha512-OZ9Sq7ecGckkqgxa8t/415BRNoz2GIInOsu8Qjj99r9IlBCq2XJlm9T9z//D4W1lrl+xCdXzq0EYfMo8DZJ+KA==\" crossorigin=\"anonymous\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/js/uikit-icons.min.js\" \r\tintegrity=\"sha512-hcz3GoZLfjU/z1OyArGvM1dVgrzpWcU3jnYaC6klc2gdy9HxrFkmoWmcUYbraeS+V/GWSgfv6upr9ff4RVyQPw==\" crossorigin=\"anonymous\"></script>"
         ],
         "description": "Imports the default minified scripts for UIKit"
     },
     "snippet-uk-$-js-component-import": {
         "prefix": "uk-$-js-component-import",
         "body": [
-            "<!-- Manually add SRI by visiting https://cdnjs.com/libraries/uikit/3.5.4 -->",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/components/${1|countdown,filter,lightbox,lightbox-panel,notification,parallax,slider,slider-parallax,slideshow,sortable,tooltip,upload|}.min.js\"></script>"
+            "$BLOCK_COMMENT_START Manually add SRI by visiting https://cdnjs.com/libraries/uikit/3.5.9 $BLOCK_COMMENT_END",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/js/components/${1|countdown,filter,lightbox,lightbox-panel,notification,parallax,slider,slider-parallax,slideshow,sortable,tooltip,upload|}.min.js\"></script>"
         ],
         "description": "Imports a selected js component file for UIKit"
     },
@@ -330,7 +330,7 @@
     "snippet-uk-button-dropdown": {
         "prefix": "uk-button-dropdown",
         "body": [
-            "<!-- A button toggling a dropdown -->",
+            "$BLOCK_COMMENT_START A button toggling a dropdown $BLOCK_COMMENT_END",
             "<button class=\"uk-button uk-button-${1|default,primary,secondary,danger,text,link|}\" type=\"button\">$2</button>",
             "<div uk-dropdown>",
             "\t<ul class=\"uk-nav uk-dropdown-nav\">",
@@ -354,11 +354,11 @@
     "snippet-uk-button-group-dropdown": {
         "prefix": "uk-button-group-dropdown",
         "body": [
-            "<!-- A button group with a dropdown -->",
+            "$BLOCK_COMMENT_START A button group with a dropdown $BLOCK_COMMENT_END",
             "<div class=\"uk-button-group\">",
             "\t<button class=\"uk-button uk-button-${1|default,primary,secondary,danger,text,link|}\">$2</button>",
             "\t<div class=\"uk-inline\">",
-            "\t\t<!-- The button toggling the dropdown -->",
+            "\t\t$BLOCK_COMMENT_START The button toggling the dropdown $BLOCK_COMMENT_END",
             "\t\t<button class=\"uk-button uk-button-default\" type=\"button\">$0</button>",
             "\t\t<div uk-dropdown=\"mode: click; boundary: ! .uk-button-group; boundary-align: true;\"></div>",
             "\t</div>",
@@ -678,7 +678,7 @@
         "prefix": "uk-dotnav-overlay",
         "body": [
             "<div class=\"uk-position-relative\">",
-            "\r\t<!-- The element which is wrapped goes here -->",
+            "\r\t$BLOCK_COMMENT_START The element which is wrapped goes here $BLOCK_COMMENT_END",
             "\r\t<div class=\"uk-position-bottom-center uk-position-small\">",
             "\t\t<ul class=\"uk-dotnav\">$0</ul>",
             "\t</div>",
@@ -858,11 +858,11 @@
         "prefix": "uk-filter-sample",
         "body": [
             "<div uk-filter=\"target: ${1:SELECTOR}\">",
-            "\r\t<!-- Filter controls -->",
+            "\r\t$BLOCK_COMMENT_START Filter controls $BLOCK_COMMENT_END",
             "\t<ul>",
             "\t\t<li uk-filter-control=\"filter: ${2:SELECTOR}\"><a href=\"#\"></a></li>",
             "\t</ul>",
-            "\r\t<!-- Layout items -->",
+            "\r\t$BLOCK_COMMENT_START Layout items $BLOCK_COMMENT_END",
             "\t<ul class=\"js-filter\">",
             "\t\t<li></li>",
             "\t</ul>",
@@ -1523,9 +1523,9 @@
     "snippet-uk-modal-sample": {
         "prefix": "uk-modal-sample",
         "body": [
-            "<!-- This is a button toggling the modal -->",
+            "$BLOCK_COMMENT_START This is a button toggling the modal $BLOCK_COMMENT_END",
             "<button uk-toggle=\"target: #${1:my-id}\" type=\"button\">$3</button>",
-            "\r<!-- This is the modal -->",
+            "\r$BLOCK_COMMENT_START This is the modal $BLOCK_COMMENT_END",
             "<div id=\"${2:my-id}\" uk-modal>",
             "\t<div class=\"uk-modal-dialog uk-modal-body\">",
             "\t\t<h2 class=\"uk-modal-title\">$4</h2>",
@@ -1891,12 +1891,12 @@
         "prefix": "uk-offcanvas-sample",
         "body": [
             "<div class=\"uk-offcanvas-content\">",
-            "\t<!-- The whole page content goes here -->",
-            "\r\t<!-- This is a button toggling the off-canvas -->",
+            "\t$BLOCK_COMMENT_START The whole page content goes here $BLOCK_COMMENT_END",
+            "\r\t$BLOCK_COMMENT_START This is a button toggling the off-canvas $BLOCK_COMMENT_END",
             "\t<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
-            "\t<!-- This is an anchor toggling the off-canvas -->",
+            "\t$BLOCK_COMMENT_START This is an anchor toggling the off-canvas $BLOCK_COMMENT_END",
             "\t<a href=\"#${2:my-id}\" uk-toggle></a>",
-            "\t<!-- This is the off-canvas -->",
+            "\t$BLOCK_COMMENT_START This is the off-canvas $BLOCK_COMMENT_END",
             "\t<div id=\"${3:my-id}\" uk-offcanvas>",
             "\t\t<div class=\"uk-offcanvas-bar\">",
             "\t\t\t<button class=\"uk-offcanvas-close\" type=\"button\" uk-close></button>",
@@ -1909,12 +1909,12 @@
         "prefix": "uk-offcanvas-overlay",
         "body": [
             "<div class=\"uk-offcanvas-content\">",
-            "\t<!-- The whole page content goes here -->",
-            "\r\t<!-- This is a button toggling the off-canvas -->",
+            "\t$BLOCK_COMMENT_START The whole page content goes here $BLOCK_COMMENT_END",
+            "\r\t$BLOCK_COMMENT_START This is a button toggling the off-canvas $BLOCK_COMMENT_END",
             "\t<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
-            "\t<!-- This is an anchor toggling the off-canvas -->",
+            "\t$BLOCK_COMMENT_START This is an anchor toggling the off-canvas $BLOCK_COMMENT_END",
             "\t<a href=\"#${2:my-id}\" uk-toggle></a>",
-            "\t<!-- This is the off-canvas -->",
+            "\t$BLOCK_COMMENT_START This is the off-canvas $BLOCK_COMMENT_END",
             "\t<div id=\"${3:my-id}\" uk-offcanvas=\"overlay: true;\">",
             "\t\t<div class=\"uk-offcanvas-bar\">",
             "\t\t\t<button class=\"uk-offcanvas-close\" type=\"button\" uk-close></button>",
@@ -1927,12 +1927,12 @@
         "prefix": "uk-offcanvas-flip-modifier",
         "body": [
             "<div class=\"uk-offcanvas-content\">",
-            "\t<!-- The whole page content goes here -->",
-            "\r\t<!-- This is a button toggling the off-canvas -->",
+            "\t$BLOCK_COMMENT_START The whole page content goes here $BLOCK_COMMENT_END",
+            "\r\t$BLOCK_COMMENT_START This is a button toggling the off-canvas $BLOCK_COMMENT_END",
             "\t<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
-            "\t<!-- This is an anchor toggling the off-canvas -->",
+            "\t$BLOCK_COMMENT_START This is an anchor toggling the off-canvas $BLOCK_COMMENT_END",
             "\t<a href=\"#${2:my-id}\" uk-toggle></a>",
-            "\t<!-- This is the off-canvas -->",
+            "\t$BLOCK_COMMENT_START This is the off-canvas $BLOCK_COMMENT_END",
             "\t<div id=\"${3:my-id}\" uk-offcanvas=\"flip: true;\">",
             "\t\t<div class=\"uk-offcanvas-bar\">",
             "\t\t\t<button class=\"uk-offcanvas-close\" type=\"button\" uk-close></button>",
@@ -1945,12 +1945,12 @@
         "prefix": "uk-offcanvas-animation-mode",
         "body": [
             "<div class=\"uk-offcanvas-content\">",
-            "\t<!-- The whole page content goes here -->",
-            "\r\t<!-- This is a button toggling the off-canvas -->",
+            "\t$BLOCK_COMMENT_START The whole page content goes here $BLOCK_COMMENT_END",
+            "\r\t$BLOCK_COMMENT_START This is a button toggling the off-canvas $BLOCK_COMMENT_END",
             "\t<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
-            "\t<!-- This is an anchor toggling the off-canvas -->",
+            "\t$BLOCK_COMMENT_START This is an anchor toggling the off-canvas $BLOCK_COMMENT_END",
             "\t<a href=\"#${2:my-id}\" uk-toggle></a>",
-            "\t<!-- This is the off-canvas -->",
+            "\t$BLOCK_COMMENT_START This is the off-canvas $BLOCK_COMMENT_END",
             "\t<div id=\"${3:my-id}\" uk-offcanvas=\"mode: ${4|slide,push,reveal,none|};\">",
             "\t\t<div class=\"uk-offcanvas-bar\">",
             "\t\t\t<button class=\"uk-offcanvas-close\" type=\"button\" uk-close></button>",
@@ -1963,12 +1963,12 @@
         "prefix": "uk-offcanvas-nav",
         "body": [
             "<div class=\"uk-offcanvas-content\">",
-            "\t<!-- The whole page content goes here -->",
-            "\r\t<!-- This is a button toggling the off-canvas -->",
+            "\t$BLOCK_COMMENT_START The whole page content goes here $BLOCK_COMMENT_END",
+            "\r\t$BLOCK_COMMENT_START This is a button toggling the off-canvas $BLOCK_COMMENT_END",
             "\t<button uk-toggle=\"target: #${1:my-id}\" type=\"button\"></button>",
-            "\t<!-- This is an anchor toggling the off-canvas -->",
+            "\t$BLOCK_COMMENT_START This is an anchor toggling the off-canvas $BLOCK_COMMENT_END",
             "\t<a href=\"#${2:my-id}\" uk-toggle></a>",
-            "\t<!-- This is the off-canvas -->",
+            "\t$BLOCK_COMMENT_START This is the off-canvas $BLOCK_COMMENT_END",
             "\t<div id=\"${3:my-id}\" uk-offcanvas=\"mode: ${4|slide,push,reveal,none|};\">",
             "\t\t<div class=\"uk-offcanvas-bar\">",
             "\t\t\t<ul class=\"uk-nav uk-nav-default\">$0</ul>",
@@ -2047,7 +2047,7 @@
         "body": [
             "<ul class=\"uk-pagination\">",
             "\t<li><a href=\"\"></a></li>",
-            "\t<!-- Use <span> instead of <a> tags for active and disabled items -->",
+            "\t$BLOCK_COMMENT_START Use <span> instead of <a> tags for active and disabled items $BLOCK_COMMENT_END",
             "\t<li class=\"uk-active\"><span></span></li>",
             "\t<li class=\"uk-disabled\"><span></span></li>",
             "</ul>"
@@ -2059,7 +2059,7 @@
         "body": [
             "<ul class=\"uk-pagination uk-flex-${0:center}\">",
             "\t<li><a href=\"\"></a></li>",
-            "\t<!-- Use <span> instead of <a> tags for active and disabled items -->",
+            "\t$BLOCK_COMMENT_START Use <span> instead of <a> tags for active and disabled items $BLOCK_COMMENT_END",
             "\t<li class=\"uk-active\"><span></span></li>",
             "\t<li class=\"uk-disabled\"><span></span></li>",
             "</ul>"
@@ -2362,7 +2362,7 @@
         "prefix": "uk-slidenav-position-overlay",
         "body": [
             "<div class=\"uk-position-relative uk-light\">",
-            "\r\t<!-- The element which is wrapped goes here -->",
+            "\r\t$BLOCK_COMMENT_START The element which is wrapped goes here $BLOCK_COMMENT_END",
             "\r\t<a class=\"uk-position-center-left\" href=\"\" uk-slidenav-previous></a>",
             "\t<a class=\"uk-position-center-right\" href=\"\" uk-slidenav-next></a>",
             "\r</div>"
@@ -2525,7 +2525,7 @@
             "\t\t<li>",
             "\t\t\t<img src=\"\" alt=\"\">",
             "\t\t\t<div class=\"uk-position-center\">",
-            "\r\t\t\t\t<!-- The content goes here -->",
+            "\r\t\t\t\t$BLOCK_COMMENT_START The content goes here $BLOCK_COMMENT_END",
             "\r\t\t\t</div>",
             "\t\t</li>",
             "\t</ul>",
@@ -2542,7 +2542,7 @@
             "\t\t\t<img src=\"\" alt=\"\">",
             "\t\t\t<div class=\"uk-position-center\">",
             "\r\t\t\t\t<div uk-slider-parallax=\"x: 100,-100\">",
-            "\r\t\t\t\t\t<!-- The content goes here -->",
+            "\r\t\t\t\t\t$BLOCK_COMMENT_START The content goes here $BLOCK_COMMENT_END",
             "\r\t\t\t\t</div>",
             "\r\t\t\t</div>",
             "\t\t</li>",
@@ -2560,7 +2560,7 @@
             "\t\t\t<img src=\"\" alt=\"\">",
             "\t\t\t<div class=\"uk-position-bottom\">",
             "\r\t\t\t\t<div class=\"uk-transition-slide-bottom\">",
-            "\r\t\t\t\t\t<!-- The content goes here -->",
+            "\r\t\t\t\t\t$BLOCK_COMMENT_START The content goes here $BLOCK_COMMENT_END",
             "\r\t\t\t\t</div>",
             "\r\t\t\t</div>",
             "\t\t</li>",
@@ -2578,7 +2578,7 @@
             "\t\t\t<img src=\"\" alt=\"\">",
             "\t\t\t<div class=\"uk-position-bottom\">",
             "\r\t\t\t\t<div class=\"uk-transition-slide-bottom\">",
-            "\r\t\t\t\t\t<!-- The content goes here -->",
+            "\r\t\t\t\t\t$BLOCK_COMMENT_START The content goes here $BLOCK_COMMENT_END",
             "\r\t\t\t\t</div>",
             "\r\t\t\t</div>",
             "\t\t</li>",
@@ -2700,11 +2700,11 @@
     "snippet-uk-sticky-top": {
         "prefix": "uk-sticky-top",
         "body": [
-            "<!-- Sticks after 100px of scrolling -->",
+            "$BLOCK_COMMENT_START Sticks after 100px of scrolling $BLOCK_COMMENT_END",
             "<div uk-sticky=\"top: 100\"></div>",
-            "<!-- Sticks after 100vh -->",
+            "$BLOCK_COMMENT_START Sticks after 100vh $BLOCK_COMMENT_END",
             "<div uk-sticky=\"top: 100vh\"></div>",
-            "<!-- Sticks to the top of the container -->",
+            "$BLOCK_COMMENT_START Sticks to the top of the container $BLOCK_COMMENT_END",
             "<div id=\"my-id\">",
             "\t<div uk-sticky=\"top: #my-id\"></div>",
             "</div>"
@@ -2724,11 +2724,11 @@
     "snippet-uk-sticky-bottom": {
         "prefix": "uk-sticky-bottom",
         "body": [
-            "<!-- Sticks until the bottom of its parent container -->",
+            "$BLOCK_COMMENT_START Sticks until the bottom of its parent container $BLOCK_COMMENT_END",
             "<div>",
             "\t<div uk-sticky=\"bottom: true\"></div>",
             "</div>",
-            "<!-- Sticks until the second container -->",
+            "$BLOCK_COMMENT_START Sticks until the second container $BLOCK_COMMENT_END",
             "<div uk-sticky=\"bottom: #my-id\"></div>",
             "<div id=\"my-id\"></div>"
         ],
@@ -2807,11 +2807,11 @@
     "snippet-uk-switcher-basic": {
         "prefix": "uk-switcher-basic",
         "body": [
-            "<!-- This is the nav containing the toggling elements -->",
+            "$BLOCK_COMMENT_START This is the nav containing the toggling elements $BLOCK_COMMENT_END",
             "<ul uk-switcher>",
             "\t<li><a href=\"\"></a></li>",
             "</ul>",
-            "<!-- This is the container of the content items -->",
+            "$BLOCK_COMMENT_START This is the container of the content items $BLOCK_COMMENT_END",
             "<ul class=\"uk-switcher\">",
             "\t<li></li>",
             "</ul>"
@@ -2833,9 +2833,9 @@
     "snippet-uk-switcher-connect-containers": {
         "prefix": "uk-switcher-connect-containers",
         "body": [
-            "<!-- This is the nav containing the toggling elements -->",
+            "$BLOCK_COMMENT_START This is the nav containing the toggling elements $BLOCK_COMMENT_END",
             "<ul uk-switcher=\"connect: my-class\">...</ul>",
-            "<!-- These are the containers of the content items -->",
+            "$BLOCK_COMMENT_START These are the containers of the content items $BLOCK_COMMENT_END",
             "<ul class=\"uk-switcher my-class\">...</ul>",
             "<ul class=\"uk-switcher my-class\">...</ul>"
         ],
@@ -2856,9 +2856,9 @@
     "snippet-uk-switcher-subnav": {
         "prefix": "uk-switcher-subnav",
         "body": [
-            "<!-- This is the subnav containing the toggling elements -->",
+            "$BLOCK_COMMENT_START This is the subnav containing the toggling elements $BLOCK_COMMENT_END",
             "<ul class=\"uk-subnav uk-subnav-pill\" uk-switcher>$0</ul>",
-            "<!-- This is the container of the content items -->",
+            "$BLOCK_COMMENT_START This is the container of the content items $BLOCK_COMMENT_END",
             "<ul class=\"uk-switcher\"></ul>"
         ],
         "description": "Creates a switcher combined with a subnav"
@@ -2866,9 +2866,9 @@
     "snippet-uk-switcher-tab": {
         "prefix": "uk-switcher-tab",
         "body": [
-            "<!-- This is the subnav containing the toggling elements -->",
+            "$BLOCK_COMMENT_START This is the subnav containing the toggling elements $BLOCK_COMMENT_END",
             "<ul uk-tab>...</ul>",
-            "<!-- This is the container of the content items -->",
+            "$BLOCK_COMMENT_START This is the container of the content items $BLOCK_COMMENT_END",
             "<ul class=\"uk-switcher\">$0</ul>"
         ],
         "description": "Creates a switcher combined with a tab"
@@ -2890,7 +2890,7 @@
     "snippet-uk-switcher-button": {
         "prefix": "uk-switcher-button",
         "body": [
-            "<!-- This is a switcher using a number of buttons -->",
+            "$BLOCK_COMMENT_START This is a switcher using a number of buttons $BLOCK_COMMENT_END",
             "<div uk-switcher>",
             "\t<button class=\"uk-button uk-button-default\" type=\"button\"></button>",
             "\t<button class=\"uk-button uk-button-default\" type=\"button\"></button>",
@@ -2967,9 +2967,9 @@
         "body": [
             "<ul uk-tab>",
             "\t<li>",
-            "\t\t<!-- This is the menu item toggling the dropdown -->",
+            "\t\t$BLOCK_COMMENT_START This is the menu item toggling the dropdown $BLOCK_COMMENT_END",
             "\t\t<a href=\"\"></a>",
-            "\t\t<!-- This is the dropdown -->",
+            "\t\t$BLOCK_COMMENT_START This is the dropdown $BLOCK_COMMENT_END",
             "\t\t<div uk-dropdown=\"mode: click\">",
             "\t\t\t<ul class=\"uk-nav uk-dropdown-nav\">...</ul>",
             "\t\t</div>",
@@ -3140,6 +3140,11 @@
         "body": ["class=\"uk-text-${0|light,lighter,normal,bold,bolder|}\""],
         "description": "Modifies font weight"
     },
+    "snippet-uk-text-default": {
+        "prefix": "uk-text-default",
+        "body": [" class=\"uk-text-default\" "],
+        "description": "[Class] Applies a default text style"
+    },
     "snippet-uk-text-lead": {
         "prefix": "uk-text-lead",
         "body": [" class=\"uk-text-lead\" "],
@@ -3214,7 +3219,7 @@
         "prefix": "uk-thumbnav-overlay",
         "body": [
             "<div class=\"uk-position-relative\">",
-            "\r\t<!-- The element which is wrapped goes here -->",
+            "\r\t$BLOCK_COMMENT_START The element which is wrapped goes here $BLOCK_COMMENT_END",
             "\r\t<div class=\"uk-position-bottom-center uk-position-small\">",
             "\t\t<ul class=\"uk-thumbnav\">$0</ul>",
             "\t</div>",
@@ -3320,7 +3325,7 @@
     "snippet-uk-toggle-media": {
         "prefix": "uk-toggle-media",
         "body": [
-            "<!-- The primary modifier will only be applied on large screens -->",
+            "$BLOCK_COMMENT_START The primary modifier will only be applied on large screens $BLOCK_COMMENT_END",
             "<div class=\"uk-card uk-card-default\" uk-toggle=\"cls: uk-card-primary; mode: media; media: @${1|s,m,l,xl|}\"></div>"
         ],
         "description": "Toggles an element based on the screen width"
