@@ -212,7 +212,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 
 ## References
 
-[Readme layout inspiration](https://github.com/thekalinga/bootstrap4-vscode)
+[Readme layout inspiration](https://github.com/1tontech/bootstrap4-snippets/tree/master/vscode)
 
 [UIKit Snippets Original Source](https://getuikit.com/docs/introduction)
 
