@@ -47,16 +47,15 @@ HTML code needs to have proper indentation to be human readable, so use the `\t`
 Take the body portion of a snippet example below:
 
 ```json
+{
     ...
-
     "body": [   
         "<html>",
             "\t<body>",
             "\t</body>",
         "</html>"
     ],
-
-    ...
+}
 ```
 
 When inserted into a document, it would be displayed as:
@@ -83,19 +82,19 @@ When a user enters a snippet, you may want to add some placeholder content for t
 
 You can have a user tab through locations in order from 1 to any number, but `0` is the final stop for the tab.
 ```json
-    "body": [   
-        "<h1>$1</h1>",
-        "<p>$2</p>",
-        "<p>$0</p>"
-    ],
+"body": [   
+    "<h1>$1</h1>",
+    "<p>$2</p>",
+    "<p>$0</p>"
+],
 ```
 
 You can also have placeholder content that is automatically highlighted when the user tabs to it.
 
 ```json
-    "body": [   
-        "<h1>${1:Sample header}</h1>",
-        "<p>${2:Paragraph 1}</p>",
-        "<p>${0:Final Stop}</p>"
-    ],
+"body": [   
+    "<h1>${1:Sample header}</h1>",
+    "<p>${2:Paragraph 1}</p>",
+    "<p>${0:Final Stop}</p>"
+],
 ```
