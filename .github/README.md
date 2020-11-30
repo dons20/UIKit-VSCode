@@ -4,7 +4,7 @@
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/Keno.uikit-3-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
 [![Rating](https://vsmarketplacebadge.apphb.com/rating/Keno.uikit-3-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
 
-[![Demo Image](https://zippy.gfycat.com/AmusingGiftedJumpingbean.gif)](https://gfycat.com/AmusingGiftedJumpingbean)
+[![Demo Image](https://thumbs.gfycat.com/WeakRemorsefulHornshark-size_restricted.gif)](https://gfycat.com/weakremorsefulhornshark)
 
 ## [🌞 View the Changelog](https://github.com/dons20/UIKit-VSCode/blob/master/CHANGELOG.md) to see what's new!
 
