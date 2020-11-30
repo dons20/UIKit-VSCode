@@ -1,3 +1,13 @@
+# Version 1.4.4 (November 29, 2020)
+
+🎄 Thank you all for 20K+ downloads, Happy Holidays, and stay safe ♥
+
+* 💡 Updated to UIkit 3.5.9
+
+* 💡 Updated some broken/outdated links, and created a better preview GIF
+
+* ✅ Added `uk-text-default`
+
 # Version 1.4.3 (June 14, 2020)
 
 ## Contributions

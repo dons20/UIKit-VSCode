@@ -22,7 +22,7 @@ Contribution Guidelines
     "body": [ 	
         "HTML HERE",
         "Multiple Lines Seperated with double quotes and a comma",
-            "\t Lines that start with the tab character, should also be visually tabbed for better readability",
+            "\t Lines that start with the tab character, can be visually tabbed for better readability, but its not required",
         "Set tab locations with $0 - any number you specify, with $0 automatically being the last tab location",
         "Last Line does not have a comma"
     ],
