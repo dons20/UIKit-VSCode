@@ -200,11 +200,11 @@ A detailed list of supported commands are listed below in the [**List of Command
 
 ## Contribution Guidelines
 
-[Read the contribution guidelines](./CONTRIBUTING.md)
+[Read the contribution guidelines](/CONTRIBUTING.md)
 
 ## Changelog
 
-[View the changelog](./CHANGELOG.md)
+[View the changelog](/CHANGELOG.md)
 
 ## License
 
