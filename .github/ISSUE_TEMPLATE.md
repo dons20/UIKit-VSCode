@@ -16,7 +16,7 @@
 - [ ] Check that you are running the latest version of Visual Studio Code
 - [ ] Check that you are running the latest version of the `UIKit 3.0 Snippets` plugin: (1.4.3)
 - [ ] Check that the `UIKit 3.0 Snippets` extension is enabled
-- [ ] Check that your editor suggestions are enabled (or manually trigger them with <kbd>Ctrl</kbd> + <kbd>Space</kbd>
+- [ ] Check that your editor suggestions are enabled (or manually trigger them with <kbd>Ctrl</kbd> + <kbd>Space</kbd>)
 
 ### Problem Encountered
 
