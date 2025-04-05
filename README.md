@@ -3,7 +3,7 @@
 [![Version](https://vsmarketplacebadge.jeremyrajan.com/api/badge.svg?itemName=Keno.uikit-3-snippets&version)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
 [![Installs](https://vsmarketplacebadge.jeremyrajan.com/api/badge.svg?itemName=Keno.uikit-3-snippets&install)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
 
-[![Demo Image](https://thumbs.gfycat.com/WeakRemorsefulHornshark-size_restricted.gif)](https://gfycat.com/weakremorsefulhornshark)
+https://github.com/user-attachments/assets/319e7c48-1815-4290-a24c-5ca8e1a7d55c
 
 ## [🌞 View the Changelog](https://marketplace.visualstudio.com/items/Keno.uikit-3-snippets/changelog) to see what's new!
 ---
