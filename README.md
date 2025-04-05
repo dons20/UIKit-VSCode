@@ -1,9 +1,11 @@
 # UIKit 3.0 Snippets for Visual Studio Code
 
-[![Version](https://vsmarketplacebadge.jeremyrajan.com/api/badge.svg?itemName=Keno.uikit-3-snippets&version)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
-[![Installs](https://vsmarketplacebadge.jeremyrajan.com/api/badge.svg?itemName=Keno.uikit-3-snippets&install)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
+[![Version](https://vsmarketplacebadges.dev/version-short/Keno.uikit-3-snippets.svg
+)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
+[![Installs](https://vsmarketplacebadges.dev/installs-short/Keno.uikit-3-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
+[![Ratings](https://vsmarketplacebadges.dev/rating-short/Keno.uikit-3-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
 
-https://github.com/user-attachments/assets/319e7c48-1815-4290-a24c-5ca8e1a7d55c
+![](promo/demo.gif)
 
 ## [🌞 View the Changelog](https://marketplace.visualstudio.com/items/Keno.uikit-3-snippets/changelog) to see what's new!
 ---

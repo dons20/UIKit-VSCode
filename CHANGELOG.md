@@ -1,3 +1,17 @@
+# Version 1.5.0 (April 5, 2025)
+
+Thank you for using this extension, here's a little update for you.
+
+* 🔧 Fixed an issue with selectable options in snippets
+  * Technical: For selectable snippets with the `$0` index, the list of options would simply be inserted, instead of putting the cursor at the location and displaying the list as expected.
+
+* 💡 Updated to UIkit 3.22.1 for base snippets
+
+* 💡 Updated multiple props across various components from 3.5.10 until 3.15.0
+  * More snippets coming soon
+
+* ✅ Added Dropbar
+
 # Version 1.4.4 (November 29, 2020)
 
 🎄 Thank you all for 20K+ downloads, Happy Holidays, and stay safe ♥

@@ -162,7 +162,9 @@
             "Initializes a filter component with various options",
             "---",
             "target: [String]",
-            "selActive: [String|Boolean]"
+            "selActive: [String|Boolean]",
+            "animation: [Boolean|String]",
+            "duration: [Number]"
         ]
     },
     "snippet-uk-filter-events": {
@@ -228,12 +230,9 @@
             "Initializes an image component with various options",
             "---",
             "dataSrc: [String]",
-            "dataSrcset: [String]",
-            "sizes: [String]",
-            "width: [String]",
-            "height: [String]",
-            "offsetTop: [String]",
-            "offsetLeft: [String]",
+            "sources: [String]",
+            "loading: [String]",
+            "margin: [String]",
             "target: [String]"
         ]
     },
@@ -482,8 +481,9 @@
             "---",
             "easing: [Number]",
             "target: [String]",
-            "viewport: [Number]",
-            "media: [Mixed]"
+            "start: [Number]",
+            "end: [Number]",
+            "media: [Boolean,Number,String]"
         ]
     },
     "snippet-uk-scroll": {
@@ -679,10 +679,12 @@
             "---",
             "connect: [CSS selector]",
             "toggle: [CSS selector]",
+            "itemNav: [CSS selector]",
             "active: [Number]",
             "animation: [String]",
             "duration: [Number]",
-            "swiping: [Boolean]"
+            "swiping: [Boolean]",
+            "followFocus: [Boolean]"
         ]
     },
     "snippet-uk-switcher-events": {

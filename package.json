@@ -13,17 +13,17 @@
     "markdown": "github",
     "badges": [
         {
-            "url": "https://vsmarketplacebadge.apphb.com/version/Keno.uikit-3-snippets.svg",
+            "url": "https://vsmarketplacebadges.dev/version-short/Keno.uikit-3-snippets.svg",
             "href": "https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets",
             "description": "Version"
         },
         {
-            "url": "https://vsmarketplacebadge.apphb.com/installs/Keno.uikit-3-snippets.svg",
+            "url": "https://vsmarketplacebadges.dev/installs-short/Keno.uikit-3-snippets.svg",
             "href": "https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets",
             "description": "Installs"
         },
         {
-            "url": "https://vsmarketplacebadge.apphb.com/rating/Keno.uikit-3-snippets.svg",
+            "url": "https://vsmarketplacebadges.dev/rating-short/Keno.uikit-3-snippets.svg",
             "href": "https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets",
             "description": "Rating"
         }
