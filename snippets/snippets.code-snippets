@@ -8,13 +8,13 @@
             "\t\t<title>$2</title>",
             "\t\t<meta charset=\"UTF-8\">",
             "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/css/${3|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.22.1/css/${3|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>",
             "\t\t<link href=\"${4:css/styles.css}\" rel=\"stylesheet\">",
             "\t</head>",
             "\t<body>",
             "\t\t$0",
-            "\r\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha512-OZ9Sq7ecGckkqgxa8t/415BRNoz2GIInOsu8Qjj99r9IlBCq2XJlm9T9z//D4W1lrl+xCdXzq0EYfMo8DZJ+KA==\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha512-hcz3GoZLfjU/z1OyArGvM1dVgrzpWcU3jnYaC6klc2gdy9HxrFkmoWmcUYbraeS+V/GWSgfv6upr9ff4RVyQPw==\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.22.1/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha512-qkqzK74IU8H20BO6C40yNpXY7Pfi7KbCs1cArEF/GF6/JLkTmCFuOzrSc9ftzMhVb3AKdSH6gq2TABfc4f8vog==\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.22.1/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha512-mOHjJxdayRrS7zneNfoYY+bVEqSmJ4w4s96qNvpCksgSs2RZxhoxNV27SLmq5vJ+JbcjyXrmBEiJPc7TGTcfew==\" crossorigin=\"anonymous\"></script>",
             "\t</body>",
             "</html>"
         ],
@@ -23,23 +23,23 @@
     "snippet-uk-$-css-import": {
         "prefix": "uk-$-css-import",
         "body": [
-            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/css/${0|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>"
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.22.1/css/${1|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>"
         ],
         "description": "Imports a chosen minified css file for UIKit"
     },
     "snippet-uk-$-js-import": {
         "prefix": "uk-$-js-import",
         "body": [
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/js/uikit.min.js\" \r\tintegrity=\"sha512-OZ9Sq7ecGckkqgxa8t/415BRNoz2GIInOsu8Qjj99r9IlBCq2XJlm9T9z//D4W1lrl+xCdXzq0EYfMo8DZJ+KA==\" crossorigin=\"anonymous\"></script>",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/js/uikit-icons.min.js\" \r\tintegrity=\"sha512-hcz3GoZLfjU/z1OyArGvM1dVgrzpWcU3jnYaC6klc2gdy9HxrFkmoWmcUYbraeS+V/GWSgfv6upr9ff4RVyQPw==\" crossorigin=\"anonymous\"></script>"
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.22.1/js/uikit.min.js\" \r\tintegrity=\"sha512-qkqzK74IU8H20BO6C40yNpXY7Pfi7KbCs1cArEF/GF6/JLkTmCFuOzrSc9ftzMhVb3AKdSH6gq2TABfc4f8vog==\" crossorigin=\"anonymous\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.22.1/js/uikit-icons.min.js\" \r\tintegrity=\"sha512-mOHjJxdayRrS7zneNfoYY+bVEqSmJ4w4s96qNvpCksgSs2RZxhoxNV27SLmq5vJ+JbcjyXrmBEiJPc7TGTcfew==\" crossorigin=\"anonymous\"></script>"
         ],
         "description": "Imports the default minified scripts for UIKit"
     },
     "snippet-uk-$-js-component-import": {
         "prefix": "uk-$-js-component-import",
         "body": [
-            "$BLOCK_COMMENT_START Manually add SRI by visiting https://cdnjs.com/libraries/uikit/3.5.9 $BLOCK_COMMENT_END",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/js/components/${1|countdown,filter,lightbox,lightbox-panel,notification,parallax,slider,slider-parallax,slideshow,sortable,tooltip,upload|}.min.js\"></script>"
+            "$BLOCK_COMMENT_START Manually add SRI by visiting https://cdnjs.com/libraries/uikit/3.22.1 $BLOCK_COMMENT_END",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.22.1/js/components/${1|countdown,filter,lightbox,lightbox-panel,notification,parallax,slider,slider-parallax,slideshow,sortable,tooltip,upload|}.min.js\"></script>"
         ],
         "description": "Imports a selected js component file for UIKit"
     },
@@ -131,12 +131,12 @@
     },
     "snippet-uk-align": {
         "prefix": "uk-align",
-        "body": [" class=\"uk-align-${0|left,center,right|}\" "],
+        "body": [" class=\"uk-align-${1|left,center,right|}\" "],
         "description": "[Class] Floats the element to a selected position"
     },
     "snippet-uk-align-responsive": {
         "prefix": "uk-align-responsive",
-        "body": [" class=\"uk-align-${1|left,center,right|}@${0|s,m,l,xl|}\" "],
+        "body": [" class=\"uk-align-${1|left,center,right|}@${2|s,m,l,xl|}\" "],
         "description": "[Class] Floats the element on specific widths"
     },
     "snippet-uk-animation-fade": {
@@ -146,17 +146,17 @@
     },
     "snippet-uk-animation-scale": {
         "prefix": "uk-animation-scale",
-        "body": [" class=\"uk-animation-scale-${0|up,down|}\" "],
+        "body": [" class=\"uk-animation-scale-${1|up,down|}\" "],
         "description": "[Class] The element fades in and scales up or down"
     },
     "snippet-uk-animation-slide": {
         "prefix": "uk-animation-slide",
-        "body": [" class=\"uk-animation-slide-${0|top,bottom,left,right|}\" "],
+        "body": [" class=\"uk-animation-slide-${1|top,bottom,left,right|}\" "],
         "description": "[Class] The element fades in and slides in from a chosen direction"
     },
     "snippet-uk-animation-slide-custom": {
         "prefix": "uk-animation-slide-custom",
-        "body": [" class=\"uk-animation-slide-${1:direction}-${0|small,medium|}\" "],
+        "body": [" class=\"uk-animation-slide-${1:direction}-${2|small,medium|}\" "],
         "description": "[Class] The element slides in with a specific distance"
     },
     "snippet-uk-animation-kenburns": {
@@ -233,12 +233,12 @@
     },
     "snippet-uk-background-color": {
         "prefix": "uk-background-color",
-        "body": ["class=\"uk-background-${0|default,muted,primary,secondary|}\" "],
+        "body": ["class=\"uk-background-${1|default,muted,primary,secondary|}\" "],
         "description": "[Class] Applies the selected background color"
     },
     "snippet-uk-background-size": {
         "prefix": "uk-background-size",
-        "body": ["class=\"uk-background-${0|cover,contain|}\" "],
+		"body": ["class=\"uk-background-${1|cover,contain,width-1-1,height-1-1|}\" "],
         "description": "[Class] Scales the background image to a selected size"
     },
     "snippet-uk-background-position": {
@@ -258,7 +258,7 @@
     },
     "snippet-uk-background-image-responsive": {
         "prefix": "uk-background-image-responsive",
-        "body": ["class=\"uk-background-image@${0|s,m,l,xl|}\" "],
+        "body": ["class=\"uk-background-image@${1|s,m,l,xl|}\" "],
         "description": "[Class] Shows the background image on widths of chosen size upwards"
     },
     "snippet-uk-background-blend": {
@@ -346,7 +346,7 @@
             "<div class=\"uk-button-group\">",
             "\t<button class=\"uk-button uk-button-${1|default,primary,secondary,danger,text,link|}\"></button>",
             "\t<button class=\"uk-button uk-button-${2|default,primary,secondary,danger,text,link|}\"></button>",
-            "\t<button class=\"uk-button uk-button-${0|default,primary,secondary,danger,text,link|}\"></button>",
+            "\t<button class=\"uk-button uk-button-${3|default,primary,secondary,danger,text,link|}\"></button>",
             "</div>"
         ],
         "description": "Creates a group of buttons"
@@ -469,17 +469,17 @@
     },
     "snippet-uk-column": {
         "prefix": "uk-column",
-        "body": [" class=\"uk-column-1-${0|2,3,4,5,6|}\" "],
+        "body": [" class=\"uk-column-1-${1|2,3,4,5,6|}\" "],
         "description": "[Class] Displays the inline content in multiple columns"
     },
     "snippet-uk-column-responsive": {
         "prefix": "uk-column-responsive",
-        "body": [" class=\"uk-column-1-${1|2,3,4,5,6|}@${0|s,m,l,xl|}\" "],
+        "body": [" class=\"uk-column-1-${1|2,3,4,5,6|}@${2|s,m,l,xl|}\" "],
         "description": "[Class] Displays the inline content in multiple columns on specific width breakpoints"
     },
     "snippet-uk-column-divider": {
         "prefix": "uk-column-divider",
-        "body": [" class=\"uk-column-1-${0|2,3,4,5,6|} uk-column-divider\" "],
+        "body": [" class=\"uk-column-1-${1|2,3,4,5,6|} uk-column-divider\" "],
         "description": "[Class] Displays the inline content in multiple columns seperated by dividers"
     },
     "snippet-uk-column-span": {
@@ -778,6 +778,25 @@
         "body": ["uk-dropdown"],
         "description": "[Attribute] Used to create a dropdown in a block element such as a div"
     },
+    "snippet-uk-dropbar-basic": {
+        "prefix": "uk-dropbar-basic",
+        "body": [
+            "$BLOCK_COMMENT_START https://getuikit.com/docs/dropbar $BLOCK_COMMENT_END",
+            "<button type=\"button\"></button>",
+            "<div class=\"uk-dropbar uk-dropbar-top\" uk-drop=\"stretch: x\"></div>"
+        ],
+        "description": "Creates a basic dropbar example"
+    },
+    "snippet-uk-dropbar-direction": {
+        "prefix": "uk-dropbar-direction",
+        "body": ["<div class=\"uk-dropbar uk-dropbar-${1|left,right,top,bottom|}\" uk-drop=\"pos: ${2|top,bottom,left,right|}-${3|left,top|}; stretch: ${4|x,y|}\"></div>"],
+        "description": "Creates a dropbar that appears from the chosen direction"
+    },
+    "snippet-uk-dropbar-large": {
+        "prefix": "uk-dropbar-large",
+        "body": ["<div class=\"uk-dropbar uk-dropbar-top uk-dropbar-large\" uk-drop=\"stretch: x\"></div>"],
+        "description": "Creates a dropbar that appears from the chosen direction"
+    },
     "snippet-uk-dropdown-basic": {
         "prefix": "uk-dropdown-basic",
         "body": ["<button type=\"button\">$1</button>", "<div uk-dropdown>$0</div>"],
@@ -857,18 +876,36 @@
     "snippet-uk-filter-sample": {
         "prefix": "uk-filter-sample",
         "body": [
-            "<div uk-filter=\"target: ${1:SELECTOR}\">",
+			"$BLOCK_COMMENT_START https://getuikit.com/docs/filter#usage $BLOCK_COMMENT_END",
+            "<div uk-filter=\"target: .${1:SELECTOR}\">",
             "\r\t$BLOCK_COMMENT_START Filter controls $BLOCK_COMMENT_END",
             "\t<ul>",
-            "\t\t<li uk-filter-control=\"filter: ${2:SELECTOR}\"><a href=\"#\"></a></li>",
+            "\t\t<li uk-filter-control=\"filter: .${2:FILTER_ID}\"><a href=\"#\"></a></li>",
             "\t</ul>",
             "\r\t$BLOCK_COMMENT_START Layout items $BLOCK_COMMENT_END",
-            "\t<ul class=\"js-filter\">",
-            "\t\t<li></li>",
+            "\t<ul class=\"${1}\">",
+            "\t\t<li class=\"${2}\"></li>",
             "\t</ul>",
-            "\r\t</div>"
+            "\r</div>"
         ],
         "description": "Used to filter or sort items in any given layout"
+    },
+    "snippet-uk-filter-animations": {
+        "prefix": "uk-filter-animations",
+        "body": [
+			"$BLOCK_COMMENT_START https://getuikit.com/docs/filter#usage $BLOCK_COMMENT_END",
+            "<div uk-filter=\"target: .${1:SELECTOR}; animation: ${2|slide,fade,delayed-fade,false|}\">",
+            "\r\t$BLOCK_COMMENT_START Filter controls $BLOCK_COMMENT_END",
+            "\t<ul>",
+            "\t\t<li uk-filter-control=\"filter: .${3:FILTER_ID}\"><a href=\"#\"></a></li>",
+            "\t</ul>",
+            "\r\t$BLOCK_COMMENT_START Layout items $BLOCK_COMMENT_END",
+            "\t<ul class=\"${1}\">",
+            "\t\t<li class=\"${3}\"></li>",
+            "\t</ul>",
+            "\r</div>"
+        ],
+        "description": "Used to change the animation style from the default slide"
     },
     "snippet-uk-flex": {
         "prefix": "uk-flex",
@@ -923,7 +960,7 @@
     },
     "snippet-uk-flex-item-dimensions": {
         "prefix": "uk-flex-item-dimensions",
-        "body": [" class=\"uk-flex-${0|none,auto,1|}\" "],
+        "body": [" class=\"uk-flex-${1|none,auto,1|}\" "],
         "description": "[Class] Determines how much space a flex item should take up (Add to item)"
     },
     "snippet-uk-flex-grid-example": {
@@ -969,7 +1006,7 @@
     },
     "snippet-uk-form-states": {
         "prefix": "uk-form-states",
-        "body": [" class=\"uk-form-${0|danger,success|}\" "],
+        "body": [" class=\"uk-form-${1|danger,success|}\" "],
         "description": "[Class] Applies a custom state to a form control"
     },
     "snippet-uk-form-disabled": {
@@ -1100,7 +1137,7 @@
     "snippet-uk-grid-expanded": {
         "prefix": "uk-grid-expanded",
         "body": [
-            "<div class=\"uk-child-width-expand@${0|s,m,l,xl|}\" uk-grid>",
+            "<div class=\"uk-child-width-expand@${1|s,m,l,xl|}\" uk-grid>",
             "\t<div></div>",
             "\t<div></div>",
             "</div>"
@@ -1109,7 +1146,7 @@
     },
     "snippet-uk-grid-gutter-modifier": {
         "prefix": "uk-grid-gutter-modifier",
-        "body": ["<div class=\"uk-grid-${0|small,medium,large,collapse|}\" uk-grid>", "\t<div></div>", "</div>"],
+        "body": ["<div class=\"uk-grid-${1|small,medium,large,collapse|}\" uk-grid>", "\t<div></div>", "</div>"],
         "description": "Modifies the spacing between grid items"
     },
     "snippet-uk-grid-nested-sample": {
@@ -1180,12 +1217,12 @@
     },
     "snippet-uk-heading": {
         "prefix": "uk-heading",
-        "body": [" class=\"uk-heading-${0|small,medium,large,xlarge,2xlarge|}\" "],
+        "body": [" class=\"uk-heading-${1|small,medium,large,xlarge,2xlarge|}\" "],
         "description": "[Class] Used to create a heading with a specified size"
     },
     "snippet-uk-heading-sample": {
         "prefix": "uk-heading-primary-sample",
-        "body": ["<h1 class=\"uk-heading-${0|small,medium,large,xlarge,2xlarge|}\">$0</h1>"],
+        "body": ["<h1 class=\"uk-heading-${1|small,medium,large,xlarge,2xlarge|}\">$0</h1>"],
         "description": "Creates a heading with a specified size"
     },
     "snippet-uk-heading-divider": {
@@ -1220,18 +1257,23 @@
     },
     "snippet-uk-height": {
         "prefix": "uk-height",
-        "body": [" class=\"uk-height-${0|1-1,small,medium,large|}\" "],
+        "body": [" class=\"uk-height-${1|1-1,small,medium,large|}\" "],
         "description": "[Class] Modifies the height of an element to 100%|150px|300px|450px respectively."
     },
     "snippet-uk-max-height": {
         "prefix": "uk-max-height",
-        "body": [" class=\"uk-max-height-${0|small,medium,large|}\" "],
+        "body": [" class=\"uk-max-height-${1|small,medium,large|}\" "],
         "description": "[Class] Modifies the max-height of an element to 150px|300px|450px respectively."
     },
     "snippet-uk-viewport-height": {
         "prefix": "uk-viewport-height",
         "body": [" uk-height-viewport=\"${1|offset-top: true,offset-bottom: 20,expand: true,min-height: 0|}\" "],
         "description": "[Attribute] Modifies the height of an element to fill the entire viewport. Height behaviour can be changed with an option."
+    },
+    "snippet-uk-viewport-height-class": {
+        "prefix": "uk-viewport-height-class",
+        "body": [" class=\"uk-height-viewport${1|-2,-3,-4|}\" "],
+        "description": "[Class] Modifies the height of an element to have specified minimum heights"
     },
     "snippet-uk-match-height": {
         "prefix": "uk-match-height",
@@ -1472,7 +1514,7 @@
     },
     "snippet-uk-margin-position": {
         "prefix": "uk-margin-position",
-        "body": [" class=\"uk-margin-${0|top,bottom,left,right|}\" "],
+        "body": [" class=\"uk-margin-${1|top,bottom,left,right|}\" "],
         "description": "[Class] Adds the selected margin to that side"
     },
     "snippet-uk-margin-size": {
@@ -1666,6 +1708,16 @@
             "</ul>"
         ],
         "description": "Creates a centered nav"
+    },
+    "snippet-uk-nav-divider-modifier": {
+        "prefix": "uk-nav-divider-modifier",
+        "body": [
+            "<ul class=\"uk-nav ${1:uk-nav-default} uk-nav-divider\">",
+            "\t<li class=\"uk-active\"><a href=\"\">$2</a></li>",
+            "\t<li><a href=\"\">$0</a></li>",
+            "</ul>"
+        ],
+        "description": "Creates a nav that separates nav items with lines"
     },
     "snippet-uk-nav-dropdown": {
         "prefix": "uk-nav-dropdown",
@@ -2024,7 +2076,7 @@
     },
     "snippet-uk-padding-size": {
         "prefix": "uk-padding-size",
-        "body": [" class=\"uk-padding-${0|small,large|}\" "],
+        "body": [" class=\"uk-padding-${1|small,large|}\" "],
         "description": "[Class] Adds a smaller or larger padding to the element"
     },
     "snippet-uk-padding-remove": {
@@ -2034,7 +2086,7 @@
     },
     "snippet-uk-padding-remove-position": {
         "prefix": "uk-padding-remove-position",
-        "body": [" class=\"uk-padding-remove-${0|top,bottom,left,right,vertical,horizontal|}\" "],
+        "body": [" class=\"uk-padding-remove-${1|top,bottom,left,right,vertical,horizontal|}\" "],
         "description": "[Class] Removes padding from the chosen side(s) of an element"
     },
     "snippet-uk-pagination": {
@@ -2093,6 +2145,11 @@
         "body": ["uk-parallax=\"${1:opacity: 0,1}\""],
         "description": "[Attribute] Sets the start and end values of a property by seperating them with a comma"
     },
+    "snippet-uk-parallax-multiple-stops": {
+        "prefix": "uk-parallax-start-end",
+        "body": ["uk-parallax=\"${1:x: 0,50,150}\""],
+        "description": "[Attribute] Sets multiple animation stops by seperating them with a comma"
+    },
     "snippet-uk-parallax-viewport": {
         "prefix": "uk-parallax-viewport",
         "body": ["uk-parallax=\"${1:viewport: 0.5}\""],
@@ -2144,7 +2201,7 @@
     },
     "snippet-uk-position": {
         "prefix": "uk-position",
-        "body": [" class=\"uk-position-${0|top,left,right,bottom|}\" "],
+        "body": [" class=\"uk-position-${1|top,left,right,bottom|}\" "],
         "description": "[Class] Positions the element at the chosen location"
     },
     "snippet-uk-position-extended": {
@@ -2191,6 +2248,11 @@
         "prefix": "uk-position-z-index",
         "body": [" class=\"uk-position-z-index\" "],
         "description": "[Class] Positions the element at a z-index position of 1"
+    },
+    "snippet-uk-position-z-index-negative": {
+        "prefix": "uk-position-z-index-negative",
+        "body": [" class=\"uk-position-z-index-negative\" "],
+        "description": "[Class] Positions the element at a z-index position of -1"
     },
     "snippet-uk-progress": {
         "prefix": "uk-progress",
@@ -2739,6 +2801,17 @@
         "body": ["<div uk-sticky=\"media: ${1:640}\"></div>"],
         "description": "Creates a sticky element that is only enabled on specified device widths and above"
     },
+    "snippet-uk-sticky-overflow-flip": {
+        "prefix": "uk-sticky-overflow-flip",
+        "body": [
+            "$BLOCK_COMMENT_START Section will be covered by the next section $BLOCK_COMMENT_END",
+            "<div uk-sticky=\"overflow-flip: true; end: 100%\"></div>",
+            "\r<div>Some section.</div>",
+            "\r$BLOCK_COMMENT_START Section will be revealed by the previous section $BLOCK_COMMENT_END",
+            "<div uk-sticky=\"position: bottom; overflow-flip: true; start: -100%; end: 0\"></div>"
+        ],
+        "description": "The overflow-flip option disables the sticky behavior for oversized content. Instead, it only flips the sticky position if the element is larger than the viewport."
+    },
     "snippet-uk-subnav": {
         "prefix": "uk-subnav",
         "body": [" class=\"uk-subnav\" "],
@@ -3048,7 +3121,7 @@
     "snippet-uk-table-sizing": {
         "prefix": "uk-table-sizing",
         "body": [
-            "<table class=\"uk-table uk-table-${0|small,large|}\">",
+            "<table class=\"uk-table uk-table-${1|small,large|}\">",
             "\t<caption></caption>",
             "\t<thead>",
             "\t\t<tr>",
@@ -3132,12 +3205,12 @@
     },
     "snippet-uk-table-column-width": {
         "prefix": "uk-table-column-width",
-        "body": ["<th class=\"uk-table-${0|shrink,expand|}\"></th>"],
+        "body": ["<th class=\"uk-table-${1|shrink,expand|}\"></th>"],
         "description": "Modifies the width of a table column"
     },
     "snippet-uk-font-weight": {
         "prefix": "uk-font-weight",
-        "body": ["class=\"uk-text-${0|light,lighter,normal,bold,bolder|}\""],
+        "body": ["class=\"uk-text-${1|light,lighter,normal,bold,bolder|}\""],
         "description": "Modifies font weight"
     },
     "snippet-uk-text-default": {
@@ -3162,37 +3235,42 @@
     },
     "snippet-uk-text-size": {
         "prefix": "uk-text-size",
-        "body": [" class=\"uk-text-${0|small,large|}\" "],
+        "body": [" class=\"uk-text-${1|small,large|}\" "],
         "description": "[Class] Modifies the font size of text"
     },
     "snippet-uk-text-transform": {
         "prefix": "uk-text-transform",
-        "body": [" class=\"uk-text-${0|uppercase,capitalize,lowercase|}\" "],
+        "body": [" class=\"uk-text-${1|uppercase,capitalize,lowercase|}\" "],
         "description": "[Class] Transforms text characters into the chosen case"
+    },
+    "snippet-uk-text-decoration": {
+        "prefix": "uk-text-decoration",
+        "body": [" class=\"uk-text-decoration-none\" "],
+        "description": "[Class] Removes any text decoration from a link"
     },
     "snippet-uk-text-color": {
         "prefix": "uk-text-color",
-        "body": [" class=\"uk-text-${0|muted,emphasis,primary,secondary,success,warning,danger|}\" "],
+        "body": [" class=\"uk-text-${1|muted,emphasis,primary,secondary,success,warning,danger|}\" "],
         "description": "[Class] Modifies the color of text into the chosen color scheme"
     },
     "snippet-uk-text-alignment": {
         "prefix": "uk-text-alignment",
-        "body": [" class=\"uk-text-${0|left,center,right,justify|}\" "],
+        "body": [" class=\"uk-text-${1|left,center,right,justify|}\" "],
         "description": "[Class] Aligns text to a chosen position"
     },
     "snippet-uk-text-alignment-responsive": {
         "prefix": "uk-text-alignment-responsive",
-        "body": [" class=\"uk-text-${1|left,center,right|}-@${0|s,m,l,xl|}\" "],
+        "body": [" class=\"uk-text-${1|left,center,right|}-@${2|s,m,l,xl|}\" "],
         "description": "[Class] Aligns text to a chosen position on specific screen widths"
     },
     "snippet-uk-text-vertical-alignment": {
         "prefix": "uk-text-vertical-alignment",
-        "body": [" class=\"uk-text-${0|top,middle,bottom,baseline|}\" "],
+        "body": [" class=\"uk-text-${1|top,middle,bottom,baseline|}\" "],
         "description": "[Class] Aligns text vertically"
     },
     "snippet-uk-text-wrapping": {
         "prefix": "uk-text-wrapping",
-        "body": [" class=\"uk-text-${0|truncate,break,nowrap|}\" "],
+        "body": [" class=\"uk-text-${1|truncate,break,nowrap|}\" "],
         "description": "[Class] Wraps text according to your choice"
     },
     "snippet-uk-thumbnav": {
@@ -3234,7 +3312,7 @@
     },
     "snippet-uk-tile-size-modifier": {
         "prefix": "uk-tile-size-modifier",
-        "body": [" class=\"uk-tile uk-tile-${0|xsmall,small,large,xlarge|}\" "],
+        "body": [" class=\"uk-tile uk-tile-${1|xsmall,small,large,xlarge|}\" "],
         "description": "[Class] Used to create a tile with modified sizing"
     },
     "snippet-uk-tile-default": {
@@ -3374,7 +3452,7 @@
         "prefix": "uk-transition-scale",
         "body": [
             "<div class=\"uk-transition-toggle\">",
-            "\t<div class=\"uk-transition-scale-${0|up,down|}\"></div>",
+            "\t<div class=\"uk-transition-scale-${1|up,down|}\"></div>",
             "</div>"
         ],
         "description": "Creates a smooth transition between two states when hovering an element"
@@ -3383,7 +3461,7 @@
         "prefix": "uk-transition-slide",
         "body": [
             "<div class=\"uk-transition-toggle\">",
-            "\t<div class=\"uk-transition-slide-${0|top,bottom,left,right|}\"></div>",
+            "\t<div class=\"uk-transition-slide-${1|top,bottom,left,right|}\"></div>",
             "</div>"
         ],
         "description": "Creates a smooth transition between two states when hovering an element"
@@ -3514,7 +3592,7 @@
     },
     "snippet-uk-utility-float": {
         "prefix": "uk-utility-float",
-        "body": [" class=\"uk-float-${0|left,right|}\" "],
+        "body": [" class=\"uk-float-${1|left,right|}\" "],
         "description": "[Class] Floats an element left or right"
     },
     "snippet-uk-utility-clearfix": {
@@ -3524,7 +3602,7 @@
     },
     "snippet-uk-utility-overflow": {
         "prefix": "uk-utility-overflow",
-        "body": [" class=\"uk-overflow-${0|hidden,auto|}\" "],
+        "body": [" class=\"uk-overflow-${1|hidden,auto|}\" "],
         "description": "[Class] Modifies an element's overflow behaviour"
     },
     "snippet-uk-utility-resize": {
@@ -3534,7 +3612,7 @@
     },
     "snippet-uk-utility-display": {
         "prefix": "uk-utility-display",
-        "body": [" class=\"uk-display-${0|block,inline,inline-block|}\" "],
+        "body": [" class=\"uk-display-${1|block,inline,inline-block|}\" "],
         "description": "[Class] Changes the display properties of an element"
     },
     "snippet-uk-utility-inline": {
@@ -3544,7 +3622,7 @@
     },
     "snippet-uk-utility-responsive": {
         "prefix": "uk-utility-responsive",
-        "body": [" class=\"uk-responsive-${0|width,height|}\" "],
+        "body": [" class=\"uk-responsive-${1|width,height|}\" "],
         "description": "[Class] Applies a responsive behaviour to any element"
     },
     "snippet-uk-utility-preserve-width": {
@@ -3552,14 +3630,24 @@
         "body": [" class=\"uk-preserve-width\" "],
         "description": "[Class] Avoids responsive behaviour and preserves original dimensions"
     },
+    "snippet-uk-utility-object": {
+        "prefix": "uk-utility-object",
+        "body": [" class=\"uk-object-${1|cover,contain,fill,none,scale-down|}\" "],
+        "description": "[Class] Defines how the content of an image or video should be resized to fit its element"
+    },
+    "snippet-uk-utility-object-position": {
+        "prefix": "uk-utility-object-position",
+        "body": [" class=\"uk-object-${1|top,center,bottom|}-${2|left,center,right|}\" "],
+        "description": "[Class] Modifies the alignment of the image or video within its element"
+    },
     "snippet-uk-utility-border-radius": {
         "prefix": "uk-utility-border-radius",
-        "body": [" class=\"uk-border-${0|rounded,circle,pill|}\" "],
+        "body": [" class=\"uk-border-${1|rounded,circle,pill|}\" "],
         "description": "[Class] Modifies the border radius of an element"
     },
     "snippet-uk-utility-box-shadow": {
         "prefix": "uk-utility-box-shadow",
-        "body": [" class=\"uk-box-shadow-${0|small,medium,large,xlarge|}\" "],
+        "body": [" class=\"uk-box-shadow-${1|small,medium,large,xlarge|}\" "],
         "description": "[Class] Adds a box shadow to an element"
     },
     "snippet-uk-utility-box-shadow-bottom": {
@@ -3569,7 +3657,7 @@
     },
     "snippet-uk-utility-box-shadow-hover": {
         "prefix": "uk-utility-box-shadow-hover",
-        "body": [" class=\"uk-box-shadow-hover-${0|small,medium,large,xlarge|}\" "],
+        "body": [" class=\"uk-box-shadow-hover-${1|small,medium,large,xlarge|}\" "],
         "description": "[Class] Adds a box shadow to an element on hover"
     },
     "snippet-uk-utility-dropcap": {
@@ -3590,7 +3678,7 @@
     "snippet-uk-utility-blend": {
         "prefix": "uk-utility-blend",
         "body": [
-            " class=\"uk-blend-${0|multiply,screen,overlay,darken,lighten,color-dodge,color-burn,hard-light,soft-light,difference,exclusion,hue,saturation,color,luminosity|}\" "
+            " class=\"uk-blend-${1|multiply,screen,overlay,darken,lighten,color-dodge,color-burn,hard-light,soft-light,difference,exclusion,hue,saturation,color,luminosity|}\" "
         ],
         "description": "[Class] Applies a modified blend mode to a background"
     },
@@ -3626,7 +3714,7 @@
     },
     "snippet-uk-video-sample": {
         "prefix": "uk-video-sample",
-        "body": ["<video src=\"$1\" uk-video=\"${0|autoplay:true,automute:false|}\"></video>"],
+        "body": ["<video src=\"$1\" uk-video=\"${1|autoplay:true,automute:false|}\"></video>"],
         "description": "Creates a video element that loads once in view"
     },
     "snippet-uk-hidden": {
@@ -3641,7 +3729,7 @@
     },
     "snippet-uk-hidden-responsive": {
         "prefix": "uk-hidden-responsive",
-        "body": [" class=\"uk-hidden@${0|s,m,l,xl|}\" "],
+        "body": [" class=\"uk-hidden@${1|s,m,l,xl|}\" "],
         "description": "[Class] Hides an element from screens larger than the specified width (640|960|1200|1600 px respectively)"
     },
     "snippet-uk-hidden-hover": {
@@ -3651,7 +3739,7 @@
     },
     "snippet-uk-visible": {
         "prefix": "uk-visible",
-        "body": [" class=\"uk-visible@${0|s,m,l,xl|}\" "],
+        "body": [" class=\"uk-visible@${1|s,m,l,xl|}\" "],
         "description": "[Class] Shows an element on screens larger than the specified width (640|960|1200|1600 px respectively)"
     },
     "snippet-uk-invisible": {
@@ -3676,12 +3764,12 @@
     },
     "snippet-uk-width": {
         "prefix": "uk-width",
-        "body": [" class=\"uk-width-${1|1,2,3,4,5|}-${0|1,2,3,4,5,6|}\" "],
+        "body": [" class=\"uk-width-${1|1,2,3,4,5|}-${2|1,2,3,4,5,6|}\" "],
         "description": "[Class] Modifies the width of an element to take up a portion of its parent container, or the entire width. Usually used with 'uk-grid'."
     },
     "snippet-uk-width-responsive": {
         "prefix": "uk-width-responsive",
-        "body": [" class=\"uk-width-${1|1,2,3,4,5|}-${2|1,2,3,4,5,6|@{3|s,m,l,xl|}\" "],
+        "body": [" class=\"uk-width-${1|1,2,3,4,5|}-${2|1,2,3,4,5,6|}@${3|s,m,l,xl|}\" "],
         "description": "[Class] Modifies the width of an element to take up a portion of its parent container on specified device widths and higher. Columns stack on smaller sizes."
     },
     "snippet-uk-width-auto": {
@@ -3696,17 +3784,22 @@
     },
     "snippet-uk-child-width": {
         "prefix": "uk-child-width",
-        "body": [" class=\"uk-child-width-${0|1-2,1-3,1-4,1-5,1-6,auto,expand|}\" "],
+        "body": [" class=\"uk-child-width-${1|1-2,1-3,1-4,1-5,1-6,auto,expand|}\" "],
         "description": "[Class] Evenly divides the width of all child elements in a 'uk-grid'"
     },
     "snippet-uk-child-width-responsive": {
         "prefix": "uk-child-width-responsive",
-        "body": [" class=\"uk-child-width-${1|1-2,1-3,1-4,1-5,1-6,auto,expand|}@{0|s,m,l,xl|}\" "],
+        "body": [" class=\"uk-child-width-${1|1-2,1-3,1-4,1-5,1-6,auto,expand|}@${2|s,m,l,xl|}\" "],
         "description": "[Class] Evenly divides the width of all child elements in a 'uk-grid' on specified device widths and higher. Columns stack on smaller sizes."
     },
     "snippet-uk-fixed-width": {
         "prefix": "uk-fixed-width",
-        "body": [" class=\"uk-width-${0|small,medium,large,xlarge,xxlarge|}\" "],
+        "body": [" class=\"uk-width-${1|small,medium,large,xlarge,xxlarge|}\" "],
         "description": "[Class] Applies a fixed width to an element of 150|300|450|600|750 px respectively."
+    },
+    "snippet-uk-intrinsic-width": {
+        "prefix": "uk-intrinsic-width",
+        "body": [" class=\"uk-width-${1|min,max|}-content\" "],
+        "description": "[Class] Allows you to apply min or max content widths easily"
     }
 }

@@ -1,10 +1,11 @@
 # UIKit 3.0 Snippets for Visual Studio Code
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/Keno.uikit-3-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/Keno.uikit-3-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
-[![Rating](https://vsmarketplacebadge.apphb.com/rating/Keno.uikit-3-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
+[![Version](https://vsmarketplacebadges.dev/version-short/Keno.uikit-3-snippets.svg
+)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
+[![Installs](https://vsmarketplacebadges.dev/installs-short/Keno.uikit-3-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
+[![Ratings](https://vsmarketplacebadges.dev/rating-short/Keno.uikit-3-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
 
-[![Demo Image](https://thumbs.gfycat.com/WeakRemorsefulHornshark-size_restricted.gif)](https://gfycat.com/weakremorsefulhornshark)
+![](promo/demo.gif)
 
 ## [🌞 View the Changelog](https://marketplace.visualstudio.com/items/Keno.uikit-3-snippets/changelog) to see what's new!
 ---
