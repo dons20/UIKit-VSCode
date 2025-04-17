@@ -3,7 +3,7 @@
     "displayName": "UIkit 3.0 Snippets",
     "publisher": "Keno",
     "description": "UIkit 3.0 Snippets based on official documentation",
-    "version": "1.5.0",
+    "version": "1.6.0",
     "license": "SEE LICENSE IN LICENSE.md",
     "icon": "images/icon.png",
     "galleryBanner": {
@@ -51,6 +51,107 @@
     "contributes": {
         "snippets": [
             {
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "twig",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "latte",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "handlebars",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "mustache",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "ejs",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "pug",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "jade",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "nunjucks",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "liquid",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "markdown",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "svelte",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "astro",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "erb",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "razor",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "edge",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "svg",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "xaml",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "haml",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "volt",
                 "path": "./snippets/snippets.code-snippets"
             },
             {

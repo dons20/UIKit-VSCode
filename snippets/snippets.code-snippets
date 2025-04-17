@@ -2146,7 +2146,7 @@
         "description": "[Attribute] Sets the start and end values of a property by seperating them with a comma"
     },
     "snippet-uk-parallax-multiple-stops": {
-        "prefix": "uk-parallax-start-end",
+        "prefix": "uk-parallax-multiple-stops",
         "body": ["uk-parallax=\"${1:x: 0,50,150}\""],
         "description": "[Attribute] Sets multiple animation stops by seperating them with a comma"
     },
@@ -2810,7 +2810,7 @@
             "\r$BLOCK_COMMENT_START Section will be revealed by the previous section $BLOCK_COMMENT_END",
             "<div uk-sticky=\"position: bottom; overflow-flip: true; start: -100%; end: 0\"></div>"
         ],
-        "description": "The overflow-flip option disables the sticky behavior for oversized content. Instead, it only flips the sticky position if the element is larger than the viewport."
+        "description": "Creates an element that only flips the sticky position if the element is larger than the viewport."
     },
     "snippet-uk-subnav": {
         "prefix": "uk-subnav",

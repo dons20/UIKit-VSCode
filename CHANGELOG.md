@@ -1,3 +1,13 @@
+# Version 1.6.0 (April 17, 2025)
+
+This version re-introduces snippet language association which was removed in v1.4.0. All languages that support HTML-like markup should now support the snippets. This was done to address the concern from many users regarding snippets coming up in all files unless the extension was disabled. Thanks to a bit of AI assistance, I was able to find most of the outliers which makes this more reliable. Thank you for the feedback!
+
+If there is a language that you want to see snippets supported in, feel free to raise a PR or an [issue](https://github.com/dons20/UIKit-VSCode/issues).
+
+* 🔧 Fixed an incorrect snippet trigger for `uk-parallax-start-end`
+
+* 💡 Updated the Github Readme to fix the broken badges, preview images, missing entries, and other small details.
+
 # Version 1.5.0 (April 5, 2025)
 
 Thank you for using this extension, here's a little update for you.
