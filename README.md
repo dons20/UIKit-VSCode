@@ -7,8 +7,11 @@
 
 ![](promo/demo.gif)
 
-## [🌞 View the Changelog](https://marketplace.visualstudio.com/items/Keno.uikit-3-snippets/changelog) to see what's new!
+[📃 View the Changelog](https://marketplace.visualstudio.com/items/Keno.uikit-3-snippets/changelog) to see what's new!
+
 ---
+
+## Introduction
 
 This extension adds all the snippets from [UIKit 3.0](https://getuikit.com/docs/introduction) into Visual Studio Code for easy access and usage.
 
@@ -16,7 +19,6 @@ To show support for the project, you can do any of the following:
 
 - [Rate the extension on the marketplace](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
 - [Star the repository](https://github.com/dons20/UIKit-VSCode)
-- [Follow me on Twitter](https://twitter.com/KCInnovations)
 
 > Please remember to direct your issues, queries and suggestions to the [issues page](https://github.com/dons20/UIKit-VSCode/issues) of the repository.
 

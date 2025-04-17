@@ -1,14 +1,17 @@
 # UIKit 3.0 Snippets for Visual Studio Code
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/Keno.uikit-3-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/Keno.uikit-3-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
-[![Rating](https://vsmarketplacebadge.apphb.com/rating/Keno.uikit-3-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
+[![Version](https://vsmarketplacebadges.dev/version-short/Keno.uikit-3-snippets.svg
+)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
+[![Installs](https://vsmarketplacebadges.dev/installs-short/Keno.uikit-3-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
+[![Ratings](https://vsmarketplacebadges.dev/rating-short/Keno.uikit-3-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
 
-[![Demo Image](https://thumbs.gfycat.com/WeakRemorsefulHornshark-size_restricted.gif)](https://gfycat.com/weakremorsefulhornshark)
+![](../promo/demo.gif)
 
-## [🌞 View the Changelog](https://github.com/dons20/UIKit-VSCode/blob/master/CHANGELOG.md) to see what's new!
+[📃 View the Changelog](https://github.com/dons20/UIKit-VSCode/blob/master/CHANGELOG.md) to see what's new!
 
 ---
+
+## Introduction
 
 This extension adds all the snippets from [UIKit 3.0](https://getuikit.com/docs/introduction) into Visual Studio Code for easy access and usage.
 
@@ -16,7 +19,6 @@ To show support for the project, you can do any of the following:
 
 -   [Rate the extension on the marketplace](https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets)
 -   [Star the repository](https://github.com/dons20/UIKit-VSCode)
--   [Follow me on Twitter](https://twitter.com/KCInnovations)
 
 > Please remember to direct your issues, queries and suggestions to the [issues page](https://github.com/dons20/UIKit-VSCode/issues) of the repository.
 
@@ -569,6 +571,9 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 | Trigger                      | Description                                                            |
 |------------------------------|------------------------------------------------------------------------|
 | uk-dropdown                  | [Attribute] Used to create a dropdown in a block element such as a div |
+| uk-dropbar-basic             | Creates a basic dropbar example                                        |
+| uk-dropbar-direction         | Creates a dropbar that appears from the chosen direction               |
+| uk-dropbar-large             | Creates a dropbar that appears from the chosen direction               |
 | uk-dropdown-basic            | Creates a basic dropdown underneath a button toggle                    |
 | uk-dropdown-basic-inline     | Creates a basic dropdown grouped with its toggle                       |
 | uk-dropdown-nav              | Creates a dropdown containing a nav element                            |
@@ -587,10 +592,11 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 <details><summary>Reveal Content</summary>
 <p>
 
-| Trigger          | Description                                      |
-|------------------|--------------------------------------------------|
-| uk-filter        | [Attribute] Used to create a filter component    |
-| uk-filter-sample | Used to filter or sort items in any given layout |
+| Trigger              | Description                                               |
+|----------------------|-----------------------------------------------------------|
+| uk-filter            | [Attribute] Used to create a filter component             |
+| uk-filter-sample     | Used to filter or sort items in any given layout          |
+| uk-filter-animations | Used to change the animation style from the default slide |
 
 </p>
 </details>
@@ -694,6 +700,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 | uk-height                | [Class] Modifies the height of an element to 100%/150px/300px/450px respectively. |
 | uk-max-height            | [Class] Modifies the max-height of an element to 150px/300px/450px respectively.  |
 | uk-viewport-height       | [Attribute] Modifies the height of an element to fill the entire viewport.        |
+| uk-viewport-height-class | [Class] Modifies the height of an element to have specified minimum heights       |
 | uk-match-height          | [Attribute] Expands all children of a container to the same height.               |
 | uk-match-height-specific | [Attribute] Matches the height of specific child elements                         |
 | uk-match-height-all      | [Attribute] Matches the height of all child elements even in other rows           |
@@ -908,6 +915,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 | uk-nav-divider                 | Creates a nav divider                                                 |
 | uk-nav-primary                 | Creates a nav with emphasized styling                                 |
 | uk-nav-center                  | Creates a centered nav                                                |
+| uk-nav-divider-modifier        | Creates a nav that separates nav items with lines                     |
 | uk-nav-dropdown                | Creates a nav in a dropdown                                           |
 | uk-nav-navbar                  | Creates a nav in a navbar                                             |
 
@@ -1024,18 +1032,19 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 <details><summary>Reveal Content</summary>
 <p>
 
-| Trigger                   | Description                                                                                              |
-|---------------------------|----------------------------------------------------------------------------------------------------------|
-| uk-parallax               | [Attribute] Used to animate CSS properties depending on the scroll position of the document              |
-| uk-parallax-properties    | [Attribute] Inserts the parallax attribute with a list of animatable properties                          |
-| uk-parallax-start-end     | [Attribute] Sets the start and end values of a property by seperating them with a comma                  |
-| uk-parallax-viewport      | [Attribute] Defines how far inside the viewport the element is scrolled until the animation is completed |
-| uk-parallax-sample        | Creates a sample div with parallax enabled                                                               |
-| uk-parallax-nested-sample | Showcases nested parallax elements                                                                       |
-| uk-parallax-target-sample | Creates a parallax animation based on the viewport visibility of another element                         |
-| uk-parallax-easing-sample | Creates a parallax element with a modifiable easing value                                                |
-| uk-parallax-color-sample  | Creates a parallax element with a color transition                                                       |
-| uk-parallax-filter-sample | Creates a parallax element with css filters                                                              |
+| Trigger                    | Description                                                                                              |
+|----------------------------|----------------------------------------------------------------------------------------------------------|
+| uk-parallax                | [Attribute] Used to animate CSS properties depending on the scroll position of the document              |
+| uk-parallax-properties     | [Attribute] Inserts the parallax attribute with a list of animatable properties                          |
+| uk-parallax-start-end      | [Attribute] Sets the start and end values of a property by seperating them with a comma                  |
+| uk-parallax-multiple-stops | [Attribute] Sets multiple animation stops by seperating them with a comma                                |
+| uk-parallax-viewport       | [Attribute] Defines how far inside the viewport the element is scrolled until the animation is completed |
+| uk-parallax-sample         | Creates a sample div with parallax enabled                                                               |
+| uk-parallax-nested-sample  | Showcases nested parallax elements                                                                       |
+| uk-parallax-target-sample  | Creates a parallax animation based on the viewport visibility of another element                         |
+| uk-parallax-easing-sample  | Creates a parallax element with a modifiable easing value                                                |
+| uk-parallax-color-sample   | Creates a parallax element with a color transition                                                       |
+| uk-parallax-filter-sample  | Creates a parallax element with css filters                                                              |
 
 </p>
 </details>
@@ -1058,18 +1067,19 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 <details><summary>Reveal Content</summary>
 <p>
 
-| Trigger              | Description                                                                                           |
-|----------------------|-------------------------------------------------------------------------------------------------------|
-| uk-position          | [Class] Positions the element at the chosen location                                                  |
-| uk-position-extended | [Class] Positions the element at specific locations without it being spread over its parent container |
-| uk-position-cover    | [Class] Positions the element to cover its container                                                  |
-| uk-position-small    | [Class] Positions the element at specific locations with a small margin                               |
-| uk-position-medium   | [Class] Positions the element at specific locations with a medium margin                              |
-| uk-position-large    | [Class] Positions the element at specific locations with a large margin                               |
-| uk-position-relative | [Class] Positions the element at a relative position                                                  |
-| uk-position-absolute | [Class] Positions the element at an absolute position                                                 |
-| uk-position-fixed    | [Class] Positions the element at a fixed position                                                     |
-| uk-position-z-index  | [Class] Positions the element at a z-index position of 1                                              |
+| Trigger                      | Description                                                                                           |
+|------------------------------|-------------------------------------------------------------------------------------------------------|
+| uk-position                  | [Class] Positions the element at the chosen location                                                  |
+| uk-position-extended         | [Class] Positions the element at specific locations without it being spread over its parent container |
+| uk-position-cover            | [Class] Positions the element to cover its container                                                  |
+| uk-position-small            | [Class] Positions the element at specific locations with a small margin                               |
+| uk-position-medium           | [Class] Positions the element at specific locations with a medium margin                              |
+| uk-position-large            | [Class] Positions the element at specific locations with a large margin                               |
+| uk-position-relative         | [Class] Positions the element at a relative position                                                  |
+| uk-position-absolute         | [Class] Positions the element at an absolute position                                                 |
+| uk-position-fixed            | [Class] Positions the element at a fixed position                                                     |
+| uk-position-z-index          | [Class] Positions the element at a z-index position of 1                                              |
+| uk-position-z-index-negative | [Class] Positions the element at a z-index position of -1                                             |
 
 </p>
 </details>
@@ -1246,16 +1256,17 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 <details><summary>Reveal Content</summary>
 <p>
 
-| Trigger              | Description                                                                                        |
-|----------------------|----------------------------------------------------------------------------------------------------|
-| uk-sticky            | [Attribute] Used to create an element that remains at the top of the viewport while scrolling down |
-| uk-sticky-sample     | Creates an element that remains at the top of the viewport while scrolling down                    |
-| uk-sticky-offset     | Creates a sticky element with a pixel offset from the top                                          |
-| uk-sticky-top        | Creates a sticky element with a delay                                                              |
-| uk-sticky-animation  | Creates a sticky element with an animation when it reappears                                       |
-| uk-sticky-scroll-up  | Creates a sticky element that shows only when scrolling up                                         |
-| uk-sticky-bottom     | Creates a sticky element that is bound to a specific element                                       |
-| uk-sticky-responsive | Creates a sticky element that is only enabled on specified device widths and above                 |
+| Trigger                 | Description                                                                                        |
+|-------------------------|----------------------------------------------------------------------------------------------------|
+| uk-sticky               | [Attribute] Used to create an element that remains at the top of the viewport while scrolling down |
+| uk-sticky-sample        | Creates an element that remains at the top of the viewport while scrolling down                    |
+| uk-sticky-offset        | Creates a sticky element with a pixel offset from the top                                          |
+| uk-sticky-top           | Creates a sticky element with a delay                                                              |
+| uk-sticky-animation     | Creates a sticky element with an animation when it reappears                                       |
+| uk-sticky-scroll-up     | Creates a sticky element that shows only when scrolling up                                         |
+| uk-sticky-bottom        | Creates a sticky element that is bound to a specific element                                       |
+| uk-sticky-responsive    | Creates a sticky element that is only enabled on specified device widths and above                 |
+| uk-sticky-overflow-flip | Creates an element that only flips the sticky position if the element is larger than the viewport. |
 
 </p>
 </details>
@@ -1362,6 +1373,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 | uk-text-size                 | [Class] Modifies the font size of text                                       |
 | uk-text-bold                 | [Class] Creates bold text                                                    |
 | uk-text-transform            | [Class] Transforms text characters into the chosen case                      |
+| uk-text-decoration           | [Class] Removes any text decoration from a link                              |
 | uk-text-color                | [Class] Modifies the color of text into the chosen color scheme              |
 | uk-text-alignment            | [Class] Aligns text to a chosen position                                     |
 | uk-text-alignment-responsive | [Class] Aligns text to a chosen position on specific screen widths           |
@@ -1487,34 +1499,36 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 <details><summary>Reveal Content</summary>
 <p>
 
-| Trigger                      | Description                                                                                                                                                 |
-|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| uk-utility-panel             | Creates a panel used to outline a section of content                                                                                                        |
-| uk-utility-panel-scrollable  | Creates a scrollable panel                                                                                                                                  |
-| uk-utility-float             | [Class] Floats an element left or right                                                                                                                     |
-| uk-utility-clearfix          | [Class] Removes floats from this element and its children                                                                                                   |
-| uk-utility-overflow          | [Class] Modifies an element's overflow behaviour                                                                                                            |
-| uk-utility-resize            | [Class] Allows an element to be resized                                                                                                                     |
-| uk-utility-display           | [Class] Changes the display properties of an element                                                                                                        |
-| uk-utility-inline            | [Class] Applies inline-block behaviour to an element, adds a max-width of 100% and creates a position context. Optionally clips overflowing child elements. |
-| uk-utility-responsive        | [Class] Applies a responsive behaviour to any element                                                                                                       |
-| uk-utility-preserve-width    | [Class] Avoids responsive behaviour and preserves original dimensions                                                                                       |
-| uk-utility-border-radius     | [Class] Modifies the border radius of an element                                                                                                            |
-| uk-utility-box-shadow        | [Class] Adds a box shadow to an element                                                                                                                     |
-| uk-utility-box-shadow-bottom | [Class] Adds a box shadow to the bottom of an element                                                                                                       |
-| uk-utility-box-shadow-hover  | [Class] Adds a box shadow to an element on hover                                                                                                            |
-| uk-utility-dropcap           | Applies a drop cap on a paragraph                                                                                                                           |
-| uk-utility-leader            | Visually connects horizontal items with a line of dots                                                                                                      |
-| uk-utility-logo-text         | Creates a text logo                                                                                                                                         |
-| uk-utility-logo-image        | Creates an image logo                                                                                                                                       |
-| uk-utility-inline-svg        | Adds an inline SVG                                                                                                                                          |
-| uk-utility-video             | Adds a video that can automatically play when it comes into view                                                                                            |
-| uk-utility-blend             | [Class] Applies a modified blend mode to a background                                                                                                       |
-| uk-utility-transform-center  | [Class] Centers an element to itself                                                                                                                        |
-| uk-utility-transform-origin  | [Class] Modifies the origin of an animation                                                                                                                 |
-| uk-utility-disabled          | [Class] Disables the click behaviour of any element                                                                                                         |
-| uk-utility-drag              | [Class] Applies a move cursor to an element                                                                                                                 |
-| uk-utility-dragover          | [Class] Creates a box shadow used for upload areas when dragging a file over it                                                                             |
+| Trigger                      | Description                                                                                                    |
+|------------------------------|----------------------------------------------------------------------------------------------------------------|
+| uk-utility-panel             | Creates a panel used to outline a section of content                                                           |
+| uk-utility-panel-scrollable  | Creates a scrollable panel                                                                                     |
+| uk-utility-float             | [Class] Floats an element left or right                                                                        |
+| uk-utility-clearfix          | [Class] Removes floats from this element and its children                                                      |
+| uk-utility-overflow          | [Class] Modifies an element's overflow behaviour                                                               |
+| uk-utility-resize            | [Class] Allows an element to be resized                                                                        |
+| uk-utility-display           | [Class] Changes the display properties of an element                                                           |
+| uk-utility-inline            | [Class] Applies inline-block behaviour to an element, adds a max-width of 100% and creates a position context. |
+| uk-utility-responsive        | [Class] Applies a responsive behaviour to any element                                                          |
+| uk-utility-preserve-width    | [Class] Avoids responsive behaviour and preserves original dimensions                                          |
+| uk-utility-object            | [Class] Defines how the content of an image or video should be resized to fit its element                      |
+| uk-utility-object-position   | [Class] Modifies the alignment of the image or video within its element                                        |
+| uk-utility-border-radius     | [Class] Modifies the border radius of an element                                                               |
+| uk-utility-box-shadow        | [Class] Adds a box shadow to an element                                                                        |
+| uk-utility-box-shadow-bottom | [Class] Adds a box shadow to the bottom of an element                                                          |
+| uk-utility-box-shadow-hover  | [Class] Adds a box shadow to an element on hover                                                               |
+| uk-utility-dropcap           | Applies a drop cap on a paragraph                                                                              |
+| uk-utility-leader            | Visually connects horizontal items with a line of dots                                                         |
+| uk-utility-logo-text         | Creates a text logo                                                                                            |
+| uk-utility-logo-image        | Creates an image logo                                                                                          |
+| uk-utility-inline-svg        | Adds an inline SVG                                                                                             |
+| uk-utility-video             | Adds a video that can automatically play when it comes into view                                               |
+| uk-utility-blend             | [Class] Applies a modified blend mode to a background                                                          |
+| uk-utility-transform-center  | [Class] Centers an element to itself                                                                           |
+| uk-utility-transform-origin  | [Class] Modifies the origin of an animation                                                                    |
+| uk-utility-disabled          | [Class] Disables the click behaviour of any element                                                            |
+| uk-utility-drag              | [Class] Applies a move cursor to an element                                                                    |
+| uk-utility-dragover          | [Class] Creates a box shadow used for upload areas when dragging a file over it                                |
 
 </p>
 </details>
@@ -1566,6 +1580,7 @@ UIKit 3.0 Snippets - Visual Studio Code plugin is licensed under the [MIT Licens
 | uk-child-width            | [Class] Evenly divides the width of all child elements in a 'uk-grid'                                                                                        |
 | uk-child-width-responsive | [Class] Evenly divides the width of all child elements in a 'uk-grid' on specified device widths and higher. Columns stack on smaller sizes.                 |
 | uk-fixed-width            | [Class] Applies a fixed width to an element of 150/300/450/600/750 px respectively.                                                                          |
+| uk-intrinsic-width        | [Class] Allows you to apply min or max content widths easily                                                                                                 |
 
 </p> 
 </details>
